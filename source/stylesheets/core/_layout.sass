@@ -1,0 +1,24 @@
+// - - - - - - - - - - - - - - - - - - -
+// - - layout
+// global layout classes - height, width, padding, margin, etc.
+.container
+  +outer-container()
+  position: relative
+
+.main-section
+  padding: 10em 0
+  text-align: center
+
+  .container > header
+    margin-bottom: 5em
+
+
+form
+  .field
+    margin-bottom: 1em
+
+  .action
+    text-align: right
+
+.center
+  text-align: center

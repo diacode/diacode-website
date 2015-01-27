@@ -1,0 +1,44 @@
+%footer#main_footer
+  .container
+    .sections
+      %section
+        %header
+          %h3 Newsletter
+        %p Suscríbete a Diacode Picks, nuestra newsletter donde compartimos lo último en cuanto a desarrollo web:
+
+        %form{action: ''}
+          .field
+            %input{type: "email", placeholder: 'Write here your email'}/
+          .action
+            %button{type: 'submit'} Subscribe
+
+      %section
+        %header
+          %h3 Lo último en nuestro blog
+        %ul.post-list
+          %li
+            %a{href: '#'} Using Tor to anonymize your web scrapping on OS X
+          %li
+            %a{href: '#'} Artur joins our team!
+          %li
+            %a{href: '#'} Fixing temporary dir problems with Ruby 2
+          %li
+            %a{href: '#'} How we improved our newsletter: a love story with Ember.js and Hubot
+      %section
+        %header
+          %h3 Social
+          %ul.social-links
+            %li
+              %a{href: '#'}
+                = image_tag 'social/github.png'
+            %li
+              %a{href: '#'}
+                = image_tag 'social/twitter.png'
+            %li
+              %a{href: '#'}
+                = image_tag 'social/facebook.png'
+
+
+    %p.center
+      %small
+        © 2011–2015, Diacode Desarrollo Web, S.L.

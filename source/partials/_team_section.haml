@@ -1,0 +1,19 @@
+%section#team_section.main-section
+  .container
+    %header
+      %h2 Our Team
+
+    %p Somos un pequeño pero eficiente equipo distribuido por toda España en su mayoría.
+
+    %p El trabajo remoto es parte de la cultura de nuestra empresa. Creemos firmemente que para poder desempeñar nuestras labores de la mejor forma posible es fundamental poder conciliar vida personal y profesional.
+
+    %p Para trabajar remotamente nos coordinamos en todo momento empleando servicios online como Pivotal Tracker, Hipchat o Google Hangouts de modo que la distancia ni la diferencia horaria suponen un problema.
+
+    = image_tag 'map.png', class: 'map'
+
+    %ul.team-list
+      - data.team.team_members.each do |team_member|
+        %li
+          %img.avatar{src: gravatar_for(team_member[1]['email_address'])}
+          %h4= team_member[1]['full_name']
+          %h5= team_member[1]['position']

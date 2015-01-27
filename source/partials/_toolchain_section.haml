@@ -1,0 +1,11 @@
+%section#toolchain_section.main-section
+  .container
+    %header
+      %h2 Toolchain
+
+    %p Usamos las mejores herramientas de acuerdo a las necesidades de cada proyecto.
+
+    %ul
+      - %w{rails ionic angular react webrtc}.each do |tech|
+        %li
+          = image_tag "toolchain/#{tech}.png"

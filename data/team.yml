@@ -1,0 +1,32 @@
+team_members:
+  javi:
+    full_name: Javier Cuevas
+    position: CEO
+    email_address: javi@diacode.com
+    location: 'Madrid, Spain'
+
+  victor:
+    full_name: Victor Viruete
+    position: CTO
+    email_address: victor@diacode.com
+    location: 'Jerez de la Frontera, Spain'
+
+  ricardo:
+    full_name: Ricardo García Vega
+    position: Soul surfer developer
+    email_address: ricardo@diacode.com
+    location: 'Salinas, Asturias, Spain'
+
+  bruno:
+    full_name: Bruno
+    position: Developer
+    email_address: bruno@diacode.com
+    location: 'Vitoria, Spain'
+
+  artur:
+    full_name: Artur
+    position: Developer
+    email_address: artur@diacode.com
+    location: 'Barcelona, Spain'
+
+

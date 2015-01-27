@@ -1,0 +1,25 @@
+#main_footer
+  background: $gray
+  .sections
+    +clearfix
+
+  section
+    +span-columns(4)
+    +omega(3n)
+    padding: 4em 0
+
+    header
+      margin-bottom: 2em
+
+    .post-list
+      +unstyled-list
+      a
+        line-height: $base-line-height
+
+    .social-links
+      +inline-list
+
+
+  [type=submit]
+    +ghost-button($base-font-color, $gray, .8em)
+

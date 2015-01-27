@@ -1,0 +1,88 @@
+// - - - - - - - - - - - - - - - - - - -
+// - - utilities
+// placeholders extends, mixins, functions, and utility classes
+
+// - - - - - - - - - - - - - - - - - - -
+// - - placeholder extends
+
+// - - clearfix
+// %clearfix:before,
+// %clearfix:after {
+//   content: " ";
+//   display: table;
+// }
+
+// %clearfix:after {
+//   clear: both;
+// }
+
+// %clearfix {
+//   *zoom: 1;
+// }
+
+// - - - - - - - - - - - - - - - - - - -
+// - - mixins
+
+=link($color: $pink, $secondary-color: darken($color, 15))
+  +transition()
+  color: $color
+  text-decoration: none
+  font-weight: normal
+
+  &:hover
+    color: $secondary-color
+
+=ghost-button($color: #fff, $secondary-color: $pink, $font-size: 1.2em)
+  +transition()
+  color: $color
+  border: 1px solid $color
+  border-radius: $base-border-radius
+  font-size: $font-size
+  padding: .7em 2em
+  font-weight: normal
+  text-transform: uppercase
+  letter-spacing: .1em
+  display: inline-block
+  background: transparent
+
+  &:hover
+    background: $color
+    color: $secondary-color
+
+=inline-list
+  +unstyled-list
+  li
+    display: inline-block
+    &:not(:first-of-type)
+      margin-left: 2em
+
+=unstyled-list
+  list-style: none
+  padding-left: 0
+  li
+    margin-bottom: .5em
+
+
+// - - breakpoint
+// adds responsive breakpoints.
+// @mixin breakpoint($width) {
+//   @media (min-width: $width) {
+//     @content;
+//   }
+// }
+
+// - - attention
+// adds accessibility pseudo selectors to hover states.
+// @mixin attention() {
+//   &:hover,
+//   &:active,
+//   &:focus {
+//     @content;
+//   }
+// }
+
+// - - - - - - - - - - - - - - - - - - -
+// - - functions
+
+// - - - - - - - - - - - - - - - - - - -
+// - - utilities
