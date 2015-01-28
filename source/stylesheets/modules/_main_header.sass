@@ -1,6 +1,4 @@
 #main_header
-  background: $pink
-
   .logo
     width: 320px
     height: 100px
@@ -15,9 +13,19 @@
 
     h1, h2
       font-weight: normal
+      color: $pink
 
   .call-to-action
     margin-top: 10em
     a
       +ghost-button
+
+body.home
+  #main_header
+    background: $pink
+
+    .welcome
+
+      h1, h2
+        color: #fff
 

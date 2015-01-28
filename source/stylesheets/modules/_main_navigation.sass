@@ -1,10 +1,18 @@
 #main_nav
-  position: fixed
-  right: 0
-  width: 100%
   text-align: right
   z-index: 99
+  background: $pink
+  .logo
+    width: 8em
+    height: $header-height
+    background: url(/images/logo-white.png) no-repeat center center
+    +prefixer(background-size, contain, webkit moz ms)
+    float: left
+    vertical-align: middle
+    display: block
   ul
+    margin: 0
+    float: right
     li
       display: inline-block
 
@@ -13,4 +21,29 @@
 
       a
         +link(#fff)
+        line-height: $header-height
+        display: block
+        border-bottom: 2px solid $pink
+
+        &:hover
+          color: #fff
+          border-bottom-color: #fff
+
+  &.sticky
+    position: fixed
+    z-index: 100
+    width: 100%
+
+    &+*
+      padding-top: $header-height
+
+
+body.home
+  #main_nav
+    .logo
+      display: none
+
+    &.sticky
+      .logo
+        display: block
 
