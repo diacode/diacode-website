@@ -1,0 +1,30 @@
+---
+title: Let's talk
+body_class: contact
+---
+%header#main_header
+  .container
+    .welcome
+      %h1 Let's talk
+      %h2 Interested in working with us, joining our team, or just want to know more about us? We'd love to hear from you.
+
+%section#contact_section.main-section
+  .container
+    .form-wrapper
+      %form{action: ""}
+        .field
+          %input{type: "text", placeholder: 'What is your name?'}/
+        .field
+          %input{type: "text", placeholder: 'What is your email?'}/
+        .field
+          %textarea{placeholder: 'Tell us a little bit about your project', rows: '10'}
+        .field
+          %input{type: "text", placeholder: 'What is your budget?'}/
+
+        .actions
+          %button{type: 'submit'} Send
+  .container
+    %p
+      Alternatively you can drop us an email to: <br/>
+      %strong hello [at] diacode.com
+
