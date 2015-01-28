@@ -1,0 +1,43 @@
+# Project description:
+#   project_key:      This is used for paths and urls
+#   name:             Displa name
+#   site_url:         For external links to the project
+#   description:      This text will appear in the header of the project page
+#   sections:         Each of the sections to be shown in the project pate
+#     section_key:    Unique key for the section within this project
+#     type:           text-only, image-left, image-right, image-top, image-bottom
+#     img:            The image to show
+#     title:          Section title
+#     subtitle:       Section subtitle
+#     copy:           Section copy-text
+
+projects:
+  kelisto:
+    name: Kelisto
+    site_url: http://www.kelisto.es/
+    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, saepe, ab. Incidunt numquam hic, beatae quidem, enim, eligendi alias natus rerum inventore iure earum officia ad ipsa ea veniam repudiandae?"
+
+  tlkr:
+    name: TLKR
+    site_url:
+    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, distinctio, eius perferendis quam, quidem nihil, ipsam dolores praesentium veniam aut autem dignissimos numquam beatae iusto culpa tempore. Et sequi, aperiam."
+
+  gudog:
+    name: Gudog
+    site_url: https://gudog.com/
+    description: "A p2p marketplace that helps dog owners find a caregiver (dog sitter, dog walker, etc.) for their dogs."
+
+  jurintia:
+    name: Jurintia
+    site_url: https://jurintia.com/
+    description: "A web appications for helping solicitors (a special type of attorney) in their daily job. You can think about it as a full project manager for solicitors."
+
+  thickzine:
+    name: Thickzine
+    site_url: http://thickzine.com/
+    description: "Webzine in Spanish about design, longboard, music and trash culture."
+
+  versos_perfectos:
+    name: Versos perfectos
+    site_url: http://www.versosperfectos.com/
+    description: "Hip Hop database and webzine in spanish. It's and old project (launched on 2008) and is still the most recognized website in the spanish Hip Hop scene. It features a complex database with data from more than 3500 different artists, including discography, lyrics, bio and pictures."
