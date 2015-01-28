@@ -13,13 +13,13 @@ body_class: contact
     .form-wrapper
       %form{action: ""}
         .field
-          %input{type: "text", placeholder: 'What is your name?'}/
+          = input_tag :text, placeholder: 'What is your name?'
         .field
-          %input{type: "text", placeholder: 'What is your email?'}/
+          = input_tag :text, placeholder: 'What is your email?'
         .field
           %textarea{placeholder: 'Tell us a little bit about your project', rows: '10'}
         .field
-          %input{type: "text", placeholder: 'What is your budget?'}/
+          = input_tag :text, placeholder: 'What is your budget?'
 
         .actions
           %button{type: 'submit'} Send
