@@ -5,7 +5,7 @@
     width: 320px
     height: 100px
     background: url(/images/logo-white.png) no-repeat center center
-    +background-size(contain)
+    +prefixer(background-size, contain, webkit moz ms)
     margin: 0 auto 5em auto
 
   .welcome
