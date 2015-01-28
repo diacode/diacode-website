@@ -4,3 +4,7 @@
       %h2 Clients
 
     %p Durante nuestra andadura hemos tenido el placer de trabajar codo a codo con las siguientes empresas impulsando sus proyectos.
+    %ul.clients-list
+      - data.work.projects.each do |project|
+        %li
+          = image_tag "/images/projects/#{project[0]}/logo.png"
