@@ -9,10 +9,14 @@ body
 a
   +link
 
-[type=email]
+[type=email], [type=text], textarea
   +fill-parent
   border-radius: $base-border-radius
   box-shadow: 0 0 0 0
   padding: .5em
   border: 1px solid $dark-gray
+
+[type=submit]
+  +ghost-button($base-font-color, $gray, .8em)
+
 
