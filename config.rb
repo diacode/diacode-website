@@ -38,7 +38,8 @@
 ###
 
 # Automatic image dimensions on image_tag helper
-# activate :automatic_image_sizes
+activate :automatic_image_sizes
+activate :directory_indexes
 
 # Methods defined in the helpers block are available in templates
 # helpers do
@@ -88,10 +89,12 @@ configure :build do
   # Use relative URLs
   activate :relative_assets
 
+  activate :minify_html
+
   # Compress PNGs after build
   # First: gem install middleman-smusher
-  # require "middleman-smusher"
-  # activate :smusher
+  require "middleman-smusher"
+  activate :smusher
 
   # Or use a different image path
   # set :http_path, "/Content/images/"
