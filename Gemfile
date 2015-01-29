@@ -14,3 +14,5 @@ gem "middleman-smusher"
 gem "middleman-minify-html"
 
 gem "middleman-deploy"
+
+gem "middleman-blog"
