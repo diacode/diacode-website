@@ -1,0 +1,16 @@
+---
+title: About
+date: '2010-08-20'
+tags: []
+published: false
+dc:creator: jose
+---
+
+Welcome!
+
+
+This is the Diacode's blog. Diacode is a company working on projects throughout the Web, here you can find all the information and the latest news about the company.
+
+
+If you'd like to know more about us, please go to 
+[our official site](http://diacode.com), there you can find our latest projects where we have been working on lately. We're sure you'll love them :).
