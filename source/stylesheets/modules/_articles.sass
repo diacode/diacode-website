@@ -1,0 +1,12 @@
+body.article
+  article
+
+    .tag-list
+      +inline-list
+      li:not(:first-of-type)
+        margin-left: 0
+      li:not(:last-of-type)
+        &:before
+          display: inline
+          float: right
+          content: ', '
