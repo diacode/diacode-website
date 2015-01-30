@@ -36,6 +36,9 @@
 
     -# Stylesheets
     = stylesheet_link_tag 'application'
+    %link{href: "http://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.2/styles/github.min.css", rel: "stylesheet"}/
+    %script{src: "http://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.2/highlight.min.js"}
+
   %body{class: current_page.data.body_class || 'article'}
     = partial 'partials/main_nav'
     %header#main_header
@@ -52,7 +55,7 @@
     -# Javascripts
     = javascript_include_tag '//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js'
     = javascript_include_tag '//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js'
-    = javascript_include_tag 'application'
+    = javascript_include_tag 'blog'
 
     - if build?
       -# Google Analytics
