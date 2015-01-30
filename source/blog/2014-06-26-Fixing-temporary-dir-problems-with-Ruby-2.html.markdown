@@ -9,8 +9,11 @@ dc:creator: Javier
 After upgrading one of our apps from ruby 1.9.3 to ruby 2.1.1 we found a weird problem. Some of the URLs in the app were throwing errors like this one:could not find a temporary directory
 /usr/local/rubies/2.1.1/lib/ruby/2.1.0/tmpdir.rb:34:in `tmpdir'
 
-<!--more-->If we check out the source code for that method we see this:
+<!--more-->
 
+If we check out the source code for that method we see this:
+
+```ruby
 def Dir::tmpdir
   if $SAFE > 0
     tmp = @@systmpdir
@@ -19,16 +22,17 @@ def Dir::tmpdir
     for dir in [ENV['TMPDIR'], ENV['TMP'], ENV['TEMP'], @@systmpdir, '/tmp', '.']
       next if !dir
       dir = File.expand_path(dir)
-      if stat = File.stat(dir) and stat.directory? and stat.writable? and
-  (!stat.world_writable? or stat.sticky?)
-tmp = dir
-break
+      if stat = File.stat(dir) and stat.directory? and stat.writable? and (!stat.world_writable? or stat.sticky?)
+        tmp = dir
+        break
       end rescue nil
     end
     raise ArgumentError, "could not find a temporary directory" if !tmp
     tmp
   end
 end
+```
+
 The interesting bit here is this condition: 
 stat.sticky? . That condition wasn't present 
 [in Ruby 1.9.3](http://rxr.whitequark.org/mri/source/lib/tmpdir.rb?v=1.9.3-p547).
