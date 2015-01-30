@@ -16,3 +16,7 @@ gem "middleman-minify-html"
 gem "middleman-deploy"
 
 gem "middleman-blog"
+
+gem "redcarpet"
+
+gem 'nokogiri'
