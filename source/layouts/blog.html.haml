@@ -8,7 +8,7 @@
 %html{lang: 'en', class: 'no-js'}
   /<![endif]
   %head
-    %title #{data.page.title || "Diacode"}
+    %title #{current_page.data.title || "Diacode"}
     %meta(http-equiv="content-type" content="text/html" charset="utf-8")
     %meta(http-equiv="x-ua-compatible" content="ie=edge,chrome=1")
     %meta(name="description" content="")
@@ -44,13 +44,16 @@
     %header#main_header
       .container
         .welcome
-          %h1= data.page.title
+          %h1= current_page.data.title
           - if current_article
-            %h2= current_article.date.strftime('%b %e, %Y')
+            = current_article.date.strftime('%b %e, %Y')
 
     %article
       .container
         = yield
+
+    = partial 'partials/hire_section'
+    = partial 'partials/main_footer'
 
     -# Javascripts
     = javascript_include_tag '//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js'
