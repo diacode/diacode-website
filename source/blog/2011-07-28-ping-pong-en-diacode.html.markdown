@@ -14,7 +14,7 @@ Como algunos de vosotros ya sabéis, en Diacode nos hemos aficionado al Ping Pon
 quita y pon](http://www.decathlon.es/rollnet-id_8071028.html) para nuestra nueva mesa de reuniones. Empezamos siendo bastante torpes, pero con el tiempo nos hemos ido picando y a día de hoy se podría decir que el Ping Pong es deporte oficial en Diacode.
 
 
-<!--more-->Tal es nuestro entusiasmo que se nos ocurrió hacer una 
+rails_and_fluxTal es nuestro entusiasmo que se nos ocurrió hacer una 
 [pequeña aplicación](http://pingpong.diacode.com) con un ranking basado en los resultados de nuestros partidos. Nos preguntábamos cual sería la forma más justa de averiguar quién era el mejor jugador, (teniendo en cuenta diversos factores más allá de si era una derrota o victoria), y tras indagar un poco dimos con el 
 [algoritmo de Elo](http://en.wikipedia.org/wiki/Elo_rating_system). Este algoritmo es bastante conocido en el mundo del ajedrez, y usado en la liga americana de Baseball entre otras. Tiene en cuenta diversos factores a la hora de otorgar puntos, entre ellos fundamentalmente cuantos puntos tenía el jugador contra el que has perdido/ganado.
 

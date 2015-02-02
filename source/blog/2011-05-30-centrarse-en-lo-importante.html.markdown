@@ -13,7 +13,7 @@ Hace poco hablaba con un amigo sobre las posibilidades de creación que tenemos 
 Hay que centrarse en lo importante, sobre todo en las empresas de software. Siempre hay excepciones, si observamos la cantidad de productos que ha creado Google, por ejemplo y los pocos que realmente han tenido éxito nos llevaríamos las manos a la cabeza, la realidad es que no importa demasiado porque tienen suficientes recursos para seguir creando más aplicaciones. Nosotros no.
 
 
-<!--more-->Y cuando digo nosotros no sólo me refiero a Diacode, también me refiero al 90% de las empresas similares a la nuestra que disponen de un tiempo muy limitado, entre clientes, papeleo, reuniones...etc.
+rails_and_fluxY cuando digo nosotros no sólo me refiero a Diacode, también me refiero al 90% de las empresas similares a la nuestra que disponen de un tiempo muy limitado, entre clientes, papeleo, reuniones...etc.
 
 
 No se trata de hacer pocas cosas, se trata de hacer las pocas cosas que sirven de algo. Como decía Steve Jobs:

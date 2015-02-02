@@ -12,7 +12,7 @@ dc:creator: jose
 
 ![](http://blog.diacode.com/wp-content/uploads/2011/04/Dr_Martens_black_old.jpg)
 
-<!--more-->
+rails_and_flux
 
 La primera tentación cuando tienes posibilidad es la de buscar financiación, que alguien ponga en tu negocio miles de euros para empezar suele alegrar a más de uno, pero seamos razonables, nadie da nada gratis y la financiación externa tiene sus consecuencias. Estas son algunas de las razones por las que creemos en el bootstrapping.
 

@@ -14,7 +14,7 @@ En Diacode tenemos varios proyectos donde nos vendría bien contar con algún co
 **estamos buscando desarrolladores web (principalmente en Ruby on Rails)**
  que quieran colaborar con nosotros como freelances.
 
-<!--more-->
+rails_and_flux
 
 ###Requisitos indispensables
 

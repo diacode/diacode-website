@@ -28,7 +28,7 @@ Bueno, círculos y rectángulos están bien, pero... ¿podemos dibujar rectángu
 **los bordes redondeados son menos redondeados**
 .
 
-<!--more-->
+rails_and_flux
 Por ejemplo, todos los nuevos diseños de Microsoft (Windows 8, Zune, Windows Phone, Xbox) utilizan un 
 [lenguaje de diseño](http://en.wikipedia.org/wiki/Design_language) llamado 
 [Metro](http://en.wikipedia.org/wiki/Metro_(design_language)), a través del cual comparten muchas características entre ellas el uso de cuadrados como elementos gráficos principales.

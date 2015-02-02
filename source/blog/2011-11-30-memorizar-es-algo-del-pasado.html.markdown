@@ -13,7 +13,7 @@ Una de las cosas que siempre se me dio peor cuando era estudiante fue memorizar.
 La primera vez que me conecté a Internet y usé un buscador, estando aún en primaria, fue una absoluta revelación, podía buscar cualquier cosa, sobre cualquier tema, cuando yo quisiera, y gratis. Con el tiempo entendí que tal vez no estaba todo en Internet, pero siempre tuve la absoluta certeza de que toda la información que no esté en Internet hoy, lo estará mañana, seguro. Por tanto en aquel momento empecé a cuestionarme qué sentido tenían todas esas horas memorizando datos: fórmulas matemáticas, pueblos y ríos de España, formulación química, biografías, lineas temporales, y un largo etcétera. Para qué hacer ese esfuerzo titánico en recordar algo que en aquel momento no me interesaba cuando sabía que el día que me interesase lo podría encontrar sin problema.
 
 
-<!--more-->Si le hubiese contado esto a alguien por aquel entonces, con seguridad me hubiese contestado: 
+rails_and_fluxSi le hubiese contado esto a alguien por aquel entonces, con seguridad me hubiese contestado: 
 si claro, qué vas a hacer cuando necesites uno de esas cosas, ¿irte a casa, conectarte a 
 [InfoVía](http://es.wikipedia.org/wiki/InfoV%C3%ADa) y buscarlo en 
 [Olé](http://es.wikipedia.org/wiki/Ol%C3%A9_(buscador))?. Si en aquellos años hubiese podido imaginar lo que sería un 

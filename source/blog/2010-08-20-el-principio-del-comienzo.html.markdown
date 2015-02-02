@@ -20,7 +20,7 @@ Diacode lo componen 2 personas (de momento), José M. Gilgado y Javier Cuevas. S
 
 Ambos hemos trabajado en empresas privadas del sector, ambos estamos a punto de finalizar la carrera de Ingeniería Superior en Informática, pero tenemos claro que el título al final es un papel y que no es seguro de nada, ha habido muchas personas que no lo tienen y que han resultado mejores que otros que si.
 
-<!--more-->
+rails_and_flux
 
 El camino recorrido en la Universidad y en el mundo de la empresa nos ha llevado a comprender que es necesario intentar algo diferente, a pesar de las estadísticas de que el 90% de las empresas cierran en España en los primeros 7 años de su existencia, a pesar del "ya te lo dije" y a pesar de que trabajamos más de lo que lo haríamos en una empresa.
 

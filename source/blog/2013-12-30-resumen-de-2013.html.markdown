@@ -20,7 +20,7 @@ A mediados de Febrero llevamos esta estrategia a otro nivel, haciendo un
 [amigos](http://tractical.com), un montón de historias, y nuestros primeros clientes en Estados Unidos.
 
 
-<!--more-->Tener nuevos clientes suponía mayor carga de trabajo, lo que nos llevó a 
+rails_and_fluxTener nuevos clientes suponía mayor carga de trabajo, lo que nos llevó a 
 **[aumentar el equipo](http://blog.diacode.com/cumplimos-tres-anios-y-ampliamos-equipo)**
 , fichando a 
 [Ricardo](https://twitter.com/bigardone). Con esta nueva incorporación, 

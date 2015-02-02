@@ -18,7 +18,7 @@ Recientemente empecé a utilizar una nueva app llamada
 .
 
 
-<!--more-->Para configurar Slate tenemos dos opciones, crear un archivo de configuración en el 
+rails_and_fluxPara configurar Slate tenemos dos opciones, crear un archivo de configuración en el 
 [DSL propio de Slate](https://github.com/jigish/slate/blob/master/Slate/default.slate) o (la recomendada) crear un 
 **[archivo de configuración en JavaScript](https://github.com/jigish/slate/wiki/JavaScript-Configs)**
 .

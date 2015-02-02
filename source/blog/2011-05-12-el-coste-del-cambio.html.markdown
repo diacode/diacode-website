@@ -18,7 +18,7 @@ Hay varias formas de entender esto, principalmente desde el diseño y la program
 ###Cambios en los diseños
 
 
-Según pasa el tiempo el diseño pasa por varias fases, desde que se plantea de qué va a ir el proyecto hasta la revisión final con el cliente. Si vemos el coste de cambiar algo a lo largo de las fases, quedaría algo como esto:<!--more-->
+Según pasa el tiempo el diseño pasa por varias fases, desde que se plantea de qué va a ir el proyecto hasta la revisión final con el cliente. Si vemos el coste de cambiar algo a lo largo de las fases, quedaría algo como esto:rails_and_flux
 
 
 ![](https://chart.googleapis.com/chart?cht=lc&chd=t:0,100&chs=550x300&chl=Concepto|Wireframe (esquema)|Dise%C3%B1o|Revisi%C3%B3n&chco=000000&chma=30,30,30,30&chxt=x,y&chly=Coste%20Máximo)

@@ -1,8 +1,17 @@
 body.article
+  #main_content
+    padding-bottom: 3em
+
   article
+    color: darken($dark-gray,25)
+    margin-bottom: 3em
+
+    p
+      font-size: 1.2em
 
     .tag-list
       +inline-list
+      display: inline
       li:not(:first-of-type)
         margin-left: 0
       li:not(:last-of-type)
@@ -10,3 +19,12 @@ body.article
           display: inline
           float: right
           content: ', '
+
+    &.preview
+      margin-bottom: em
+      img
+        display: none
+      p
+        -webkit-margin-before: 0
+        -webkit-margin-after: 0
+

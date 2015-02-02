@@ -14,7 +14,7 @@ Para nuestro proyecto decidimos escoger una de las ideas que
 [Victor](http://twitter.com/hopsor) tenía en su recámara desde algún tiempo: una plataforma de 
 crowdfunding para eventos musicales que involucrase directamente a los fans, artistas y salas de conciertos.![](http://blog.diacode.com/wp-content/uploads/2012/07/205387_439547692733743_1216996127_n.jpeg)
 
-<!--more-->
+rails_and_flux
 De este modo el objetivo del proyecto es facilitar a los artistas la búsqueda de una sala de conciertos, la venta de las entradas, y plantear conciertos con la seguridad de establecer un mínimo de entradas vendidas. Al mismo tiempo permitimos a los fans reclamar que sus artistas favoritos acudan a su localidad, involucrándolos en el proceso de difusión del evento a través de mecanismos de 
 gamification.
 

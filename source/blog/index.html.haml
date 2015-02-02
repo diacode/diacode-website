@@ -1,17 +1,21 @@
 ---
 title: Our thoughts about web development, startups and entrepreneurship
 pageable: false
-per_page: 10
 ---
 
 - blog.articles.each do |article|
-  %article
+  %article.preview
     %h2
       = link_to article.title, article
-    %span= article.date.strftime('%b %e')
-    %span= article.data['dc:creator']
-    %ul.tag-list
-      - article.tags.each do |tag|
-        %li
-          = link_to tag, tag_path(tag)
+
+    %em Posted on
+    %strong= article.date.strftime('%b %e, %Y')
+    %em by
+    %strong= article.data['dc:creator']
+    - if article.tags.any?
+      %em in
+      %ul.tag-list
+        - article.tags.each do |tag|
+          %li
+            = link_to tag, tag_path(tag)
 

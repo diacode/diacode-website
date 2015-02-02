@@ -13,7 +13,7 @@ Hace unos días el australiano
 [Reddit](http://www.reddit.com/r/programming/comments/h4ob9/you_are_not_a_software_engineer_you_grow_gardens/). Puesto que nosotros estamos muy de acuerdo con la mayoría de ideas que expone Chris, hemos decidido traducirlo al español (previo permiso del autor):
 
 
-<!--more-->
+rails_and_flux
 
 >No eres un Ingenero de Software. No construyes rascacielos. No construyes puentes.
 

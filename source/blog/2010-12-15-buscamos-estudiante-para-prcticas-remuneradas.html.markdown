@@ -14,7 +14,7 @@ Diacode crece a un ritmo imparable y ha llegado el momento de ampliar nuestras f
  que quiera unirse a nuestro equipo para formarse en el mundo del desarrollo de software basado en tecnologías web.
 
 
-<!--more-->
+rails_and_flux
 
 ###Requisitos indispensables
 

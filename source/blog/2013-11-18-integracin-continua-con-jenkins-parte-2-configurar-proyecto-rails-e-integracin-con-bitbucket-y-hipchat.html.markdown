@@ -22,7 +22,7 @@ pusheamos commits al repositorio nuestro servidor de integración continua se en
 approach que seguimos desde hace algún tiempo para nuestros proyectos y queremos compartirlo con todos vosotros.
 
 
-<!--more-->
+rails_and_flux
 
 ##Pre-requisitos
 

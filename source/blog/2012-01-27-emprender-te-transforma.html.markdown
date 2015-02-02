@@ -16,7 +16,7 @@ Cuando emprendes cada día es un mundo, una aventura completamente diferente a l
 **pierdas la noción del día de la semana en el que nos encontramos**
 , o que subconscientemente dejes de distinguir los fines de semana de los días de trabajo.
 
-<!--more-->
+rails_and_flux
 El tiempo se convierte en tu 
 **recurso más valioso**
 , pero a la vez el más difícil de gestionar. Un buen calendario y alguna herramienta para gestionar tus tareas son indispensables para navegar en este mar de incertidumbre.

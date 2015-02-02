@@ -12,7 +12,7 @@ Hace tiempo ya que dejé atrás la universidad, si tuviese que volver esto es lo
 ***Sal de la universidad cuanto antes. **
 
 Con o sin titulo, pero cuanto antes. Pasar más años de los necesarios en la universidad te puede garantizar  mayor número de borracheras antes de los 30 pero jamás te garantizará un mejor futuro laboral. Yo decidí salir de allí sin título pero conozco muchos casos de personas que por diferentes razones, (presiones familiares, promesas personales, o cierta fe irracional en el sistema...), necesitan salir de allí con un título bajo el brazo. En ambos casos lo importante es salir cuanto antes.
-<!--more-->
+rails_and_flux
 	
 ***Haz lo necesario para aprobar las asignaturas – sacar más o menos nota es irrelevante.**
 

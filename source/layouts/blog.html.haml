@@ -47,10 +47,14 @@
           %h1= current_page.data.title
           - if current_article
             = current_article.date.strftime('%b %e, %Y')
-
-    %article
-      .container
-        = yield
+    #main_content
+      - if current_article
+        %article
+          .container
+            = yield
+      - else
+        .container
+          = yield
 
     = partial 'partials/hire_section'
     = partial 'partials/main_footer'

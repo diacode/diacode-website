@@ -19,7 +19,7 @@ Cada vez que se plantee una duda sobre dónde poner un elemento, de qué tamaño
 
 Hay dos botones en cada lateral del Kindle, si nos fijamos con detenimiento uno es más del doble de grande que otro. Pues bien, si pensamos un poco sobre el problema de leer un libro, una de las acciones más comunes es pasar página, así que dicho esto ¿adivináis cuál es la función del botón más grande? Efectivamente el grande pasa a la siguiente página (caso común) y el pequeño va a la anterior (caso menos común).
 
-<!--more-->
+rails_and_flux
 
 
 ##Botón o acción menos común

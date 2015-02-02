@@ -19,7 +19,7 @@ Además nosotros preparamos una pequeña charla sobre frameworks Front-End, dond
 
 Os dejamos ambas presentaciones:
 
-<!--more-->
+rails_and_flux
 
 ##HTML5 Forms: uso, soporte y extensibilidad (
 [@cesarcruzrueda](https://twitter.com/#!/cesarcruzrueda))

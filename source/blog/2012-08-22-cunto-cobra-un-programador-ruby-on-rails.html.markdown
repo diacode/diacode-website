@@ -18,7 +18,7 @@ Otra cosa interesante es que prácticamente todos los freelances y empresas de c
 Por último la tercera conclusión destacable es que la demanda de programadores Ruby on Rails es muy muy superior a la oferta. Es decir, los programadores Ruby on Rails somos un bien muy preciado, en especial en Estados Unidos.
 
 Estos son algunos de los datos que he ido recogiendo:
-<!--more-->
+rails_and_flux
 
 ***Estados Unidos**
 : como 

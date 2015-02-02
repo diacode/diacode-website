@@ -11,7 +11,7 @@ dc:creator: Javier
 El pasado 9 de Julio hizo un año desde José y yo quedásemos para empezar a trabajar en lo que hoy en día se ha convertido en Diacode. No teníamos muy claro que íbamos a hacer exactamente, solo sabíamos que teníamos espacio para montar una pequeña oficina, muchísimas ganas y todo un verano por delante.
 
 
-<!--more-->Lo cierto es que este año se nos ha pasado a ambos a una velocidad de vértigo, y es que cuando uno está disfrutando de lo que hace, la noción del tiempo cambia completamente.
+rails_and_fluxLo cierto es que este año se nos ha pasado a ambos a una velocidad de vértigo, y es que cuando uno está disfrutando de lo que hace, la noción del tiempo cambia completamente.
 
 Queríamos celebrar este año y dar las gracias a todos nuestros amigos, compañeros de trabajos anteriores, colaboradores, clientes, vecinos, etc. que nos han apoyado durante todo este tiempo. Además recientemente dimos la 
 [bienvenida al equipo a Victor](http://blog.diacode.com/ampliamos-el-equipo). Por todo ello hicimos una pequeña fiesta en la piscina de nuestra oficina, nos dimos un baño y tomamos unos canapés que preparó nuestra amiga americana Kim. Para terminar, como en cualquier otro cumpleaños, soplamos la vela de la tarta con nuestro logo. Por cierto, si algún día tenéis que encargar una tarta personalizada, os recomendamos la pastelería 

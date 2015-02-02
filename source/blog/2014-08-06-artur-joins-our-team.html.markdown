@@ -17,7 +17,7 @@ Artur is a 23 year old, full-stack developer from Gdansk, Poland who now lives 
 [![tumblr_n27mug27A31tv611zo8_1280](http://blog.diacode.com/wp-content/uploads/2014/08/tumblr_n27mug27A31tv611zo8_12801.jpg)](http://blog.diacode.com/artur-joins-our-team)
 
 
-<!--more-->Then Artur decided to move to Spain where he settled in Barcelona and got a normal "in office" job. He was missing the freedom of being "location independent" and not having to commute everyday, so he decided to look for a remote work again.
+rails_and_fluxThen Artur decided to move to Spain where he settled in Barcelona and got a normal "in office" job. He was missing the freedom of being "location independent" and not having to commute everyday, so he decided to look for a remote work again.
 
 We think Artur is a perfect fit for Diacode: he's a very talented full stack developer who loves Ruby, and he shares the same values we have work life balance, personal freedom, work responsibility and lean development.
 

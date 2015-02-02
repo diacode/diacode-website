@@ -14,7 +14,7 @@ Si como el común de los mortales alguna vez has caído en la tentación de
 **cada vez somos más personas en el mundo y prácticamente no se crean nombres y apellidos nuevos**
 . Por tanto es bastante fácil que tu combinación de nombres y apellidos se repita en cualquier otra parte del mundo. 
 
-<!--more-->
+rails_and_flux
 Esto lógicamente no es algo nuevo, la diferencia está en que en el pasado rara vez se tenía conciencia de que existía alguien con tus nombres y apellidos en otra parte del globo. Ahora, en la sociedad digital, encontrar el rastro de otra persona con nuestro nombre es muy fácil.
 
 El crecimiento de conceptos como el 

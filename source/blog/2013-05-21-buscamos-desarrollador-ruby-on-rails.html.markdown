@@ -28,7 +28,7 @@ full-stack, es decir que pueda trabajar con soltura tanto en front-end como en b
 	
 *Nivel de inglés escrito alto
 
-<!--more-->Sería ideal si además tuviese conocimientos sobre:
+rails_and_fluxSería ideal si además tuviese conocimientos sobre:
 
 *MongoDB
 

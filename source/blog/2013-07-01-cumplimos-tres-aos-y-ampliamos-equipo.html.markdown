@@ -30,7 +30,7 @@ En cuanto al equipo que formamos Diacode actualmente: 
 .
 
 
-<!--more-->Buscar un desarrollador  Ruby on Rails que sea capaz de atacar tanto el 
+rails_and_fluxBuscar un desarrollador  Ruby on Rails que sea capaz de atacar tanto el 
 back como el 
 front no es tarea fácil así que creo que sin duda hemos tenido mucha suerte dando con Ricardo. Como se puede ver en 
 [su blog](http://codeloveandboards.com/), Ricardo es un amante del surf que vive recluido en una pequeño pueblo de Asturias.

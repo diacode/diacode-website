@@ -16,7 +16,7 @@ Normalmente estas esquemas son muy sencillos, utilizamos una tableta Wacom para 
 
 ![](http://blog.diacode.com/wp-content/uploads/2011/04/wireframe_wacom2.jpg)
 
-<!--more-->
+rails_and_flux
 
 Este paso nos sirve para determinar qué elementos son necesarios, cómo podemos adaptarlos y quitar lo sobrante para quedarnos con lo realmente importante en la aplicación.
 

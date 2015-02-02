@@ -11,7 +11,7 @@ En Diacode siempre intentamos compaginar el trabajo de consultoría con el desar
 **[Gudog, la alternativa a las residencias caninas](https://gudog.com): un servicio para solicitar un paseador o cuidador para tu perro desde tu móvil, tablet u ordenador**
 .
 
-<!--more-->
+rails_and_flux
 Aunque en otros países ser paseador de perros es una profesión bastante común (y bien remunerada), en España el sector está poco desarrollado. A lo sumo encontramos por la calle anuncios de gente que se ofrece como 
 [paseadores de perros](https://gudog.com), pero no existe un servicio fiable que te permita confiar tu mascota a alguien con experiencia acreditada, solicitándolo a través de Internet y pagando cómodamente con tu tarjeta de crédito. Gudog aspira a rellenar ese hueco, ofreciendo una aplicación web y una aplicación móvil que permitirá a los clientes solicitar un paseo para su perro de forma esporádica o regular, así como otros servicios relacionados (guardería a domicilio, visita a veterinario, etc).
 

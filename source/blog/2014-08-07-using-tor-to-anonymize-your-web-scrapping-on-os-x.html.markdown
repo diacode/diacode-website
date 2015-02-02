@@ -13,7 +13,7 @@ Sometimes you need to scrap some content from a few sites and you want to remain
 
 Installing the Tor proxy is quite simple if you have Homebrew, open a terminal and type:brew install tor
 
-<!--more-->Then you'll need to setup your computer to use the Tor proxy for every application. To do so go to Network Settings and configure the SOCKS Proxy to 
+rails_and_fluxThen you'll need to setup your computer to use the Tor proxy for every application. To do so go to Network Settings and configure the SOCKS Proxy to 
 **localhost**
 as server and  
 **9050**

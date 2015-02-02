@@ -22,7 +22,7 @@ Una de las cosas que más me gusta controlar a la hora de programar es que un us
 , y justo en la nueva versión de Rails han añadido un mecanismo para poder controlar esto. Veamos un ejemplo muy sencillo:
 
 
-<!--more-->###El ejemplo más sencillo
+rails_and_flux###El ejemplo más sencillo
 
 Supongamos que tenemos este modelo 
 **Usuario**

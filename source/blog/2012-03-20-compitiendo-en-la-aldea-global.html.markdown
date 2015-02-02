@@ -11,7 +11,7 @@ Hoy hemos recibido una
 **llamada telefónica de la India**
 . La persona que estaba al otro lado hablaba inglés con una pronunciación horrible y pronunciaba nuestros nombres de una forma casi irreconocible. Tras los primeros minutos de confusión he logrado entender que se trataba de una empresa de desarrollo de software en la India, nos habían localizado a través de Linkedin y nos ofrecían servicios de outsourcing en diferentes tecnologías (Ruby on Rails, Django, PHP, etc.).
 
-<!--more-->
+rails_and_flux
 Pese a su mala pronunciación del inglés sus modales eran realmente buenos y su discurso comercial muy bien preparado. Me propuso una próxima cita telefónica esta vez con su manager. Aunque dudo mucho que vaya a contratar ninguno de sus servicios decidí aceptarla por curiosidad. Además me pidió mi dirección de email para enviarme un dossier con más información.
 
 No es la primera vez que empresas de India nos contactan, pero si es la primera vez que lo hacen por teléfono y con una estrategia comercial tan bien preparada.

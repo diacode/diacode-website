@@ -19,7 +19,7 @@ Aunque ambos servicios son completamente diferentes el uno del otro, usar un
 , es probablemente la forma más rápida y cómoda de tener una versión de tu proyecto desplegado y visible para quien queramos en pocos minutos .
 
 
-<!--more-->
+rails_and_flux
 
  ###[![](http://blog.diacode.com/wp-content/uploads/2013/09/heroku-logo.png)](heroku.com)
 

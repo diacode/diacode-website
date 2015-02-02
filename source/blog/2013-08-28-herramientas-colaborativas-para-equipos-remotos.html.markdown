@@ -23,7 +23,7 @@ Conversaciones con voz y video para grupos… ¿Qué más se puede pedir? Una ve
 hangout para vernos un poco las caras, comentar alguna noticia sobre proyectos en los que estemos trabajando, explicar al resto del equipo qué estamos haciendo cada uno y nuestros progresos, discutir alguna decisión que se tenga que tomar, etc. El hecho de poder vernos todos juntos y charlar es muy importante para el factor psicológico de trabajar a distancia y sentir que formas parte de un equipo.
 
 
-<!--more-->
+rails_and_flux
 
 [Skype](https://www.skype.com)
 

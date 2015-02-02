@@ -20,7 +20,7 @@ Y es que no hay más que echar un ojo a esos
 Desarrollo de Aplicaciones para la Webdonde es probable que tenga que hacer como práctica un web en HTML estático con algo de CSS. Eso si, le pedirán que valide en XHTML estricto, (¿hola? ¿a ninguno de ustedes les suena HTML5?), que sea una web 
 [accesible](http://en.wikipedia.org/wiki/Web_accessibility), e incluso que use 
 [frames](http://en.wikipedia.org/wiki/Framing_(World_Wide_Web)#History) para diseñar el menú.
-<!--more-->
+rails_and_flux
 
 No se os ocurra preguntarle a un estudiante medio de Ingeniería Informática qué es el 
 [DOM](http://en.wikipedia.org/wiki/Document_Object_Model), qué es 
