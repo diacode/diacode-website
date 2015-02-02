@@ -1,0 +1,16 @@
+---
+title: 'Diacode Weekly #12'
+date: '2013-12-18'
+tags:
+- diacode-weekly-posts
+dc:creator: hopsor
+---
+
+###Links seleccionados de la semana
+
+
+[Purgatory](http://www.financeit.ca/developit/blog/2013/12/06/introducing-purgatory/)Gema que permite guardar estados intermedios de los objetos para aplicarlos más tarde.[ArangoDB](http://arangodb.org/)Base de datos NoSQL que viene a engrosar la cada vez más poblada lista de este tipo.[Quick Look plugins](https://github.com/sindresorhus/quick-look-plugins)Conjunto de plugins que te permitirán añadir más visualizaciones a la Vista Rápida de OS X para diferentes tipos de archivos.[Server-generated JavaScript Responses](https://37signals.com/svn/posts/3697-server-generated-javascript-responses)DHH explica de manera breve como emplean en Basecamp respuestas javascript generadas por el servidor para peticiones ajax. Un 
+approach que no convence a todo el mundo.[Vagrant 1.4](http://www.vagrantup.com/blog/vagrant-1-4.html)La popular herramienta para trabajar con máquinas virtuales se actualiza a la versión 1.4.[jQuery ReStable](https://github.com/micc83/ReStable)Plugin de jquery para convertir tus tablas en responsive.[Using JavaScript Promises to Reason About User Interaction](http://robots.thoughtbot.com/using-javascript-promises-to-reason-about-user-interaction/)Desde Thoughtbot explican con un ejemplo como emplear promesas javascript para implementar interacción de usuario utilizando la librería javascript 
+[Q](https://github.com/kriskowal/q).[Dynatable.js](http://www.dynatable.com/)¿Cansado de jquery datatables? Aquí tienes una nueva alternativa bastante prometedora.[Capybara Webkit 1.1.0](http://robots.thoughtbot.com/capybara-webkit-1-1-0-screenshots-and-better-click-failed-debugging/)Capybara Webkit se actualiza con mejoras en las capturas de pantalla y en la depuración de errores derivados de clickar en elementos que el navegador no encuentra.[CSS Variables in Firefox 29](http://mcc.id.au/blog/2013/12/variables)Mozilla añade soporte para variables css a su versión nightly de Firefox.[jquery adaptive backgrounds](http://briangonzalez.github.io/jquery.adaptive-backgrounds.js/)Plugin jquery que extrae los colores predominantes de una imagen y los aplica a su elemento padre. Algo así como el 
+[ambilight](https://www.google.es/search?q=ambilight&espv=210&es_sm=91&source=lnms&tbm=isch&sa=X&ei=h56vUr3NHeuX0AXNnIDACA&ved=0CAkQ_AUoAQ&biw=1363&bih=695) aplicado a una imagen dentro de un html.[300ms tap delay, gone away](http://updates.html5rocks.com/2013/12/300ms-tap-delay-gone-away)Google elimina de Chrome el molesto retardo de 300ms al presionar para webs adaptadas a móviles que no permiten hacer zoom.[periodic_calculations](https://github.com/polmiro/periodic_calculations)Gema para realizar consultas calculadas periódicas con PostgreSQL.[Novedades de Rails 4.1](http://coherence.io/blog/2013/12/17/whats-new-in-rails-4-1.html)Aprovechando que acaba de salir la versión beta de rails 4.1, aquí os dejamos un link a las principales novedades que encontraremos.[3 ways to do eager loading (preloading) in Rails 3 & 4](http://blog.arkency.com/2013/12/rails4-preloading/)Excelente y detallada explicación sobre como funciona el 
+eager loading en Rails 3 y 4 y sus diferentes formas de emplearlo.
