@@ -1,6 +1,34 @@
 body.article
+  #main_header
+    .container
+      max-width: 750px
+
+    .welcome
+      color: $base-font-color
+    h1
+      margin-bottom: .5em
   #main_content
     padding-bottom: 3em
+
+    .container
+      max-width: 750px
+
+  .tag-list
+    +inline-list
+    text-transform: uppercase
+    font-size: .9em
+    li:not(:first-of-type)
+      margin-left: 0
+    li:not(:last-of-type)
+      &:before
+        display: inline
+        float: right
+        content: ', '
+
+  .avatar
+    display: block
+    margin: 0 auto
+    float: left
 
   article
     color: darken($dark-gray,25)
@@ -9,22 +37,28 @@ body.article
     p
       font-size: 1.2em
 
-    .tag-list
-      +inline-list
-      display: inline
-      li:not(:first-of-type)
-        margin-left: 0
-      li:not(:last-of-type)
-        &:before
-          display: inline
-          float: right
-          content: ', '
 
     &.preview
-      margin-bottom: em
-      img
-        display: none
+      margin-bottom: 0em
+      padding: 3em 0
+      border-bottom: 1px solid $gray
+      &:first-of-type
+        border-top: 1px solid $gray
+
+      h2
+        margin-bottom: .5em
+        a
+          +link($base-font-color, $pink)
       p
         -webkit-margin-before: 0
         -webkit-margin-after: 0
+
+      .avatar
+        width: 50px
+        height: 50%
+        vertical-align: middle
+        margin-right: 1em
+
+      .tag-list
+        margin-top: .5em
 
