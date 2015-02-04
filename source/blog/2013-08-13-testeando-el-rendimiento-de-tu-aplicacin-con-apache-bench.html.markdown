@@ -15,7 +15,7 @@ Recientemente uno de nuestros clientes nos solicitó realizar unos test de estr�
 El funcionamiento de Apache Bench es relativamente sencillo, 
 **indicamos la URL a testear, el número de peticiones que queremos realizar y el número de peticiones concurrentes**
 .
-rails_and_flux
+
 
 Además 
 **en nuestro caso la aplicación requiere de un login con email y contraseñ**

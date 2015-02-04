@@ -14,7 +14,7 @@ Cada día veo como empresas que tienen 5 empleados intentan hacer creer a posibl
 Esto, que podría parecer normal, es en mi opinión uno de los errores más comunes que se cometen siendo una empresa. Hay muchas ventajas en ser un equipo pequeño.
 
 
-rails_and_flux
+
 
 ###Los cambios son más rápidos
 

@@ -18,7 +18,7 @@ Recientemente con la dimisión de Steve Jobs y su delicado estado de salud, han 
 revival sobre la historia de Apple, y en uno de ellos me topé con lo siguiente:![](http://blog.diacode.com/wp-content/uploads/2011/08/apple-g3-ad.jpeg)
 
 
-rails_and_fluxSe trata de un cartel publicitario del 
+Se trata de un cartel publicitario del 
 [iMac G3](http://en.wikipedia.org/wiki/IMac_G3), el producto con el que Apple sentó definitivamente las bases de la revolución tecnológica que iba a desatar. En ese momento fue cuando Steve Jobs decidió hacer de el diseño una de las prioridades sagradas dentro de todos sus productos. Dejaron atrás el color beige que predominaba en todos los ordenadores del momento y 
 [sorprendieron](http://www.youtube.com/watch?v=0BHPtoTctDY) a todo el mundo con el G3.
 

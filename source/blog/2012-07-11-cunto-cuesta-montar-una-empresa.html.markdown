@@ -15,7 +15,7 @@ Hoy se ha anunciado la subida del IVA del 18% al 21%, una nueva medida para trat
 Para analizar qué supone convertirse en emprendedor, y en un ejercicio de transparencia, vamos a contaros cuanto nos costó y cuanto tiempo nos llevó montar nuestra empresa, es decir, nuestra 
 [Sociedad Limitada](http://es.wikipedia.org/wiki/Sociedad_de_responsabilidad_limitada).
 
-rails_and_flux
+
 El 19 de Abril del pasado año nos dieron cita en el Registro Mercantil para registrar el nombre de la empresa. Finalmente el 19 de Mayo firmamos en notaria las escrituras de constitución y nos otorgaron el CIF provisional. Es decir, 
 **el procedimiento de constitución nos llevó exactamente 1 mes**
 .

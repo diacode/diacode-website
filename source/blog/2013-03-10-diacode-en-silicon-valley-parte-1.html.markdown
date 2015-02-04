@@ -19,7 +19,7 @@ Comprando con antelación conseguimos unos buenos
 **[20mission](http://www.20mission.com/), un antiguo hotel que está siendo reformado y convertido en "hacker hostel" y espacio de co-working**
 . El alquiler de la habitación doble durante el mes completo fueron $1400 (en total) y la reserva la realizamos por Airbnb pese a que contactamos por email directamente con 20mission, de este modo nos quedábamos más seguros en caso de que algo pudiera ir mal.
 
-rails_and_flux
+
 
 ##El viaje
 

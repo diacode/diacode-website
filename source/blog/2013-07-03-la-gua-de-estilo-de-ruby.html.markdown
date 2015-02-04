@@ -18,7 +18,7 @@ Esta conducta es completamente contraria a la manera que tengo de trabajar. Prof
 que estoy utilizando y a la vez hace que mis habilidades vayan mejorando a medida que lo uso. Todos los lenguajes tienen sus guías de buenas prácticas, ya sean oficiales o no, para proporcionarnos unas pautas y ayudarnos a escribir mejor código, pero… ¿Qué pasa con Ruby?
 
 
-rails_and_flux###Ruby Style Guide
+###Ruby Style Guide
 
 La semana pasada discutiendo con Javi y Victor sobre como escribir una llamada a un método con muchos parámetros, me puse a buscar sobre el tema y encontré la 
 [Ruby Style Guide](https://github.com/bbatsov/ruby-style-guide). Es una guía que comenzó como unas directrices internas de la empresa donde trabaja su autor, 

@@ -20,7 +20,7 @@ En primer lugar decidimos que el taller fuese
 **gratuito**
 , pese a que la mayoría de workshops de introducción a Rails suelen ser de pago. El motivo principal de esto es nuestra intención de abrir la comunidad Rails (que para la gente nueva puede aparentar ser un poco endogámica), sumado al deseo de querer devolver a la comunidad de desarrolladores algo de todo el conocimiento que nosotros también adquirimos gratuitamente gracias a personas altruistas que comparten su sabiduría en Internet. Además, todos los eventos de Diacode Talks! son gratuitos y no queríamos romper esta dinámica.
 
-rails_and_flux
+
 Hablamos con 
 [Ciball](http://www.lacatedralonline.es/ciball/) y reservamos 2 tardes para dividir el taller en 2 sesiones de 2 horas cada una. Montamos una pequeño 
 [site para el taller](http://talks.diacode.com) y un 

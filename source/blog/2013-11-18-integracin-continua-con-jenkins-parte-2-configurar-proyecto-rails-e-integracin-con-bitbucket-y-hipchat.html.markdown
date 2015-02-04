@@ -4,7 +4,7 @@ title: 'Integración continua con Jenkins: Parte 2 (Configurar proyecto Rails e 
 date: '2013-11-18'
 tags:
 - devops
-dc:creator: hopsor
+dc:creator: Victor
 ---
 
 [![](http://blog.diacode.com/wp-content/uploads/2013/10/jenkins-rails.png)](http://blog.diacode.com/wp-content/uploads/2013/10/jenkins-rails.png)
@@ -22,7 +22,7 @@ pusheamos commits al repositorio nuestro servidor de integración continua se en
 approach que seguimos desde hace algún tiempo para nuestros proyectos y queremos compartirlo con todos vosotros.
 
 
-rails_and_flux
+
 
 ##Pre-requisitos
 

@@ -29,10 +29,10 @@ En mi caso ando rehaciendo, completamente en
  y tareas 
 **Rake**
 .
-rails_and_flux
 
 
-rails_and_flux##Conectando la base de datos 
+
+##Conectando la base de datos 
 legacy
 
 Lo primero que tenemos que hacer es crear una conexión a la base de datos legacy. Esto se hace de manera sencilla, como si fuera una conexión más de nuestra aplicación, pero con el adaptador que necesitemos (en mi caso MySQL) y sus datos de conexión:

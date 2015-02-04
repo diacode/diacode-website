@@ -13,7 +13,7 @@ Para la próxima edición de Diacode Talks! nos hemos juntado con la gente de
 [THICKzine](http://thickzine.com) para tratar un tema de máxima relevancia: la Educación. El modelo educativo, tanto en educación primaria como en educación superior, sigue siendo el mismo: un modelo basado en la Revolución Industrial, un modelo caducado. Escuelas del XIX con profesores del XX para alumnos del XXI, no funciona.
 
 
-rails_and_fluxMientras tanto en Silicon Valley la Educación se ha convertido en 
+Mientras tanto en Silicon Valley la Educación se ha convertido en 
 The Next Big Thing, es decir, la próxima industria que va a ser reinventada por completo con la ayuda de la tecnología. El mundo actual exige que todos seamos estudiantes durante toda nuestra vida, por ello la Educación ha dejado de ser un asunto que preocupe solo a quienes están matriculados en escuelas o universidades públicas.
 
 Por ello 

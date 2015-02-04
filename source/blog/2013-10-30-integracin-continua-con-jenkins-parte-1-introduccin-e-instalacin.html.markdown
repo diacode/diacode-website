@@ -3,7 +3,7 @@ title: 'Integración continua con Jenkins: Parte 1 (Introducción e Instalación
 date: '2013-10-30'
 tags:
 - devops
-dc:creator: hopsor
+dc:creator: Victor
 ---
 
 [![](http://blog.diacode.com/wp-content/uploads/2013/10/jenkins-logo.png)](http://blog.diacode.com/wp-content/uploads/2013/10/jenkins-logo.png)
@@ -19,7 +19,7 @@ Desde hace algún tiempo, con el fin de mejorar nuestras prácticas en cuanto al
  en un entorno independiente archivando los resultados de cada build y generando estadísticas. Las ejecuciones se pueden programar periódicamente, realizar bajo demanda o bien mediante disparadores tras realizar un commit en el repositorio del proyecto, siendo esta última la más interesante y la cual trataremos de explicar en detalle en sucesivos posts.
 
 
-rails_and_flux
+
 
 Jenkins nace en 2011 y es un proyecto que surge como un fork de Hudson, desarrollado inicialmente en 2004 dentro de Sun Microsystems. Actualmente el desarrollo de Jenkins continúa bastante activo y hay gran cantidad de plugins que nos permitirán entre otras cosas integrar nuestro Jenkins con nuestros repositorios en Github o Bitbucket además de con otros servicios de mensajería como Hipchat para recibir las notificaciones del estado de las últimas 
 builds.

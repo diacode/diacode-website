@@ -8,7 +8,7 @@ dc:creator: Javier
 
 ![](http://blog.diacode.com/wp-content/uploads/2011/05/4735584562_1fd0bb4ace_o.jpeg)
 
-Siendo francos, estando en España crear (fundar legalmente) una empresa no es una tarea cómoda, sino todo lo contrario, suele ser un proceso tedioso y demasiado costoso. Es frustrante cuando decides dar el paso y te encuentras que el papeleo es arduo y la documentación y ayuda que el estado ofrece a menudo es deficiente. Por ello a continuación, basándonos en nuestra experiencia y sin ser muy precisos, vamos a intentar ofrecerte la información más relevante para quien decida emprender.rails_and_flux
+Siendo francos, estando en España crear (fundar legalmente) una empresa no es una tarea cómoda, sino todo lo contrario, suele ser un proceso tedioso y demasiado costoso. Es frustrante cuando decides dar el paso y te encuentras que el papeleo es arduo y la documentación y ayuda que el estado ofrece a menudo es deficiente. Por ello a continuación, basándonos en nuestra experiencia y sin ser muy precisos, vamos a intentar ofrecerte la información más relevante para quien decida emprender.
 
 En primer lugar debemos saber que existen diversos tipos de empresa: 
 Sociedad Limitada (SL), Sociedad Anónima (SA), Sociedad Limitada Unipersonal (SLU), Sociedad Limitada Nueva Empresa... La primera, Sociedad Limitada, es la clase más común y a la que pertenece Diacode.

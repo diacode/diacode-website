@@ -11,7 +11,7 @@ Da igual lo que uno programe, el lenguaje que utilize o el framework que use, al
 ###1. La codificación de caracteres.
 
 Algo en apariencia tan simple como almacenar caracteres en un ordenador es en realidad una tarea ciertamente compleja debido a la heterogeneidad de los lenguajes y alfabetos. Debido a la fuerte influencia de Estados Unidos en el desarrollo de la tecnología, muchas decisiones fueron tomadas pensando únicamente en el uso del Inglés. Estas decisiones se han ido arrastrando a lo largo de los años y se han convertido en un quebradero de cabeza para los programadores que tenemos que trabajar con datos en otros idiomas.
-rails_and_flux
+
 
 Con la expansión de Internet por todo el globo se buscaron soluciones universales como el uso de 
 [UTF-8](http://en.wikipedia.org/wiki/UTF-8), pero incluso estas presentan 

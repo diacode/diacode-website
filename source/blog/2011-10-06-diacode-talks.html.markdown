@@ -18,7 +18,7 @@ Llevábamos tiempo con la idea de
 Iniciamos el encuentro con tres charlas breves, cada una sobre un tema distinto, y a continuación, tras un breve break para tomar algo, hicimos una mesa de debate para discutir diversos asuntos que nos interesaban.
 
 
-rails_and_fluxSi queréis más información sobre el evento o queréis asistir al siguiente, podéis visitar la 
+Si queréis más información sobre el evento o queréis asistir al siguiente, podéis visitar la 
 [página en Jottit](https://diacodetalks.jottit.com/) que hemos creado para los eventos.
 
 El próximo evento tendrá lugar entre mediados y finales de este mes, os iremos informando vía 

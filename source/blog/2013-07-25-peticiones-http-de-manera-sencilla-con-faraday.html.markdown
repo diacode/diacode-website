@@ -24,7 +24,7 @@ Una de estas nuevas funcionalidades que nos ha pedido el cliente es la de poder 
 	
 *Enviar la url de la imagen que queremos publicar en la galería seleccionada.
 
-rails_and_fluxSabiendo ya la especificación del API me puse manos a la obra, para crear un cliente sencillo con el que consumir el mismo.
+Sabiendo ya la especificación del API me puse manos a la obra, para crear un cliente sencillo con el que consumir el mismo.
 
 ##Faraday, nuestro nuevo amigo
 

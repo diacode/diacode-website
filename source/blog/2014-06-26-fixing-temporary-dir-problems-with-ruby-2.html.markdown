@@ -9,8 +9,6 @@ dc:creator: Javier
 After upgrading one of our apps from ruby 1.9.3 to ruby 2.1.1 we found a weird problem. Some of the URLs in the app were throwing errors like this one:could not find a temporary directory
 /usr/local/rubies/2.1.1/lib/ruby/2.1.0/tmpdir.rb:34:in `tmpdir'
 
-rails_and_flux
-
 If we check out the source code for that method we see this:
 
 ```ruby

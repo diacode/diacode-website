@@ -10,7 +10,7 @@ dc:creator: jose
 Vemos muchísimos anuncios, todos los días, en la calle, en casa, en el cine, en casi cualquier lugar, pero hay algunos que nos llegan más y otros menos y no sólo depende del número de veces que lo hayamos visto.
 
 
-Al final, si nos paramos a pensarlo, toda la publicidad se basa en asociar ideas. Desde un detergente hasta un coche o un perfume. Si lo compras y lo usas obtienes algo. ¿Por qué tenemos unas ideas en mente cuando pensamos en Nike y otras cuando pensamos en Adidas? Precisamente porque Nike ha conseguido asociar una serie de ideas con su marca y Adidas otras. Veamos algunos ejemplos de menos a más complejidad.rails_and_flux
+Al final, si nos paramos a pensarlo, toda la publicidad se basa en asociar ideas. Desde un detergente hasta un coche o un perfume. Si lo compras y lo usas obtienes algo. ¿Por qué tenemos unas ideas en mente cuando pensamos en Nike y otras cuando pensamos en Adidas? Precisamente porque Nike ha conseguido asociar una serie de ideas con su marca y Adidas otras. Veamos algunos ejemplos de menos a más complejidad.
 
 
 ###Detergente

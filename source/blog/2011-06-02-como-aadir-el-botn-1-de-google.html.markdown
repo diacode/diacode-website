@@ -15,7 +15,7 @@ El
 
 El botón +1 ha empezado a funcionar hace nada, y de momento solo tiene efecto sobre las búsquedas en Inglés, pero se es previsible que en poco tiempo llegue a las versiones regionales del buscador.Para instalar el botón +1 en tu blog o página web sigue los siguientes pasos:
 
-rails_and_flux
+
 
 ###Insertar este código Javascript
 

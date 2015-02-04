@@ -11,7 +11,7 @@ dc:creator: jose
 En esta serie de entradas me gustaría hablar de algunos libros que nos han ayudado a establecer la filosofía que hay detrás de Diacode y de los cuales hemos aprendido más de una cosa que nos ha resultado útil. Aquí está el primero de ellos.
 
 
-rails_and_flux![](http://blog.diacode.com/wp-content/uploads/2011/03/rework.jpg)
+![](http://blog.diacode.com/wp-content/uploads/2011/03/rework.jpg)
 Es 
 [REWORK](http://www.amazon.com/Rework-Jason-Fried/dp/0307463745/ref=sr_1_1?ie=UTF8&qid=1301426071&sr=8-1) (vale 10€ aprox.), de Jason Fried y David Heinemeier Hansson, fundadores de 37signals y que trata de la manera de hacer los cosas en este sector y rompe con muchos mitos existentes, en concreto estas son algunas de sus ideas principales:
 

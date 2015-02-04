@@ -15,7 +15,7 @@ Since
  now you don’t need additional tools help you with your responsive designs.
 
 
-rails_and_flux###Firefox Nightly’s Responsive Design View
+###Firefox Nightly’s Responsive Design View
 
 Mozilla’s testing version of it’s world wide known browser now comes with a new and useful feature called 
 Responsive Design View. To activate this view is as simple as selecting it from the 

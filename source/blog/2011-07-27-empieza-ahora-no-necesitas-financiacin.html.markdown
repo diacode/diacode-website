@@ -20,13 +20,13 @@ Observa atentamente cuando cualquiera, incluyéndote a ti, dice que quiere hacer
 Normalmente significa que la persona está más enamorada de la idea de ser muy muy muy grande que de hacer algo realmente útil.
 
 
-rails_and_fluxPara que una idea sea muy muy muy grande tiene que ser útil, y ser útil no necesita financiación.
+Para que una idea sea muy muy muy grande tiene que ser útil, y ser útil no necesita financiación.
 
 
 Si quieres ser útil siempre puedes empezar ahora, con sólo un 1% de lo que tienes en tu gran visión. Será un modesto prototipo de tu gran visión, pero estarás en el juego, por delante de los demás porque realmente empezaste cuando otros estaban esperando a que la línea de meta apareciera mágicamente en la línea de salida.
 
 
-rails_and_fluxDigamos que tienes la visión de crear una red internacional de colegios modernos. Te lo imaginas como una gran organización que cambia el mundo con cientos de empleados, docenas de oficinas y tecnología cara.
+Digamos que tienes la visión de crear una red internacional de colegios modernos. Te lo imaginas como una gran organización que cambia el mundo con cientos de empleados, docenas de oficinas y tecnología cara.
 
 
 Pero en vez esperar a eso, empiezas enseñando a alguien algo esta semana. Encuentra a alguien que pagaría por aprender algo, reúnete con él donde sea y empieza. No será nada más que tú, un estudiante y un cuaderno, pero estarás en el negocio y puedes crecer desde ahí.

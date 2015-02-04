@@ -12,7 +12,7 @@ dc:creator: Javier
 **desde hace tiempo es el navegador más usado**
 . Además el soporte de Chrome es casi universal: Mac, Linux, Windows, y Android.
 
-rails_and_flux
+
 Lo interesante de Google Chrome es su sistema de actualizaciones invisibles. Sin que los usuarios tengan que hacer nada y sin que se den cuenta, Google Chrome se actualiza silenciosamente para ofrecer soporte a nuevas tecnologías. Cada uno de estos release desplaza la barrera que delimita el mundo web del mundo 
 desktop, ofreciendo acceso a funcionalidades más propias de un sistema operativo que de lo que hasta ahora conocíamos como navegador web.
 

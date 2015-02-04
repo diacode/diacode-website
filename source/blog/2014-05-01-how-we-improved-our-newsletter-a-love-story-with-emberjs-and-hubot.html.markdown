@@ -4,7 +4,7 @@ date: '2014-05-01'
 tags:
 - diacode-2
 - ember-js
-dc:creator: hopsor
+dc:creator: Victor
 ---
 
 As many of you know since 2013 we have a newsletter called 
@@ -12,7 +12,7 @@ As many of you know since 2013 we have a newsletter called
  where we publish links that we consider interesting or helpful. It was meant to be released on weekly basis, as his name indicates, but the reality was very different.
 
 
-rails_and_flux##What was the problem?
+##What was the problem?
 
 The problems were basically two: schedule and writing the compilation.
 

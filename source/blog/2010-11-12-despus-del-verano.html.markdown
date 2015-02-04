@@ -20,7 +20,7 @@ Desde el
 [portfolio](http://diacode.com/portfolio).
 
 
-rails_and_flux
+
 
 Cada hora que pasamos trabajando con 
 **clientes tanto de España como de Estados Unidos**

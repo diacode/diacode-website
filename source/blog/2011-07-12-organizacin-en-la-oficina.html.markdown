@@ -19,7 +19,7 @@ Hace un par de meses nos mudamos a una nueva oficina, de la cual mostraremos fot
 ###El silencio como base de la concentración
 
 
-Cualquier tarea que tenemos que hacer requiere de silencio para poder terminarse. Por tanto, si alguien en la oficina quiere escuchar música usa sus auriculares, si alguien recibe una llamada que no requiere estar frente al ordenador se sale fuera y así no molesta al resto. Puede parecer aburrido, pero durante gran parte del día la oficina está en silencio y eso ayuda bastante a que mantengamos la concentración.rails_and_flux
+Cualquier tarea que tenemos que hacer requiere de silencio para poder terminarse. Por tanto, si alguien en la oficina quiere escuchar música usa sus auriculares, si alguien recibe una llamada que no requiere estar frente al ordenador se sale fuera y así no molesta al resto. Puede parecer aburrido, pero durante gran parte del día la oficina está en silencio y eso ayuda bastante a que mantengamos la concentración.
 
 
 ###Las interrupciones y sus consecuencias

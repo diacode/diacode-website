@@ -19,7 +19,7 @@ Hace tres días se publicaba un
 [artículo](http://jmarbach.com/rapgenius-growth-hack-exposed) que ponía al descubierto una de las estrategias que RapGenius utilizaba para posicionarse en Google para los artistas que más tráfico les generaban.
 
 
-rails_and_fluxLa técnica era sencilla: pedir a bloggers que incluyesen en uno de sus posts un listado de enlaces a las letras del último disco de Justin Bieber. A cambio RapGenius publicaría un tweet con el link al post del blogger colaborador. En otras palabras: un intercambio de enlaces sin más, la misma técnica SEO que se lleva haciendo desde hace 10 años y que Google ha repetido por activa y pasiva que va contra sus términos de uso.
+La técnica era sencilla: pedir a bloggers que incluyesen en uno de sus posts un listado de enlaces a las letras del último disco de Justin Bieber. A cambio RapGenius publicaría un tweet con el link al post del blogger colaborador. En otras palabras: un intercambio de enlaces sin más, la misma técnica SEO que se lleva haciendo desde hace 10 años y que Google ha repetido por activa y pasiva que va contra sus términos de uso.
 
 El artículo llego a la portada de Hacker News generando muchísima polémica, hasta el punto de que Matt Cutts, director del equipo de Webspam de Google, 
 [comentó en HN](https://news.ycombinator.com/item?id=6957463) con su temida frase “We're investigating this”.

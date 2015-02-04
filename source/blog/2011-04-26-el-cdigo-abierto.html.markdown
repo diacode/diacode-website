@@ -11,7 +11,7 @@ Cierta parte del código que se utiliza a día de hoy es código abierto, es dec
 
 ![](http://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Opensource.svg/288px-Opensource.svg.png)
 
-[Imagen de la Wikipedia](http://es.wikipedia.org/wiki/C%C3%B3digo_abierto)rails_and_flux
+[Imagen de la Wikipedia](http://es.wikipedia.org/wiki/C%C3%B3digo_abierto)
 
 ###Tecnologías de uso gratuito
 

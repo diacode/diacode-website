@@ -18,8 +18,8 @@ hosting. No voy a meterme a detallar todos y cada uno de ellos, ni a compararlos
  en cada una de ellas, siendo este el primero de esta serie de posts.
 
 Volviendo a tema principal, después de probar diferentes opciones de servicios, particularmente nos han gustado mucho dos servicios completamente diferentes el uno del otro.
-rails_and_flux 
-rails_and_flux###Dos tipos de servicio de hosting diferentes.
+ 
+###Dos tipos de servicio de hosting diferentes.
 
 A la hora de elegir cómo y dónde queremos desplegar nuestras aplicaciones lo primero que tenemos que tener en cuenta es qué que queremos exactamente.
 ¿Queremos usar un servicio sencillo donde crear el 

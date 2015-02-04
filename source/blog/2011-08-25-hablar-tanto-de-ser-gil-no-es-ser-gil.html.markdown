@@ -24,7 +24,7 @@ timelines de Twitter, en busca de la próxima panacea que prometa convertir el d
 Luego se lo cuentan a sus amigos y se agrupan para difundir la palabra del nuevo profeta. Organizan eventos y se graban en vídeo para luego subirlo a Vimeo. Prometen la tierra eterna en forma de frases cancamuseras y más propias de un marketiniano en un mal día de borrachera. 
 
 
-rails_and_fluxCon esto no quiero que se me malinterprete, el 
+Con esto no quiero que se me malinterprete, el 
 [desarrollo ágil](http://es.wikipedia.org/wiki/Desarrollo_%C3%A1gil_de_software) es una necesidad tan obvia como lo es el fracaso de los modelos clásicos como el 
 [desarrollo en cascada](http://es.wikipedia.org/wiki/Desarrollo_en_cascada). Pero en mi humilde opinión la mayoría de ideas que hay detrás de todo este tipo de cosas son sencillas conclusiones a las que se llega por sentido común: sabemos que los requisitos de los proyectos cambian a lo largo del desarrollo, por tanto ¿qué tiene más sentido, un modelo en cascada dividido en fases estrictas o un modelo iterativo capaz de adaptarse a cada cambio? La respuesta es obvia, creo que no hace falta dar demasiadas conferencias para explicarlo. 
 

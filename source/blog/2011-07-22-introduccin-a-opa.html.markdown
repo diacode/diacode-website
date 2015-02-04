@@ -28,7 +28,7 @@ En Diacode acogimos la noticia con cierto escepticismo y antes de caer en juicio
  de las aplicaciones en un solo servidor o en varios.
 
 	
-rails_and_flux*Opa es un lenguaje fuertemente tipado, es decir, la comprobación de los tipos de datos es estricta. Esto está directamente relacionado con la seguridad que promete el lenguaje.
+*Opa es un lenguaje fuertemente tipado, es decir, la comprobación de los tipos de datos es estricta. Esto está directamente relacionado con la seguridad que promete el lenguaje.
 
 	
 *Es un lenguaje 

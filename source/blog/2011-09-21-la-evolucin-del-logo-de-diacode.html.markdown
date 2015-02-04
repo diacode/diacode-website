@@ -20,7 +20,7 @@ Teniendo ya el nombre y habiéndolo hecho nuestro, y dejando de lado las coñas 
 [Teö](http://ilusteo.blogspot.com/) para diseñase nuestra identidad corporativa**
 . Tras una reunión en la que le contamos quienes éramos y qué pretendíamos hacer, Teö empezó a esbozar en su cuaderno algunos dibujos para posteriormente pasarlos a ordenador y presentarnos su primera propuesta:![](http://blog.diacode.com/wp-content/uploads/2011/09/1.jpg)
 
-rails_and_fluxHabía partido del 
+Había partido del 
 **caracter 
 <**
 , tan característico de los lenguajes de marcado como HTML, y la siempre agradable tipografía 

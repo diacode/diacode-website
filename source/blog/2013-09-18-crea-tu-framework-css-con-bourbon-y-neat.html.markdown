@@ -31,7 +31,7 @@ html
 La base que todo conjunto de estilos que una aplicación o sitio web debería tener es un buen sistema de grid, y un conjunto de reglas que sean lo más compatibles posible con todos los navegadores, para evitar que los elementos se descoloquen o no se muestren como esperábamos, pero tampoco hace falta reinventar la rueda y hacer esto desde cero, ya que disponemos de un par de herramientas que nos pueden ayudar a proporcionarnos esta base y así centrarnos en el diseño en sí.
 
 
-rails_and_fluxrails_and_flux
+
 
 [![Bourbon](https://github-camo.global.ssl.fastly.net/69ff6aca7073ff74a052d728e1b431c58bb9aa3f/687474703a2f2f626f7572626f6e2e696f2f696d616765732f7368617265642f626f7572626f6e2d6c6f676f2e706e67)](http://bourbon.io/)
 

@@ -16,7 +16,7 @@ Rob Walling en
 No puedes consumir y producir al mismo tiempo - cuando estás en modo producción tienes que mantenerte lejos de tus revistas, blogs, etc.". Podemos establecer una fácil analogía con la comida y el deporte: necesitamos ingerir calorías (comer) para poder quemarlas (hacer deporte), pero resulta complicado, aunque probablemente divertido, comerse un chuletón mientras estás corriendo una maratón. Por tanto es necesario dejar de consumir información para poder centrarse en desarrollar, i.e. generar nueva información que será consumida por otros.
 
 
-rails_and_fluxAdemás, igual que sucede con la comida, existe información de mala calidad, 
+Además, igual que sucede con la comida, existe información de mala calidad, 
 **información 
 fast-food**
 , así que tenemos que controlar no solo la cantidad que consumimos sino también su calidad. Leer 

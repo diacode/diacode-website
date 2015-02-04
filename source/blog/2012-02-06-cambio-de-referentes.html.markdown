@@ -19,7 +19,7 @@ El pasado Noviembre Jose y yo asisitimos al
 
 Durante el viaje de vuelta estuvimos charlando sobre la crisis en la educación, las universidades, etc. Su visión resulto ser extremadamente interesante ya que en el pasado fue profesor de la Universidad de Barcelona, por tanto hablaba desde la perspectiva de alguien que había visto el problema desde los dos ángulos (estudiante y profesor).
 
-rails_and_flux
+
 Además de compartir muchos de nuestros puntos de vista, (como por ejemplo, que si a día de hoy quieres ser desarrollador web es probable que la universidad no sea la mejor de tus opciones), Xavier comentó algo realmente interesante. Contaba que durante su etapa de estudiante de Matemáticas, cuando empezó a tener a acceso a Internet se dio cuenta de que se había producido un cambio sorprendente en la forma de entender su formación: 
 **el acceso a Internet, la comunicación global, cambia tus referentes de forma radical**
 .

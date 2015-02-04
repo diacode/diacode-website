@@ -14,7 +14,7 @@ Después de un año de trabajo nos encontramos en una fase más asentada. Hemos 
 [exceso de palabras](http://blog.diacode.com/en-nuestro-sector-sobran-palabras) genera ruido innecesario. Por ello planteamos una web mucho más minimalista. Inspirada en algo clásico como es la maquetación de un periódico, con columnas y texto justificado, y reservando el uso de colores para los elementos realmente importantes.![Jose haciendo los mockups de la nueva web de Diacode](http://blog.diacode.com/wp-content/uploads/2011/08/whiteboard_diacode.jpg)
 José haciendo los wireframes de la nueva web
 
-rails_and_flux
+
 
 **En la 
 home colocamos lo más importante, nuestro logo y a lo que nos dedicamos: creamos webs y aplicaciones para ayudarte**
