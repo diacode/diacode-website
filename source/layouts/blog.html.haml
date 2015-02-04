@@ -45,8 +45,8 @@
       .container
         .welcome
           %h1= current_page.data.title
-          - if current_article
-            = current_article.date.strftime('%b %e, %Y')
+          = partial 'partials/article_metadata', locals: {article: current_article} if current_article
+
     #main_content
       - if current_article
         %article

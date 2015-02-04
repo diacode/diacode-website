@@ -8,14 +8,5 @@ pageable: false
     %h2
       = link_to article.title, article
 
-    %em Posted on
-    %strong= article.date.strftime('%b %e, %Y')
-    %em by
-    %strong= article.data['dc:creator']
-    - if article.tags.any?
-      %em in
-      %ul.tag-list
-        - article.tags.each do |tag|
-          %li
-            = link_to tag, tag_path(tag)
+    = partial 'partials/article_metadata', locals: {article: article}
 

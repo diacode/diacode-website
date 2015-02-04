@@ -1,0 +1,12 @@
+- if data.team.team_members[article.data['dc:creator'].downcase].present?
+  %img.avatar{src: gravatar_for(data.team.team_members[article.data['dc:creator'].downcase]['email_address'])}
+
+%em Posted on
+%strong= article.date.strftime('%b %e, %Y')
+%em by
+%strong= article.data['dc:creator']
+- if article.tags.any?
+  %ul.tag-list
+    - article.tags.each do |tag|
+      %li
+        = link_to tag, tag_path(tag)
