@@ -10,6 +10,22 @@
       header
         margin-bottom: 2em
 
+      .icon-placeholder
+        background: $gray
+        width: 150px
+        height: 150px
+        margin: 0 auto
+        position: relative
+        border-radius: 50%
+
+        &:after
+          content: 'icon'
+          position: absolute
+          top: 40%
+          left: 0
+          width: 100%
+          font-size: 0.85em
+
     &:after
       display: block
       content: ''
