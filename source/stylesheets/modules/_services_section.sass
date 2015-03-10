@@ -1,5 +1,7 @@
 #services_section
   .services
+    margin-top: 2em
+
     .service
       +span-columns(4)
       +omega(3n)
@@ -7,3 +9,8 @@
 
       header
         margin-bottom: 2em
+
+    &:after
+      display: block
+      content: ''
+      clear: both

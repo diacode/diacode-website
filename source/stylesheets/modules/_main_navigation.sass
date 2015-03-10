@@ -1,10 +1,13 @@
 #main_nav
   text-align: right
   z-index: 99
-  background: $pink
+  background: transparent
   font-family: $nav-font-family
+  position: absolute
+  width: 100%
+
   .logo
-    width: 8em
+    width: 7em
     height: $header-height
     background: url(/images/logo-white.png) no-repeat center center
     +prefixer(background-size, contain, webkit moz ms)
@@ -24,7 +27,6 @@
         +link(#fff)
         line-height: $header-height
         display: block
-        border-bottom: 2px solid $pink
 
         &:hover
           color: #fff
@@ -34,6 +36,7 @@
     position: fixed
     z-index: 100
     width: 100%
+    background: rgba(52,73,94,0.9)
 
     &+*
       padding-top: $header-height

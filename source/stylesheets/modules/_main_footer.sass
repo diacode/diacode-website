@@ -1,15 +1,17 @@
 #main_footer
-  background: $gray
+  $base-color: $asphalt
+  background: $base-color
+  color: $gray
+
   .sections
     +clearfix
 
   section
     +span-columns(4)
     +omega(3n)
-    padding: 4em 0
+    padding: 3em 0 0
 
     header
-      margin-bottom: 2em
 
     .post-list
       +unstyled-list
@@ -18,3 +20,7 @@
 
     .social-links
       +inline-list
+
+  button
+    +ghost-button(#fff, $base-color)
+
