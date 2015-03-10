@@ -1,7 +1,21 @@
-.work
-  .screenshot
-    margin: 3em 0
-  .call-to-action
-    margin: 3em 0
-    a
-      +ghost-button($base-font-color, #fff)
+body.work
+  #main_header
+    background-image: url(/images/projects/nasa-launch.jpg)
+
+  .project
+    border-bottom: 1px solid darken($gray, 10%)
+
+    header
+      margin-top: 2em
+    
+    .logo
+      max-width: 280px
+      height: auto
+
+    .screenshot
+      margin: 2em 0
+
+    .call-to-action
+      margin: 3em 0 2em
+      a
+        +ghost-button($base-font-color, #fff)

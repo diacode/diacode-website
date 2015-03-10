@@ -1,8 +1,28 @@
 #main_header
   padding-top: 4em
+  background-size: cover
+  position: relative
+  background-repeat: no-repeat
+  background-position: center center
+
+  &:after
+    background: rgba(52,73,94,0.5)
+    background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0,rgba(52,73,94,0.5)),color-stop(1,rgba(255,47,166,0.5)))
+    background-image: -moz-linear-gradient(top,rgba(52,73,94,0.5) 0,rgba(255,47,166,0.5) 100%)
+    background-image: -o-linear-gradient(top,rgba(52,73,94,0.5) 0,rgba(255,47,166,0.5) 100%)
+    background-repeat: repeat-x
+    position: absolute
+    top: 0
+    left: 0
+    z-index: 1
+    display: block
+    width: 100%
+    height: 100%
+    content: ""
 
   .container
     z-index: 2
+    width: 800px
 
   .logo
     width: 320px
@@ -12,12 +32,14 @@
     margin: 0 auto 1em auto
 
   .welcome
-    padding: 3em 0 5em
+    padding: 4em 0 8em
     text-align: center
     color: #fff
 
     h1
-      font-weight: 700
+      font-weight: 400
+      font-size: 2.5em
+      line-height: 1.2em
 
   .call-to-action
     margin-top: 2em
@@ -26,26 +48,12 @@
 
 body.home
   #main_header    
-    background: url(https://drscdn.500px.org/photo/100721115/m=2048/8525f9324f10d7dfb9a563ee920c276e) center center no-repeat
-    background-size: cover
-    position: relative
-
-    &:after
-      background: rgba(52,73,94,0.5)
-      background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0,rgba(52,73,94,0.5)),color-stop(1,rgba(255,47,166,0.5)))
-      background-image: -moz-linear-gradient(top,rgba(52,73,94,0.5) 0,rgba(255,47,166,0.5) 100%)
-      background-image: -o-linear-gradient(top,rgba(52,73,94,0.5) 0,rgba(255,47,166,0.5) 100%)
-      background-repeat: repeat-x
-      position: absolute
-      top: 0
-      left: 0
-      z-index: 1
-      display: block
-      width: 100%
-      height: 100%
-      content: ""
+    background-image: url(https://drscdn.500px.org/photo/100721115/m=2048/8525f9324f10d7dfb9a563ee920c276e)
 
     .welcome
-      h1, h2
+      padding: 3em 0 5em
+
+      h1
+        font-weight: 700
         color: #fff
 

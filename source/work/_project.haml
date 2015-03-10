@@ -1,10 +1,11 @@
 - project_id = project[0]
 - project_data = project[1]
 
-%section.main-section
+%section.main-section.project
   .container
     %header
-      = image_tag "/images/projects/#{project_id}/logo.png"
+      = image_tag "/images/projects/#{project_id}/logo.png", class: 'logo'
+      
     %p= project_data['description']
 
     .call-to-action
