@@ -1,10 +1,21 @@
-%section#clients_section.main-section
+%section#clients_section.main-section.constrained
   .container
     %header
       %h2 Clients
 
     %p Durante nuestra andadura hemos tenido el placer de trabajar codo a codo con las siguientes empresas impulsando sus proyectos.
-    %ul.clients-list
-      - data.work.projects.each do |project|
-        %li
-          = image_tag "/images/projects/#{project[0]}/logo.png"
+
+    #testimonials.testimonials
+      - data.testimonials.each do |testimonial|
+        .testimonial
+          %img{src: "/images/projects/#{testimonial.client.downcase}/logo.png"}
+
+          %blockquote
+            %p= testimonial.message
+
+          .spokesman= testimonial.spokesman
+
+      .pagination
+        - data.testimonials.length.times do |i|
+          .dot{data: {idx: i}}
+

@@ -3,3 +3,4 @@
 
 $ ->
   $('#main_nav').stickyNavigation()
+  $('#testimonials').testimonialSlides()
