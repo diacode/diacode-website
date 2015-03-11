@@ -18,6 +18,11 @@
 
     .social-links
       +inline-list
+      li
+        &:not(:first-of-type)
+          margin-left: 1em
+        a
+          font-size: 2.5em
 
   button
     +ghost-button(#fff, $base-color)
