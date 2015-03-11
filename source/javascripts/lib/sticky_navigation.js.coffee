@@ -14,14 +14,13 @@ do ($ = jQuery, window, document) ->
       @$el = $(@element)
       $(window).on 'resize', @initNav
       @offset = $(@settings.offsetSelector).height()
-      console.log @offset
       @initNav()
 
     initNav: =>
       windowWidth = $(window).width()
       @$el.slideDown(0) if @$el.is(':hidden') && windowWidth > 480
 
-      if $(document).scrollTop() > @offset
+      if $(document).scrollTop() > @offset || @offset is null
         @$el.addClass("sticky")
       else
         @$el.removeClass("sticky")

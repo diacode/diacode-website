@@ -31,9 +31,6 @@
     %link(rel="apple-touch-icon-precomposed" sizes="72x72" href="/images/apple-touch-icon-72x72-precomposed.png")
     %link(rel="apple-touch-icon-precomposed" sizes="114x114" href="/images/apple-touch-icon-114x114-precomposed.png")
 
-    -# Fonts
-    %link{href: "//fonts.googleapis.com/css?family=Oxygen:400,700|Source+Sans+Pro:400,600,700", rel: "stylesheet", type: "text/css"}/
-
     -# Stylesheets
     = stylesheet_link_tag 'application'
     %link{href: "http://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/github.min.css", rel: "stylesheet"}/
@@ -41,17 +38,37 @@
 
   %body{class: current_page.data.body_class || 'article'}
     = partial 'partials/main_nav'
-    %header#main_header
-      .container
-        .welcome
-          %h1= current_page.data.title
-          = partial 'partials/article_metadata', locals: {article: current_article} if current_article
+    
+    - unless current_article
+      %header#main_header
+        .container
+          .welcome
+            %h1= current_page.data.title
+            = partial 'partials/article_metadata', locals: {article: current_article} if current_article
 
     #main_content
       - if current_article
-        %article
+        / TODO: Move this to a partial
+        %article.blog-post
           .container
-            = yield
+            %header
+              %h1= current_page.data.title
+              %p.meta= current_article.date.strftime('%b %e, %Y')
+
+            .post-content
+              = yield
+
+            .author
+              %img{src: "http://www.banburymuseum.org/uploads/media/staff/user-placeholder.jpg"}
+              
+              .info
+                %h2 John Appleseed
+
+                %p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.
+
+                %ul.links
+                  %li= link_to "Github", "#"
+                  %li= link_to "Twitter", "#"
       - else
         .container
           = yield

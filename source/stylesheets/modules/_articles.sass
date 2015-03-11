@@ -28,35 +28,65 @@ body.article
     margin: 0 auto
     float: left
 
-  article
-    color: darken($dark-gray,25)
-    margin-bottom: 3em
+  article.blog-post
+    font-size: 24px
 
-    p
-      font-size: 1.2em
+    header
+      margin: 4em 0
 
+      h1, .meta
+        text-align: center
 
-    &.preview
-      margin-bottom: 0em
-      padding: 3em 0
-      border-bottom: 1px solid $gray
-      &:first-of-type
-        border-top: 1px solid $gray
+    .post-content
+      line-height: 1.75
+      margin-bottom: 2em
 
-      h2
-        margin-bottom: .5em
-        a
-          +link($base-font-color, $pink)
-      p
-        -webkit-margin-before: 0
-        -webkit-margin-after: 0
+      h1, h2, h3, h4, h5, h6, 
+      p, blockquote, pre, ul, ol, dl, 
+      iframe, figure, .highlight
+        margin-bottom: 30px
 
-      .avatar
-        width: 50px
-        height: 50%
-        vertical-align: middle
-        margin-right: 1em
+    .author
+      width: 100%
+      box-sizing: border-box
+      background: #FBFBFB
+      border-top: 1px solid #ccc
+      border-bottom: 1px solid #ccc
+      padding: 2em
+      font-size: 0.9em
+      line-height: 1.5
 
-      .tag-list
-        margin-top: .5em
+      &:after
+        display: block
+        content: ''
+        clear: both
+      
 
+      img
+        width: 15%
+        border-radius: 100px
+        float: left
+      
+      .info
+        float: left
+        width: 85%
+        padding-left: 1em
+        box-sizing: border-box
+
+        .links
+          margin: 0
+          text-align: right
+
+          li
+            display: inline
+            border-right: 1px solid $gray
+            padding-right: 10px
+
+            margin-left: 5px
+
+            &:last-child
+              border: none
+            
+          
+        
+      
