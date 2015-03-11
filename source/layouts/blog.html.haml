@@ -71,7 +71,8 @@
                   %li= link_to "Twitter", "#"
       - else
         .container
-          = yield
+          .blog-posts
+            = yield
 
     = partial 'partials/hire_section'
     = partial 'partials/main_footer'
