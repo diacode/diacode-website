@@ -3,11 +3,9 @@
     %a.logo{href: '/'}
     %ul
       %li
-        = link_to 'Our work', '/work'
+        = link_to 'Our work', '/work', class: nav_active('work')
       %li
-        = link_to 'Blog', '/blog'
+        = link_to 'Blog', '/blog', class: nav_active('blog')
       %li
-        %a{href: "#"} Picks
-      %li
-        = link_to 'Contact', '/contact'
+        = link_to 'Contact', '/contact', class: nav_active('contact')
 

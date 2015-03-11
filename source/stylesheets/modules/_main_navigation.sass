@@ -19,16 +19,19 @@
     float: right
     li
       display: inline-block
+      line-height: $header-height
 
       &:not(:last-of-type)
         margin-right: 3em
 
       a
         +link(#fff)
-        line-height: $header-height
-        display: block
+        border-bottom-width: 1px
+        border-bottom-style: solid
+        border-bottom-color: transparent
+        padding: 0.2em 0
 
-        &:hover
+        &:hover, &.active
           color: #fff
           border-bottom-color: #fff
 

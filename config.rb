@@ -53,6 +53,10 @@ helpers do
     hash = Digest::MD5.hexdigest(email.chomp.downcase)
     "http://www.gravatar.com/avatar/#{hash}?s=#{size}"
   end
+
+  def nav_active(page)
+    'active' if current_page.data.body_class == page
+  end
 end
 
 # Use LiveReload
