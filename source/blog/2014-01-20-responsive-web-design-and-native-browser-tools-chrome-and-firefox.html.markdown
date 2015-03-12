@@ -2,8 +2,8 @@
 title: 'Responsive web design and native browser tools: Chrome and Firefox'
 date: '2014-01-20'
 tags:
-- diseno
-dc:creator: Ricardo
+  - design
+author: ricardo
 ---
 
 Since 
@@ -42,24 +42,17 @@ Emulation panel in the browser's console.
 
 Inside this panel you will find a vertical menu with the following options:
 
-***Device**
-: This is where the magic begins. You can select the conditions you want to emulate from a wide range of predefined devices and then click the 
+* **Device**: This is where the magic begins. You can select the conditions you want to emulate from a wide range of predefined devices and then click the 
 Emulate button to set those options automatically.
-
 	
-***Screen**
-: Here you can change the resolution, rotation, pixel ratio, view port and even change the CSS media.
-
+* **Screen**: Here you can change the resolution, rotation, pixel ratio, view port and even change the CSS media.
 	
-***User agent**
-: Here you can choose what 
+* **User agent**: Here you can choose what 
 user-agent header you want to emulate if your project is prepared to serve optimized versions depending on that header.
-
 	
-***Sensors**
-: Last but not least, in this option you can emulate touch events, geolocation coordinates and even the orientation data and motion events with the accelerometer and test how your designs react to them.
+* **Sensors**: Last but not least, in this option you can emulate touch events, geolocation coordinates and even the orientation data and motion events with the accelerometer and test how your designs react to them.
 
-###Wrap-up
+### Wrap-up
 
 Responsive design can be tricky and sometimes a pain, but these two great browsers provides us with some very useful tools to assist us and make our lifes easier, so don’t hesitate and give them a try, you will not regret it :)
 
