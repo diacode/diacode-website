@@ -2,7 +2,7 @@
 title: Después del verano
 date: '2010-11-12'
 tags:
-- diacode-2
+- diacode
 - historia
 author: jose
 ---

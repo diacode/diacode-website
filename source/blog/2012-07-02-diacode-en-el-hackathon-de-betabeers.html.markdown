@@ -2,7 +2,7 @@
 title: Diacode en el Hackathon de Betabeers
 date: '2012-07-02'
 tags:
-- diacode-2
+- diacode
 - programacion
 author: Javier
 ---

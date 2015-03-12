@@ -3,7 +3,7 @@ title: Cómo trabajamos en Diacode
 date: '2011-04-17'
 tags:
 - diacode
-- diacode-2
+- diacode
 - workflow
 author: jose
 ---

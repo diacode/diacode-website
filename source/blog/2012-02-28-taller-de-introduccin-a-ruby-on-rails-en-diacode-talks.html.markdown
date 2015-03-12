@@ -2,7 +2,7 @@
 title: Taller de Introducción a Ruby on Rails en Diacode Talks!
 date: '2012-02-28'
 tags:
-- diacode-2
+- diacode
 - diacode-talks
 - programacion
 - ruby-on-rails

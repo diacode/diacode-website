@@ -2,7 +2,7 @@
 title: Buscamos desarrolladores freelance
 date: '2012-03-13'
 tags:
-- diacode-2
+- diacode
 author: Javier
 ---
 

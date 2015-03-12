@@ -2,7 +2,7 @@
 title: Ping Pong en Diacode
 date: '2011-07-28'
 tags:
-- diacode-2
+- diacode
 - programacion
 author: Javier
 ---

@@ -2,7 +2,7 @@
 title: Buscamos desarrollador Ruby on Rails
 date: '2013-05-21'
 tags:
-- diacode-2
+- diacode
 - ruby-on-rails
 author: Javier
 ---

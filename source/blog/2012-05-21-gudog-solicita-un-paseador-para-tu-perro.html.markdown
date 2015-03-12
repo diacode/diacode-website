@@ -2,7 +2,7 @@
 title: 'Gudog: solicita un paseador para tu perro'
 date: '2012-05-21'
 tags:
-- diacode-2
+- diacode
 author: Javier
 ---
 

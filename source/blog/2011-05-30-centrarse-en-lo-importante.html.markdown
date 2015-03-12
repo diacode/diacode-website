@@ -2,7 +2,7 @@
 title: Centrarse en lo importante
 date: '2011-05-30'
 tags:
-- diacode-2
+- diacode
 - zen
 author: jose
 ---

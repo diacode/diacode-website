@@ -2,7 +2,7 @@
 title: Cumplimos tres años y ampliamos equipo
 date: '2013-07-01'
 tags:
-- diacode-2
+- diacode
 author: Javier
 ---
 

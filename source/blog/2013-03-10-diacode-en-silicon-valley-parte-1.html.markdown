@@ -2,7 +2,7 @@
 title: 'Diacode en Silicon Valley: parte 1'
 date: '2013-03-10'
 tags:
-- diacode-2
+- diacode
 - silicon-valley
 author: Javier
 ---

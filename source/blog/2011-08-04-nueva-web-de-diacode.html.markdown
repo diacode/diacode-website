@@ -2,7 +2,7 @@
 title: Nueva web de Diacode
 date: '2011-08-04'
 tags:
-- diacode-2
+- diacode
 author: Javier
 ---
 

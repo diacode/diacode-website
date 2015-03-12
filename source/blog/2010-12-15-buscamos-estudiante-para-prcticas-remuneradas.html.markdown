@@ -2,7 +2,7 @@
 title: Buscamos estudiante para prácticas remuneradas
 date: '2010-12-15'
 tags:
-- diacode-2
+- diacode
 published: false
 author: Javier
 ---

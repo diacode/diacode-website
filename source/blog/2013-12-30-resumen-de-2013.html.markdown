@@ -2,7 +2,7 @@
 title: Resumen de 2013
 date: '2013-12-30'
 tags:
-- diacode-2
+- diacode
 author: Javier
 ---
 

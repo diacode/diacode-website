@@ -2,7 +2,7 @@
 title: La evolución del logo de Diacode
 date: '2011-09-21'
 tags:
-- diacode-2
+- diacode
 - diseno
 author: Javier
 ---

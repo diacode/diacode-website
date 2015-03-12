@@ -2,7 +2,7 @@
 title: Ampliamos el equipo
 date: '2011-06-30'
 tags:
-- diacode-2
+- diacode
 - equipo
 author: jose
 ---

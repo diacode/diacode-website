@@ -2,7 +2,7 @@
 title: El principio del comienzo
 date: '2010-08-20'
 tags:
-- diacode-2
+- diacode
 - historia
 author: jose
 ---

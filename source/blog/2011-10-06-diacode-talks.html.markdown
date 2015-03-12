@@ -2,7 +2,7 @@
 title: Diacode Talks!
 date: '2011-10-06'
 tags:
-- diacode-2
+- diacode
 - diacode-talks
 author: Javier
 ---

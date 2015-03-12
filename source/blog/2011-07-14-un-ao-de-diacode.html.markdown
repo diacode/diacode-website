@@ -2,7 +2,7 @@
 title: Un año de Diacode
 date: '2011-07-14'
 tags:
-- diacode-2
+- diacode
 author: Javier
 ---
 
