@@ -43,3 +43,8 @@ team_members:
     bio: Define bio
     twitter:
     github: https://github.com/achru
+
+  jose:
+    full_name: José Manuel Gilgado
+    bio: José cofounded Diacode and left the company in 2012
+    retired: true

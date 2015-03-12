@@ -12,7 +12,7 @@
     = image_tag 'map.png', class: 'map'
 
     %ul.team-list
-      - data.team.team_members.each do |team_member|
+      - data.team.team_members.select{|k,v| !v['retired'] }.each do |team_member|
         %li
           %img.avatar{src: gravatar_for(team_member[1]['email_address'])}
           %h4= team_member[1]['full_name']
