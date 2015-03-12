@@ -3,7 +3,7 @@ title: 10 consejos para estudiantes universitarios
 date: '2012-11-22'
 tags:
 - educacion
-dc:creator: Javier
+author: Javier
 ---
 
 ![](http://blog.diacode.com/wp-content/uploads/2012/11/blackboard.jpg)

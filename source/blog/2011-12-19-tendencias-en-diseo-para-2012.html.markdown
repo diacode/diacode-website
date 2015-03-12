@@ -3,7 +3,7 @@ title: Tendencias en diseño para 2012
 date: '2011-12-19'
 tags:
 - diseno
-dc:creator: Javier
+author: Javier
 ---
 
 No nos suelen gustar los artículos sobre tendencias para el próximo año, la mayoría fallan como una escopeta de feria, pero como veníamos observando algunas nuevas modas en el mundo del 

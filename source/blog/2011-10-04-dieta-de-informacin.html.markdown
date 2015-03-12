@@ -3,7 +3,7 @@ title: Dieta de información
 date: '2011-10-04'
 tags:
 - productividad-2
-dc:creator: Javier
+author: Javier
 ---
 
 Uno de los problemas al que nos enfrentamos a diario quienes trabajamos en Internet es el 

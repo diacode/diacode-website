@@ -3,7 +3,7 @@ title: Elige sólo dos
 date: '2011-07-18'
 tags:
 - empresas
-dc:creator: jose
+author: jose
 ---
 
 ![El triángulo de la gestión de proyectos](http://blog.diacode.com/wp-content/uploads/2011/07/solo2.png)

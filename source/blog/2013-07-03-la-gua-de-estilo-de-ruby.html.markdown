@@ -6,7 +6,7 @@ tags:
 - programacion
 - ruby
 - ruby-on-rails
-dc:creator: Ricardo
+author: Ricardo
 ---
 
 Tengo que reconocer que mi sentido del orden a la hora de organizar cosas como mi armario, los cajones de la cocina o el maletero de mi coche puede ser bastante peculiar y chocar con las reglas de orden básicas estipuladas por cualquier persona, o lo que se suele llamar desordenado :)

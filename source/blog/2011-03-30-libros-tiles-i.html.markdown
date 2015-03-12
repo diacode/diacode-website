@@ -5,7 +5,7 @@ tags:
 - empresas
 - libros
 - rework
-dc:creator: jose
+author: jose
 ---
 
 En esta serie de entradas me gustaría hablar de algunos libros que nos han ayudado a establecer la filosofía que hay detrás de Diacode y de los cuales hemos aprendido más de una cosa que nos ha resultado útil. Aquí está el primero de ellos.

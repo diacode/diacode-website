@@ -3,7 +3,7 @@ title: Internet Explorer Voodoo
 date: '2012-07-03'
 tags:
 - general
-dc:creator: Javier
+author: Javier
 ---
 
 ![Internet Explorer Voodoo Doll](http://blog.diacode.com/wp-content/uploads/2012/07/ie_voodoo_doll.jpeg)

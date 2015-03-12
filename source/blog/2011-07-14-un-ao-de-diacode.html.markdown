@@ -3,7 +3,7 @@ title: Un año de Diacode
 date: '2011-07-14'
 tags:
 - diacode-2
-dc:creator: Javier
+author: Javier
 ---
 
 ![](http://blog.diacode.com/wp-content/uploads/2011/07/tarta.jpg)

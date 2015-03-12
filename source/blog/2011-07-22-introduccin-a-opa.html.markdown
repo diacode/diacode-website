@@ -3,7 +3,7 @@ title: Introducción a Opa
 date: '2011-07-22'
 tags:
 - programacion
-dc:creator: Javier
+author: Javier
 ---
 
 ![](http://blog.diacode.com/wp-content/uploads/2011/07/opa1.png)

@@ -4,7 +4,7 @@ date: '2010-12-15'
 tags:
 - diacode-2
 published: false
-dc:creator: Javier
+author: Javier
 ---
 
 ![](http://blog.diacode.com/wp-content/uploads/2010/12/recruiting.jpg)[Foto original por Lawrence Whittemore](http://www.flickr.com/photos/lawrence_evil/129691678/)

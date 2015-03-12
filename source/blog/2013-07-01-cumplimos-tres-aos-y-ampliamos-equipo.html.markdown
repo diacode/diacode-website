@@ -3,7 +3,7 @@ title: Cumplimos tres años y ampliamos equipo
 date: '2013-07-01'
 tags:
 - diacode-2
-dc:creator: Javier
+author: Javier
 ---
 
 Dentro de un par semanas Diacode cumplirá tres años. Parece que fue ayer cuando empezamos a trabajar en una pequeña habitación de mi antiguo piso en La Latina. Desde entonces Diacode ha pasado por diferentes etapas y no hemos dejado de aprender en cada una de ellas. Algunas de las cosas que han ido cambiando durante estos tres años han sido las siguientes:*Empezamos trabajando con PHP, pasamos a Python / Django y desde hace dos años y medio ya sólo trabajamos con Ruby on Rails. Además hemos adoptado 

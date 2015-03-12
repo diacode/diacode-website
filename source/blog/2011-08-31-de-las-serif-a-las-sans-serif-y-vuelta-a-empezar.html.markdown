@@ -3,7 +3,7 @@ title: De las Serif a las Sans-Serif y vuelta a empezar
 date: '2011-08-31'
 tags:
 - diseno
-dc:creator: Javier
+author: Javier
 ---
 
 Sin ser diseñador ni un gran experto en tipografía, si que llevo mucho tiempo interesado en este campo debido a la importancia que tiene en el desarrollo web. Empecé por aprender la simple diferencia entre una tipografía 

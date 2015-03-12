@@ -4,7 +4,7 @@ date: '2010-11-12'
 tags:
 - diacode-2
 - historia
-dc:creator: jose
+author: jose
 ---
 
 ![](http://blog.diacode.com/wp-content/uploads/2010/09/diacode_playa.jpg)[Pensacola Beach, Florida, USA](http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=pensacola+beach&sll=37.0625,-95.677068&sspn=56.112526,84.638672&ie=UTF8&hq=&hnear=Pensacola+Beach,+Pensacola,+Escambia,+Florida&ll=30.334954,-87.138062&spn=3.872885,5.289917&z=8&iwloc=A/)

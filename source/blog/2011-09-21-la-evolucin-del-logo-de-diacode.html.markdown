@@ -4,7 +4,7 @@ date: '2011-09-21'
 tags:
 - diacode-2
 - diseno
-dc:creator: Javier
+author: Javier
 ---
 
 Una de las decisiones más difíciles a las que nos enfrentamos José y yo cuando empezamos con esto fue la de 

@@ -4,7 +4,7 @@ date: '2011-06-21'
 tags:
 - empresas
 - tamano
-dc:creator: jose
+author: jose
 ---
 
 [![Grandes empresas, foto por Francesco Chillari](http://blog.diacode.com/wp-content/uploads/2011/06/4852934543_9f916e6777_o1.jpeg)](http://blog.diacode.com/el-tamano-esta-sobrevalorado)

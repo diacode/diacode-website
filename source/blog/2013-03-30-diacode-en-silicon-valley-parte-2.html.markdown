@@ -3,7 +3,7 @@ title: 'Diacode en Silicon Valley: parte 2'
 date: '2013-03-30'
 tags: []
 published: false
-dc:creator: Javier
+author: Javier
 ---
 
 San Francisco (Silicon Valley en general) es como una gran aceleradora de proyectos, ideas y personas. La actividad aquí es frenética y a menudo tenemos la sensación de que un solo día aquí equivale a diez dias en España, en cuanto a oportunidades y aprendizaje. Nos ha resultado difícil encontrar tiempo para escribir la segunda parte de 

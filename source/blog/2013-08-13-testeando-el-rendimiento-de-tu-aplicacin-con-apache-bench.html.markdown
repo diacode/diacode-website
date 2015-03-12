@@ -3,7 +3,7 @@ title: Testeando el rendimiento de tu aplicación con Apache Bench
 date: '2013-08-13'
 tags:
 - programacion
-dc:creator: Javier
+author: Javier
 ---
 
 ![](http://blog.diacode.com/wp-content/uploads/2013/08/results.png)

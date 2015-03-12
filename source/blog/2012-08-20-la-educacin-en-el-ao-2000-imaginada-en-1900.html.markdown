@@ -3,7 +3,7 @@ title: La Educación en el año 2000 imaginada en 1900
 date: '2012-08-20'
 tags:
 - educacion
-dc:creator: Javier
+author: Javier
 ---
 
 [![](http://blog.diacode.com/wp-content/uploads/2012/08/education1900.jpeg)](http://commons.wikimedia.org/wiki/File:France_in_XXI_Century._School.jpg)

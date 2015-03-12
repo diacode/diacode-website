@@ -3,7 +3,7 @@ title: Herramientas colaborativas para equipos remotos
 date: '2013-08-28'
 tags:
 - productividad-2
-dc:creator: Ricardo
+author: Ricardo
 ---
 
 **Diacode**

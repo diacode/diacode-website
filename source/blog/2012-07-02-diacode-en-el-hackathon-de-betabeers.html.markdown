@@ -4,7 +4,7 @@ date: '2012-07-02'
 tags:
 - diacode-2
 - programacion
-dc:creator: Javier
+author: Javier
 ---
 
 El pasado sábado asistimos al 2º Hackaton organizado por 

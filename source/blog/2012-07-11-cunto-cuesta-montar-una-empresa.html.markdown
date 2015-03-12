@@ -3,7 +3,7 @@ title: ¿Cuánto cuesta montar una empresa?
 date: '2012-07-11'
 tags:
 - empresas
-dc:creator: Javier
+author: Javier
 ---
 
 Hoy se ha anunciado la subida del IVA del 18% al 21%, una nueva medida para tratar de salir del agujero económico en el que se encuentra el país. En otras palabras, esta medida nos "empobrece" a todos un 3%.

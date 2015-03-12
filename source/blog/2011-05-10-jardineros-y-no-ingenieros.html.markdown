@@ -3,7 +3,7 @@ title: Jardineros y no Ingenieros
 date: '2011-05-10'
 tags:
 - programacion
-dc:creator: Javier
+author: Javier
 ---
 
 ![Foto por Randy Robertson](http://blog.diacode.com/wp-content/uploads/2011/05/464791157_b9965da377_b.jpeg)

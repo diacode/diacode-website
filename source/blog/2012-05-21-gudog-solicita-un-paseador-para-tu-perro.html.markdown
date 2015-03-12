@@ -3,7 +3,7 @@ title: 'Gudog: solicita un paseador para tu perro'
 date: '2012-05-21'
 tags:
 - diacode-2
-dc:creator: Javier
+author: Javier
 ---
 
 [![](http://blog.diacode.com/wp-content/uploads/2012/05/gudog_snapshot.png)](https://gudog.com)

@@ -5,7 +5,7 @@ tags:
 - bootstrapping
 - empresas
 - filosofia
-dc:creator: jose
+author: jose
 ---
 
 [Bootstrapping](http://en.wikipedia.org/wiki/Bootstrapping) es un término metafórico que hace referencia a un negocio que se ha financiado por sí mismo, y que paga sus gastos exclusivamente con sus ingresos (o dinero de los socios) sin financiación externa.

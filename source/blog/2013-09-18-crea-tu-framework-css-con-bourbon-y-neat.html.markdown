@@ -4,7 +4,7 @@ date: '2013-09-18'
 tags:
 - diseno
 - programacion
-dc:creator: Ricardo
+author: Ricardo
 ---
 
 Hace unos meses escribí un post 

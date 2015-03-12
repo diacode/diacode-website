@@ -3,7 +3,7 @@ title: 'Integración continua con Jenkins: Parte 1 (Introducción e Instalación
 date: '2013-10-30'
 tags:
 - devops
-dc:creator: Victor
+author: Victor
 ---
 
 [![](http://blog.diacode.com/wp-content/uploads/2013/10/jenkins-logo.png)](http://blog.diacode.com/wp-content/uploads/2013/10/jenkins-logo.png)

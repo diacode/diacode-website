@@ -5,7 +5,7 @@ tags:
 - diacode
 - diacode-2
 - workflow
-dc:creator: jose
+author: jose
 ---
 
 Nuestro proceso de creación de cualquier proyecto, tanto para clientes como para nosotros, suele constar de unos pocos pasos, que se repiten hasta que el producto está disponible para ser lanzado o entregado al cliente.###1. Esquemas / Wireframes

@@ -3,7 +3,7 @@ title: Una nueva forma de identificación personal
 date: '2012-04-02'
 tags:
 - general
-dc:creator: Javier
+author: Javier
 ---
 
 ![](http://blog.diacode.com/wp-content/uploads/2012/04/passport.jpg)

@@ -6,7 +6,7 @@ tags:
 - diacode-talks
 - programacion
 - ruby-on-rails
-dc:creator: Javier
+author: Javier
 ---
 
 ![14 hackers en el Taller de Introducción a Ruby on Rails](http://blog.diacode.com/wp-content/uploads/2012/02/taller_rails.jpg)

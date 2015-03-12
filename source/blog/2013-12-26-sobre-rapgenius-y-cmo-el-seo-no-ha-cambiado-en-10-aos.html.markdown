@@ -3,7 +3,7 @@ title: Sobre RapGenius y cómo el SEO no ha cambiado en 10 años
 date: '2013-12-26'
 tags:
 - seo
-dc:creator: Javier
+author: Javier
 ---
 
 [RapGenius](http://rapgenius.com), para quienes no lo conozcáis, es una startup que comenzó recogiendo letras de canciones de Hip Hop americano, con la gracia de que las letras podían ser anotadas, algo muy útil en un genero musical cuyas letras están plagadas de referencias culturales de todo tipo.

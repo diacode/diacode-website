@@ -4,7 +4,7 @@ date: '2011-11-17'
 tags:
 - diseno
 - ux
-dc:creator: jose
+author: jose
 ---
 
 En la creación de cualquier aplicación web, por muy pequeña que sea, siempre hay muchas decisiones que tomar y cada una puede marcar las siguientes. Es como elegir un camino por cada bifurcación que te encuentras. El problema es que hay muchas bifurcaciones a nivel técnico y de diseño. Pero hoy quiero centrarme más en lo segundo.

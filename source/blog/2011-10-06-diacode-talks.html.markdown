@@ -4,7 +4,7 @@ date: '2011-10-06'
 tags:
 - diacode-2
 - diacode-talks
-dc:creator: Javier
+author: Javier
 ---
 
 ![](http://blog.diacode.com/wp-content/uploads/2011/10/diacode-TALKS-2.png)

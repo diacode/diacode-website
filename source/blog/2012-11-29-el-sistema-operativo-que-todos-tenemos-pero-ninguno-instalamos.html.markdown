@@ -3,7 +3,7 @@ title: El sistema operativo que todos tenemos, pero ninguno instalamos
 date: '2012-11-29'
 tags:
 - general
-dc:creator: Javier
+author: Javier
 ---
 
 ![Imagen por Graham Smith](http://blog.diacode.com/wp-content/uploads/2012/11/chrome.jpg)

@@ -5,7 +5,7 @@ tags:
 - educac
 - educacion
 - general
-dc:creator: Javier
+author: Javier
 ---
 
 ![Chaplin mirándose al espejo](http://blog.diacode.com/wp-content/uploads/2012/02/mirror_chaplin1.jpg)

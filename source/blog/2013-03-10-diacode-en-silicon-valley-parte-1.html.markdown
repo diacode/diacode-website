@@ -4,7 +4,7 @@ date: '2013-03-10'
 tags:
 - diacode-2
 - silicon-valley
-dc:creator: Javier
+author: Javier
 ---
 
 Para cualquier que esté en la industria del software Silicon Valley es el equivalente a La Meca, un lugar casi espiritual que se ha de visitar al menos una vez en la vida. Por ello, hace unos meses Victor y yo decidimos comprar unos billetes a San Francisco y aventurarnos a estar allí durante un mes.##Preparativos del viaje

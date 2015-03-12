@@ -3,7 +3,7 @@ title: Hablar tanto de ser ágil no es ser ágil
 date: '2011-08-25'
 tags:
 - programacion
-dc:creator: Javier
+author: Javier
 ---
 
 [![](http://blog.diacode.com/wp-content/uploads/2011/08/talkless.jpeg)](http://blog.diacode.com/hablar-tanto-de-ser-agil-no-es-ser-agil)

@@ -4,7 +4,7 @@ date: '2012-04-23'
 tags:
 - diacode-talks
 - educacion
-dc:creator: Javier
+author: Javier
 ---
 
 [![Diacode Talks! Educación: the next big thing](http://blog.diacode.com/wp-content/uploads/2012/04/talks_edu.jpg)](http://talks.diacode.com)

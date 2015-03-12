@@ -4,7 +4,7 @@ date: '2013-07-25'
 tags:
 - programacion
 - ruby-on-rails
-dc:creator: Ricardo
+author: Ricardo
 ---
 
 ![](http://blog.diacode.com/wp-content/uploads/2013/07/faraday1.jpg)

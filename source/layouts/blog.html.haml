@@ -62,16 +62,20 @@
               = yield
 
             .author
-              %img{src: "http://www.banburymuseum.org/uploads/media/staff/user-placeholder.jpg"}
-              
+              - author_key = current_article.data.author.downcase
+              - author = data.team.team_members[author_key]
+
+              = image_tag "/images/team/#{author_key}.jpg", height: nil           
+
               .info
-                %h2 John Appleseed
-
-                %p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.
-
+                %h2= author['full_name']
+                %p= author['bio']
                 %ul.links
-                  %li= link_to "Github", "#"
-                  %li= link_to "Twitter", "#"
+                  - if author['github']
+                    %li= link_to "Github", author['github']
+                  
+                  - if author['twitter']
+                    %li= link_to "Twitter", author['twitter']
       - else
         .container
           .blog-posts

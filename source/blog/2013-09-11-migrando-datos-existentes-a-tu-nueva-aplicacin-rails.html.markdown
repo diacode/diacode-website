@@ -3,7 +3,7 @@ title: Migrando datos existentes a tu nueva aplicación Rails
 date: '2013-09-11'
 tags:
 - ruby-on-rails
-dc:creator: Ricardo
+author: Ricardo
 ---
 
 Algo en lo que todo el equipo de 

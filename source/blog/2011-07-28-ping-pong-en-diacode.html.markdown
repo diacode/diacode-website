@@ -4,7 +4,7 @@ date: '2011-07-28'
 tags:
 - diacode-2
 - programacion
-dc:creator: Javier
+author: Javier
 ---
 
 ![Nuestros amigos Álvaro y Teö jugando en nuestra mesa](http://blog.diacode.com/wp-content/uploads/2011/07/pingpong2.jpg)

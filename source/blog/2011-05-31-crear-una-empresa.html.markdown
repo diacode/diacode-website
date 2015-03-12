@@ -3,7 +3,7 @@ title: Crear una empresa
 date: '2011-05-31'
 tags:
 - empresas
-dc:creator: Javier
+author: Javier
 ---
 
 ![](http://blog.diacode.com/wp-content/uploads/2011/05/4735584562_1fd0bb4ace_o.jpeg)

@@ -4,7 +4,7 @@ date: '2011-06-02'
 tags:
 - actualidad
 - programacion
-dc:creator: Javier
+author: Javier
 ---
 
 ![Botón +1 de Google](http://blog.diacode.com/wp-content/uploads/2011/06/masuno.png)

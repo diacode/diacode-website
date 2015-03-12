@@ -4,7 +4,7 @@ date: '2013-08-12'
 tags:
 - programacion
 - ruby-on-rails
-dc:creator: Ricardo
+author: Ricardo
 ---
 
 La semana pasada fue movidita en 

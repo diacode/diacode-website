@@ -4,7 +4,7 @@ date: '2011-11-30'
 tags:
 - educacion
 - general
-dc:creator: Javier
+author: Javier
 ---
 
 ![](http://blog.diacode.com/wp-content/uploads/2011/11/nomasmemorizar1.jpg)

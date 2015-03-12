@@ -3,7 +3,7 @@ title: Compitiendo en la aldea global
 date: '2012-03-20'
 tags:
 - empresas
-dc:creator: Javier
+author: Javier
 ---
 
 ![](http://blog.diacode.com/wp-content/uploads/2012/03/aldea_global.jpg)

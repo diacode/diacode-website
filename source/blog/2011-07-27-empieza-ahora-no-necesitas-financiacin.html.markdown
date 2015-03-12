@@ -4,7 +4,7 @@ date: '2011-07-27'
 tags:
 - empresas
 - financiacion
-dc:creator: jose
+author: jose
 ---
 
 Vídeo del genial 

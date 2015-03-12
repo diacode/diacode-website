@@ -4,7 +4,7 @@ date: '2013-09-26'
 tags:
 - devops
 - ruby-on-rails
-dc:creator: Ricardo
+author: Ricardo
 ---
 
 En 

@@ -3,7 +3,7 @@ title: DeskSurfing improvisado
 date: '2011-09-27'
 tags:
 - diacode-2
-dc:creator: Javier
+author: Javier
 ---
 
 La semana pasada nos pasó algo curioso en la oficina. Estábamos trabajando normalmente en la oficina y llamó a la puerta el portero del edificio para ver si podíamos hablar en inglés con un 

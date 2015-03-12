@@ -3,7 +3,7 @@ title: Las empresas no creamos trabajo, nuestros clientes sí
 date: '2012-05-18'
 tags:
 - empresas
-dc:creator: Javier
+author: Javier
 ---
 
 ![](http://blog.diacode.com/wp-content/uploads/2012/05/empresa.jpg)

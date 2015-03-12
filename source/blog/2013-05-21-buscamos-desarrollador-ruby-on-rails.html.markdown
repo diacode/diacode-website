@@ -4,7 +4,7 @@ date: '2013-05-21'
 tags:
 - diacode-2
 - ruby-on-rails
-dc:creator: Javier
+author: Javier
 ---
 
 [![](http://blog.diacode.com/wp-content/uploads/2013/03/looking-for-craft21.jpg)](http://blog.diacode.com/buscamos-desarrollador-ruby-on-rails)

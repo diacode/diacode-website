@@ -4,7 +4,7 @@ date: '2010-08-20'
 tags:
 - diacode-2
 - historia
-dc:creator: jose
+author: jose
 ---
 
 ![](http://blog.diacode.com/wp-content/uploads/2010/08/starting.jpg)[Foto de Robert Voors](http://www.flickr.com/photos/robert_voors/774926895/in/photostream/)

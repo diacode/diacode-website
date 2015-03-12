@@ -3,7 +3,7 @@ title: 10 consejos para montar tu empresa o proyecto
 date: '2012-09-11'
 tags:
 - empresas
-dc:creator: Javier
+author: Javier
 ---
 
 Han pasado casi 2 años y medio desde que comenzamos con la aventura de Diacode. En todo este tiempo hemos tenido muchos aciertos pero también hemos cometido bastantes errores. Echando la vista atrás estas son las cosas que nos aconsejaríamos a nosotros mismos si volviésemos a empezar:*Si trabajas con más gente 

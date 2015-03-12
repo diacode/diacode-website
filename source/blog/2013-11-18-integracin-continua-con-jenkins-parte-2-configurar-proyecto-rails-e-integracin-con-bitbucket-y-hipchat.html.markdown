@@ -4,7 +4,7 @@ title: 'Integración continua con Jenkins: Parte 2 (Configurar proyecto Rails e 
 date: '2013-11-18'
 tags:
 - devops
-dc:creator: Victor
+author: Victor
 ---
 
 [![](http://blog.diacode.com/wp-content/uploads/2013/10/jenkins-rails.png)](http://blog.diacode.com/wp-content/uploads/2013/10/jenkins-rails.png)

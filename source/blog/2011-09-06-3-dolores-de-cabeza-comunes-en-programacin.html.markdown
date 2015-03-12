@@ -3,7 +3,7 @@ title: 3 dolores de cabeza comunes en programación
 date: '2011-09-06'
 tags:
 - programacion
-dc:creator: Javier
+author: Javier
 ---
 
 Da igual lo que uno programe, el lenguaje que utilize o el framework que use, al final siempre uno acaba pegándose con problemas muy similares. En especial los que desarrollamos software orientado a usuarios no anglosajones nos topamos siempre con 3 bestias negras:![](http://blog.diacode.com/wp-content/uploads/2011/09/diacode_skulls.png)

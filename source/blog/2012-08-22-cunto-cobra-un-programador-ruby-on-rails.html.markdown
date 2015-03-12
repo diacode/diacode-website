@@ -4,7 +4,7 @@ date: '2012-08-22'
 tags:
 - empresas
 - ruby-on-rails
-dc:creator: Javier
+author: Javier
 ---
 
 ![](http://blog.diacode.com/wp-content/uploads/2012/08/money.jpg)

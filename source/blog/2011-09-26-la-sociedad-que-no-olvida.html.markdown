@@ -3,7 +3,7 @@ title: La sociedad que no olvida
 date: '2011-09-26'
 tags: []
 published: false
-dc:creator: Javier
+author: Javier
 ---
 
 >Los hombres viven obsesionados por la inmensidad de lo eterno. Por eso nos preguntamos: ¿tendrán eco nuestros actos con el devenir de los siglos?, ¿recordarán nuestros actos los que no nos conocieron cuando ya no estemos?, ¿se preguntaran quienes éramos?, ¿la valentía que demostramos en la batalla o lo apasionados que fuimos en el amor?

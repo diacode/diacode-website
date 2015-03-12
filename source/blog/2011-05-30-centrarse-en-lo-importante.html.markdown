@@ -4,7 +4,7 @@ date: '2011-05-30'
 tags:
 - diacode-2
 - zen
-dc:creator: jose
+author: jose
 ---
 
 Hace poco hablaba con un amigo sobre las posibilidades de creación que tenemos actualmente en cualquier empresa pequeña de software. Cualquier desarrollador medio puede crear muchas soluciones a muchos problemas, y eso es un hecho a tener en cuenta. Para evitar hacerlo en la mayoría de los casos.

@@ -3,7 +3,7 @@ title: Google cambia el diseño de su SERP
 date: '2011-05-07'
 tags:
 - actualidad
-dc:creator: Javier
+author: Javier
 ---
 
 Como informan recientemente en 

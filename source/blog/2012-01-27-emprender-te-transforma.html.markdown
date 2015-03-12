@@ -3,7 +3,7 @@ title: Emprender te transforma
 date: '2012-01-27'
 tags:
 - general
-dc:creator: Javier
+author: Javier
 ---
 
 ![](http://blog.diacode.com/wp-content/uploads/2012/01/emprender_transforma1.jpg)

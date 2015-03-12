@@ -3,7 +3,7 @@ title: Gestiona tus ventanas en Mac OS X con Slate
 date: '2013-08-21'
 tags:
 - productividad-2
-dc:creator: Javier
+author: Javier
 ---
 
 ![](http://blog.diacode.com/wp-content/uploads/2013/08/windows1.png)

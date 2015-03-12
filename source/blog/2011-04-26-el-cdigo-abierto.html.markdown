@@ -4,7 +4,7 @@ date: '2011-04-26'
 tags:
 - open-source
 - programacion
-dc:creator: jose
+author: jose
 ---
 
 Cierta parte del código que se utiliza a día de hoy es código abierto, es decir, se puede modificar y redistribuir libremente, y además de que moralmente resulta muy positivo, tiene unos beneficios prácticos que destacan por encima de todo.

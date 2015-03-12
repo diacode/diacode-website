@@ -3,7 +3,7 @@ title: Nueva web de Diacode
 date: '2011-08-04'
 tags:
 - diacode-2
-dc:creator: Javier
+author: Javier
 ---
 
 Desde que nos mudamos a la nueva oficina teníamos en mente la idea de rediseñar la web de Diacode. No es que no nos gustase la anterior, pero queríamos algo nuevo que reflejase la nueva etapa en la que nos encontramos, así como aprovechar todo lo que hemos aprendido hasta el momento.

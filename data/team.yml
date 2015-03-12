@@ -4,29 +4,42 @@ team_members:
     position: CEO
     email_address: javi@diacode.com
     location: 'Madrid, Spain'
+    bio: Define bio
+    twitter: https://twitter.com/javier_dev
+    github: https://github.com/javiercr
 
   victor:
     full_name: Victor Viruete
     position: CTO
     email_address: victor@diacode.com
     location: 'Jerez de la Frontera, Spain'
+    bio: Define bio
+    twitter: 
+    github: https://github.com/hopsor
 
   ricardo:
     full_name: Ricardo García Vega
     position: Soul surfer developer
     email_address: ricardo@diacode.com
     location: 'Salinas, Asturias, Spain'
+    bio: Define bio
+    twitter: https://twitter.com/bigardone
+    github: https://github.com/bigardone
 
   bruno:
     full_name: Bruno
     position: Developer
     email_address: bruno@diacode.com
     location: 'Vitoria, Spain'
+    bio: Define bio
+    twitter: https://twitter.com/bruselacas
+    github: 
 
   artur:
     full_name: Artur
     position: Developer
     email_address: artur@diacode.com
     location: 'Barcelona, Spain'
-
-
+    bio: Define bio
+    twitter:
+    github: https://github.com/achru

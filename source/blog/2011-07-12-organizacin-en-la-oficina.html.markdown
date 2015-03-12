@@ -5,7 +5,7 @@ tags:
 - empresas
 - oficina
 - productividad
-dc:creator: jose
+author: jose
 ---
 
 Hace un par de meses nos mudamos a una nueva oficina, de la cual mostraremos fotos dentro de poco. Este cambio nos ha servido para revisar una serie de principios sobre cómo organizarse en la oficina que mantenemos casi desde el principio y que queremos compartir.

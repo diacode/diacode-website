@@ -3,7 +3,7 @@ title: 'Desplegando Rails II: Heroku'
 date: '2013-10-08'
 tags:
 - programacion
-dc:creator: Ricardo
+author: Ricardo
 ---
 
 En el 

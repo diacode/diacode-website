@@ -4,7 +4,7 @@ date: '2011-09-13'
 tags:
 - educacion
 - general
-dc:creator: Javier
+author: Javier
 ---
 
 ![](http://blog.diacode.com/wp-content/uploads/2011/09/college.jpeg)

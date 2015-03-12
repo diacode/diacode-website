@@ -4,7 +4,7 @@ date: '2010-12-30'
 tags:
 - programacion
 published: false
-dc:creator: Javier
+author: Javier
 ---
 
 http://www.facebook.com/developers/createapp.php

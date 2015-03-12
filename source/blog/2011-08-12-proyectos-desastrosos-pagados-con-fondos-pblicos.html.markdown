@@ -4,7 +4,7 @@ date: '2011-08-12'
 tags:
 - empresas
 published: false
-dc:creator: Javier
+author: Javier
 ---
 
 La mala gestión de los fondos públicos en España no es una realidad que sorprenda a nadie. No obstante, cuando uno se adentra en un campo profesional empieza a toparse con multitud de proyectos costeados con fondos públicos con resultados desastrosos y presupuestos desorbitados. 
