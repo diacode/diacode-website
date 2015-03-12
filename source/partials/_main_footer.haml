@@ -15,13 +15,10 @@
       %section
         %header
           %h3 Last on our blog
+
         %ul.post-list
-          %li
-            %a{href: '#'} Using Tor to anonymize your web scrapping on OS X
-          %li
-            %a{href: '#'} Artur joins our team!
-          %li
-            %a{href: '#'} Fixing temporary dir problems with Ruby 2
+          - blog.articles.first(4).each do |article|
+            %li=link_to article.title, article.url
       %section
         %header
           %h3 Social
