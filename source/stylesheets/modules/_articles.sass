@@ -1,23 +1,22 @@
 body.blog
-  .container
-    max-width: -webkit-calc(800px - (40px * 2))
-    max-width: calc(800px - (40px * 2))
-    padding-right: 40px
-    padding-left: 40px
-    box-sizing: content-box
-
-    &:after
-      content: ""
-      display: table
-      clear: both
-  
-
   #main_header
     background-image: url(/images/blog-header-1.jpg)
 
   #main_content
     padding-bottom: 3em
     font-size: 24px
+    
+    .container
+      max-width: -webkit-calc(800px - (40px * 2))
+      max-width: calc(800px - (40px * 2))
+      padding-right: 40px
+      padding-left: 40px
+      box-sizing: content-box
+
+      &:after
+        content: ""
+        display: table
+        clear: both
 
   .tag-list
     +inline-list
