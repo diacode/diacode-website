@@ -57,6 +57,14 @@ helpers do
   def nav_active(page)
     'active' if current_page.data.body_class == page
   end
+
+  def tag_list(tags)
+    if tags.count
+      tags.map{ |tag| link_to(tag, tag_path(tag)) }.join(', ')
+    else
+      "Post not tagged"
+    end
+  end
 end
 
 # Use LiveReload

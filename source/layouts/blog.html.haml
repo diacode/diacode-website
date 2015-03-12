@@ -53,7 +53,10 @@
           .container
             %header
               %h1= current_page.data.title
-              %p.meta= current_article.date.strftime('%b %e, %Y')
+              %p.meta
+                = current_article.date.strftime('%b %e, %Y')
+                | 
+                = tag_list(current_article.tags)
 
             .post-content
               = yield
