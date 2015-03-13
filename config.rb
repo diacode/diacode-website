@@ -94,7 +94,7 @@ set :haml, format: :html5, ugly: true
 activate :blog do |blog|
   blog.prefix = "blog"
   # blog.permalink = ":year/:month/:day/:title.html"
-  blog.permalink = ":title.html"
+  blog.permalink = ":title"
   # blog.sources = ":year-:month-:day-:title.html"
   blog.taglink = "tags/:tag.html"
   blog.layout = "layout"
