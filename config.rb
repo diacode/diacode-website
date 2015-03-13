@@ -65,6 +65,22 @@ helpers do
       "Post not tagged"
     end
   end
+
+  def web_url_for(url)
+    if environment == :build
+      "#{web_url}/#{url}"
+    else
+      url
+    end
+  end
+
+  def blog_url_for(url)
+    if environment == :build
+      url.sub(/^\/blog/, blog_url)
+    else
+      url
+    end
+  end
 end
 
 # Use LiveReload
@@ -76,14 +92,16 @@ activate :neat
 
 # Compass configuration
 set :css_dir, 'stylesheets'
-
 set :js_dir, 'javascripts'
-
 set :images_dir, 'images'
 
 set :markdown_engine, :redcarpet
 set :markdown,  tables: true, autolink: true, gh_blockcode: false, fenced_code_blocks: true, with_toc_data: false, disable_indented_code_blocks: false
 set :haml, format: :html5, ugly: true
+
+# Production settings
+set :web_url, 'https://diacode.com'
+set :blog_url, 'https://blog.diacode.com'
 
 ###
 # Blog settings

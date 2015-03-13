@@ -7,14 +7,14 @@ body_class: blog
 - page_articles.each do |article|
   %article.preview
     %h2
-      = link_to article.title, article
+      = link_to article.title, blog_url_for(article.url)
     %p.excerpt= article.summary(100, ' ...')
 
 .pagination
   .prev{:class => prev_page ? "" : "disabled"}
     - if prev_page
-      =link_to "← Previous", prev_page.url
+      =link_to "← Previous", blog_url_for(prev_page.url)
     
   .next{:class => next_page ? "" : "disabled"}
     - if next_page
-      =link_to "Next →", next_page.url
+      =link_to "Next →", blog_url_for(next_page.url)

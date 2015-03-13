@@ -18,7 +18,7 @@
 
         %ul.post-list
           - blog.articles.first(4).each do |article|
-            %li=link_to article.title, article.url
+            %li=link_to article.title, blog_url_for(article.url)
       %section
         %header
           %h3 Social
