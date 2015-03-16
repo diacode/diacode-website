@@ -1,8 +1,11 @@
+require 'dotenv'
 require 'aws-sdk'
 
 class Images < Thor
   desc 'upload [URL|PATH]', 'Upload an image to Amazon S3'
   def upload(location)
+    Dotenv.load
+
     if location.start_with?('http://', 'https://')
       upload_from_url(location)
     else

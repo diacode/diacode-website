@@ -18,6 +18,16 @@ This will create a new file on `source/blog/<POST DATE>-<POST TITLE>.html.markdo
 
 This is one of the ugly trade offs of choosing an static site as blog. In order to not have versioned content images within the repository we have to upload the pictures somewhere else. In our case that's **Amazon S3**.
 
+#### Requirements
+
+Before uploading an image you must have an `.env` file in the root of the project with following variables properly set:
+
+* `AWS_KEY`
+* `AWS_SECRET`
+* `S3_BUCKET`
+
+#### Instructions
+
 You can upload an image to Amazon S3 by running the following command:
 
 ```

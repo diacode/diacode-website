@@ -18,6 +18,9 @@ gem "middleman-blog"
 gem "redcarpet"
 gem 'nokogiri'
 
+# Env variables
+gem 'dotenv'
+
 # Command line tasks
 gem 'thor'
 
