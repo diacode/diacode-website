@@ -12,11 +12,14 @@ gem "middleman-neat"
 # Tools
 gem "middleman-smusher"
 gem "middleman-minify-html"
-
 gem "middleman-deploy"
-
 gem "middleman-blog"
 
 gem "redcarpet"
-
 gem 'nokogiri'
+
+# Command line tasks
+gem 'thor'
+
+# Image uploading
+gem 'aws-sdk', '~> 2'

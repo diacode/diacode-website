@@ -18,7 +18,13 @@ This will create a new file on `source/blog/<POST DATE>-<POST TITLE>.html.markdo
 
 This is one of the ugly trade offs of choosing an static site as blog. In order to not have versioned content images within the repository we have to upload the pictures somewhere else. In our case that's **Amazon S3**.
 
-*To be developed.*
+You can upload an image to Amazon S3 by running the following command:
+
+```
+thor images:upload [PATH|URL]
+```
+
+It will output the URL of the asset so that you can include it the markdown document you desire.
 
 ## Deploy
 
