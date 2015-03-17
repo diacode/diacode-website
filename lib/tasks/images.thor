@@ -1,5 +1,10 @@
 require 'dotenv'
 require 'aws-sdk'
+require 'colorize'
+require 'uri'
+require 'httparty'
+require 'highline/import'
+require 'RMagick'
 
 class Images < Thor
   desc 'upload [URL|PATH]', 'Upload an image to Amazon S3'
@@ -14,12 +19,69 @@ class Images < Thor
   end
 
   no_tasks do
-    def upload_from_url(location)
-      puts 'remote upload'
+    def upload_from_url(url)
+      puts 'Fetching image from URL...'
+      uri = URI.parse(url)
+      filename = File.basename(uri.path)
+      local_file_path = "/tmp/#{filename}"
+
+      File.open(local_file_path, "wb") do |f| 
+        f.write HTTParty.get(url).parsed_response
+      end
+      
+      start_upload(local_file_path)
     end
 
     def upload_from_local(location)
-      puts 'local upload'
+      puts 'Checking existence of local image...'
+      
+      if File.exist?(location)
+        puts "File found!".colorize(:green)
+        start_upload(location)
+      else
+        puts "Error: File doesn't exist or isn't accessible".colorize(:red)
+        exit 1
+      end      
+    end
+
+    def start_upload(path)
+      choose do |menu|
+        menu.prompt = "What do you need?"
+
+        menu.choice('Upload original') { 
+          upload_file(path)
+        }
+
+        menu.choice('Upload original + thumbnail') { 
+          resized_width = ask("Please, enter the width of the thumbnail in pixels: ").to_i
+          resized_image = resize_image(path, resized_width)
+          upload_file(path)
+          upload_file(resized_image)
+        }
+
+        menu.choice('Upload thumbnail') {
+          resized_width = ask("Please, enter the width of the thumbnail in pixels: ").to_i
+          resized_image = resize_image(path, resized_width)
+          upload_file(resized_image)
+        }
+      end
+    end
+
+    def resize_image(path, new_width)
+      img = Magick::Image::read(path).first
+      thumb = img.resize_to_fill(new_width, nil)
+
+      # Build thumb filename
+      extension = File.extname(path)
+      original_filename = File.basename(path, extension)
+      thumb_filename = "#{original_filename}_thumb#{extension}" 
+
+      thumb.write("/tmp/#{thumb_filename}")
+    end
+
+    def upload_file(path)
+      puts "Uploading file #{path}..."
+      # TODO: Add S3 upload stuff here
     end
   end
 end

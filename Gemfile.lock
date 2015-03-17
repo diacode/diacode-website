@@ -1,5 +1,5 @@
 GEM
-  remote: http://rubygems.org/
+  remote: https://rubygems.org/
   specs:
     activesupport (3.2.13)
       i18n (= 0.6.1)
@@ -22,6 +22,7 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.3.3)
+    colorize (0.7.5)
     compass (1.0.3)
       chunky_png (~> 1.2)
       compass-core (~> 1.0.2)
@@ -44,11 +45,15 @@ GEM
     ffi (1.9.6)
     haml (4.0.6)
       tilt
+    highline (1.7.1)
     hike (1.2.3)
     http_parser.rb (0.6.0)
     http_router (0.10.2)
       rack (>= 1.0.0)
       url_mount (~> 0.2.1)
+    httparty (0.13.3)
+      json (~> 1.8)
+      multi_xml (>= 0.5.2)
     httpclient (2.6.0.1)
     i18n (0.6.1)
     jmespath (1.0.2)
@@ -144,6 +149,7 @@ GEM
     rb-inotify (0.9.5)
       ffi (>= 0.5.0)
     redcarpet (3.2.2)
+    rmagick (2.13.4)
     sass (3.4.11)
     sinatra (1.3.6)
       rack (~> 1.4)
@@ -178,7 +184,10 @@ PLATFORMS
 
 DEPENDENCIES
   aws-sdk (~> 2)
+  colorize
   dotenv
+  highline
+  httparty
   middleman (~> 3.0.13)
   middleman-blog
   middleman-bourbon
@@ -189,4 +198,5 @@ DEPENDENCIES
   middleman-smusher
   nokogiri
   redcarpet
+  rmagick
   thor
