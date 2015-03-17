@@ -22,8 +22,9 @@ This is one of the ugly trade offs of choosing an static site as blog. In order 
 
 Before uploading an image you must have an `.env` file in the root of the project with following variables properly set:
 
-* `AWS_KEY`
-* `AWS_SECRET`
+* `AWS_ACCESS_KEY_ID`
+* `AWS_SECRET_ACCESS_KEY`
+* `AWS_REGION`
 * `S3_BUCKET`
 
 #### Instructions
