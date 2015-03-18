@@ -8,7 +8,8 @@ body_class: blog
   %article.preview
     %h2
       = link_to article.title, blog_url_for(article.url)
-    %p.excerpt= article.summary(100, ' ...')
+    %p.excerpt
+      = article.summary
 
 .pagination
   .prev{:class => prev_page ? "" : "disabled"}

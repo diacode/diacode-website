@@ -129,6 +129,21 @@ activate :blog do |blog|
   blog.paginate = true
   blog.per_page = 5
   # blog.page_link = "page/:num"
+
+  # Custom summary generator. First it checks the excerpt and if it isn't present
+  # it summarize the content by getting the first paragraph
+  require 'middleman-blog/truncate_html'
+
+  blog.summary_generator = Proc.new do |article| 
+    if article.data.excerpt
+      article.data.excerpt
+    else
+      doc = Nokogiri::HTML(article.body)
+      paragraphs = doc.xpath('//p')
+      first_paragrah = paragraphs.first
+      TruncateHTML.truncate_html(first_paragrah.content, 140, " ...")
+    end
+  end
 end
 
 page '/blog/*', layout: 'blog'
