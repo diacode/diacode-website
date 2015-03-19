@@ -4,13 +4,21 @@ pageable: true
 body_class: blog
 ---
 
-- page_articles.each do |article|
+- page_articles.each do |article|  
+  - author_key = article.data.author.downcase
+  - author = data.team.team_members[author_key]
+
   %article.preview
     %h2
       = link_to article.title, blog_url_for(article.url)
     %p.excerpt
       = article.summary
-
+    .meta
+      .author= author.full_name
+      %time{datetime: article.date}
+        = article.date.strftime('%b %e, %Y')
+      .tags= tag_list(article.tags)
+      
 .pagination
   .prev{:class => prev_page ? "" : "disabled"}
     - if prev_page
