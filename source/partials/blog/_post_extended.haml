@@ -1,0 +1,39 @@
+/ TODO: Move this to a partial
+%article.blog-post
+  .container
+    %header
+      %h1= current_page.data.title
+      %p.meta
+        = current_article.date.strftime('%b %e, %Y')
+        | 
+        = tag_list(current_article.tags)
+
+    .post-content
+      = current_article.body
+
+    .author
+      - author_key = current_article.data.author.downcase
+      - author = data.team.team_members[author_key]
+
+      = image_tag "/images/team/#{author_key}.jpg", height: nil           
+      .info
+        %h2= author['full_name']
+        %p= author['bio']
+        %ul.links
+          - if author['github']
+            %li= link_to "Github", author['github']
+          
+          - if author['twitter']
+            %li= link_to "Twitter", author['twitter']
+            
+    #disqus_thread
+    :javascript
+      /* * * CONFIGURATION VARIABLES * * */
+      var disqus_shortname = 'diacode-blog';
+      
+      /* * * DON'T EDIT BELOW THIS LINE * * */
+      (function() {
+          var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+          dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+          (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+      })();
