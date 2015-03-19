@@ -1,19 +1,8 @@
 ---
 pageable: true
-per_page: 12
+body_class: blog
 ---
-%h1
-  Articles tagged '#{tagname}'
-- if paginate && num_pages > 1
-  %p
-    Page #{page_number} of #{num_pages}
-  - if prev_page
-    %p= link_to 'Previous page', blog_url_for(prev_page.url)
-%ul
-  - page_articles.each_with_index do |article, i|
-    %li
-      = link_to article.title, blog_url_for(article.url)
-      %span= article.date.strftime('%b %e')
-- if paginate
-  - if next_page
-    %p= link_to 'Next page', blog_url_for(next_page.url)
+
+- content_for(:header_title, "Posts tagged with '#{tagname}'")
+
+= partial 'partials/blog/post_list', locals: {articles: page_articles, prev_page: prev_page, next_page: next_page}

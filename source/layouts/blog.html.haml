@@ -43,8 +43,7 @@
       %header#main_header
         .container
           .welcome
-            %h1= current_page.data.title
-            = partial 'partials/article_metadata', locals: {article: current_article} if current_article
+            %h1= yield_content(:header_title)
 
     #main_content
       - if current_article
@@ -66,7 +65,6 @@
               - author = data.team.team_members[author_key]
 
               = image_tag "/images/team/#{author_key}.jpg", height: nil           
-
               .info
                 %h2= author['full_name']
                 %p= author['bio']

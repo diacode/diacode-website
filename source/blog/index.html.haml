@@ -4,26 +4,6 @@ pageable: true
 body_class: blog
 ---
 
-- page_articles.each do |article|  
-  - author_key = article.data.author.downcase
-  - author = data.team.team_members[author_key]
+- content_for(:header_title, current_page.data.title)
 
-  %article.preview
-    %h2
-      = link_to article.title, blog_url_for(article.url)
-    %p.excerpt
-      = article.summary
-    .meta
-      .author= author.full_name
-      %time{datetime: article.date}
-        = article.date.strftime('%b %e, %Y')
-      .tags= tag_list(article.tags)
-      
-.pagination
-  .prev{:class => prev_page ? "" : "disabled"}
-    - if prev_page
-      =link_to "← Previous", blog_url_for(prev_page.url)
-    
-  .next{:class => next_page ? "" : "disabled"}
-    - if next_page
-      =link_to "Next →", blog_url_for(next_page.url)
+= partial 'partials/blog/post_list', locals: {articles: page_articles, prev_page: prev_page, next_page: next_page}
