@@ -6,9 +6,9 @@
           %h3 Newsletter
         %p Suscríbete a Diacode Picks, nuestra newsletter donde compartimos lo último en cuanto a desarrollo web:
 
-        %form{action: ''}
+        %form{action: '//diacode.us2.list-manage.com/subscribe/post?u=84b6b6aa12ade9f1f2b81d51a&amp;id=04aba6c42c', method: 'post', target: '_blank'}
           .field
-            %input{type: "email", placeholder: 'Write here your email'}/
+            %input{type: "email", placeholder: 'Write here your email', name: 'EMAIL', required: true}
           .action
             %button{type: 'submit'} Subscribe
 
