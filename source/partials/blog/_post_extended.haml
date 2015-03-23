@@ -16,7 +16,7 @@
 
       = image_tag "/images/team/#{author_key}.jpg", height: nil           
       .info
-        %h2= author['full_name']
+        %h2 About #{author['full_name']}
         %p= author['bio']
         %ul.links
           - if author['github']

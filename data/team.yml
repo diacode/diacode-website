@@ -4,7 +4,8 @@ team_members:
     position: CEO
     email_address: javi@diacode.com
     location: 'Madrid, Spain'
-    bio: Define bio
+    bio: |
+      Founded Diacode in 2010. Ruby developer and college dropout. Interested in entrepreneurship, education and cryptocurrencies.
     twitter: https://twitter.com/javier_dev
     github: https://github.com/javiercr
 
@@ -13,7 +14,8 @@ team_members:
     position: CTO
     email_address: victor@diacode.com
     location: 'Jerez de la Frontera, Spain'
-    bio: Define bio
+    bio: |
+      Passionate about technology in general with a decade of experience in web development. On 2013 I became partner of Diacode assuming the CTO role.
     twitter: 
     github: https://github.com/hopsor
 
@@ -31,7 +33,8 @@ team_members:
     position: Developer
     email_address: bruno@diacode.com
     location: 'Vitoria, Spain'
-    bio: Define bio
+    bio: |
+      Ahoy! I'm a pirate sailing the «full stack» ocean! I write about (and love) Ruby on Rails, UX/UI design, Growth Hacking and Startups!
     twitter: https://twitter.com/bruselacas
     github: https://github.com/bbay
 
