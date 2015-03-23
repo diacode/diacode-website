@@ -24,7 +24,8 @@ team_members:
     position: Soul surfer developer
     email_address: ricardo@diacode.com
     location: 'Salinas, Asturias, Spain'
-    bio: Define bio
+    bio: |
+      I am a passionate full-stack web developer, who loves surfing before the sun rises.
     twitter: https://twitter.com/bigardone
     github: https://github.com/bigardone
 
