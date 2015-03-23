@@ -5,6 +5,7 @@ require 'uri'
 require 'httparty'
 require 'highline/import'
 require 'RMagick'
+require 'date'
 
 class Images < Thor
   desc 'upload [URL|PATH]', 'Upload an image to Amazon S3'
@@ -91,7 +92,8 @@ class Images < Thor
       puts "Uploading file #{path}..."
       bucket = Aws::S3::Resource.new.bucket(ENV['S3_BUCKET'])
       filename = File.basename(path)
-      object = bucket.object(filename)
+      folder_prefix = Date.today.strftime("%Y/%m")
+      object = bucket.object("#{folder_prefix}/#{filename}")
       object.upload_file(path, acl: 'public-read')
       object.public_url
     end
