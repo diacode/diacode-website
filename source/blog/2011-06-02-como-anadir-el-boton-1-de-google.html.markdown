@@ -7,7 +7,7 @@ tags:
 author: Javier
 ---
 
-![Botón +1 de Google](http://blog.diacode.com/wp-content/uploads/2011/06/masuno.png)
+![Botón +1 de Google](https://diacode-blog.s3-eu-west-1.amazonaws.com/2011/06/masuno.png)
 
 El 
 **botón +1 de Google**

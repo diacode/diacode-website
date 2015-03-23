@@ -10,7 +10,7 @@ author: jose
 
 [Bootstrapping](http://en.wikipedia.org/wiki/Bootstrapping) es un término metafórico que hace referencia a un negocio que se ha financiado por sí mismo, y que paga sus gastos exclusivamente con sus ingresos (o dinero de los socios) sin financiación externa.
 
-![](http://blog.diacode.com/wp-content/uploads/2011/04/Dr_Martens_black_old.jpg)
+![](https://diacode-blog.s3-eu-west-1.amazonaws.com/2011/04/Dr_Martens_black_old.jpg)
 
 
 

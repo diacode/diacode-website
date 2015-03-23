@@ -6,7 +6,7 @@ tags:
 author: Javier
 ---
 
-[![](http://blog.diacode.com/wp-content/uploads/2012/08/education1900.jpeg)](http://commons.wikimedia.org/wiki/File:France_in_XXI_Century._School.jpg)
+[![](https://diacode-blog.s3-eu-west-1.amazonaws.com/2012/08/education1900.jpeg)](http://commons.wikimedia.org/wiki/File:France_in_XXI_Century._School.jpg)
 Esta ilustración fue realizada para la Expo de Paris en 1900. Lamentablemente no se equivocaron demasiado al visualizar las aulas con tecnología pero con los mismos errores estructurales del pasado: educación síncrona, unidireccional, presencial, y dirigida por un profesor sentado en un altillo.
 
 Podéis encontrar otras geniales ilustraciones de esta colección en 

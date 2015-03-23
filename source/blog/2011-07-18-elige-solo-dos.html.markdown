@@ -6,7 +6,7 @@ tags:
 author: jose
 ---
 
-![El triángulo de la gestión de proyectos](http://blog.diacode.com/wp-content/uploads/2011/07/solo2.png)
+![El triángulo de la gestión de proyectos](https://diacode-blog.s3-eu-west-1.amazonaws.com/2011/07/solo2.png)
 
 
 Este helado creado por 

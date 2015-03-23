@@ -33,7 +33,7 @@ Ember.js + Hubot to the rescue!
 
 ## Ember.js
 
-[![emberjs-logo](http://blog.diacode.com/wp-content/uploads/2014/04/emberjs-logo.png)](http://blog.diacode.com/wp-content/uploads/2014/04/emberjs-logo.png)
+[![emberjs-logo](https://diacode-blog.s3-eu-west-1.amazonaws.com/2014/04/emberjs-logo.png)](https://diacode-blog.s3-eu-west-1.amazonaws.com/2014/04/emberjs-logo.png)
 
 Developing a separate application to manage the newsletter was a pretty straight forward idea that came up as we wanted to runaway from the WordPress painfully approach, but, what kind of app? Just a Rails app or something else?
 
@@ -50,7 +50,7 @@ On the other hand, the compilation manager is basically a view where you can see
 
 ## Hubot
 
-[![hubot](http://blog.diacode.com/wp-content/uploads/2014/04/hubot.png)](http://blog.diacode.com/wp-content/uploads/2014/04/hubot.png)
+[![hubot](https://diacode-blog.s3-eu-west-1.amazonaws.com/2014/04/hubot.png)](https://diacode-blog.s3-eu-west-1.amazonaws.com/2014/04/hubot.png)
 
 It wasn't enough having a separate application to manage the newsletter, there was something else we didn't want to put aside. Sharing the links on Hipchat was essential for us so we needed to connect our Hipchat room with the application somehow and that's where **Hubot** went on stage.
 

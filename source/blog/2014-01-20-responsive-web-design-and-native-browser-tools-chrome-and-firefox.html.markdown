@@ -21,10 +21,10 @@ Mozilla’s testing version of it’s world wide known browser now comes with a 
 Responsive Design View. To activate this view is as simple as selecting it from the 
 Developer Tools menu.
 
-![](http://blog.diacode.com/wp-content/uploads/2014/01/Captura-de-pantalla-2014-01-17-a-las-15.09.04.png)
+![](https://diacode-blog.s3-eu-west-1.amazonaws.com/2014/01/Captura-de-pantalla-2014-01-17-a-las-15.09.04.png)
 When you enter this mode you can simulate the resolution of any device by just selecting a preset from the dropdown menu, or use a custom one by using the draggable tool at your disposal (located at the right margin, bottom margin or bottom right corner) and you can watch how your responsive design reacts to these changes.
 
-![](http://blog.diacode.com/wp-content/uploads/2014/01/Captura-de-pantalla-2014-01-17-a-las-15.33.25.png)
+![](https://diacode-blog.s3-eu-west-1.amazonaws.com/2014/01/Captura-de-pantalla-2014-01-17-a-las-15.33.25.png)
 You can also simulate screen rotation, touch events and take quick snapshots to share them with your team mates and clients. As you can see, Firefox's new feature is useful, but you can find it quite simple anyway and here is where Google's Chrome Canary comes into play.
 
 ###Google Chrome Canary’s Emulation
@@ -37,7 +37,7 @@ Settings menu within the
 DevTools and enable “Show ‘Emulation’ view in console drawer”. Now you will find the new 
 Emulation panel in the browser's console.
 
-![](http://blog.diacode.com/wp-content/uploads/2014/01/Captura-de-pantalla-2014-01-20-a-las-08.11.31.png)
+![](https://diacode-blog.s3-eu-west-1.amazonaws.com/2014/01/Captura-de-pantalla-2014-01-20-a-las-08.11.31.png)
  
 
 Inside this panel you will find a vertical menu with the following options:

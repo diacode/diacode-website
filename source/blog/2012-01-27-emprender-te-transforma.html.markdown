@@ -6,7 +6,7 @@ tags:
 author: Javier
 ---
 
-![](http://blog.diacode.com/wp-content/uploads/2012/01/emprender_transforma1.jpg)
+![](https://diacode-blog.s3-eu-west-1.amazonaws.com/2012/01/emprender_transforma1.jpg)
 Dar el salto de trabajar por cuenta ajena, con un horario, unas normas y unos roles preestablecidos, hacía el abismo del trabajo autónomo, tiene sus consecuencias. Desde mi propia experiencia y habiendo comentado el asunto con algunos amigos emprendedores, he podido observar que hay una serie de alteraciones comunes que todos hemos sufrido en este proceso.
 
 

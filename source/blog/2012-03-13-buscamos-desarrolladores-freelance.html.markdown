@@ -6,7 +6,7 @@ tags:
 author: Javier
 ---
 
-![](http://blog.diacode.com/wp-content/uploads/2010/12/recruiting.jpg)
+![](https://diacode-blog.s3-eu-west-1.amazonaws.com/2010/12/recruiting.jpg)
 
 [Foto original por Lawrence Whittemore](http://www.flickr.com/photos/lawrence_evil/129691678/)
 

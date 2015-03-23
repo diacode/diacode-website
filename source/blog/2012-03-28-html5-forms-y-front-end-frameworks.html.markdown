@@ -7,7 +7,7 @@ tags:
 author: Javier
 ---
 
-![](http://blog.diacode.com/wp-content/uploads/2011/10/diacode-TALKS-2.png)
+![](https://diacode-blog.s3-eu-west-1.amazonaws.com/2011/10/diacode-TALKS-2.png)
 
 Ayer celebramos la 
 **tercera edición de Diacode Talks!**
@@ -27,7 +27,7 @@ Os dejamos ambas presentaciones:
 Recomendamos ver esta presentación en 
 [Opera](http://www.opera.com/) para poder probar todos los ejemplos.
 
-[![](http://blog.diacode.com/wp-content/uploads/2012/03/html5forms.png)](http://cesardelacruz.es/html5/forms/)
+[![](https://diacode-blog.s3-eu-west-1.amazonaws.com/2012/03/html5forms.png)](http://cesardelacruz.es/html5/forms/)
 
 
 ##Front-End Frameworks: a quick overview (

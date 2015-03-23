@@ -8,7 +8,7 @@ author: Ricardo
 excerpt: Útil guía sobre como acceder a una API empleando para ello la gema Faraday. 
 ---
 
-![Faraday](http://blog.diacode.com/wp-content/uploads/2013/07/faraday1.jpg)
+![Faraday](https://diacode-blog.s3-eu-west-1.amazonaws.com/2013/07/faraday1.jpg)
 
 Una de las cosas que más me gusta de trabajar en **Diacode** es la diversidad y originalidad de los proyectos que estamos desarrollando. Esta semana he estado ayudando a añadir nuevas funcionalidades a uno de estos proyectos, que es una aplicación muy chula para que uno de nuestros clientes pueda gestionar todas las fotografías de sus actos públicos, eventos, convenciones y demás. No solo le permite añadir las fotografías y organizarlas en galerías, sino que además le permite introducir o modificar la información de los metadatos [Exif](http://es.wikipedia.org/wiki/Exchangeable_image_file_format), etiquetar a la gente que aparece en ellas, etc.
 

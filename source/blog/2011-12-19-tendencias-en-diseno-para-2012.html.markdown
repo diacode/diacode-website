@@ -33,10 +33,10 @@ Por ejemplo, todos los nuevos diseños de Microsoft (Windows 8, Zune, Windows Ph
 [lenguaje de diseño](http://en.wikipedia.org/wiki/Design_language) llamado 
 [Metro](http://en.wikipedia.org/wiki/Metro_(design_language)), a través del cual comparten muchas características entre ellas el uso de cuadrados como elementos gráficos principales.
 
-![](http://blog.diacode.com/wp-content/uploads/2011/12/dash-games-dashup83838.jpeg)
+![](https://diacode-blog.s3-eu-west-1.amazonaws.com/2011/12/dash-games-dashup83838.jpeg)
 De modo similar, las nuevas interfaces de Google, introducidas primeramente por Google+, hacen gala de elementos muy minimalistas. En este caso los botones tienen unas esquinas redondeadas mínimamente de manera casi inapreciable, (en concreto tienen un border-radius de 2 pixels). Mantienen el aspecto "amigable" que ofrecen las forma redondeadas, pero ofrecen la estética ordenada y organizada propia de los elementos cuadrados.
 
-![](http://blog.diacode.com/wp-content/uploads/2011/12/botones_gmail.png)
+![](https://diacode-blog.s3-eu-west-1.amazonaws.com/2011/12/botones_gmail.png)
 
 En diseño tan importante son las formas de cada elemento como los espacios en blanco que generan a su alrededor, por ello a veces el abuso de formas muy redondeadas genera espacios extraños, creando inestabilidad, mientras que las formas más cuadradas aparentan ser más "estables".
 
@@ -45,7 +45,7 @@ En diseño tan importante son las formas de cada elemento como los espacios en b
 
 Si bien es cierto que gran parte de esa estética Web 2.0 puede ser atribuida a Apple, hay que decir que estos mismos han vuelto a ser os primeros en introducir nuevas tendencias, como por ejemplo ciertas tendencias minimalistas que han llevado a hacer invisible la barra de scroll en la última versión de su sistema operativo Mac Os X Lion.
 
-![](http://blog.diacode.com/wp-content/uploads/2011/12/scroll_lion.png)
+![](https://diacode-blog.s3-eu-west-1.amazonaws.com/2011/12/scroll_lion.png)
 
 Esta barra de scroll, además de presentar un sencillo color gris (a diferencia de las características barras 
 [Aqua](http://en.wikipedia.org/wiki/Aqua_(user_interface))), solo está presente cuando se hace scroll, dando aún más importancia al contenido. Esta misma idea es empleada por 
@@ -53,7 +53,7 @@ Esta barra de scroll, además de presentar un sencillo color gris (a diferencia 
  en su pantalla de actividad en tiempo real (presente en la parte de derecha de su interfaz).
 
 
-![](http://blog.diacode.com/wp-content/uploads/2011/12/botones_gmail1.png)
+![](https://diacode-blog.s3-eu-west-1.amazonaws.com/2011/12/botones_gmail1.png)
 
 Otra tendencia de caracter minimalista es la 
 **eliminación del texto en muchos botones**
@@ -77,7 +77,7 @@ smartphones o
 tablets sidebars que inicialmente están ocultos pero que se despliegan al pulsar en un botón determinado. Estos sidebars suelen recoger las secciones o acciones más importantes de la aplicación, siendo su herramienta principal de navegación.
 
 
-![](http://blog.diacode.com/wp-content/uploads/2011/12/facebook_android.png)
+![](https://diacode-blog.s3-eu-west-1.amazonaws.com/2011/12/facebook_android.png)
 
 Este es el caso por ejemplo de la nueva aplicación móvil de Facebook, pero existen 
 [otras aplicaciones](http://mobile-patterns.com/custom-navigation) que hacen uso del mismo recurso.

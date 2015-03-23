@@ -7,7 +7,7 @@ tags:
 author: jose
 ---
 
-[![Grandes empresas, foto por Francesco Chillari](http://blog.diacode.com/wp-content/uploads/2011/06/4852934543_9f916e6777_o1.jpeg)](http://blog.diacode.com/el-tamano-esta-sobrevalorado)
+[![Grandes empresas, foto por Francesco Chillari](https://diacode-blog.s3-eu-west-1.amazonaws.com/2011/06/4852934543_9f916e6777_o1.jpeg)](http://blog.diacode.com/el-tamano-esta-sobrevalorado)
 
 Cada día veo como empresas que tienen 5 empleados intentan hacer creer a posibles clientes o a otras empresas del sector que son una gran empresa.
 

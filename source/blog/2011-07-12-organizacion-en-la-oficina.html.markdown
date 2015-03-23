@@ -11,7 +11,7 @@ author: jose
 Hace un par de meses nos mudamos a una nueva oficina, de la cual mostraremos fotos dentro de poco. Este cambio nos ha servido para revisar una serie de principios sobre cómo organizarse en la oficina que mantenemos casi desde el principio y que queremos compartir.
 
 
-![Edificio donde está nuestra oficina](http://blog.diacode.com/wp-content/uploads/2011/07/oficina.jpg)
+![Edificio donde está nuestra oficina](https://diacode-blog.s3-eu-west-1.amazonaws.com/2011/07/oficina.jpg)
 
 [Foto del edificio por Nacho del Río](http://www.pixselect.es)
 

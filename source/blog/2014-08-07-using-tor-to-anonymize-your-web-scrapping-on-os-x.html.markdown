@@ -11,7 +11,7 @@ excerpt: Guide to anonymize your web scrapping using Tor on OS X.
 
 Sometimes you need to scrap some content from a few sites and you want to remain anonymous. You can try to Google for a list of free proxies to use, but most of the free proxies you'll find probably will be very slow.
 
-![Tor](http://blog.diacode.com/wp-content/uploads/2014/08/tor.png)
+![Tor](https://diacode-blog.s3-eu-west-1.amazonaws.com/2014/08/tor.png)
 
 The simplest solution we've found is to use [Tor](https://www.torproject.org). It directs all your traffic through a free, worldwide network consisting of more than five thousand relays that will protect your IP address and location. There a few software packages related to Tor but the two more relevantes are the 
 [Tor Browser](https://www.torproject.org/projects/torbrowser.html.en) (a Firefox for that has Tor ingtegrated) and the [Tor proxy.](https://www.torproject.org/docs/tor-doc-osx.html.en) We'll use the Tor proxy for this task.

@@ -6,7 +6,7 @@ tags:
 author: Javier
 ---
 
-![](http://blog.diacode.com/wp-content/uploads/2011/07/opa1.png)
+![](https://diacode-blog.s3-eu-west-1.amazonaws.com/2011/07/opa1.png)
 Hace un par de meses surgió 
 [Opa](http://opalang.org), un nuevo lenguaje de programación diseñado para el desarrollo web, que promete el desarrollo ágil de aplicaciones web seguras, altamente escalables y distribuidas.
 
@@ -50,7 +50,7 @@ Tras leer brevemente la
 
 El código de ejemplo no incluye uso de la base de datos para guardar el historial de mensajes, de forma que cuando un usuario se conecta no ve lo escrito anteriormente. Por esto y por la curiosidad de probar la base de datos que incorpora Opa, decidí modificar el código para incluir el guardado de mensajes en la base de datos y su posterior recuperación. Además invertí el orden en el que se muestran los mensajes (los más recientes arriba).
 
-[![](http://blog.diacode.com/wp-content/uploads/2011/07/diacode_chat_opa_thumb.png)](http://blog.diacode.com/wp-content/uploads/2011/07/diacode_chat_opa.png)
+[![](https://diacode-blog.s3-eu-west-1.amazonaws.com/2011/07/diacode_chat_opa_thumb.png)](https://diacode-blog.s3-eu-west-1.amazonaws.com/2011/07/diacode_chat_opa.png)
 Tras estar unas horas trasteando con Opa, esta son algunas de las 
 **conclusiones**
  que he sacado:

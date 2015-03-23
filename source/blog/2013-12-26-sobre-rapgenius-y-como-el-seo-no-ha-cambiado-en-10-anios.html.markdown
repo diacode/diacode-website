@@ -30,7 +30,7 @@ Pocas horas después el equipo de RapGenius reaccionaba publicando una
 Está claro que las estrategias de RapGenius han sido siempre muy agresivas. Sus esfuerzos de expansión internacional van en la misma línea. Lo sé de primera mano puesto que hace casi 2 años Mahbod Moghadam, CEO de RapGenius se puso en contacto con 
 [VersosPerfectos](http://versosperfectos.com) (proyecto fundando por Victor, CTO en Diacode, y lo más parecido a RapGenius en España). Este fue uno de los emails que nos envió:
 
-![](http://blog.diacode.com/wp-content/uploads/2013/12/email1.png)
+![](https://diacode-blog.s3-eu-west-1.amazonaws.com/2013/12/email1.png)
 Tras este email tuve un hangout con Mahbod en el que quedó claro que el "let's merge VP and RG" del email, en realidad era un rebranding de VersosPerfectos bajo la marca RapGenius sin ofrecer nada claro a cambio. En definitiva, muy buenas palabras y muy buen rollo pero sin nada interesante que ofrecer a cambio, salvo el hecho de querer aprovecharse de un trabajo titánico como es la base de datos de VP, mantenida de forma manual y altruista por colaboradores desde 2005.
 
 Volviendo al tema del SEO. Hace un par de semanas asistí a un evento de Google Partners en el que 

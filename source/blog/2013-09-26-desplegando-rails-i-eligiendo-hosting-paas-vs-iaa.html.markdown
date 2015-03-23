@@ -40,7 +40,7 @@ Teniendo nuestra estrategia bien clara y definida, entre la gran variedad de opc
 **se encargan de todo lo demás**
 , haciendo esta parte completamente transparente para nosotros y así centrarnos en lo que realmente sabemos hacer bien.
 
-[![](http://blog.diacode.com/wp-content/uploads/2013/09/heroku-logo.png)](https://www.heroku.com/)
+[![](https://diacode-blog.s3-eu-west-1.amazonaws.com/2013/09/heroku-logo.png)](https://www.heroku.com/)
 Entre las muchas opciones que hay de este tipo, probablemente las más conocida y la que nosotros usamos es 
 **Heroku**
 . Algunas de las razones de las que nos han llevado a usarlo son:
@@ -70,7 +70,7 @@ emails, analíticas, motores de búsqueda, etc.
 **VPS**
  (máquina virtual), encargándose únicamente de la conectividad, almacenamiento y otros recursos referentes a tecnología de virtualización. Nosotros, como clientes, disponemos de un panel de control desde donde poder solicitar y aplicar más recursos a nuestros servidores, y tenemos control total sobre la máquina virtual, su sistema operativo, lo que que queramos instalar en cuanto a servidores y motores de bases de datos, los procesos que corren en segundo plano, copias de seguridad, etc. La desventaja ya la imagináis, que tenemos que tener un mínimo de nociones sobre administración de sistemas y esto nos puede traer más de un quebradero de cabeza.
 
-[![](http://blog.diacode.com/wp-content/uploads/2013/09/digital-ocean-logo.png)](https://www.digitalocean.com/?refcode=86b3281830df)
+[![](https://diacode-blog.s3-eu-west-1.amazonaws.com/2013/09/digital-ocean-logo.png)](https://www.digitalocean.com/?refcode=86b3281830df)
 También existen diversas opciones para este tipo de servicio, pero hay uno que ha llamado recientemente nuestra atención debido a su facilidad de uso, precio y rendimiento. Su nombre es 
 **Digital Ocean**
  y está pegando muy fuerte ya que:

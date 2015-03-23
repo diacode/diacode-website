@@ -11,6 +11,6 @@ Como informan recientemente en
 SERP). Estos cambios parecen no ser visibles para todos los usuarios por el momento, de hecho en Diacode no todos podemos ver estos cambios.Os dejamos con una comparativa del diseño nuevo que vemos en 
 [Google.com/ncr](http://www.google.com/ncr) (ncr indica a Google "no country", es decir, la versión general del buscador), y los resultados que vemos en Google.es con el anterior diseño.
 
-[![](http://blog.diacode.com/wp-content/uploads/2011/05/google-new-design-1024x844.png)](http://blog.diacode.com/wp-content/uploads/2011/05/google-new-design.png)
+[![](https://diacode-blog.s3-eu-west-1.amazonaws.com/2011/05/google-new-design-1024x844.png)](https://diacode-blog.s3-eu-west-1.amazonaws.com/2011/05/google-new-design.png)
 
-[![](http://blog.diacode.com/wp-content/uploads/2011/05/google-old-design-1024x844.png)](http://blog.diacode.com/wp-content/uploads/2011/05/google-old-design.png)
+[![](https://diacode-blog.s3-eu-west-1.amazonaws.com/2011/05/google-old-design-1024x844.png)](https://diacode-blog.s3-eu-west-1.amazonaws.com/2011/05/google-old-design.png)

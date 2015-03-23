@@ -6,7 +6,7 @@ tags:
 author: Javier
 ---
 
-![](http://blog.diacode.com/wp-content/uploads/2012/04/passport.jpg)
+![](https://diacode-blog.s3-eu-west-1.amazonaws.com/2012/04/passport.jpg)
 
 Si como el común de los mortales alguna vez has caído en la tentación de 
 **buscar tu nombre en Google**

@@ -8,7 +8,7 @@ tags:
 author: Victor
 ---
 
-[![](http://blog.diacode.com/wp-content/uploads/2013/10/jenkins-rails.png)](http://blog.diacode.com/wp-content/uploads/2013/10/jenkins-rails.png)
+[![](https://diacode-blog.s3-eu-west-1.amazonaws.com/2013/10/jenkins-rails.png)](https://diacode-blog.s3-eu-west-1.amazonaws.com/2013/10/jenkins-rails.png)
 
 Lo prometido es deuda y tras ofreceros el post sobre [cómo instalar y configurar Jenkins](http://blog.diacode.com/integracion-continua-con-jenkins-parte-1-introduccion-e-instalacion) hoy os traemos una segunda parte en la cual os explicaremos como poner en marcha nuestro proyecto **Ruby on Rails** con 
 **Jenkins CI** e integrarlo con **Bitbucket** y **Hipchat**. Siguiendo los pasos de este tutorial conseguiremos que cada vez que pusheamos commits al repositorio nuestro servidor de integración continua se entere de estos cambios, los descargue y ejecute la batería de tests para verificar que no se ha roto nada. El resultado de ejecutar la batería de tests será notificado en una sala de chat. Este viene siendo el approach que seguimos desde hace algún tiempo para nuestros proyectos y queremos compartirlo con todos vosotros.
@@ -39,7 +39,7 @@ Así mismo tendremos que crear en el sistema la base de datos que vaya a usarse 
 Para que nuestro servidor Jenkins pueda comunicarse con nuestras salas de Hipchat en primer lugar es necesario generar un token en el servicio de Atlassian. Para ello nos loguearemos en nuestra cuenta de Hipchat desde la web, clickaremos en **Group Admin** y a continuación entraremos en la pestaña de API. Abajo aparacerá un formulario con el cual crearemos un nuevo token de tipo 
 **Notification** y al cual pondremos de label 'Jenkins CI'. Una vez creado copiaremos el token para usarlo posteriormente en Jenkins.
 
-[![](http://blog.diacode.com/wp-content/uploads/2013/11/hipchat-api-token.png)](http://blog.diacode.com/wp-content/uploads/2013/11/hipchat-api-token.png)
+[![](https://diacode-blog.s3-eu-west-1.amazonaws.com/2013/11/hipchat-api-token.png)](https://diacode-blog.s3-eu-west-1.amazonaws.com/2013/11/hipchat-api-token.png)
 
 Una vez copiado el token nos iremos a la administración del servidor de Jenkins y dentro de **Configurar el sistema** pegaremos el token que hemos generado anteriormente en el apartado de **Global HipChat Notifier Settings**. Además, en el campo de Jenkins URL pondremos la url de nuestro servidor de Jenkins para que los enlaces que se muestran en Hipchat apunten correctamente a donde corresponde.
 

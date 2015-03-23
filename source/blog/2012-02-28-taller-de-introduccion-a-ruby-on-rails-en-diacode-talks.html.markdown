@@ -9,7 +9,7 @@ tags:
 author: Javier
 ---
 
-![14 hackers en el Taller de Introducción a Ruby on Rails](http://blog.diacode.com/wp-content/uploads/2012/02/taller_rails.jpg)
+![14 hackers en el Taller de Introducción a Ruby on Rails](https://diacode-blog.s3-eu-west-1.amazonaws.com/2012/02/taller_rails.jpg)
 
 Tras la segunda edición de 
 [Diacode Talks!](http://blog.diacode.com/diacode-talks) surgió la idea de hacer un 

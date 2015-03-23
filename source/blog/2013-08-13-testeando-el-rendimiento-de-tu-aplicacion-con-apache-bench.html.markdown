@@ -6,7 +6,7 @@ tags:
 author: Javier
 ---
 
-![](http://blog.diacode.com/wp-content/uploads/2013/08/results.png)
+![](https://diacode-blog.s3-eu-west-1.amazonaws.com/2013/08/results.png)
 
 Recientemente uno de nuestros clientes nos solicitó realizar unos test de estrés a una aplicación (Ruby on Rails). Después de barajar diferentes opciones, entre ellas el propio 
 [framework oficial para Performance Testing de Rails](http://guides.rubyonrails.org/v3.2.13/performance_testing.html), decidimos optar por algo más sencillo y genérico 

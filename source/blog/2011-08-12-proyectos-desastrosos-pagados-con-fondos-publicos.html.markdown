@@ -12,7 +12,7 @@ La mala gestión de los fondos públicos en España no es una realidad que sorpr
 En especial, en el mundo del desarrollo web es frustrante ver la cantidad de millones de euros que terminan en manos de grandes consultoras que siguen ancladas en el pleistoceno. A continuación os presentamos algunos de estos despropósitos:##Renfe
 
 
-[![](http://blog.diacode.com/wp-content/uploads/2011/08/renfe.png)](http://blog.diacode.com/wp-content/uploads/2011/08/renfe.png)
+[![](https://diacode-blog.s3-eu-west-1.amazonaws.com/2011/08/renfe.png)](https://diacode-blog.s3-eu-west-1.amazonaws.com/2011/08/renfe.png)
 La web de 
 [Renfe](http://www.renfe.com) se lleva todos los méritos para encabecar nuestro artículo. Con un presupuesto de 
 [11,5 millones de Euros](http://loogic.com/115-millones-de-euros-no-bastan-para-hacer-una-web-decente-la-verguenza-nacional-de-renfees/) y desarrollada por 
@@ -26,10 +26,10 @@ Por cierto, el asistente virtual (esquina inferior izquierda) nos recuerda curio
 ##Agencia Tributaria
 
 
-[![](http://blog.diacode.com/wp-content/uploads/2011/08/agenciatributaria.png)](http://blog.diacode.com/wp-content/uploads/2011/08/agenciatributaria.png)
+[![](https://diacode-blog.s3-eu-west-1.amazonaws.com/2011/08/agenciatributaria.png)](https://diacode-blog.s3-eu-west-1.amazonaws.com/2011/08/agenciatributaria.png)
 
 
 ##Servicio Público de Alquiler
 
 
-[![](http://blog.diacode.com/wp-content/uploads/2011/08/spalquiler.png)](http://blog.diacode.com/wp-content/uploads/2011/08/spalquiler.png)
+[![](https://diacode-blog.s3-eu-west-1.amazonaws.com/2011/08/spalquiler.png)](https://diacode-blog.s3-eu-west-1.amazonaws.com/2011/08/spalquiler.png)

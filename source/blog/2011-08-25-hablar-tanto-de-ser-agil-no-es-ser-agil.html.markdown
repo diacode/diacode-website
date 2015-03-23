@@ -6,7 +6,7 @@ tags:
 author: Javier
 ---
 
-[![](http://blog.diacode.com/wp-content/uploads/2011/08/talkless.jpeg)](http://blog.diacode.com/hablar-tanto-de-ser-agil-no-es-ser-agil)
+[![](https://diacode-blog.s3-eu-west-1.amazonaws.com/2011/08/talkless.jpeg)](http://blog.diacode.com/hablar-tanto-de-ser-agil-no-es-ser-agil)
 Últimamente en la miniesfera del desarrollo web en España no paro de ver una 
 **inminente floración de cosas como: 
 coding dojos, incubadoras de 

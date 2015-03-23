@@ -14,7 +14,7 @@ Cada vez que se plantee una duda sobre dónde poner un elemento, de qué tamaño
 . Veamos algunos ejemplos en distintas interfaces:##Kindle y su botón de pasar página
 
 
-![](http://blog.diacode.com/wp-content/uploads/2011/11/kindle.jpg)
+![](https://diacode-blog.s3-eu-west-1.amazonaws.com/2011/11/kindle.jpg)
 
 
 Hay dos botones en cada lateral del Kindle, si nos fijamos con detenimiento uno es más del doble de grande que otro. Pues bien, si pensamos un poco sobre el problema de leer un libro, una de las acciones más comunes es pasar página, así que dicho esto ¿adivináis cuál es la función del botón más grande? Efectivamente el grande pasa a la siguiente página (caso común) y el pequeño va a la anterior (caso menos común).
@@ -27,7 +27,7 @@ Hay dos botones en cada lateral del Kindle, si nos fijamos con detenimiento uno 
 Muchas aplicaciones tienen en algún punto un formulario con la posibilidad de realizar 2 acciones, este formulario de login de Mailchimp es un claro ejemplo.
 
 
-![](http://blog.diacode.com/wp-content/uploads/2011/11/login_mailchimp.png)
+![](https://diacode-blog.s3-eu-west-1.amazonaws.com/2011/11/login_mailchimp.png)
 
 Normalmente el usuario cuando accede a la pantalla de login va a hacer login, no lo hace porque le haga falta darse de alta, pero ese caso también existe, así que se decide poner un elemento mucho más llamativo para el caso común.
 
@@ -38,7 +38,7 @@ Normalmente el usuario cuando accede a la pantalla de login va a hacer login, no
 Cabe la posibilidad de que no tengamos sólo un par de acciones, sino que tengamos un menú de acciones o enlaces y de alguna forma deberíamos facilitar al usuario hacer la acción más común. En el caso de Gmail, tanto en la interfaz renovada como en la anterior, pasa exactamente esto en el menú de la izquierda.
 
 
-![](http://blog.diacode.com/wp-content/uploads/2011/11/gmail_new.png)
+![](https://diacode-blog.s3-eu-west-1.amazonaws.com/2011/11/gmail_new.png)
 
 
 Si estás en Gmail, de las opciones que tienes en el menú de la izquierda, lo más probable es que empieces a redactar un email para mandarlo, es el caso de uso más básico y común así que se refleja en el menú.

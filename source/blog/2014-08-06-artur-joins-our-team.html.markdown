@@ -15,7 +15,7 @@ As we have been working remotely for the last 2 years, we posted in
 
 Artur is a 23 year old, full-stack developer from Gdansk, Poland who now lives in Barcelona. He has been doing Ruby on Rails for 2 years and he had already experienced the dream of most remote workers: to travel around the world while working in what we love. He spent 9 months working remotely from Poland, India, Brazil and Germany.
 
-[![tumblr_n27mug27A31tv611zo8_1280](http://blog.diacode.com/wp-content/uploads/2014/08/tumblr_n27mug27A31tv611zo8_12801.jpg)](http://blog.diacode.com/artur-joins-our-team)
+[![tumblr_n27mug27A31tv611zo8_1280](https://diacode-blog.s3-eu-west-1.amazonaws.com/2014/08/tumblr_n27mug27A31tv611zo8_12801.jpg)](http://blog.diacode.com/artur-joins-our-team)
 
 Then Artur decided to move to Spain where he settled in Barcelona and got a normal "in office" job. He was missing the freedom of being "location independent" and not having to commute everyday, so he decided to look for a remote work again.
 

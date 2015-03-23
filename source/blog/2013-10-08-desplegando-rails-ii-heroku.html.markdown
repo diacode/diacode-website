@@ -21,7 +21,7 @@ Aunque ambos servicios son completamente diferentes el uno del otro, usar un
 
 
 
- ###[![](http://blog.diacode.com/wp-content/uploads/2013/09/heroku-logo.png)](heroku.com)
+ ###[![](https://diacode-blog.s3-eu-west-1.amazonaws.com/2013/09/heroku-logo.png)](heroku.com)
 
 
 ###Empezando

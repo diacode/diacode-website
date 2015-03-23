@@ -7,7 +7,7 @@ tags:
 author: Javier
 ---
 
-[![](http://blog.diacode.com/wp-content/uploads/2013/03/looking-for-craft21.jpg)](http://blog.diacode.com/buscamos-desarrollador-ruby-on-rails)
+[![](https://diacode-blog.s3-eu-west-1.amazonaws.com/2013/03/looking-for-craft21.jpg)](http://blog.diacode.com/buscamos-desarrollador-ruby-on-rails)
 En Diacode buscamos a un desarrollador Ruby on Rails que quiera unirse a nuestro equipo o echarnos una mano como freelance. Buscamos a alguien que sea 
 full-stack, es decir que pueda trabajar con soltura tanto en front-end como en back-end. Nos gustaría encontrar a alguien que responda a la siguiente descripción:
 

@@ -6,7 +6,7 @@ tags:
 author: Javier
 ---
 
-![](http://blog.diacode.com/wp-content/uploads/2011/07/tarta.jpg)
+![](https://diacode-blog.s3-eu-west-1.amazonaws.com/2011/07/tarta.jpg)
 
 El pasado 9 de Julio hizo un año desde José y yo quedásemos para empezar a trabajar en lo que hoy en día se ha convertido en Diacode. No teníamos muy claro que íbamos a hacer exactamente, solo sabíamos que teníamos espacio para montar una pequeña oficina, muchísimas ganas y todo un verano por delante.
 
@@ -18,7 +18,7 @@ Queríamos celebrar este año y dar las gracias a todos nuestros amigos, compañ
 [El Riojano](http://www.confiteriaelriojano.com/), estaba realmente buena.
 
 
-![](http://blog.diacode.com/wp-content/uploads/2011/07/fiesta_aniversario.jpg)
+![](https://diacode-blog.s3-eu-west-1.amazonaws.com/2011/07/fiesta_aniversario.jpg)
 
 Finalmente después de la fiesta en la piscina muchos de nosotros nos marchamos a Alcorcón al pub As de Copas donde pinchaba nuestro amigo 
 [Teö](http://www.facebook.com/puteoputeo?sk=app_113137198733722).

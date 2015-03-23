@@ -17,7 +17,7 @@ I am not only a hacker. I love computers as long as they enhance our day-to-day 
 
 Remote work enables me to pursue my passion for yoga and eastern philosophy, for which every year I go to India for about 3-4 months. India may not be the most civilized country yet, but for working from your computer, its just awesome. First of all - it's cheap, depending on location, it can be super cheap, or just cheap. You can work from the beach, from the jungle, from Himalayas or from the big city (Bangalore is called "Silicon Valley of India").
 
-[![Outdoors](http://blog.diacode.com/wp-content/uploads/2015/03/1425999418-1401263954-artur2.jpg)](http://blog.diacode.com/wp-content/uploads/2015/03/1425999418-1401263954-artur2.jpg)
+[![Outdoors](https://diacode-blog.s3-eu-west-1.amazonaws.com/2015/03/1425999418-1401263954-artur2.jpg)](https://diacode-blog.s3-eu-west-1.amazonaws.com/2015/03/1425999418-1401263954-artur2.jpg)
 
 ## Get yourself settled
 
@@ -34,7 +34,7 @@ To travel inside India you have options for all price range. Let's say you want 
 
 There is bunch of cool stuff to see and do here. Ask in local travel agencies or your host what you can see around and how to get there. I have not seen all, but if you need a beachinfo or where to do yoga, just ask me in the comments.
 
-[![Headstand](http://blog.diacode.com/wp-content/uploads/2015/03/P1312408.jpg)](http://blog.diacode.com/wp-content/uploads/2015/03/P1312408.jpg)
+[![Headstand](https://diacode-blog.s3-eu-west-1.amazonaws.com/2015/03/P1312408.jpg)](https://diacode-blog.s3-eu-west-1.amazonaws.com/2015/03/P1312408.jpg)
 
 ## Do it!
 

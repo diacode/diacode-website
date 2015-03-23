@@ -14,7 +14,7 @@ Lo primero de todo, tras conocer el problema que queremos resolver, es hacer uno
 
 Normalmente estas esquemas son muy sencillos, utilizamos una tableta Wacom para dibujar directamente en Photoshop o bien trabajamos sobre papel. El resultado suele ser algo como esto:
 
-![](http://blog.diacode.com/wp-content/uploads/2011/04/wireframe_wacom2.jpg)
+![](https://diacode-blog.s3-eu-west-1.amazonaws.com/2011/04/wireframe_wacom2.jpg)
 
 
 

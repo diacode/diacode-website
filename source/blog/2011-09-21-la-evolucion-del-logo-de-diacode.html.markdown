@@ -18,7 +18,7 @@ code.
 Teniendo ya el nombre y habiéndolo hecho nuestro, y dejando de lado las coñas con los supermercados Dia, 
 **decidimos contar con nuestro amigo 
 [Teö](http://ilusteo.blogspot.com/) para diseñase nuestra identidad corporativa**
-. Tras una reunión en la que le contamos quienes éramos y qué pretendíamos hacer, Teö empezó a esbozar en su cuaderno algunos dibujos para posteriormente pasarlos a ordenador y presentarnos su primera propuesta:![](http://blog.diacode.com/wp-content/uploads/2011/09/1.jpg)
+. Tras una reunión en la que le contamos quienes éramos y qué pretendíamos hacer, Teö empezó a esbozar en su cuaderno algunos dibujos para posteriormente pasarlos a ordenador y presentarnos su primera propuesta:![](https://diacode-blog.s3-eu-west-1.amazonaws.com/2011/09/1.jpg)
 
 Había partido del 
 **caracter 
@@ -27,16 +27,16 @@ Había partido del
 **Helvética**
  para crear esta primera idea. Nos gusto como base pero el degradado no nos convencía, era joven y fresco, pero tal vez demasiado arriesgado en el futuro. Su siguiente propuesta fue un poco más formal:
 
-![](http://blog.diacode.com/wp-content/uploads/2011/09/2.jpg)
+![](https://diacode-blog.s3-eu-west-1.amazonaws.com/2011/09/2.jpg)
 Tras esta propuesta nos dimos cuenta de que el nombre 
 **diacode ocupaba muy poco espacio**
  en la totalidad del logo y esto podría suponernos un problema, por ello le pedimos a Teö que buscara un logo con menos altura y donde el nombre tuviese más presencia.
 
-![](http://blog.diacode.com/wp-content/uploads/2011/09/4.jpg)
+![](https://diacode-blog.s3-eu-west-1.amazonaws.com/2011/09/4.jpg)
 Esto estaba mejor, pero habíamos perdido el uso del caracter 
 < que tanto nos había gustado. Así que le pedimos a Teö que lo recuperara.
 
-![](http://blog.diacode.com/wp-content/uploads/2011/09/5.jpg)
+![](https://diacode-blog.s3-eu-west-1.amazonaws.com/2011/09/5.jpg)
 
 Al fin teníamos 
 **un logo fresco y original pero capaz de mantener la legibilidad y cierta formalidad**
@@ -48,12 +48,12 @@ d por una
 D mayúscula para evitar que el hasta 
 [ascendente](http://en.wikipedia.org/wiki/Ascender_(typography)) tocase el borde del logo. Y este fue el resultado final:
 
-![](http://blog.diacode.com/wp-content/uploads/2011/09/6.jpg)
+![](https://diacode-blog.s3-eu-west-1.amazonaws.com/2011/09/6.jpg)
 
 Recientemente hicimos una versión ligerente modificada para darle un toque más actual y para usar en medios digitales (fundamentalmente 
 [nuestra web](http://diacode.com)).
 
-![](http://blog.diacode.com/wp-content/uploads/2011/09/7.png)
+![](https://diacode-blog.s3-eu-west-1.amazonaws.com/2011/09/7.png)
 
 En definitiva, 
 **el proceso de creación de una identidad corporativa tiene que ser un proceso iterativo**

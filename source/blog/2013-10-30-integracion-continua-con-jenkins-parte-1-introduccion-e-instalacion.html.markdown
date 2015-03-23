@@ -7,7 +7,7 @@ tags:
 author: Victor
 ---
 
-[![](http://blog.diacode.com/wp-content/uploads/2013/10/jenkins-logo.png)](http://blog.diacode.com/wp-content/uploads/2013/10/jenkins-logo.png)
+[![](https://diacode-blog.s3-eu-west-1.amazonaws.com/2013/10/jenkins-logo.png)](https://diacode-blog.s3-eu-west-1.amazonaws.com/2013/10/jenkins-logo.png)
 
 ## Introducción
 

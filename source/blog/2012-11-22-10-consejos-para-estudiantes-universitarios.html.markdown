@@ -6,7 +6,7 @@ tags:
 author: Javier
 ---
 
-![](http://blog.diacode.com/wp-content/uploads/2012/11/blackboard.jpg)
+![](https://diacode-blog.s3-eu-west-1.amazonaws.com/2012/11/blackboard.jpg)
 Hace tiempo ya que dejé atrás la universidad, si tuviese que volver esto es lo que me gustaría que alguien me dijera:
 
 ***Sal de la universidad cuanto antes. **

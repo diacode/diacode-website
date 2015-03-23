@@ -6,7 +6,7 @@ tags:
 author: Javier
 ---
 
-![](http://blog.diacode.com/wp-content/uploads/2012/05/empresa.jpg)
+![](https://diacode-blog.s3-eu-west-1.amazonaws.com/2012/05/empresa.jpg)
 
 Recientemente Nick Hanauer, un inversor de Seattle, dio una charla de 3 minutos en uno de los eventos
 [TED](http://www.ted.com) sobre la desigualdad económica entre clases. 

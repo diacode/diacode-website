@@ -6,7 +6,7 @@ tags:
 author: Javier
 ---
 
-![Foto por Randy Robertson](http://blog.diacode.com/wp-content/uploads/2011/05/464791157_b9965da377_b.jpeg)
+![Foto por Randy Robertson](https://diacode-blog.s3-eu-west-1.amazonaws.com/2011/05/464791157_b9965da377_b.jpeg)
 Hace unos días el australiano 
 [Chris Aitchison](http://chrisaitchison.com/) inauguraba su blog con un estupendo 
 [post](http://chrisaitchison.com/2011/05/03/you-are-not-a-software-engineer) que ha tenido bastante eco en 

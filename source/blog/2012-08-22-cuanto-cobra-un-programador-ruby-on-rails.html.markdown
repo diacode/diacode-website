@@ -7,7 +7,7 @@ tags:
 author: Javier
 ---
 
-![](http://blog.diacode.com/wp-content/uploads/2012/08/money.jpg)
+![](https://diacode-blog.s3-eu-west-1.amazonaws.com/2012/08/money.jpg)
 En las últimas semanas he tenido oportunidad de charlar con varios desarrolladores Ruby on Rails de diferentes partes del mundo y que conocen bien el mundo de la consultoría, bien porque son freelance o bien porque dirigen o trabajan en una empresa de desarrollo.
 
 Una de las cosas más sorprendentes es la facilidad con la que la gente fuera de España habla de sus tarifas por hora. Fuera de este país no existe ese tabú absurdo que es comunicar abiertamente cuanto cobras a tus clientes. ¿Os imagináis al frutero sintiéndose incómodo por contar cuanto va a cobrar por kilo de tomates? No tiene sentido.

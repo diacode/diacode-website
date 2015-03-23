@@ -7,7 +7,7 @@ tags:
 author: Javier
 ---
 
-![](http://blog.diacode.com/wp-content/uploads/2011/11/nomasmemorizar1.jpg)
+![](https://diacode-blog.s3-eu-west-1.amazonaws.com/2011/11/nomasmemorizar1.jpg)
 Una de las cosas que siempre se me dio peor cuando era estudiante fue memorizar. Cualquier tarea que implicase memorizar grandes cantidades de información se me indigestaba hasta aborrecer la asignatura en cuestión. Esto se agravó de forma exponencial el día que entendí lo que Internet supondría en nuestras vidas.
 
 La primera vez que me conecté a Internet y usé un buscador, estando aún en primaria, fue una absoluta revelación, podía buscar cualquier cosa, sobre cualquier tema, cuando yo quisiera, y gratis. Con el tiempo entendí que tal vez no estaba todo en Internet, pero siempre tuve la absoluta certeza de que toda la información que no esté en Internet hoy, lo estará mañana, seguro. Por tanto en aquel momento empecé a cuestionarme qué sentido tenían todas esas horas memorizando datos: fórmulas matemáticas, pueblos y ríos de España, formulación química, biografías, lineas temporales, y un largo etcétera. Para qué hacer ese esfuerzo titánico en recordar algo que en aquel momento no me interesaba cuando sabía que el día que me interesase lo podría encontrar sin problema.

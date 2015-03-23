@@ -7,7 +7,7 @@ tags:
 author: Javier
 ---
 
-![](http://blog.diacode.com/wp-content/uploads/2011/10/diacode-TALKS-2.png)
+![](https://diacode-blog.s3-eu-west-1.amazonaws.com/2011/10/diacode-TALKS-2.png)
 
 Llevábamos tiempo con la idea de 
 **aprovechar nuestra oficina para organizar algún encuentro con otros desarrolladores y compartir experiencias y conocimiento**

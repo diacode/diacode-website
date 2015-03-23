@@ -10,7 +10,7 @@ Uno de los problemas al que nos enfrentamos a diario quienes trabajamos en Inter
 **exceso de información**
  y la 
 **excesiva facilidad de acceso**
- a la misma. Las redes sociales, feeds RSS, periódicos online, wikis, foros, etc. conforman una masa ingente de información y conocimiento con un peligroso potencial para absorver toda nuestra capacidad de concentración.![](http://blog.diacode.com/wp-content/uploads/2011/10/dieta-informacion.jpg)
+ a la misma. Las redes sociales, feeds RSS, periódicos online, wikis, foros, etc. conforman una masa ingente de información y conocimiento con un peligroso potencial para absorver toda nuestra capacidad de concentración.![](https://diacode-blog.s3-eu-west-1.amazonaws.com/2011/10/dieta-informacion.jpg)
 Rob Walling en 
 [Start Small, Stay Small](http://www.startupbook.net/) escribe: "
 No puedes consumir y producir al mismo tiempo - cuando estás en modo producción tienes que mantenerte lejos de tus revistas, blogs, etc.". Podemos establecer una fácil analogía con la comida y el deporte: necesitamos ingerir calorías (comer) para poder quemarlas (hacer deporte), pero resulta complicado, aunque probablemente divertido, comerse un chuletón mientras estás corriendo una maratón. Por tanto es necesario dejar de consumir información para poder centrarse en desarrollar, i.e. generar nueva información que será consumida por otros.

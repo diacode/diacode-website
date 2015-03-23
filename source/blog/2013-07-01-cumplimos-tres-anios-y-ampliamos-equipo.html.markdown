@@ -46,7 +46,7 @@ skills
 [en la mesa de Ping Pong](https://www.facebook.com/photo.php?fbid=663607163656508&set=a.151983081485588.31382.151979641485932&type=1&relevant_count=1).
 
 
-![Equipo Diacode](http://blog.diacode.com/wp-content/uploads/2013/07/diacode2013_thumb.jpg)
+![Equipo Diacode](https://diacode-blog.s3-eu-west-1.amazonaws.com/2013/07/diacode2013_thumb.jpg)
 
 En definitiva, las ideas con las que fundamos Diacode siguen más vigentes que nunca: que nuestra pasión sea nuestro trabajo (y viceversa), y  seguir aprendiendo día a día. Confíamos en seguir cumpliendo muchos años más mientras que ayudamos a nuestros clientes a convertir sus ideas en realidades en forma de software.
 

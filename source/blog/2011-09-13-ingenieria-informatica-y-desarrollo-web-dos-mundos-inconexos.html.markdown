@@ -7,7 +7,7 @@ tags:
 author: Javier
 ---
 
-![](http://blog.diacode.com/wp-content/uploads/2011/09/college.jpeg)
+![](https://diacode-blog.s3-eu-west-1.amazonaws.com/2011/09/college.jpeg)
 Foto extraída de 
 [64 notes](http://www.64notes.com/to-college-or-not-to-college/)Cualquiera que haya sido alumno de Ingeniería Informática en la universidad (o 
 Ingeniería de X con todo el lío de los grados) se habrá percatado del menosprecio que el mundo académico ejerce hacia el Desarrollo Web.

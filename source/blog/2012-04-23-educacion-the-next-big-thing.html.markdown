@@ -7,7 +7,7 @@ tags:
 author: Javier
 ---
 
-[![Diacode Talks! Educación: the next big thing](http://blog.diacode.com/wp-content/uploads/2012/04/talks_edu.jpg)](http://talks.diacode.com)
+[![Diacode Talks! Educación: the next big thing](https://diacode-blog.s3-eu-west-1.amazonaws.com/2012/04/talks_edu.jpg)](http://talks.diacode.com)
 
 Para la próxima edición de Diacode Talks! nos hemos juntado con la gente de 
 [THICKzine](http://thickzine.com) para tratar un tema de máxima relevancia: la Educación. El modelo educativo, tanto en educación primaria como en educación superior, sigue siendo el mismo: un modelo basado en la Revolución Industrial, un modelo caducado. Escuelas del XIX con profesores del XX para alumnos del XXI, no funciona.
