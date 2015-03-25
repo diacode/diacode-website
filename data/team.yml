@@ -30,7 +30,7 @@ team_members:
     github: https://github.com/bigardone
 
   bruno:
-    full_name: Bruno
+    full_name: Bruno Bayón
     position: Developer
     email_address: bruno@diacode.com
     location: 'Vitoria, Spain'
@@ -40,11 +40,12 @@ team_members:
     github: https://github.com/bbay
 
   artur:
-    full_name: Artur
+    full_name: Artur Chruszcz
     position: Developer
     email_address: artur@diacode.com
     location: 'Barcelona, Spain'
-    bio: Define bio
+    bio: |
+      I am all about happiness, so is Ruby. I enjoy hacking, healthy lifestyle and remote working. I sit cross-legged while coding.
     twitter:
     github: https://github.com/achru
 
