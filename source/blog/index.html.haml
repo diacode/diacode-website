@@ -1,9 +1,10 @@
 ---
 title: Blog - Diacode's thoughts about development, startups and entrepreneurship
+description: "Diacode's blog: our thoughts about web development, startups and entrepreneurship"
 pageable: true
 body_class: blog
 ---
 
-- content_for(:header_title, current_page.data.title)
+- content_for(:header_title, "Our thoughts about web development, startups and entrepreneurship")
 
 = partial 'partials/blog/post_list', locals: {articles: page_articles, prev_page: prev_page, next_page: next_page}
