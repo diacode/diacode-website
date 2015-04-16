@@ -35,7 +35,7 @@ projects:
 
   tlkr:
     name: TLKR
-    site_url:
+    site_url: https://tlkr.io/
     description: >
       <p>
         Back in 2013 we attended the LAUNCH Hackathon in San Francisco, where we decided to create something with WebRTC (a brand new technology back then). WebRTC enables p2p 
@@ -57,7 +57,7 @@ projects:
 
   gudog:
     name: Gudog
-    site_url: https://gudog.com/
+    site_url: https://gudog.co.uk/
     description: >
       <p>
         Gudog is a p2p marketplace that connects dog owners and dog sitters offering dog boarding, dog walking and doggy daycare. It's the best alternative to dog kennels.
