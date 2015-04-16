@@ -4,7 +4,7 @@ date: '2015-04-16'
 tags:
   - remote
 author: javier
-excerpt: Artur relates his experience working remotely from India these last months.
+excerpt: An introduction to Amazon Web Services for making sense of all those acronyms
 ---
 
 Nowadays there are tons of options to deploy web apps. If you're a Ruby developer probably you have been using Heroku, which is definitely a great platform, however if your budget is tight or your app has become complex and requires fine-grained control of your infrastructure, Heroku may not be your best option. By the way, Heroku actually uses Amazon behind the scenes, but that's another story.
