@@ -11,7 +11,7 @@ Nowadays there are tons of options to deploy web apps. If you're a Ruby develope
 
 For tight budgets or complex requirements probably the best option nowadays is Amazon Web Services (AWS). However **moving to AWS is not an easy task until you have made sense of all the different services they offer**. Their [documentation](http://aws.amazon.com/) is often confusing and infested with buzzwords that probably are interesting for business people but not very helpful for actual developers.
 
-We would like you help you in your adventure but making a **quick summary of the services that Amazon offers and we are using in production** in different projects. This doesn't intend to be an extensive description, just a quick overview from an actual developer perspective.
+We would like you help you in your adventure by making a **quick summary of the services that Amazon offers and we are using in production** in different projects. This doesn't intend to be an extensive description, just a quick overview from an actual developer perspective.
 
 Here is a summary of what we'll be covering today:
 
