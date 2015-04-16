@@ -39,4 +39,9 @@ It will output the URL of the asset so that you can include it the markdown docu
 
 ## Deploy
 
-*Not defined yet*.
+It's simple, just go inside the project's folder and run:
+
+```
+middleman deploy
+```
+ 
