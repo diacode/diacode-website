@@ -2,8 +2,8 @@
 # the following line to use "https"
 source 'https://rubygems.org'
 
-gem "middleman", "~>3.0.13"
-gem "middleman-livereload", "~> 3.1.0"
+gem "middleman", "~> 3.3.10"
+gem "middleman-livereload", "~> 3.4.2"
 
 # Assets
 gem "middleman-bourbon"
@@ -13,7 +13,7 @@ gem "middleman-neat"
 gem "middleman-smusher"
 gem "middleman-minify-html"
 gem "middleman-deploy"
-gem "middleman-blog"
+gem "middleman-blog", '~> 3.5.3'
 
 gem "redcarpet"
 gem 'nokogiri'
