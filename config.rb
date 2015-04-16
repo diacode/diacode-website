@@ -27,7 +27,7 @@ helpers do
 
   def web_url_for(url)
     if environment == :build
-      "#{web_url}/#{url}"
+      "#{web_url}#{url}"
     else
       url
     end
