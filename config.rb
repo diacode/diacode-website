@@ -10,7 +10,7 @@ activate :directory_indexes
 helpers do
   def gravatar_for(email, size=120)
     hash = Digest::MD5.hexdigest(email.chomp.downcase)
-    "http://www.gravatar.com/avatar/#{hash}?s=#{size}"
+    "https://www.gravatar.com/avatar/#{hash}?s=#{size}"
   end
 
   def nav_active(page)
