@@ -1,6 +1,6 @@
 ---
 title: 'Making sense of Amazon Web Services: Introduction for noobs'
-date: '2015-04-03'
+date: '2015-04-16'
 tags:
   - remote
 author: javier
