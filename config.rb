@@ -1,39 +1,4 @@
 ###
-# Compass
-###
-
-# Susy grids in Compass
-# First: gem install susy
-# require 'susy'
-
-# Change Compass configuration
-# compass_config do |config|
-#   config.output_style = :compact
-# end
-
-###
-# Page options, layouts, aliases and proxies
-###
-
-# Per-page layout changes:
-#
-# With no layout
-# page "/path/to/file.html", :layout => false
-#
-# With alternative layout
-# page "/path/to/file.html", :layout => :otherlayout
-#
-# A path which all have the same layout
-# with_layout :admin do
-#   page "/admin/*"
-# end
-
-# Proxy (fake) files
-# page "/this-page-has-no-template.html", :proxy => "/template-file.html" do
-#   @which_fake_page = "Rendering a fake page with a variable"
-# end
-
-###
 # Helpers
 ###
 
@@ -42,12 +7,6 @@ activate :automatic_image_sizes
 activate :directory_indexes
 
 # Methods defined in the helpers block are available in templates
-# helpers do
-#   def some_helper
-#     "Helping"
-#   end
-# end
-
 helpers do
   def gravatar_for(email, size=120)
     hash = Digest::MD5.hexdigest(email.chomp.downcase)
@@ -179,4 +138,14 @@ configure :build do
 
   # Or use a different image path
   # set :http_path, "/Content/images/"
+end
+
+activate :deploy do |deploy|
+  deploy.method       = :rsync
+  deploy.host         = 'diacode.com'
+  deploy.path         = '/var/www/diacode.com'
+  deploy.build_before = true
+  deploy.clean        = true # remove orphaned files on remote host, default: false
+  deploy.user         = 'deployer'
+  deploy.flags        = '-avz --chown=deployer:www-data'
 end
