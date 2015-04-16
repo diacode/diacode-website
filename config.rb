@@ -19,7 +19,7 @@ helpers do
 
   def tag_list(tags)
     if tags.count
-      tags.map{ |tag| link_to(tag, tag_path(tag)) }.join(', ')
+      tags.map{ |tag| link_to(tag, blog_url_for(tag_path(tag))) }.join(', ')
     else
       "Post not tagged"
     end
