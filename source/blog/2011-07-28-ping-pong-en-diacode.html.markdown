@@ -2,12 +2,12 @@
 title: Ping Pong en Diacode
 date: '2011-07-28'
 tags:
-- diacode-2
+- diacode
 - programacion
-dc:creator: Javier
+author: Javier
 ---
 
-![Nuestros amigos Álvaro y Teö jugando en nuestra mesa](http://blog.diacode.com/wp-content/uploads/2011/07/pingpong2.jpg)
+![Nuestros amigos Álvaro y Teö jugando en nuestra mesa](https://diacode-blog.s3-eu-west-1.amazonaws.com/2011/07/pingpong2.jpg)
 
 Como algunos de vosotros ya sabéis, en Diacode nos hemos aficionado al Ping Pong. Todo empezó cuando nos compramos una 
 [red de 
@@ -27,10 +27,10 @@ Por otro lado, nuestro amigo
 [Teö](http://ilusteo.blogspot.com) nos hizo el magnífico logo para nuestro "club" de Ping Pong. Partiendo de ahí, dedicamos un rato al diseño y en un par de tardes ya teníamos nuestro ranking.
 
 
-[![](http://blog.diacode.com/wp-content/uploads/2011/07/pingpong_ranking.png)](http://pingpong.diacode.com)
+[![](https://diacode-blog.s3-eu-west-1.amazonaws.com/2011/07/pingpong_ranking.png)](http://pingpong.diacode.com)
 
 
-[![](http://blog.diacode.com/wp-content/uploads/2011/07/pingpong_stats.png)](http://pingpong.diacode.com)
+[![](https://diacode-blog.s3-eu-west-1.amazonaws.com/2011/07/pingpong_stats.png)](http://pingpong.diacode.com)
 
 Para los más curiosos decir que la 
 app esta implementada en Rails (obvio por lo que comentábamos arriba) y que usa la API de 

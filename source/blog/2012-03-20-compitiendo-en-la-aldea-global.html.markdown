@@ -3,10 +3,10 @@ title: Compitiendo en la aldea global
 date: '2012-03-20'
 tags:
 - empresas
-dc:creator: Javier
+author: Javier
 ---
 
-![](http://blog.diacode.com/wp-content/uploads/2012/03/aldea_global.jpg)
+![](https://diacode-blog.s3-eu-west-1.amazonaws.com/2012/03/aldea_global.jpg)
 Hoy hemos recibido una 
 **llamada telefónica de la India**
 . La persona que estaba al otro lado hablaba inglés con una pronunciación horrible y pronunciaba nuestros nombres de una forma casi irreconocible. Tras los primeros minutos de confusión he logrado entender que se trataba de una empresa de desarrollo de software en la India, nos habían localizado a través de Linkedin y nos ofrecían servicios de outsourcing en diferentes tecnologías (Ruby on Rails, Django, PHP, etc.).

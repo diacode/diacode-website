@@ -5,18 +5,28 @@ html
   -webkit-font-smoothing: antialiased
 body
   color: $base-font-color
+  -webkit-text-size-adjust: 100%
 
 a
   +link
+
+  // This is a class for links to in-page anchors
+  // to avoid problems with the sticky navbar
+  &.anchor
+    display: block
+    position: relative
+    top: -$header-height
+    visibility: hidden
 
 [type=email], [type=text], textarea
   +fill-parent
   border-radius: $base-border-radius
   box-shadow: 0 0 0 0
   padding: .5em
-  border: 1px solid $dark-gray
+  border: 1px solid $color-2
 
 [type=submit]
-  +ghost-button($base-font-color, $gray, .8em)
+  +ghost-button($color-2, #fff, .8em)
 
-
+pre
+  margin: 0

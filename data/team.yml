@@ -4,29 +4,52 @@ team_members:
     position: CEO
     email_address: javi@diacode.com
     location: 'Madrid, Spain'
+    bio: |
+      Founded Diacode in 2010. Ruby developer and college dropout. Interested in entrepreneurship, education and cryptocurrencies.
+    twitter: https://twitter.com/javier_dev
+    github: https://github.com/javiercr
 
   victor:
     full_name: Victor Viruete
     position: CTO
     email_address: victor@diacode.com
     location: 'Jerez de la Frontera, Spain'
+    bio: |
+      Passionate about technology in general with a decade of experience in web development. On 2013 I became partner of Diacode assuming the CTO role.
+    twitter: 
+    github: https://github.com/hopsor
 
   ricardo:
     full_name: Ricardo García Vega
-    position: Soul surfer developer
+    position: Soul Surfer Developer
     email_address: ricardo@diacode.com
     location: 'Salinas, Asturias, Spain'
+    bio: |
+      I am a passionate full-stack web developer, who loves surfing before the sun rises.
+    twitter: https://twitter.com/bigardone
+    github: https://github.com/bigardone
 
   bruno:
-    full_name: Bruno
-    position: Developer
+    full_name: Bruno Bayón
+    position: Chief Hipster Developer
     email_address: bruno@diacode.com
     location: 'Vitoria, Spain'
+    bio: |
+      Ahoy! I'm a pirate sailing the «full stack» ocean! I write about (and love) Ruby on Rails, UX/UI design, Growth Hacking and Startups!
+    twitter: https://twitter.com/bruselacas
+    github: https://github.com/bbay
 
   artur:
-    full_name: Artur
-    position: Developer
+    full_name: Artur Chruszcz
+    position: Yogi Developer
     email_address: artur@diacode.com
     location: 'Barcelona, Spain'
+    bio: |
+      I am all about happiness, so is Ruby. I enjoy hacking, healthy lifestyle and remote working. I sit cross-legged while coding.
+    twitter:
+    github: https://github.com/achru
 
-
+  jose:
+    full_name: José Manuel Gilgado
+    bio: José cofounded Diacode and left the company in 2012
+    retired: true

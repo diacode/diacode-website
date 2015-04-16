@@ -1,9 +1,32 @@
+$service-color: $color-3
+
 #services_section
   .services
+    margin-top: 2em
+
     .service
       +span-columns(4)
       +omega(3n)
       margin-bottom: 3em
 
       header
-        margin-bottom: 2em
+        margin-bottom: 1em
+       
+      .icon-placeholder
+        font-size: 4.5em
+        width: 150px
+        height: 150px
+        vertical-align: middle
+        border: 3px solid $service-color
+        border-radius: 50%
+        color: $service-color
+        line-height: 1.3em
+        margin: 0 auto
+
+        span
+          vertical-align: middle
+
+    &:after
+      display: block
+      content: ''
+      clear: both

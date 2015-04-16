@@ -1,11 +1,13 @@
-%section#toolchain_section.main-section
+%section#toolchain_section.main-section.constrained
   .container
     %header
       %h2 Toolchain
 
-    %p Usamos las mejores herramientas de acuerdo a las necesidades de cada proyecto.
+    %p
+      We believe that programming languages and frameworks are just tools to transform ideas into products. We are not married to any of them.
+      However a good craftsman always uses great tools, so here are the ones we love to use.
 
     %ul
-      - %w{rails ionic angular react webrtc}.each do |tech|
+      - %w{Rails Ionic Angular React WebRTC}.each do |tech|
         %li
-          = image_tag "toolchain/#{tech}.png"
+          = image_tag "toolchain/#{tech.downcase}.png", alt: tech, title: tech

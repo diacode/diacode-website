@@ -3,42 +3,46 @@
     .sections
       %section
         %header
-          %h3 Newsletter
-        %p Suscríbete a Diacode Picks, nuestra newsletter donde compartimos lo último en cuanto a desarrollo web:
+          %h3 Diacode Picks
+        %p 
+          Every day in our chat we share the most interesting links we found about programming, design and startups. 
+        %p
+          We're happy to share them with you through our newsletter:
 
-        %form{action: ''}
+        %form{action: '//diacode.us2.list-manage.com/subscribe/post?u=84b6b6aa12ade9f1f2b81d51a&amp;id=04aba6c42c', method: 'post', target: '_blank'}
           .field
-            %input{type: "email", placeholder: 'Write here your email'}/
+            %input{type: "email", placeholder: 'Your email address please', name: 'EMAIL', required: true}
           .action
-            %button{type: 'submit'} Subscribe
+            %button{type: 'submit'} Subscribe!
+
+        %small We will only sent you our Diacode Picks summary. No spam, ever.
 
       %section
         %header
-          %h3 Lo último en nuestro blog
+          %h3 Last on our blog
+
         %ul.post-list
-          %li
-            %a{href: '#'} Using Tor to anonymize your web scrapping on OS X
-          %li
-            %a{href: '#'} Artur joins our team!
-          %li
-            %a{href: '#'} Fixing temporary dir problems with Ruby 2
-          %li
-            %a{href: '#'} How we improved our newsletter: a love story with Ember.js and Hubot
+          - blog.articles.first(5).each do |article|
+            %li=link_to article.title, blog_url_for(article.url)
       %section
         %header
           %h3 Social
+
+          %p You can know more about us on the following networks:
+
           %ul.social-links
             %li
-              %a{href: '#'}
-                = image_tag 'social/github.png'
+              %a{href: 'https://github.com/diacode'}
+                %i.social-github
             %li
-              %a{href: '#'}
-                = image_tag 'social/twitter.png'
+              %a{href: 'https://twitter.com/diacode'}
+                %i.social-twitter
             %li
-              %a{href: '#'}
-                = image_tag 'social/facebook.png'
+              %a{href: 'https://facebook.com/diacode'}
+                %i.social-facebook
 
-
-    %p.center
+    %p.center.note
       %small
-        © 2011–2015, Diacode Desarrollo Web, S.L.
+        Diacode Desarrollo Web, S.L.
+        \–
+        Doing what we love since 2010 ♥

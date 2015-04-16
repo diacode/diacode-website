@@ -3,7 +3,7 @@ title: Herramientas colaborativas para equipos remotos
 date: '2013-08-28'
 tags:
 - productividad-2
-dc:creator: Ricardo
+author: Ricardo
 ---
 
 **Diacode**
@@ -18,7 +18,7 @@ La comunicación es algo primordial cuando se trabaja a distancia. Necesitamos h
 
 [Google Hangouts](https://www.google.com/tools/dlpage/hangoutplugin)
 
-![Google Hangouts](http://blog.diacode.com/wp-content/uploads/2013/08/hangouts-logo-300x118.jpg)
+![Google Hangouts](https://diacode-blog.s3-eu-west-1.amazonaws.com/2013/08/hangouts-logo-300x118.jpg)
 Conversaciones con voz y video para grupos… ¿Qué más se puede pedir? Una vez a la semana, como mínimo, hacemos un 
 hangout para vernos un poco las caras, comentar alguna noticia sobre proyectos en los que estemos trabajando, explicar al resto del equipo qué estamos haciendo cada uno y nuestros progresos, discutir alguna decisión que se tenga que tomar, etc. El hecho de poder vernos todos juntos y charlar es muy importante para el factor psicológico de trabajar a distancia y sentir que formas parte de un equipo.
 
@@ -27,12 +27,12 @@ hangout para vernos un poco las caras, comentar alguna noticia sobre proyectos e
 
 [Skype](https://www.skype.com)
 
-![](http://blog.diacode.com/wp-content/uploads/2013/08/Skype_Logo-300x132.png)
+![](https://diacode-blog.s3-eu-west-1.amazonaws.com/2013/08/Skype_Logo-300x132.png)
 Llamadas de voz a través de Internet que solemos hacer cuando tenemos que hablar unos con otros directamente o hablar con alguno de nuestro clientes. También tiene una función para compartir el escritorio que solemos usar cuando queremos mostrar algo de nuestro trabajo a la persona con la que estamos charlando, aunque no nos termina de convencer ya que suele tener bastante lag.
 
 [Hipchat](https://www.hipchat.com/)
 
-![](http://blog.diacode.com/wp-content/uploads/2013/08/logo_hipchat-300x88.png)
+![](https://diacode-blog.s3-eu-west-1.amazonaws.com/2013/08/logo_hipchat-300x88.png)
 Esta herramienta es la espina dorsal de nuestra comunicación en el día a día. Se trata de una herramienta para crear salas chat persistentes, donde además puedes compartir tanto ficheros como enlaces. Tenemos una sala creada para cada proyecto, y en cada una de estas salas es donde conversamos acerca de ellos, y compartimos los contenidos que necesitemos. Tiene notificaciones instantaneas, aplicaciones nativas para todos los sistemas operativos y móviles, histórico de conversaciones y de recursos compartidos, y un api para poderlo integar con otras aplicaciones, como por ejemplo 
 **Pivotal tracker**
  que va poniendo mensajes en la sala del proyecto del que vayamos completando o modificando tareas. Muy útil y recomendable.
@@ -44,7 +44,7 @@ Mientras desarrollamos es fundamental tener un sitio donde almacenar nuestro tra
 
 [Screen Hero](http://screenhero.com/)
 
-![](http://blog.diacode.com/wp-content/uploads/2013/08/screenhero_logo-300x163.png)
+![](https://diacode-blog.s3-eu-west-1.amazonaws.com/2013/08/screenhero_logo-300x163.png)
 Comparte tu pantalla de manera colaborativa. Esta aplicación cada día nos gusta más ya que nos permite compartir una ventana, o la pantalla completa de nuestro equipo, pero cada uno tiene control completo sobre ella con su ratón y teclado. Esto nos viene como anillo al dedo cuando hacemos sesiones de 
 [pair programming](http://es.wikipedia.org/wiki/Programaci%C3%B3n_en_pareja). Normalmente solemos usarla junto con 
 **Skype**
@@ -52,14 +52,14 @@ Comparte tu pantalla de manera colaborativa. Esta aplicación cada día nos gust
 
 [Bitbucket](http://bitbucket.org)
 
-![](http://blog.diacode.com/wp-content/uploads/2013/08/bitbucket_logo-300x85.jpeg)
+![](https://diacode-blog.s3-eu-west-1.amazonaws.com/2013/08/bitbucket_logo-300x85.jpeg)
 Repositorios de código privados 
 **ilimitados**
 . Hace poco tomamos la decisión de empezar a migrar nuestros repositorios a Bitbucket, para poder olvidarnos de gestionarlos nosotros mismos y dedicar ese tiempo a otras actividades más importantes. Además nos permite trabajar de manera colaborativa, pudiendo ver en qué estamos trabajando cada uno, hacer revisiones de código, etc.
 
 [Heroku](https://www.heroku.com/)
 
-![](http://blog.diacode.com/wp-content/uploads/2013/08/heroku_logo-300x94.jpg)
+![](https://diacode-blog.s3-eu-west-1.amazonaws.com/2013/08/heroku_logo-300x94.jpg)
 Plataforma de aplicaciones en la nube. No hay nada más cómodo para nuestros clientes que poder ver nuestros progresos en sus aplicaciones en vivo. 
 **Heroku**
  nos permite poder crear de manera rápida y sencilla una versión completamente funcional de la aplicación en la nube, para que nuestros clientes puedan tener acceso a ella y poder mandarnos feedback inmediato sobre ella.
@@ -71,12 +71,12 @@ Al trabajar de manera remota es necesario contar con herramientas que nos ayuden
 
 [Pivotal Tracker](https://www.pivotaltracker.com/)
 
-![](http://blog.diacode.com/wp-content/uploads/2013/08/pivotal_logo-300x107.png)
+![](https://diacode-blog.s3-eu-west-1.amazonaws.com/2013/08/pivotal_logo-300x107.png)
 Gestión de proyectos colaborativa y ágil. Es la herramienta que usamos para asignarnos tareas, ver el progreso de los proyectos, poder compartir este progreso con nuestros clientes y hacer que participen activamente en el desarrollo, ya que les invitamos a que la usen y así poder comentar tareas directamente con ellos, compartir métricas, etc.
 
 [Toggl](https://www.toggl.com/)
 
-![](http://blog.diacode.com/wp-content/uploads/2013/08/toggl_logo.png)
+![](https://diacode-blog.s3-eu-west-1.amazonaws.com/2013/08/toggl_logo.png)
 Gestión del tiempo sencillo. Se trata de una herramienta de 
 **time tracking**
  para poder contar el tiempo que empleamos en las diferentes tareas que hacemos a lo largo de nuestra jornada laboral. Su uso es muy simple, solo tenemos que seleccionar el proyecto, la tarea que vamos a realizar, pulsar el botón de comenzar y automáticamente comenzará un contador con el tiempo que transcurre, hasta pulsas el botón de parar. Esto nos aporta muchísimos datos sobre en qué empleamos el tiempo, qué tareas nos llevan más, la creación de diversas métricas para compartir y justificar el tiempo empleado en cada proyecto con nuestros clientes, etc. Si por alguna razón no tenemos conexión a Internet, luego podemos entrar y añadir los tiempos a mano, sin necesidad de usar el 

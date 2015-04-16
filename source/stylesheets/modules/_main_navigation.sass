@@ -1,31 +1,38 @@
 #main_nav
   text-align: right
   z-index: 99
-  background: $pink
+  background: transparent
+  font-family: $nav-font-family
+  position: absolute
+  width: 100%
+
   .logo
-    width: 8em
+    width: 7em
     height: $header-height
     background: url(/images/logo-white.png) no-repeat center center
-    +prefixer(background-size, contain, webkit moz ms)
+    +prefixer(background-size, contain, webkit moz ms spec)
     float: left
     vertical-align: middle
     display: block
   ul
     margin: 0
     float: right
+    text-transform: uppercase
     li
       display: inline-block
+      line-height: $header-height
 
       &:not(:last-of-type)
         margin-right: 3em
 
       a
         +link(#fff)
-        line-height: $header-height
-        display: block
-        border-bottom: 2px solid $pink
+        border-bottom-width: 1px
+        border-bottom-style: solid
+        border-bottom-color: transparent
+        padding: 0.2em 0
 
-        &:hover
+        &:hover, &.active
           color: #fff
           border-bottom-color: #fff
 
@@ -33,6 +40,7 @@
     position: fixed
     z-index: 100
     width: 100%
+    background: rgba($color-3, .9)
 
     &+*
       padding-top: $header-height

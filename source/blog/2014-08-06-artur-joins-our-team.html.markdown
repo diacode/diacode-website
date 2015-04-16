@@ -2,8 +2,10 @@
 title: Artur joins our team!
 date: '2014-08-06'
 tags:
-- diacode-2
-dc:creator: Javier
+  - diacode
+  - remote work
+author: javier
+excerpt: We are happy to announce a new incoporation to our team.
 ---
 
 A few months ago we decided it was time to grow our team. Not just for the sake of growth, we love to be a small team, but because we felt we were needing at least one more craftsman to be able to face new challenges.
@@ -13,9 +15,7 @@ As we have been working remotely for the last 2 years, we posted in
 
 Artur is a 23 year old, full-stack developer from Gdansk, Poland who now lives in Barcelona. He has been doing Ruby on Rails for 2 years and he had already experienced the dream of most remote workers: to travel around the world while working in what we love. He spent 9 months working remotely from Poland, India, Brazil and Germany.
 
-
-[![tumblr_n27mug27A31tv611zo8_1280](http://blog.diacode.com/wp-content/uploads/2014/08/tumblr_n27mug27A31tv611zo8_12801.jpg)](http://blog.diacode.com/artur-joins-our-team)
-
+[![tumblr_n27mug27A31tv611zo8_1280](https://diacode-blog.s3-eu-west-1.amazonaws.com/2014/08/tumblr_n27mug27A31tv611zo8_12801.jpg)](http://blog.diacode.com/artur-joins-our-team)
 
 Then Artur decided to move to Spain where he settled in Barcelona and got a normal "in office" job. He was missing the freedom of being "location independent" and not having to commute everyday, so he decided to look for a remote work again.
 
@@ -27,5 +27,4 @@ On the personal side, Artur was brazilian jiu jitsu polish national medalist and
 
 Finally having Artur onboard helps us to complete the transition we started a couple of years ago from being a Spanish speaking company to an English one. Now we have clients from all over the world, we communicate with them in English and we also communicate internally in English.
 
-You can follow Artur on 
-[Github](https://github.com/achru)!
+You can follow Artur on [Github](https://github.com/achru)!

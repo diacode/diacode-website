@@ -4,7 +4,7 @@ date: '2011-05-17'
 tags:
 - empresas
 - escritura
-dc:creator: jose
+author: jose
 ---
 
 Cada vez que veo alguna web de otra empresa que hace lo mismo que nosotros me fijo sobre todo en una cosa, la forma en la que se comunican. Y lo cierto es que cada vez me encuentro con más palabras inventadas, que están en desuso o en inglés para marear la perdiz en vez de hablar claro.

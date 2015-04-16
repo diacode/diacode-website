@@ -5,10 +5,10 @@ tags:
 - educac
 - educacion
 - general
-dc:creator: Javier
+author: Javier
 ---
 
-![Chaplin mirándose al espejo](http://blog.diacode.com/wp-content/uploads/2012/02/mirror_chaplin1.jpg)
+![Chaplin mirándose al espejo](https://diacode-blog.s3-eu-west-1.amazonaws.com/2012/02/mirror_chaplin1.jpg)
 
 El pasado Noviembre Jose y yo asisitimos al 
 [Rails Camp](http://railscamps.com/) en Madrid. A la vuelta del evento compartimos nuestro coche con 

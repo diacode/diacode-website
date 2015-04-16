@@ -1,8 +1,0 @@
----
-title: Archivo
-date: '2011-07-31'
-tags: []
-dc:creator: jose
----
-
-

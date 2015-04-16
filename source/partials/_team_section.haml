@@ -1,19 +1,30 @@
 %section#team_section.main-section
   .container
     %header
-      %h2 Our Team
+      %h2 An intentionally small team working remotely
+    
+    %p
+      We designed our company around a single idea:
+      a better work-life balance for us means higher quality products for you.
+      We decided to be a small company – to do less things but do them better.
 
-    %p Somos un pequeño pero eficiente equipo distribuido por toda España en su mayoría.
+    %p
+      After a year where we had an office in Madrid we decided to embrace remote work as part of our core culture. Now our team is distributed all around Europe, but we are free to travel
+      around the world while keeping crafting products for you.
 
-    %p El trabajo remoto es parte de la cultura de nuestra empresa. Creemos firmemente que para poder desempeñar nuestras labores de la mejor forma posible es fundamental poder conciliar vida personal y profesional.
+    %p
+      To communicate with you we'll use Slack, Google Hangouts, Pivotal Tracker and other tools
+      so that you won't notice the distance (plus it's ok if you want to wear pajamas while
+      we are having a meeting).
 
-    %p Para trabajar remotamente nos coordinamos en todo momento empleando servicios online como Pivotal Tracker, Hipchat o Google Hangouts de modo que la distancia ni la diferencia horaria suponen un problema.
 
-    = image_tag 'map.png', class: 'map'
 
+  .container
     %ul.team-list
-      - data.team.team_members.each do |team_member|
+      - data.team.team_members.select{|k,v| !v['retired'] }.each do |team_member|
         %li
           %img.avatar{src: gravatar_for(team_member[1]['email_address'])}
           %h4= team_member[1]['full_name']
           %h5= team_member[1]['position']
+
+  = image_tag 'map.png', class: 'map'

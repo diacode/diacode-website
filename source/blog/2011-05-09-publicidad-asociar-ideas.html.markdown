@@ -4,7 +4,7 @@ date: '2011-05-09'
 tags:
 - empresas
 - publicidad
-dc:creator: jose
+author: jose
 ---
 
 Vemos muchísimos anuncios, todos los días, en la calle, en casa, en el cine, en casi cualquier lugar, pero hay algunos que nos llegan más y otros menos y no sólo depende del número de veces que lo hayamos visto.

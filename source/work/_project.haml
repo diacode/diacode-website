@@ -1,11 +1,18 @@
 - project_id = project[0]
 - project_data = project[1]
 
-%section.main-section
+%section.main-section.project.constrained
   .container
     %header
-      = image_tag "/images/projects/#{project_id}/logo.png"
-    %p= project_data['description']
+      = image_tag "/images/projects/#{project_id}/logo.png", class: 'logo'
+      
+    = project_data['description']
+
+    - if project_data['tools']
+      .tools
+        - project_data['tools'].each do |tool|
+          %span.tool= tool
+
 
     .call-to-action
       = link_to 'Visit website', project_data['site_url'], target: '_blank'

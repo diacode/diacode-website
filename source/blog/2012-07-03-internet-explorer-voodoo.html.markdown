@@ -3,10 +3,10 @@ title: Internet Explorer Voodoo
 date: '2012-07-03'
 tags:
 - general
-dc:creator: Javier
+author: Javier
 ---
 
-![Internet Explorer Voodoo Doll](http://blog.diacode.com/wp-content/uploads/2012/07/ie_voodoo_doll.jpeg)
+![Internet Explorer Voodoo Doll](https://diacode-blog.s3-eu-west-1.amazonaws.com/2012/07/ie_voodoo_doll.jpeg)
 
 Todavía no he conocido a un desarrollador web que no haya sufrido las desavenencias del infame navegador Internet Explorer. Y es que aunque afortunadamente 
 [Google Chrome ya ha superado en usuarios a IE](http://gs.statcounter.com/), en la mayoría de proyectos aún nos toca pelearnos con las peculiaridades y deficiencias del navegador de Microsoft.

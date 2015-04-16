@@ -15,29 +15,99 @@ projects:
   kelisto:
     name: Kelisto
     site_url: http://www.kelisto.es/
-    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, saepe, ab. Incidunt numquam hic, beatae quidem, enim, eligendi alias natus rerum inventore iure earum officia ad ipsa ea veniam repudiandae?"
+    description: >
+      <p>
+        Kelisto is a price comparison site for car insurance, energy, finances and communications. 
+        They have a first-class in-house development team but they needed extra help to build new products and 
+        evolve the ones they already had while keeping up with their impressive growth.
+      </p>
+      <p>
+        We teamed up with them to build the Energy price comparator from scratch as well as other projects during several months.
+      </p>
+    tools:
+      - Ruby on Rails
+      - HAML / SCSS
+      - CoffeScript
+      - Backbone
+      - MongoDB
+      - PostgreSQL
+      - Heroku
 
   tlkr:
     name: TLKR
     site_url:
-    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, distinctio, eius perferendis quam, quidem nihil, ipsam dolores praesentium veniam aut autem dignissimos numquam beatae iusto culpa tempore. Et sequi, aperiam."
+    description: >
+      <p>
+        Back in 2013 we attended the LAUNCH Hackathon in San Francisco, where we decided to create something with WebRTC (a brand new technology back then). WebRTC enables p2p 
+        videoconference in the browser without the need of external plugins. We build a platform to practice languages with native speakers for free and
+        right in your browser. With that project we won the second prize of the hackathon – it was just an experiment.
+      </p>
+      <p>
+        In 2014 we spent 4 weeks to make a real product out ouf that experiment and TLKR was born. It's still under heavy development, but you can already sign up and 
+        start practicing your favourite language.
+      </p>
+    tools:
+      - Ruby on Rails
+      - WebRTC
+      - React.js
+      - Web Sockets
+      - Node.js
+      - Socket.io
+      - Amazon OpsWorks
 
   gudog:
     name: Gudog
     site_url: https://gudog.com/
-    description: "A p2p marketplace that helps dog owners find a caregiver (dog sitter, dog walker, etc.) for their dogs."
+    description: >
+      <p>
+        Gudog is a p2p marketplace that connects dog owners and dog sitters offering dog boarding, dog walking and doggy daycare. It's the best alternative to dog kennels.
+      </p>
+      <p>
+        We built the first version of Gudog web app and, more recently, their mobile application (Android & iOS), helping them growth from a basic MVP to a well funded company which is now present in United Kingdom,
+        France, Germany and Spain.
+      </p>
+    tools:
+      - Ruby on Rails
+      - MySQL
+      - Redis
+      - Node.js
+      - MangoPay
+      - Ionic
+      - Angular.js
+      - Amazon OpsWorks
+
 
   jurintia:
     name: Jurintia
     site_url: https://jurintia.com/
-    description: "A web appications for helping solicitors (a special type of attorney) in their daily job. You can think about it as a full project manager for solicitors."
-
+    description: "<p>A web application for helping solicitors (a special type of attorney) in their daily job. You can think about it as a full project manager for solicitors.</p>"
+    tools:
+      - Ruby on Rails
+      - HAML
+      - SASS
+      - CoffeeScript
+      - MySQL
+      - Sphinx
+      - Tesseract OCR
   thickzine:
     name: Thickzine
     site_url: http://thickzine.com/
-    description: "Webzine in Spanish about design, longboard, music and trash culture."
-
+    description: "<p>Webzine in Spanish about design, longboard, music and trash culture.</p>"
+    tools:
+      - Ruby on Rails
+      - HAML
+      - SASS
+      - CoffeeScript
   versos_perfectos:
-    name: Versos perfectos
+    name: VersosPerfectos
     site_url: http://www.versosperfectos.com/
-    description: "Hip Hop database and webzine in spanish. It's and old project (launched on 2008) and is still the most recognized website in the spanish Hip Hop scene. It features a complex database with data from more than 3500 different artists, including discography, lyrics, bio and pictures."
+    description: >
+      <p>
+        VersosPerfectos is a Hip Hop database and webzine in Spanish. It's and old project (launched in 2008) and is still the most recognized website in the Spanish Hip Hop scene. 
+        It features a complex database with data from more than 3500 different artists, including discography, lyrics, bio and pictures.
+      </p>
+    tools:
+      - Ruby on Rails
+      - ElasticSearch
+      - MySQL
+      - CoffeeScript

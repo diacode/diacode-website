@@ -2,12 +2,12 @@
 title: El principio del comienzo
 date: '2010-08-20'
 tags:
-- diacode-2
+- diacode
 - historia
-dc:creator: jose
+author: jose
 ---
 
-![](http://blog.diacode.com/wp-content/uploads/2010/08/starting.jpg)[Foto de Robert Voors](http://www.flickr.com/photos/robert_voors/774926895/in/photostream/)
+![](https://diacode-blog.s3-eu-west-1.amazonaws.com/2010/08/starting.jpg)[Foto de Robert Voors](http://www.flickr.com/photos/robert_voors/774926895/in/photostream/)
 
 Este es el primer post de este blog, el blog oficial de Diacode. Y desde aquí queríamos presentarnos y contar un poco como surge Diacode y el porqué.
 

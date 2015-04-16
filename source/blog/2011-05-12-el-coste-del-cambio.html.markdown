@@ -6,7 +6,7 @@ tags:
 - fases
 - minimizar
 - programacion
-dc:creator: jose
+author: jose
 ---
 
 Tras casi un año como empresa han pasado por nuestras manos unos cuantos proyectos y hemos confirmado algo importante, mientras antes se hagan los cambios en el proceso, más baratos resultan.

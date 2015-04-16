@@ -2,11 +2,11 @@
 title: Buscamos desarrolladores freelance
 date: '2012-03-13'
 tags:
-- diacode-2
-dc:creator: Javier
+- diacode
+author: Javier
 ---
 
-![](http://blog.diacode.com/wp-content/uploads/2010/12/recruiting.jpg)
+![](https://diacode-blog.s3-eu-west-1.amazonaws.com/2010/12/recruiting.jpg)
 
 [Foto original por Lawrence Whittemore](http://www.flickr.com/photos/lawrence_evil/129691678/)
 

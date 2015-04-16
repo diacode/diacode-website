@@ -2,11 +2,11 @@
 title: 'Gudog: solicita un paseador para tu perro'
 date: '2012-05-21'
 tags:
-- diacode-2
-dc:creator: Javier
+- diacode
+author: Javier
 ---
 
-[![](http://blog.diacode.com/wp-content/uploads/2012/05/gudog_snapshot.png)](https://gudog.com)
+[![](https://diacode-blog.s3-eu-west-1.amazonaws.com/2012/05/gudog_snapshot.png)](https://gudog.com)
 En Diacode siempre intentamos compaginar el trabajo de consultoría con el desarrollo de productos propios. Recientemente nos hemos embarcado en el desarrollo de 
 **[Gudog, la alternativa a las residencias caninas](https://gudog.com): un servicio para solicitar un paseador o cuidador para tu perro desde tu móvil, tablet u ordenador**
 .

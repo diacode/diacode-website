@@ -2,9 +2,9 @@
 title: 'Diacode en Silicon Valley: parte 1'
 date: '2013-03-10'
 tags:
-- diacode-2
+- diacode
 - silicon-valley
-dc:creator: Javier
+author: Javier
 ---
 
 Para cualquier que esté en la industria del software Silicon Valley es el equivalente a La Meca, un lugar casi espiritual que se ha de visitar al menos una vez en la vida. Por ello, hace unos meses Victor y yo decidimos comprar unos billetes a San Francisco y aventurarnos a estar allí durante un mes.##Preparativos del viaje
@@ -24,7 +24,7 @@ Comprando con antelación conseguimos unos buenos
 ##El viaje
 
 
-![](http://blog.diacode.com/wp-content/uploads/2013/03/barajas.jpg)
+![](https://diacode-blog.s3-eu-west-1.amazonaws.com/2013/03/barajas.jpg)
 Partimos de Madrid con rumbo a Philadelphia donde hicimos escala para finalmente volar a San Francisco. En total 
 **17 horas de viaje**
 . El primer vuelo fue bastante llevadero, con comida y cena gratuita y televisores individuales con un montón de películas y series. El segundo en cambio se hizo mucho más pesado, estábamos ya bastante cansados y el vuelo duraba casi tanto como el primero. Para hacerlo más llevadero nos entretuvimos un rato "hackeando" el WiFi del avión, (si, en muchos vuelos internos en USA hay WiFi), es sorprendete lo fácil que es acceder a muchas redes WiFi de pago con tan solo un cambio de MAC e IP :). Por cierto, lo de estar volando a miles de metros de altura y estar navegando por Internet al mismo tiempo es una sensación realmente curiosa.
@@ -42,7 +42,7 @@ Aterrizamos en San Francisco International Airport, recogimos nuestras maletas y
 
 A la mañana siguiente salimos de 20mission y nos dirigimos a Valencia Street, una calle cercana llena de cafeterías. Entramos en una de ellas y al momento nos dimos cuenta de que todos los tópicos sobre Silicon Valley eran ciertos: todo el mundo que estaba allí estaba con su café y su MacBook trabajando en algo que parecía muy importante.
 
-[![](http://blog.diacode.com/wp-content/uploads/2013/03/mission-creek.jpg)](http://www.flickr.com/photos/joelaz/2851515843/sizes/l/in/photostream/)
+[![](https://diacode-blog.s3-eu-west-1.amazonaws.com/2013/03/mission-creek.jpg)](http://www.flickr.com/photos/joelaz/2851515843/sizes/l/in/photostream/)
 Desde entonces hemos vuelto al mismo sitio varias veces, desayunamos y nos quedamos allí trabajando el resto de la mañana. A veces cuesta creer que a los dueños de las cafeterías les salga rentable el negocio con la cantidad de horas que pasa la gente allí trabajando y a menudo tomando un simple café.
 
 ##Nuestro primer meetup
@@ -66,7 +66,7 @@ Por cierto, Web Components y DART van a dar mucho que hablar en los próximos me
 ##Visita a Noise Bridge
 
 
-[![](http://blog.diacode.com/wp-content/uploads/2013/03/noisebridge1.jpg)](http://www.flickr.com/photos/plusea/7367573004/sizes/l/in/photostream/)
+[![](https://diacode-blog.s3-eu-west-1.amazonaws.com/2013/03/noisebridge1.jpg)](http://www.flickr.com/photos/plusea/7367573004/sizes/l/in/photostream/)
 Una de las noches salimos a cenar con algunos vecinos de 20mission, y tras la cena uno de ellos nos dijo que se iba a un 
 [Noise Bridge](https://noisebridge.net/), un 
 **"hacker space"**

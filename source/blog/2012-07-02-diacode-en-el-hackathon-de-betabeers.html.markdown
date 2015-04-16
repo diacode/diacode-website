@@ -2,9 +2,9 @@
 title: Diacode en el Hackathon de Betabeers
 date: '2012-07-02'
 tags:
-- diacode-2
+- diacode
 - programacion
-dc:creator: Javier
+author: Javier
 ---
 
 El pasado sábado asistimos al 2º Hackaton organizado por 
@@ -12,7 +12,7 @@ El pasado sábado asistimos al 2º Hackaton organizado por
 
 Para nuestro proyecto decidimos escoger una de las ideas que 
 [Victor](http://twitter.com/hopsor) tenía en su recámara desde algún tiempo: una plataforma de 
-crowdfunding para eventos musicales que involucrase directamente a los fans, artistas y salas de conciertos.![](http://blog.diacode.com/wp-content/uploads/2012/07/205387_439547692733743_1216996127_n.jpeg)
+crowdfunding para eventos musicales que involucrase directamente a los fans, artistas y salas de conciertos.![](https://diacode-blog.s3-eu-west-1.amazonaws.com/2012/07/205387_439547692733743_1216996127_n.jpeg)
 
 
 De este modo el objetivo del proyecto es facilitar a los artistas la búsqueda de una sala de conciertos, la venta de las entradas, y plantear conciertos con la seguridad de establecer un mínimo de entradas vendidas. Al mismo tiempo permitimos a los fans reclamar que sus artistas favoritos acudan a su localidad, involucrándolos en el proceso de difusión del evento a través de mecanismos de 
@@ -36,4 +36,4 @@ slides que presentamos en el Hackathon.
 ****
 
 
-[![](http://blog.diacode.com/wp-content/uploads/2012/07/kogi_home.jpg)](http://blog.diacode.com/wp-content/uploads/2012/07/kogi_home.jpg)
+[![](https://diacode-blog.s3-eu-west-1.amazonaws.com/2012/07/kogi_home.jpg)](https://diacode-blog.s3-eu-west-1.amazonaws.com/2012/07/kogi_home.jpg)

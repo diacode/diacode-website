@@ -53,6 +53,34 @@ helpers do
     hash = Digest::MD5.hexdigest(email.chomp.downcase)
     "http://www.gravatar.com/avatar/#{hash}?s=#{size}"
   end
+
+  def nav_active(page)
+    'active' if current_page.data.body_class == page
+  end
+
+  def tag_list(tags)
+    if tags.count
+      tags.map{ |tag| link_to(tag, tag_path(tag)) }.join(', ')
+    else
+      "Post not tagged"
+    end
+  end
+
+  def web_url_for(url)
+    if environment == :build
+      "#{web_url}/#{url}"
+    else
+      url
+    end
+  end
+
+  def blog_url_for(url)
+    if environment == :build
+      url.sub(/^\/blog/, blog_url)
+    else
+      url
+    end
+  end
 end
 
 # Use LiveReload
@@ -64,14 +92,16 @@ activate :neat
 
 # Compass configuration
 set :css_dir, 'stylesheets'
-
 set :js_dir, 'javascripts'
-
 set :images_dir, 'images'
 
 set :markdown_engine, :redcarpet
 set :markdown,  tables: true, autolink: true, gh_blockcode: false, fenced_code_blocks: true, with_toc_data: false, disable_indented_code_blocks: false
 set :haml, format: :html5, ugly: true
+
+# Production settings
+set :web_url, 'https://diacode.com'
+set :blog_url, 'https://blog.diacode.com'
 
 ###
 # Blog settings
@@ -82,7 +112,7 @@ set :haml, format: :html5, ugly: true
 activate :blog do |blog|
   blog.prefix = "blog"
   # blog.permalink = ":year/:month/:day/:title.html"
-  blog.permalink = ":title.html"
+  blog.permalink = ":title"
   # blog.sources = ":year-:month-:day-:title.html"
   blog.taglink = "tags/:tag.html"
   blog.layout = "layout"
@@ -96,9 +126,24 @@ activate :blog do |blog|
   blog.tag_template = "/blog/tag.html"
   # blog.calendar_template = "calendar.html"
 
-  # blog.paginate = true
-  # blog.per_page = 10
+  blog.paginate = true
+  blog.per_page = 5
   # blog.page_link = "page/:num"
+
+  # Custom summary generator. First it checks the excerpt and if it isn't present
+  # it summarize the content by getting the first paragraph
+  require 'middleman-blog/truncate_html'
+
+  blog.summary_generator = Proc.new do |article| 
+    if article.data.excerpt
+      article.data.excerpt
+    else
+      doc = Nokogiri::HTML(article.body)
+      paragraphs = doc.xpath('//p')
+      first_paragrah = paragraphs.first
+      TruncateHTML.truncate_html(first_paragrah.content, 140, " ...")
+    end
+  end
 end
 
 page '/blog/*', layout: 'blog'

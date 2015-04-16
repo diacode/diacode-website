@@ -1,13 +1,11 @@
 %nav#main_nav
   .container
-    %a.logo{href: '/'}
+    = link_to "", web_url_for('/'), class: 'logo'
+
     %ul
       %li
-        = link_to 'Our work', '/work'
+        = link_to 'Work', web_url_for('/work'), class: nav_active('work')
       %li
-        = link_to 'Blog', '/blog'
+        = link_to 'Blog', blog_url_for('/blog'), class: nav_active('blog')
       %li
-        %a{href: "#"} Picks
-      %li
-        = link_to 'Contact', '/contact'
-
+        = link_to 'Contact', web_url_for('/contact'), class: nav_active('contact')

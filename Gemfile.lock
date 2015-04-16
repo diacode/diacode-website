@@ -1,12 +1,22 @@
 GEM
-  remote: http://rubygems.org/
+  remote: https://rubygems.org/
   specs:
     activesupport (3.2.13)
       i18n (= 0.6.1)
       multi_json (~> 1.0)
+    aws-sdk (2.0.26)
+      aws-sdk-resources (= 2.0.26)
+    aws-sdk-core (2.0.26)
+      builder (~> 3.0)
+      jmespath (~> 1.0)
+      multi_json (~> 1.0)
+      multi_xml (~> 0.5)
+    aws-sdk-resources (2.0.26)
+      aws-sdk-core (= 2.0.26)
     bourbon (3.2.4)
       sass (~> 3.2)
       thor
+    builder (3.2.2)
     chunky_png (1.3.3)
     coffee-script (2.2.0)
       coffee-script-source
@@ -24,6 +34,7 @@ GEM
       sass (>= 3.3.0, < 3.5)
     compass-import-once (1.0.5)
       sass (>= 3.2, < 3.5)
+    dotenv (1.0.2)
     em-websocket (0.5.1)
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0.6.0)
@@ -33,13 +44,19 @@ GEM
     ffi (1.9.6)
     haml (4.0.6)
       tilt
+    highline (1.7.1)
     hike (1.2.3)
     http_parser.rb (0.6.0)
     http_router (0.10.2)
       rack (>= 1.0.0)
       url_mount (~> 0.2.1)
+    httparty (0.13.3)
+      json (~> 1.8)
+      multi_xml (>= 0.5.2)
     httpclient (2.6.0.1)
     i18n (0.6.1)
+    jmespath (1.0.2)
+      multi_json (~> 1.0)
     json (1.8.2)
     listen (0.7.3)
     maruku (0.6.1)
@@ -100,6 +117,7 @@ GEM
       sprockets-sass (~> 1.0.0)
     mini_portile (0.6.2)
     multi_json (1.10.1)
+    multi_xml (0.5.5)
     neat (1.5.0)
       bourbon (>= 2.1)
       sass (>= 3.2)
@@ -130,6 +148,7 @@ GEM
     rb-inotify (0.9.5)
       ffi (>= 0.5.0)
     redcarpet (3.2.2)
+    rmagick (2.13.4)
     sass (3.4.11)
     sinatra (1.3.6)
       rack (~> 1.4)
@@ -163,6 +182,10 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  aws-sdk (~> 2)
+  dotenv
+  highline
+  httparty
   middleman (~> 3.0.13)
   middleman-blog
   middleman-bourbon
@@ -173,3 +196,5 @@ DEPENDENCIES
   middleman-smusher
   nokogiri
   redcarpet
+  rmagick
+  thor

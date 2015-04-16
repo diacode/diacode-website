@@ -3,7 +3,7 @@ title: Nueva forma de trabajo en Diacode
 date: '2011-12-23'
 tags: []
 published: false
-dc:creator: jose
+author: jose
 ---
 
 No hablamos mucho de lo que hacemos por Diacode últimamente y es que entre unas cosas y otras estamos bastante liados, pero nos gustaría comentar por aquí la decisión que tomamos hace unos meses de empezar a trabajar de manera distribuida y los pros y contras que conlleva para una empresa como la nuestra. 

@@ -1,11 +1,28 @@
 #team_section
-  background: $asphalt
-  color: $gray
+  background: $color-1
+
+  h2
+    text-align: left
+    width: 70%
+    margin-left: auto
+    margin-right: auto
+  p
+    width: 70%
+    margin-left: auto
+    margin-right: auto
+    text-align: left
 
   .map
-    +fill-parent()
-    margin: 3em 0
-
+    margin: 2em auto 0 auto
+    max-width: 100%
+    height: auto
   .team-list
+    margin-top: 2em
     +inline-list
+    li
+      .avatar
+        margin-bottom: 1em
+        
+      h5
+        font-weight: 500
 

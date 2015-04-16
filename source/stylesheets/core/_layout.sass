@@ -6,11 +6,17 @@
   position: relative
 
 .main-section
-  padding: 10em 0
+  padding: 5em 0
   text-align: center
 
   .container > header
-    margin-bottom: 5em
+    margin-bottom: 1em
+
+  &.constrained .container
+    max-width: 800px
+
+  h2
+    color: $color-3
 
 
 form
@@ -22,3 +28,7 @@ form
 
 .center
   text-align: center
+
+input, textarea
+  font-family: 'proxima-nova'
+  color: #474350

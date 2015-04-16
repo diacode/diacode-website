@@ -3,10 +3,10 @@ title: Gestiona tus ventanas en Mac OS X con Slate
 date: '2013-08-21'
 tags:
 - productividad-2
-dc:creator: Javier
+author: Javier
 ---
 
-![](http://blog.diacode.com/wp-content/uploads/2013/08/windows1.png)
+![](https://diacode-blog.s3-eu-west-1.amazonaws.com/2013/08/windows1.png)
 Desde que di el salto de Linux a Mac siempre eché en falta un buen gestor de ventanas que me permitiera redimensionar, centrar y mover ventanas de un monitor a otro con atajos de teclado. Durante años he ido probando diferentes alternatives como 
 [Divvy](http://mizage.com/divvy/), 
 [SizeUp](http://www.irradiatedsoftware.com/sizeup/) o 

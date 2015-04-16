@@ -3,10 +3,10 @@ title: El sistema operativo que todos tenemos, pero ninguno instalamos
 date: '2012-11-29'
 tags:
 - general
-dc:creator: Javier
+author: Javier
 ---
 
-![Imagen por Graham Smith](http://blog.diacode.com/wp-content/uploads/2012/11/chrome.jpg)
+![Imagen por Graham Smith](https://diacode-blog.s3-eu-west-1.amazonaws.com/2012/11/chrome.jpg)
 ¿Y si os dijese que alguien os ha colado un sistema operativo en vuestros ordenadores, tablets y smarthpones? De alguna forma esto es lo que Google ha logrado con Chrome. La adopción de este navegador lleva un 
 [ritmo imparable](http://bandaancha.eu/articulos/google-chrome-sigue-alejandose-internet-8600) y 
 **desde hace tiempo es el navegador más usado**

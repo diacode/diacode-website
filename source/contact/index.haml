@@ -5,26 +5,26 @@ body_class: contact
 %header#main_header
   .container
     .welcome
-      %h1 Let's talk
-      %h2 Interested in working with us, joining our team, or just want to know more about us? We'd love to hear from you.
+      %h1 Interested in working with us, joining our team, or just want to know more about us? We'd love to hear from you.
 
 %section#contact_section.main-section
   .container
     .form-wrapper
-      %form{action: ""}
+      %form{action: "http://formspree.io/hello@diacode.com", method: 'post'}
         .field
-          = input_tag :text, placeholder: 'What is your name?'
+          = input_tag :text, placeholder: 'What is your name?', name: 'name'
         .field
-          = input_tag :text, placeholder: 'What is your email?'
+          = input_tag :text, placeholder: 'What is your email?', name: 'email'
         .field
-          %textarea{placeholder: 'Tell us a little bit about your project', rows: '10'}
+          %textarea{placeholder: 'Tell us a little bit about your project', rows: '10', name: 'description'}
         .field
-          = input_tag :text, placeholder: 'What is your budget?'
+          = input_tag :text, placeholder: 'What is your budget?', name: 'budget'
 
         .actions
-          %button{type: 'submit'} Send
+          %button{type: 'submit'} Drop the bomb!
+
   .container
     %p
-      Alternatively you can drop us an email to: <br/>
+      If don't like contact forms, you can always reach us by email too: <br/>
       %strong hello [at] diacode.com
 

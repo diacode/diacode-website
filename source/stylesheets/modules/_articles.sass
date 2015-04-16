@@ -1,17 +1,27 @@
-body.article
+body.blog
   #main_header
-    .container
-      max-width: 750px
+    background-image: url(/images/blog-header-1.jpg)
 
-    .welcome
-      color: $base-font-color
-    h1
-      margin-bottom: .5em
   #main_content
     padding-bottom: 3em
+    font-size: 24px
 
+    p
+      line-height: 33px
+      font-size: 22px
+      letter-spacing: 0.15px
+    
     .container
-      max-width: 750px
+      max-width: -webkit-calc(800px - (40px * 2))
+      max-width: calc(800px - (40px * 2))
+      padding-right: 40px
+      padding-left: 40px
+      box-sizing: content-box
+
+      &:after
+        content: ""
+        display: table
+        clear: both
 
   .tag-list
     +inline-list
@@ -30,35 +40,130 @@ body.article
     margin: 0 auto
     float: left
 
-  article
-    color: darken($dark-gray,25)
-    margin-bottom: 3em
+  .blog-posts
+    padding: 3em 0
 
-    p
-      font-size: 1.2em
-
-
-    &.preview
-      margin-bottom: 0em
-      padding: 3em 0
-      border-bottom: 1px solid $gray
-      &:first-of-type
-        border-top: 1px solid $gray
+    article.preview
+      padding: 1.5em 0
+      font-size: 0.8em
 
       h2
-        margin-bottom: .5em
-        a
-          +link($base-font-color, $pink)
+      .excerpt
+      .meta
+        color: $readableGray
+        .author, time, .tags
+          display: inline-block
+
+        .author::after, time::after
+          margin: 0 0.5em
+          content: "-"
+
+        .tags
+          text-transform: uppercase
+          font-size: 0.8em
+
+    .pagination
+      margin: 2em 0
+      a
+        +ghost-button($color-2, #fff, .8em)
+      .prev
+        float: left
+      .next
+        float: right
+
+
+  #main_content article.blog-post
+    header
+      margin: 4em 0
+
+      h1, .meta
+        text-align: center
+
+      .meta
+        color: $readableGray
+
+    .post-content
+      margin-bottom: 2em
+
+      h1, h2, h3, h4, h5, h6, 
+      blockquote, pre, ul, ol, dl, 
+      iframe, figure, .highlight
+        margin-bottom: 20px
+        line-height: 1.75
+
+      h1, h2, h3, h4, h5, h6
+        margin-top: 40px
+
       p
-        -webkit-margin-before: 0
-        -webkit-margin-after: 0
+        margin-top: 0
+        margin-bottom: 30px
+        line-height: 1.75
 
-      .avatar
-        width: 50px
-        height: 50%
-        vertical-align: middle
-        margin-right: 1em
+      code
+        background-color: $color-1
+        font-size: 18px
+        padding: 1px 5px
 
-      .tag-list
-        margin-top: .5em
+      code.hljs
+        padding: 14px
+        border-radius: 1px
+        font-size: 13px
+        line-height: 20px
 
+      img
+        max-width: 100%
+
+    .author
+      width: 100%
+      height: auto
+      box-sizing: border-box
+      background: #FBFBFB
+      border-top: 1px solid #ccc
+      border-bottom: 1px solid #ccc
+      padding: 2em
+      font-size: 0.9em
+      line-height: 1.5
+
+
+      &:after
+        display: block
+        content: ''
+        clear: both
+      
+
+      img
+        width: 15%
+        border-radius: 100px
+        float: left
+      
+      .info
+        float: left
+        width: 85%
+        padding-left: 1em
+        box-sizing: border-box
+
+        p
+          margin: 0 auto 1em auto
+          font-size: 20px
+          line-height: 28px
+
+        .links
+          margin: 0
+          text-align: right
+
+          li
+            display: inline
+            border-right: 1px solid $gray
+            padding-right: 10px
+
+            margin-left: 5px
+
+            &:last-child
+              border: none
+
+    #disqus_thread
+      margin-top: 2em
+            
+          
+        
+      

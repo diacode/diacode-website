@@ -2,8 +2,8 @@
 title: DeskSurfing improvisado
 date: '2011-09-27'
 tags:
-- diacode-2
-dc:creator: Javier
+- diacode
+author: Javier
 ---
 
 La semana pasada nos pasó algo curioso en la oficina. Estábamos trabajando normalmente en la oficina y llamó a la puerta el portero del edificio para ver si podíamos hablar en inglés con un 
@@ -22,4 +22,4 @@ De esta forma tan improvisada estuvimos una mañana haciendo algo así que podr�
 [CouchSourfing](http://en.wikipedia.org/wiki/CouchSurfing)).
 
 Hoy Giovanni ha pasado por nuestra oficina a despedirse y nos ha traído una caja de bombones 
-[Cacao Sampaka](http://www.cacaosampaka.com/) con flores, hierbas e infusiones, una mezcla extraña pero buenísima. Todo un detalle y un buen cierre para una historia tan simpática =)![](http://blog.diacode.com/wp-content/uploads/2011/09/bombones.jpg)
+[Cacao Sampaka](http://www.cacaosampaka.com/) con flores, hierbas e infusiones, una mezcla extraña pero buenísima. Todo un detalle y un buen cierre para una historia tan simpática =)![](https://diacode-blog.s3-eu-west-1.amazonaws.com/2011/09/bombones.jpg)

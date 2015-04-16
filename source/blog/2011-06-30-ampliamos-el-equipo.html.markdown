@@ -2,9 +2,9 @@
 title: Ampliamos el equipo
 date: '2011-06-30'
 tags:
-- diacode-2
+- diacode
 - equipo
-dc:creator: jose
+author: jose
 ---
 
 A partir de la semana que viene Victor se une a Diacode como desarrollador para trabajar en Madrid.

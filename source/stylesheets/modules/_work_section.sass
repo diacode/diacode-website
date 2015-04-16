@@ -1,7 +1,29 @@
-.work
-  .screenshot
-    margin: 3em 0
-  .call-to-action
-    margin: 3em 0
-    a
-      +ghost-button($base-font-color, #fff)
+body.work
+  #main_header
+    background-image: url(/images/projects/cargo1.jpg)
+
+  .project
+    border-bottom: 1px solid darken($gray, 10%)
+    p
+      text-align: left
+    header
+      margin-top: 2em
+    
+    .tool
+      font-family: $header-font-family
+      font-size: .65em
+      background: $color-1
+      padding: 5px
+      display: inline-block
+      border-radius: 4px
+      margin: 0 .2em
+    .logo
+      max-width: 280px
+      height: auto
+
+    .screenshot
+
+    .call-to-action
+      margin: 2em 0
+      a
+        +ghost-button($color-2, #fff)

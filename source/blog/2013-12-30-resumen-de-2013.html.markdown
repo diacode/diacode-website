@@ -2,11 +2,11 @@
 title: Resumen de 2013
 date: '2013-12-30'
 tags:
-- diacode-2
-dc:creator: Javier
+- diacode
+author: Javier
 ---
 
-![](http://blog.diacode.com/wp-content/uploads/2013/12/diacode_20131.png)
+![](https://diacode-blog.s3-eu-west-1.amazonaws.com/2013/12/diacode_20131.png)
 El año 2013 ha supuesto un punto de inflexión para Diacode. Hemos sorteado algunas dificultades que nos han obligado a reinventarnos y que sin duda nos han hecho mucho más fuertes.
 
 Desde finales de 2012 cambiamos nuestra estrategia comercial y comenzamos a centrar nuestros esfuerzos en la búsqueda clientes fuera de España. Primero comenzamos trabajando para clientes de diferentes partes de Europa, para más adelante cruzar el charco. De esta manera el
