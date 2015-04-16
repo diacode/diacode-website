@@ -147,5 +147,5 @@ activate :deploy do |deploy|
   deploy.build_before = true
   deploy.clean        = true # remove orphaned files on remote host, default: false
   deploy.user         = 'deployer'
-  deploy.flags        = '-avz --chown=deployer:www-data --chmod=Du=rwx,Dg=rx,Fu=rw,Fg=r'
+  deploy.flags        = '-avz -o deployer -g www-data --chmod=Du=rwx,Dg=rx,Fu=rw,Fg=r'
 end
