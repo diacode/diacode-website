@@ -24,7 +24,7 @@ gem 'dotenv'
 # Command line
 gem 'thor'
 gem 'highline'
-#gem 'colorize'
+gem 'colorize'
 
 # http requests
 gem 'httparty'
