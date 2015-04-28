@@ -2,7 +2,8 @@
 title: 'Making sense of Amazon Web Services: Introduction for noobs'
 date: '2015-04-16'
 tags:
-  - remote
+  - DevOps
+  - Amazon Web Services
 author: javier
 excerpt: An introduction to Amazon Web Services for making sense of all those acronyms
 ---
