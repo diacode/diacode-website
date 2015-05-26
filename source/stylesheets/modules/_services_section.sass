@@ -1,10 +1,16 @@
 $service-color: $color-3
 
 #services_section
+  @include media($mobile)
+    padding: 0 .5em
+    padding-top: 2em
+
   .services
     margin-top: 2em
 
     .service
+      @include media($mobile)
+        +span-columns(12)
       +span-columns(4)
       +omega(3n)
       margin-bottom: 3em

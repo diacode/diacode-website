@@ -1,11 +1,23 @@
 %nav#main_nav
   .container
     = link_to "", web_url_for('/'), class: 'logo'
-
-    %ul
-      %li
-        = link_to 'Work', web_url_for('/work'), class: nav_active('work')
-      %li
-        = link_to 'Blog', blog_url_for('/blog'), class: nav_active('blog')
-      %li
-        = link_to 'Contact', web_url_for('/contact'), class: nav_active('contact')
+    .menu-button-wrapper
+      %a.navigation-menu-button{ href: "javascript:void(0)", id: "js-mobile-menu" } MENU
+      %ul#js-navigation-menu
+        %li
+          = link_to 'Work', web_url_for('/work'), class: nav_active('work')
+        %li
+          = link_to 'Blog', blog_url_for('/blog'), class: nav_active('blog')
+        %li
+          = link_to 'Contact', web_url_for('/contact'), class: nav_active('contact')
+#overlay-nav
+  %a.close X
+  %ul
+    %li
+      = link_to 'Home', web_url_for('/'), class: nav_active('home')
+    %li
+      = link_to 'Work', web_url_for('/work'), class: nav_active('work')
+    %li
+      = link_to 'Blog', blog_url_for('/blog'), class: nav_active('blog')
+    %li
+      = link_to 'Contact', web_url_for('/contact'), class: nav_active('contact')

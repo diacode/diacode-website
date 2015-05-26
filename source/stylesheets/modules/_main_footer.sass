@@ -3,6 +3,9 @@
   background: $color-5
   color: $gray
   font-size: .9em
+
+  @include media($mobile)
+    padding-top: 1em
   a
     +link($color-2)
 
@@ -17,6 +20,13 @@
   section
     +span-columns(4)
     padding: 3em 0 0
+    @include media($mobile)
+      width: 90%
+      padding: 0 1em
+      margin: 0 auto
+
+    &:not(:first-of-type)
+      padding-top: 2em
 
     .post-list
       +unstyled-list
