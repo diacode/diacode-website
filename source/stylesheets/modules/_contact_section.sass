@@ -1,11 +1,24 @@
 body.contact
   #main_header
     background-image: url(/images/contact-header.jpg)
+    h1
+      @include media($mobile)
+        font-size: 1.5em
+
+  .main-section
+    @include media($mobile)
+      padding-top: 2em
 
   .form-wrapper
-    +span-columns(6)
-    +shift(3)
-    +omega
+    width: 100%
+    padding: 0 1em
+    @include media($desktop)
+      +span-columns(6)
+      +shift(3)
+      +omega
+      
     margin-bottom: 3em
     .actions
       text-align: right
+      @include media($mobile)
+        text-align: center

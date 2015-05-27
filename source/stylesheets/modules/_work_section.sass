@@ -2,8 +2,15 @@ body.work
   #main_header
     background-image: url(/images/projects/cargo1.jpg)
 
+    h1
+      @include media($mobile)
+        font-size: 1.5em
+
   .project
     border-bottom: 1px solid darken($gray, 10%)
+    padding: 0 1em
+    @include media($desktop)
+      padding: 0
     p
       text-align: left
     header
@@ -20,6 +27,13 @@ body.work
     .logo
       max-width: 280px
       height: auto
+
+    .screenshot
+      @include media($mobile)
+        width: 280px
+        height: auto
+        padding-left: 0
+        padding-bottom: 2em
 
     .call-to-action
       margin: 2em 0

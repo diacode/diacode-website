@@ -4,3 +4,4 @@
 $ ->
   $('#main_nav').stickyNavigation()
   $('#testimonials').testimonialSlides()
+  MobileNav.init()

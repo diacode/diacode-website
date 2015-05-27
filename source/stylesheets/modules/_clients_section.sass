@@ -1,8 +1,15 @@
 #clients_section
   background: $color-1
-
+  @include media($mobile)
+    padding-top: 2em
+    padding-bottom: 3em
+    h2
+      font-size: 1.75em
+      padding: 0 .5em
   .action 
     margin-top: 1em
+    @include media($mobile)
+      margin-top: 6em
     a
       +ghost-button($color-2, $color-1)
 

@@ -10,5 +10,9 @@
 
   h2
     margin-right: 1em
+    @include media($mobile)
+      margin-right: 0
+      text-align: center
+      margin-bottom: 1em
   a
     +ghost-button($color-2, $color-4)

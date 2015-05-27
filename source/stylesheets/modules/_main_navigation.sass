@@ -14,15 +14,27 @@
     float: left
     vertical-align: middle
     display: block
+    @include media($mobile)
+      width: 5em
   ul
     margin: 0
+    @include media($tablet)
+      display: none
     float: right
     text-transform: uppercase
     li
       display: inline-block
       line-height: $header-height
+      @include media($mobile)
+        font-size: .8em
+        text-align: center
+        width: 100%
+        padding-right: .5em
+        border-bottom: 1px solid white
 
       &:not(:last-of-type)
+        @include media($mobile)
+          margin-right: .5em
         margin-right: 3em
 
       a
@@ -38,13 +50,25 @@
 
   &.sticky
     position: fixed
+    top: 0
     z-index: 100
     width: 100%
     background: rgba($color-3, .9)
 
     &+*
       padding-top: $header-height
+  
+  .menu-button-wrapper
+    padding-bottom: .5em
 
+  .navigation-menu-button
+    display: none
+    @include media($tablet)
+      text-transform: uppercase
+      display: block
+      padding-right: .5em
+      padding-top: 1em
+      +link(#FFF)
 
 body.home
   #main_nav
@@ -54,4 +78,48 @@ body.home
     &.sticky
       .logo
         display: block
+
+#overlay-nav
+  font-family: $nav-font-family
+  display: none
+  position: fixed
+  top: 0
+  left: 0
+  width: 100%
+  height: 100%
+  margin: 0
+  background: rgba($color-2, 0.8)
+  z-index: 99
+  .close
+    margin-top: 1em
+    padding-right: 1em
+    float: right
+    color: white
+    cursor: pointer
+
+  ul
+    +unstyled-list
+    margin: 0
+    margin-top: 3em
+    text-transform: uppercase
+    li
+      font-size: 1.2em
+      text-align: center
+      width: 100%
+      padding-right: .5em
+
+      &:not(:last-of-type)
+
+      a
+        +link(#fff)
+        border-bottom-width: 1px
+        border-bottom-style: solid
+        border-bottom-color: transparent
+        padding: 0.2em 0
+        text-transform: underline
+
+        &:hover, &.active
+          color: #fff
+          border-bottom-color: #fff
+
 

@@ -1,25 +1,56 @@
 #team_section
   background: $color-1
+  @include media($mobile)
+    padding: 2em 0
 
   h2
     text-align: left
     width: 70%
     margin-left: auto
     margin-right: auto
+
+    @include media($mobile)
+      font-size: 1.2em
+      text-align: center
   p
     width: 70%
     margin-left: auto
     margin-right: auto
     text-align: left
 
+    @include media($mobile)
+      width: 100%
+      padding: 0 1em
+      text-align: center
+
   .map
     margin: 2em auto 0 auto
     max-width: 100%
     height: auto
+    display: none
+
+    @include media($big-tablet)
+      display: block
+
   .team-list
     margin-top: 2em
-    +inline-list
+    @include media($big-tablet)
+      +inline-list
+    @include media($desktop)
+      +inline-list
     li
+      @include media($tablet)
+        +span-columns(4)
+        +omega(3n)
+        margin-bottom: 1em
+
+        &:nth-child(4)
+          margin-left: 16%
+      @include media($mobile)
+        width: 100%
+        margin: 1em auto
+        &:nth-child(4)
+          margin-left: 0
       .avatar
         margin-bottom: 1em
         
