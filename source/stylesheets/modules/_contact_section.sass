@@ -10,13 +10,12 @@ body.contact
       padding-top: 2em
 
   .form-wrapper
-    @include media($mobile)
-      width: 100%
-      padding: 0 1em
-      +shift(0)
-    +span-columns(6)
-    +shift(3)
-    +omega
+    width: 100%
+    padding: 0 1em
+    @include media($desktop)
+      +span-columns(6)
+      +shift(3)
+      +omega
       
     margin-bottom: 3em
     .actions

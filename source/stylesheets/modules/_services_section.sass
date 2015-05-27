@@ -7,13 +7,21 @@ $service-color: $color-3
 
   .services
     margin-top: 2em
+    padding: 0 1em
 
     .service
       @include media($mobile)
         +span-columns(12)
-      +span-columns(4)
-      +omega(3n)
-      margin-bottom: 3em
+        +omega(12n)
+      @include media($big-tablet)
+        +span-columns(6)
+        +omega(2n)
+      @include media($desktop)
+        +span-columns(4)
+        +omega(3n)
+      margin-bottom: 2em
+
+
 
       header
         margin-bottom: 1em
