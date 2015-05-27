@@ -22,7 +22,7 @@
   .container
     %ul.team-list
       - data.team.team_members.select{|k,v| !v['retired'] }.each do |team_member|
-        %li.member
+        %li
           %img.avatar{src: gravatar_for(team_member[1]['email_address'])}
           %h4= team_member[1]['full_name']
           %h5= team_member[1]['position']
