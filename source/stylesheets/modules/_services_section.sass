@@ -10,9 +10,12 @@ $service-color: $color-3
     padding: 0 1em
 
     .service
+      @include media($tablet)
+        padding: 0 2em
       @include media($mobile)
         +span-columns(12)
         +omega(12n)
+        padding: 0 1em
       @include media($big-tablet)
         +span-columns(6)
         +omega(2n)
