@@ -10,6 +10,14 @@ body.blog
       line-height: 33px
       font-size: 22px
       letter-spacing: 0.15px
+      @include media($mobile)
+        font-size: 1em
+        line-height: 1.2em
+        margin: .5em 0
+
+      &.meta
+        @include media($mobile)
+          font-size: .8em
     
     .container
       max-width: -webkit-calc(800px - (40px * 2))
@@ -22,6 +30,10 @@ body.blog
         content: ""
         display: table
         clear: both
+
+  h1
+    @include media($mobile)
+      font-size: 1.5em
 
   .tag-list
     +inline-list
@@ -46,19 +58,29 @@ body.blog
     article.preview
       padding: 1.5em 0
       font-size: 0.8em
+      h2
+        @include media($mobile)
+          font-size: 1em
 
       .meta
         color: $readableGray
+
+        @include media($mobile)
+          font-size: .8em
+
         .author, time, .tags
           display: inline-block
 
         .author::after, time::after
           margin: 0 0.5em
           content: "-"
+          
 
         .tags
           text-transform: uppercase
           font-size: 0.8em
+          @include media($mobile)
+            font-size: .6em
 
     .pagination
       margin: 2em 0
@@ -73,6 +95,8 @@ body.blog
   #main_content article.blog-post
     header
       margin: 4em 0
+      @include media($mobile)
+        margin-bottom: 1em
 
       h1, .meta
         text-align: center
@@ -96,6 +120,10 @@ body.blog
         margin-top: 0
         margin-bottom: 30px
         line-height: 1.75
+
+        @include media($mobile)
+          font-size: .8em 
+          line-height: 1.2em
 
       code
         background-color: $color-1

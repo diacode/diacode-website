@@ -33,7 +33,10 @@
       display: block
 
   .team-list
+    +clearfix
     margin-top: 2em
+    @include media($tablet)
+      padding: 0
     @include media($big-tablet)
       +inline-list
     @include media($desktop)

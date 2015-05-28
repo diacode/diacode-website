@@ -21,20 +21,22 @@ do ($ = jQuery, window, document) ->
       @$el.slideDown(0) if @$el.is(':hidden') && windowWidth > 480
 
       if $(document).scrollTop() > @offset || @offset is null
+        console.log "WAT"
         @$el.addClass("sticky")
       else
+        console.log "A"
         @$el.removeClass("sticky")
       $(window).on "scroll", @manageScroll
 
     manageScroll: =>
       windowWidth = $(window).width()
-      if windowWidth > 480
-        e = $(document).scrollTop()
-        if e > @offset && ! @$el.hasClass('sticky')
-          @$el.hide().addClass("sticky")
-          @$el.fadeIn()
-        else if e < @offset
-          @$el.removeClass("sticky")
+      console.log windowWidth
+      e = $(document).scrollTop()
+      if e > @offset && ! @$el.hasClass('sticky')
+        @$el.hide().addClass("sticky")
+        @$el.fadeIn()
+      else if e < @offset
+        @$el.removeClass("sticky")
 
   $.fn[pluginName] = (options) ->
     @each ->

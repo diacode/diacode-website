@@ -11,10 +11,11 @@
     li
       vertical-align: middle
       margin-bottom: 0
-      @include media($mobile)
-        margin: 0 .2em
+      @include media($tablet)
+        &:not(:first-of-type)
+          margin: 0 .2em
       img
         width: 120px
         height: auto
-        @include media($mobile)
+        @include media($tablet)
           width: 50px
