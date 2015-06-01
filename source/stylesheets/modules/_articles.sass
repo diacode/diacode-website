@@ -29,6 +29,9 @@ body.blog
       padding-left: 40px
       box-sizing: content-box
 
+      @include media($mobile)
+        padding: 0 1em
+
       &:after
         content: ""
         display: table
