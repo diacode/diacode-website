@@ -1,0 +1,39 @@
+body.open-source
+  #main_header
+    background-image: url(/images/open-source-bg.jpg)
+
+  .main-section
+    > .container > header
+      margin-bottom: 2em
+
+  .projects-list
+    +unstyled-list
+    +display(flex)
+    +flex-wrap(wrap)
+    +flex-direction(row)
+    text-align: center
+
+
+    li
+      +flex(0 0 33.333333333%)
+      padding: 1em
+      text-align: center
+      margin-bottom: 1em
+      a
+        +link($base-font-color)
+      .icon
+        margin: 0 auto 1em auto
+
+      p
+        margin: 0
+
+      .meta-data
+        color: darken($gray, 20)
+        font-size: .85em
+        margin: .5em 0
+
+        .fa
+          &:before
+            margin-right: .2em
+          &:not(:first-of-type)
+            padding-left: .5em
