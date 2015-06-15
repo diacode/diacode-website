@@ -1,13 +1,13 @@
 - project_id = project[0]
 - project_data = project[1]
 
-%li
+%li.project{data: {repo: project_data[:repo]}}
   = link_to project_data['url'] do
     %header
       = image_tag "open-source/#{project_id}.png", class: 'icon'
       %h4= project_data['name']
     .meta-data
-      %span.fa.fa-star 99
-      %span.fa.fa-code-fork 99
+      %span.fa.fa-star.stars 0
+      %span.fa.fa-code-fork.forks 0
 
     %p= project_data['description']

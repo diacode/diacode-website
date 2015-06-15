@@ -1,21 +1,26 @@
 repos:
   holidays:
     name: Holidays
-    description: Tool for managing Diacode's team holidays
+    description: Tool for managing Diacode's team holidays.
     url: https://github.com/diacode/holidays
+    repo: diacode/holidays
   billing:
     name: Billing
-    description: Diacode internal tool for invoicing with time tracking services integration
+    description: Diacode internal tool for invoicing with time tracking services integration.
     url: https://github.com/diacode/billing
+    repo: diacode/billing
   picks:
     name: Picks
-    description: Small work in progress tool which will help you building link compilations and distributing them
+    description: Small work in progress tool which will help you building link compilations and distributing them.
     url: "https://github.com/diacode?utf8=%E2%9C%93&query=picks"
+    repo: diacode/picks-api
   bank_scrap:
     name: BankScrap
-    description: Ruby gem to extract balance and transactions from banks
+    description: Ruby gem to extract balance and transactions from banks.
     url: https://github.com/bank-scrap/bank_scrap
+    repo: bank-scrap/bank_scrap
   rdpicker:
     name: Rdpicker
-    description: React datepicker for desktop and mobile
+    description: React datepicker for desktop and mobile.
     url: https://github.com/diacode/rdpicker
+    repo: diacode/rdpicker
