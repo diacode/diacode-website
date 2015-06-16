@@ -14,7 +14,7 @@ helpers do
   end
 
   def nav_active(page)
-    'active' if current_page.data.body_class == page
+    'active' if current_page.data.body_class.split(' ').include? page
   end
 
   def tag_list(tags)
@@ -93,7 +93,7 @@ activate :blog do |blog|
   # it summarize the content by getting the first paragraph
   require 'middleman-blog/truncate_html'
 
-  blog.summary_generator = Proc.new do |article| 
+  blog.summary_generator = Proc.new do |article|
     if article.data.excerpt
       article.data.excerpt
     else
