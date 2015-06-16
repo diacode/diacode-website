@@ -1,6 +1,25 @@
 body.open-source
   #main_header
-    background-image: url(/images/open-source-bg.jpg)
+    background-image: url(/images/open-source/background.jpg)
+
+    h2
+      font-weight: normal
+      margin: .5em 0 1em 0
+
+    .container
+      position: relative
+
+    .meta-data
+      margin: 1em 0
+      color: darken(#fff, 5)
+
+    .technologies
+      +transform(translateX(-50%))
+      +fill-parent
+      position: absolute
+      bottom: 2em
+      left: 50%
+
 
   .main-section
     > .container > header
@@ -27,13 +46,37 @@ body.open-source
       p
         margin: 0
 
-      .meta-data
-        color: darken($gray, 20)
-        font-size: .85em
-        margin: .5em 0
+    .meta-data
+      color: darken($gray, 20)
 
-        .fa
-          &:before
-            margin-right: .2em
-          &:not(:first-of-type)
-            padding-left: .5em
+  .meta-data
+    font-size: .85em
+    margin: .5em 0
+
+    .fa
+      &:before
+        margin-right: .2em
+      &:not(:first-of-type)
+        padding-left: .5em
+
+  @each $project in holidays, billing, picks
+    &.#{$project}
+      #main_header
+        background-image: url(/images/open-source/#{$project}/background.jpg)
+
+  &.project
+    .main-section
+      text-align: left
+
+      .screenshot
+        width: 100%
+        height: auto
+
+      &.screenshot-section
+        $base: $color-2
+        background: rgba($base,0.4)
+        +background-image(linear-gradient(top,rgba($base,0.2) 0,rgba($base,0.7) 60%, rgba($base,0.9) 100%))
+        padding-bottom: 0
+        .screenshot
+          margin: 0
+          vertical-align: bottom
