@@ -2,7 +2,7 @@ repos:
   holidays:
     name: Holidays
     description: Tool for managing Diacode's team holidays.
-    url: https://github.com/diacode/holidays
+    url: /open-source/holidays
     repo: diacode/holidays
   billing:
     name: Billing
