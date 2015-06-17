@@ -1,9 +1,11 @@
 @GitHubRepositiories =
   init: ->
-    return false unless $('body.open-source').length
+    return false unless $('body').hasClass 'open-source'
 
-    $('body.open-source').find('.project').each (i, ele) ->
-      project = $(ele)
+    projects = $('.project')
+
+    for project in projects
+      project = $(project)
 
       $.ajax
         url: 'https://api.github.com/repos/' + project.data 'repo'
