@@ -7,12 +7,12 @@ repos:
   billing:
     name: Billing
     description: Diacode internal tool for invoicing with time tracking services integration.
-    url: https://github.com/diacode/billing
+    url: /open-source/billing
     repo: diacode/billing
   picks:
     name: Picks
     description: Small work in progress tool which will help you building link compilations and distributing them.
-    url: "https://github.com/diacode?utf8=%E2%9C%93&query=picks"
+    url: /open-source/picks
     repo: diacode/picks-api
   bank_scrap:
     name: BankScrap
