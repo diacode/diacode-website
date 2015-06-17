@@ -4,11 +4,11 @@ repos:
     description: Tool for managing Diacode's team holidays.
     url: /open-source/holidays
     repo: diacode/holidays
-  billing:
-    name: Billing
-    description: Diacode internal tool for invoicing with time tracking services integration.
-    url: /open-source/billing
-    repo: diacode/billing
+  # billing:
+  #   name: Billing
+  #   description: Diacode internal tool for invoicing with time tracking services integration.
+  #   url: /open-source/billing
+  #   repo: diacode/billing
   picks:
     name: Picks
     description: Small work in progress tool which will help you building link compilations and distributing them.
