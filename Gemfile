@@ -32,3 +32,7 @@ gem 'httparty'
 # Image uploading
 gem 'aws-sdk', '~> 2'
 gem 'rmagick'
+
+gem "curb"
+gem "json"
+gem 'middleman-dotenv'

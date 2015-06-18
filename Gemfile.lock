@@ -41,6 +41,7 @@ GEM
       sass (>= 3.3.0, < 3.5)
     compass-import-once (1.0.5)
       sass (>= 3.2, < 3.5)
+    curb (0.8.8)
     dotenv (1.0.2)
     em-websocket (0.5.1)
       eventmachine (>= 0.12.9)
@@ -103,6 +104,9 @@ GEM
       middleman-core (>= 3.0.0)
       net-sftp
       ptools
+    middleman-dotenv (1.1.1)
+      dotenv (~> 1.0)
+      middleman-core (>= 3.2)
     middleman-livereload (3.4.2)
       em-websocket (~> 0.5.1)
       middleman-core (>= 3.3)
@@ -183,13 +187,16 @@ PLATFORMS
 DEPENDENCIES
   aws-sdk (~> 2)
   colorize
+  curb
   dotenv
   highline
   httparty
+  json
   middleman (~> 3.3.10)
   middleman-blog (~> 3.5.3)
   middleman-bourbon
   middleman-deploy
+  middleman-dotenv
   middleman-livereload (~> 3.4.2)
   middleman-minify-html
   middleman-neat
