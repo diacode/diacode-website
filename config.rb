@@ -14,6 +14,8 @@ helpers do
   end
 
   def nav_active(page)
+    return if current_page.data.body_class.blank?
+
     'active' if current_page.data.body_class.split(' ').include? page
   end
 
