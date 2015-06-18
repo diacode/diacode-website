@@ -1,0 +1,27 @@
+repos:
+  holidays:
+    name: Holidays
+    description: Web app for vacation scheduling with chat integration.
+    url: /open-source/holidays
+    repo: diacode/holidays
+  picks:
+    name: Picks
+    description: A tool for creating link compilations newsletters right from your chatroom.
+    url: /open-source/picks
+    repo: diacode/picks-api
+  billing:
+    name: Billing
+    description: Invoicing tool with time tracking integration and bank transactions fetching.
+    url: https://github.com/diacode/billing
+    repo: diacode/billing
+
+  bank_scrap:
+    name: BankScrap
+    description: Ruby gem to extract balance and transactions from banks.
+    url: https://github.com/bank-scrap/bank_scrap
+    repo: bank-scrap/bank_scrap
+  rdpicker:
+    name: Rdpicker
+    description: React datepicker for desktop and mobile.
+    url: https://github.com/diacode/rdpicker
+    repo: diacode/rdpicker
