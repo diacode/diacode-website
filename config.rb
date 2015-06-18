@@ -2,6 +2,8 @@
 # Helpers
 ###
 
+activate :dotenv
+
 # Automatic image dimensions on image_tag helper
 activate :automatic_image_sizes
 activate :directory_indexes
@@ -41,6 +43,25 @@ helpers do
     else
       url
     end
+  end
+
+  def stars_and_forks_count(repository)
+    c = Curl::Easy.new("https://api.github.com/repos/#{repository}?client_id=#{ENV['GITHUB_CLIENT_ID']}&client_secret=#{ENV['GITHUB_CLIENT_SECRET']}") do |curl|
+      curl.headers["User-Agent"] = "diacode-website"
+    end
+
+    c.perform
+    res = JSON.parse c.body_str
+
+    {
+      stars_count: res['stargazers_count'],
+      forks_count: res['forks_count']
+    }
+  rescue
+    {
+      stars_count: 0,
+      forks_count: 0
+    }
   end
 end
 
