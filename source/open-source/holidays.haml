@@ -4,15 +4,17 @@ description: Tool for managing Diacode's team holidays.
 body_class: open-source open-source-project holidays
 ---
 
+- stars_and_forks = stars_and_forks_count 'diacode/holidays'
+
 %header#main_header
   .container
     .welcome
       = image_tag "open-source/holidays/icon.png", class: 'icon'
       %h1 Holidays
       %h2 Managing holidays in a remote team
-      .meta-data.project{data: {repo: 'diacode/holidays'}}
-        %span.fa.fa-star.stars 0
-        %span.fa.fa-code-fork.forks 0
+      .meta-data
+        %span.fa.fa-star.stars= stars_and_forks[:stars_count]
+        %span.fa.fa-code-fork.forks= stars_and_forks[:forks_count]
       = link_to 'https://github.com/diacode/holidays', class: 'ghost' do
         %span.fa.fa-github
         Get source code

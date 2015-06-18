@@ -1,13 +1,14 @@
 - project_id = project[0]
 - project_data = project[1]
+- stars_and_forks = stars_and_forks_count project_data['repo']
 
-%li.project{data: {repo: project_data[:repo]}}
+%li.project
   = link_to project_data['url'] do
     %header
       = image_tag "open-source/#{project_id}/icon.png", class: 'icon'
       %h4= project_data['name']
     .meta-data
-      %span.fa.fa-star.stars 0
-      %span.fa.fa-code-fork.forks 0
+      %span.fa.fa-star.stars= stars_and_forks[:stars_count]
+      %span.fa.fa-code-fork.forks= stars_and_forks[:forks_count]
 
     %p= project_data['description']

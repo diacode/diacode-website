@@ -4,15 +4,17 @@ description: Diacode's internal tool for invoicing with time tracking services i
 body_class: open-source open-source-project billing
 ---
 
+- stars_and_forks = stars_and_forks_count 'diacode/billing'
+
 %header#main_header
   .container
     .welcome
       = image_tag "open-source/billing/icon.png", class: 'icon'
       %h1 Billing
       %h2 Invoicing with time tracking services integration
-      .meta-data.project{data: {repo: 'diacode/billing'}}
-        %span.fa.fa-star.stars 0
-        %span.fa.fa-code-fork.forks 0
+      .meta-data
+        %span.fa.fa-star.stars= stars_and_forks[:stars_count]
+        %span.fa.fa-code-fork.forks= stars_and_forks[:forks_count]
       = link_to 'https://github.com/diacode/billing', class: 'ghost' do
         %span.fa.fa-github
         Get source code

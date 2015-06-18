@@ -4,15 +4,17 @@ description: Tool for building link compilations and distributing them.
 body_class: open-source open-source-project picks
 ---
 
+- stars_and_forks = stars_and_forks_count 'diacode/picks-api'
+
 %header#main_header
   .container
     .welcome
       = image_tag "open-source/picks/icon.png", class: 'icon'
       %h1 Picks
       %h2 Building link compilations right from your chat room
-      .meta-data.project{data: {repo: 'diacode/picks-api'}}
-        %span.fa.fa-star.stars 0
-        %span.fa.fa-code-fork.forks 0
+      .meta-data
+        %span.fa.fa-star.stars= stars_and_forks[:stars_count]
+        %span.fa.fa-code-fork.forks= stars_and_forks[:forks_count]
       = link_to 'https://github.com/diacode/picks', class: 'ghost' do
         %span.fa.fa-github
         Get source code
@@ -34,7 +36,7 @@ body_class: open-source open-source-project picks
 
 %section.main-section
   .container
-    %p 
+    %p
       We created a <strong>Slack bot</strong>, using #{ link_to "Hubot", "https://hubot.github.com/"} which we named
       %em Botarate.
       When we paste a link in our #picks chat room, Botarate sends that link to a Rails API where we fetch the metadata (title and description) of the link.
@@ -42,13 +44,13 @@ body_class: open-source open-source-project picks
     %p
       If the preview of the metadata doesn't look nice (not all articles have meta descriptions), we can easily edit the title and description with simple commands
       directly in our chat room:
-      %pre !edit title Awesome Article about Rails 
+      %pre !edit title Awesome Article about Rails
     %p
       Once the link looks nice, we just approve it with a single command. As soon as the link is approved it gets automatically shared in our #{ link_to "Twitter account", "https://twitter.com/diacodepicks"}, for those who do not like email newsletters.
 
-    %p 
-      In addition to our bot, we built an 
-      %strong Ember.js front-end 
+    %p
+      In addition to our bot, we built an
+      %strong Ember.js front-end
       to have a more confortable view of all the links that have been shared.
 %section.main-section.screenshot-section
   .container
