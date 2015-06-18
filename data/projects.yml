@@ -1,19 +1,20 @@
 repos:
   holidays:
     name: Holidays
-    description: Tool for managing Diacode's team holidays.
+    description: Web app for vacation scheduling with chat integration.
     url: /open-source/holidays
     repo: diacode/holidays
-  # billing:
-  #   name: Billing
-  #   description: Diacode internal tool for invoicing with time tracking services integration.
-  #   url: /open-source/billing
-  #   repo: diacode/billing
   picks:
     name: Picks
-    description: Small work in progress tool which will help you building link compilations and distributing them.
+    description: A tool for creating link compilations newsletters right from your chatroom.
     url: /open-source/picks
     repo: diacode/picks-api
+  billing:
+    name: Billing
+    description: Invoicing tool with time tracking integration and bank transactions fetching.
+    url: https://github.com/diacode/billing
+    repo: diacode/billing
+
   bank_scrap:
     name: BankScrap
     description: Ruby gem to extract balance and transactions from banks.

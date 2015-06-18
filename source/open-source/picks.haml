@@ -9,7 +9,7 @@ body_class: open-source open-source-project picks
     .welcome
       = image_tag "open-source/picks/icon.png", class: 'icon'
       %h1 Picks
-      %h2 Building link compilations and distributing them
+      %h2 Building link compilations right from your chat room
       .meta-data.project{data: {repo: 'diacode/picks-api'}}
         %span.fa.fa-star.stars 0
         %span.fa.fa-code-fork.forks 0
@@ -17,11 +17,16 @@ body_class: open-source open-source-project picks
         %span.fa.fa-github
         Get source code
       .technologies
-        Ruby on Rails, HAML, CoffeeScript, SASS, React, Flux, Marty.js
+        Ruby on Rails, HAML, CoffeeScript, SASS, Ember.js, Hubot, Mailchimp
 
 %section.main-section
   .container
-    %p Managing picks for a remote team is not an easy task so we decided to create a tool to help us.
+    %p
+      Since we went remote, our chat became the core communication tool for our team. Besides of discussing work and projects, we naturally started sharing links
+      to interesting articles with the rest of the team. Soon we realized there was value on that curated collection of links so it was a good opportunity to share it
+      with friends, clients and colleagues.
+    %p
+      Our goal was to create a workflow where creating a newsletter was as easy as sharing a few links in our chat (we use Slack).
 
 %section.main-section.screenshot-section
   .container
@@ -29,23 +34,33 @@ body_class: open-source open-source-project picks
 
 %section.main-section
   .container
-    %p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Itaque haec cum illis est dissensio, cum Peripateticis nulla sane. An haec ab eo non dicuntur? Ait enim se, si uratur, Quam hoc suave! dicturum. Nihilo beatiorem esse Metellum quam Regulum. An potest, inquit ille, quicquam esse suavius quam nihil dolere? Quod non faceret, si in voluptate summum bonum poneret. Cum autem in quo sapienter dicimus, id a primo rectissime dicitur. Tu autem negas fortem esse quemquam posse, qui dolorem malum putet. Duo Reges: constructio interrete. Eadem nunc mea adversum te oratio est.
+    %p 
+      We created a <strong>Slack bot</strong>, using #{ link_to "Hubot", "https://hubot.github.com/"} which we named
+      %em Botarate.
+      When we paste a link in our #picks chat room, Botarate sends that link to a Rails API where we fetch the metadata (title and description) of the link.
 
+    %p
+      If the preview of the metadata doesn't look nice (not all articles have meta descriptions), we can easily edit the title and description with simple commands
+      directly in our chat room:
+      %pre !edit title Awesome Article about Rails 
+    %p
+      Once the link looks nice, we just approve it with a single command. As soon as the link is approved it gets automatically shared in our #{ link_to "Twitter account", "https://twitter.com/diacodepicks"}, for those who do not like email newsletters.
+
+    %p 
+      In addition to our bot, we built an 
+      %strong Ember.js front-end 
+      to have a more confortable view of all the links that have been shared.
 %section.main-section.screenshot-section
   .container
     = image_tag 'open-source/picks/approved.png', class: 'screenshot'
 
-%section.main-section
-  .container
-    %p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Itaque haec cum illis est dissensio, cum Peripateticis nulla sane. An haec ab eo non dicuntur? Ait enim se, si uratur, Quam hoc suave! dicturum. Nihilo beatiorem esse Metellum quam Regulum. An potest, inquit ille, quicquam esse suavius quam nihil dolere? Quod non faceret, si in voluptate summum bonum poneret. Cum autem in quo sapienter dicimus, id a primo rectissime dicitur. Tu autem negas fortem esse quemquam posse, qui dolorem malum putet. Duo Reges: constructio interrete. Eadem nunc mea adversum te oratio est.
-
-%section.main-section.screenshot-section
-  .container
-    = image_tag 'open-source/picks/pending.png', class: 'screenshot'
 
 %section.main-section
   .container
-    %p Amicitiam autem adhibendam esse censent, quia sit ex eo genere, quae prosunt. Esse enim quam vellet iniquus iustus poterat inpune. Quam nemo umquam voluptatem appellavit, appellat; Multoque hoc melius nos veriusque quam Stoici. Atque his de rebus et splendida est eorum et illustris oratio. Istam voluptatem perpetuam quis potest praestare sapienti? Bestiarum vero nullum iudicium puto. Eorum enim omnium multa praetermittentium, dum eligant aliquid, quod sequantur, quasi curta sententia;
+    %p
+      Using the front-end we can also check out all the compilations (each newsletter sent) that have been sent so far.
+    %p
+      As soon as we have shared more than 10 links, <strong>Picks automatically sends a newsletter thanks to the Mailchimp integration</strong>.
 
 %section.main-section.screenshot-section
   .container

@@ -21,11 +21,20 @@ body_class: open-source open-source-project holidays
 
 %section.main-section
   .container
-    %p Managing holidays for a remote team is not an easy task so we decided to create a tool to help us.
+    %p
+      As a remote and distributed team, when it comes to takes days off, we have to deal with multiple national and local holidays calendars. As our team grew this quickly
+      become a nightmare. To tackle this problem we finally decided to build a little app that nowadays takes care of all our holidays.
 
-%section.main-section
-  .container
-    = image_tag 'open-source/holidays/signin.png', class: 'screenshot'
+    %p
+      Thanks to our Holidays app, requesting a few days off is as simple as login into Holidays and create a holidays request. When it's done, we got a Slack notification
+      so that our CEO can review the request and accept it or reject it. All notifications are public so that every team can see when someone will be off.
+
+    %p
+      = image_tag 'open-source/holidays/signin.png', class: 'screenshot laptop'
+
+    %p
+      In addition , Holidays help all of us keeping track of how many holidays we have left. All this information is transparent for the whole team: if someone is not tacking enough days off, we'll push him to do so!
+
 
 %section.main-section.screenshot-section
   .container
@@ -33,7 +42,11 @@ body_class: open-source open-source-project holidays
 
 %section.main-section
   .container
-    %p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Itaque haec cum illis est dissensio, cum Peripateticis nulla sane. An haec ab eo non dicuntur? Ait enim se, si uratur, Quam hoc suave! dicturum. Nihilo beatiorem esse Metellum quam Regulum. An potest, inquit ille, quicquam esse suavius quam nihil dolere? Quod non faceret, si in voluptate summum bonum poneret. Cum autem in quo sapienter dicimus, id a primo rectissime dicitur. Tu autem negas fortem esse quemquam posse, qui dolorem malum putet. Duo Reges: constructio interrete. Eadem nunc mea adversum te oratio est.
+    %p
+      This project also served us as our firt experiment combining Rails with #{link_to "Marty", "http://martyjs.org/", target: "_blank"} and #{link_to "Webpack", "http://webpack.github.io/", target: "_blank"}. We liked this approach so much that now has become our default stack for building single page apps.
+
+    %p
+      We created a React calendar from scratch that served as the foundation of another open source project: #{link_to "Rdpicker", "http://diacode.github.io/rdpicker/", target: "_blank"}.
 
 %section.main-section.screenshot-section
   .container
@@ -41,7 +54,11 @@ body_class: open-source open-source-project holidays
 
 %section.main-section
   .container
-    %p Amicitiam autem adhibendam esse censent, quia sit ex eo genere, quae prosunt. Esse enim quam vellet iniquus iustus poterat inpune. Quam nemo umquam voluptatem appellavit, appellat; Multoque hoc melius nos veriusque quam Stoici. Atque his de rebus et splendida est eorum et illustris oratio. Istam voluptatem perpetuam quis potest praestare sapienti? Bestiarum vero nullum iudicium puto. Eorum enim omnium multa praetermittentium, dum eligant aliquid, quod sequantur, quasi curta sententia;
+    %p
+      The public calendar allow us to easily check who will be off in the incoming months, which is key for planning projects with our clients.
+
+    %p
+      If you think Holidays could help your team, go ahead and #{ link_to "clone the repo", "https://github.com/diacode/holidays"} now! We're looking forward to seeing other teams taking advantage of Holidays.
 
 %section.main-section.screenshot-section
   .container
