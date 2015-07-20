@@ -65,7 +65,7 @@ In the future we may experiment with weekly invoicing, as counting hours is not 
 
 In these years we learned the importance of having a strong presence in the development and startup community. That's why we're doing a bigger effort on releasing [open source projects](https://diacode.com/open-source) and giving [talks](http://slideshare.net/Diacode) in meetups and conferences.
 
-We still have to improve on this aspect and dedicate more time to writing in this blog and share with you all the things we're steadily learning.
+We still have to improve on this aspect and dedicate more time to write in this blog and share with you all the things we're steadily learning.
 
 ## What's next
 
