@@ -12,7 +12,7 @@ Five years ago I came back to Spain after a year studying in Sweden. I still had
 
 By that time I had a spare room in my old flat in Madrid, it was little and without A/C but it could fit a couple of desks. I convinced my friend [Jose](https://twitter.com/josemdev) to start "doing something", to build a company for making money doing things we really loved. He came up with the name Diacode, we bought the domain and a couple of desks and we started meeting everyday in that little room.
 
-It's been a long ride since then, and practically everything has changed during that time:
+It's been a long ride since then, and practically everything has changed during that time, here is the story.
 
 ## Culture: embracing remote work
 
