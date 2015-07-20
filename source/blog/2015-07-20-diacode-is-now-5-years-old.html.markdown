@@ -6,6 +6,7 @@ tags:
 author: javier
 excerpt: Diacode is now 5 years old. Here is a summary of all the changes in those 5 years.
 ---
+![Diacode is now 5 years old](https://diacode-blog.s3-eu-west-1.amazonaws.com/2015/07/number_5.jpg)
 
 Five years ago I came back to Spain after a year studying in Sweden. I still had one year ahead of college to get my degree but I was already feeling I wouldn't be able to make it. University was keeping me from doing things I really liked, it was like driving with the brake pedal down.
 
