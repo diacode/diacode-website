@@ -77,4 +77,4 @@ On the other hand, we are doing a big effort on [TLKR.io](https://tlkr.io/), our
 
 ---
 
-*As a note aside I want to say thank you to all those friends and family who have been supporting us during these 5 years, during the good times and specially the thought ones. Also thank you to all the clients we had in these 5 years for trusting our team for your projects. Diacode wouldn't have be possible without you.*
+*As a note aside I want to say thank you to all those friends and family who have been supporting us during these 5 years, during the good times and specially the tough ones. Also thank you to all the clients we had in these 5 years for trusting our team for your projects. Diacode wouldn't have be possible without you.*
