@@ -69,7 +69,7 @@ We still have to improve on this aspect and dedicate more time to write in this 
 
 ## What's next
 
-For the next months we'll be focusing on our improving our new Rails & React stack. We're looking forward for Rails 5 and seeing what we can do with [ActionCable](https://github.com/rails/actioncable).
+For the next months we'll be focusing on improving our new Rails & React stack. We're looking forward for Rails 5 and seeing what we can do with [ActionCable](https://github.com/rails/actioncable).
 
 We may play with other technologies such as [Elixir](http://elixir-lang.org/) and [Phoenix](http://www.phoenixframework.org/) – we love Ruby, but we're not married to it.
 
