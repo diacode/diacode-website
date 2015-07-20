@@ -19,9 +19,9 @@ Nine months after we started in my old flat and after getting some traction with
 
 Despite of having a great time in the office, Jose started pitching me with the idea of remote work. The office was quite far from his home and the university campus (I finally dropped out from college but he decided to finish it). With time I realized that what Jose was propossing made sense, but by that time I wasn't a fan of the idea, I really liked our office and [playing ping pong everyday](http://pingpong.diacode.com/).
 
-At the end of 2012 things got complicated so we decided to leave the office to reduced costs. A a few days later Jose decided to left the company to focus on finishing colleague.
+At the end of 2012 things got complicated so we decided to leave the office to reduced costs. A few days later Jose left the company to focus on finishing colleague.
 
-Without office and being alone I spent a few months working from home, freelancing under the name of the company. Finally I convinced [Victor](http://twitter.com/hopsor), our current CTO, to join me in a new adventure for Diacode. Victor had previously worked for Diacode for 3 months when we had the office, but he's not from Madrid and he didn't like the experience of living in a big city. So it was clear: I was forced to embrace remote work.
+Without office and being alone I spent a few months working from home, freelancing under the name of the company – I must admit that was tough. Finally I convinced [Victor](http://twitter.com/hopsor), our current CTO, to join me in a new adventure for Diacode. Victor had previously worked for Diacode for 3 months when we had the office, but he's not from Madrid and he didn't like the experience of living in a big city. So it was clear: I was forced to embrace remote work.
 
 It was hard at the beginning but we quickly found the way to make it work. We designed the new Diacode around the idea of remote work – and it worked.
 
