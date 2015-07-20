@@ -30,13 +30,13 @@ It was hard at the beginning but we quickly found the way to make it work. We de
 
 With our new remote culture we open ourselves to projects from anywhere in the world. Victor and me did a month long [trip to San Francisco](https://blog.diacode.com/diacode-en-silicon-valley-parte-1) and got some clients there. Things started to go well again and we couldn't handle all the work we had.
 
-We were needing more devs so we did [our first remote hire](http://0.0.0.0:4567/blog/cumplimos-tres-anios-y-ampliamos-equipo): [Ricardo](http://twitter.com/bigardone). He was the perfect match for us: a talented developer who happened to be passionated about surf – as you probably know, the best surf places are not usually "tech hubs", so remote work made a lot of sense to him: he could live in a small town in Asturias, next to the beach, while keep crafting code for clients anywhere in the world.
+We were needing more devs so we did [our first remote hire](https://blog.diacode.com/blog/cumplimos-tres-anios-y-ampliamos-equipo): [Ricardo](http://twitter.com/bigardone). He was the perfect match for us: a talented developer who happened to be passionated about surf – as you probably know, the best surf places are not usually "tech hubs", so remote work made a lot of sense to him: he could live in a small town in Asturias, next to the beach, while keep crafting code for clients anywhere in the world.
 
 A year later, during last year's summer, we were again in that moment where we couldn't handle more work so we made two more hires: [Bruno](https://twitter.com/bbay) and [Artur](https://twitter.com/a_chru). 
 
 Bruno was a promising developer who I met in Wayra, he didn't have previous experience with Ruby but I knew he would be able to learn fast (as he did). His previous experience working in a design oriented startup has been very valuable to our team.
 
-Artur was our first non Spanish hire. Hiring him meant we had to switch all our internal communications to English, but the effort definitely paid off. We all have improved our English skills and language is not a barrier for us anymore, we can work for clients anywhere in the world and we can hire people anywhere. He's now based in Poland but previously he spent a few months [travelling through India](http://0.0.0.0:4567/blog/code-in-headstand-how-to-work-remote-from-india) while working remotely.
+Artur was our first non Spanish hire. Hiring him meant we had to switch all our internal communications to English, but the effort definitely paid off. We all have improved our English skills and language is not a barrier for us anymore, we can work for clients anywhere in the world and we can hire people anywhere. He's now based in Poland but previously he spent a few months [travelling through India](https://blog.diacode.com/blog/code-in-headstand-how-to-work-remote-from-india) while working remotely.
 
 We don't have plans to hire more people in the near future, we like being a small company. Being small makes it easier to optimize for personal work life balance and we're not forced to accept low quality projects just to keep the payroll.
 
