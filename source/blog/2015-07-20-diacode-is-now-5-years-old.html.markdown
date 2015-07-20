@@ -31,7 +31,7 @@ With our new remote culture we open ourselves to projects from anywhere in the w
 
 We were needing more devs so we did [our first remote hire](http://0.0.0.0:4567/blog/cumplimos-tres-anios-y-ampliamos-equipo): [Ricardo](http://twitter.com/bigardone). He was the perfect match for us: a talented developer who happened to be passionated about surf – as you probably know, the best surf places are not usually "tech hubs", so remote work made a lot of sense to him: he could live in a small town in Asturias, next to the beach, while keep crafting code for clients anywhere in the world.
 
-A year later we were again that moment where we couldn't handle more work so we made two more hires: [Bruno](https://twitter.com/bbay) and [Artur](https://twitter.com/a_chru). 
+A year later, during last year's summer, we were again in that moment where we couldn't handle more work so we made two more hires: [Bruno](https://twitter.com/bbay) and [Artur](https://twitter.com/a_chru). 
 
 Bruno was a promising developer who I met in Wayra, he didn't have previous experience with Ruby but I knew he would be able to learn fast (as he did). His previous experience working in a design oriented startup has been very valuable to our team.
 
