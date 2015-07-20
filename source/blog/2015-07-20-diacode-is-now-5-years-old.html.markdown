@@ -57,7 +57,7 @@ After 8 or 9 months since we founded the company we got a project where the tota
 
 With that lesson learned we realized we had to radically change our approach to billing, client communication and project management. We switched to hourly rates and daily (mandatory) hangouts with clients. It was hard to sell at the beginning, but once a deal was closed we could sleep much better knowing that, no matter what happened, we wouldn't run into a new infinite loop of extra hours to meet a deadline without being paid for it.
 
-Today our hourly rate is 50 €. The same amount we charged for our very first project. However it is not all roses in the hourly rate land, we also made mistakes and despite of having an hourly rate deal we still have [a client who owe us $32,000](https://medium.com/@javier_dev/how-an-investor-from-silicon-valley-almost-kills-our-company-1f4348407e65). The lesson learned there is that we should stop working after an invoice is unpaid for more than a week.
+Today our hourly rate starts at 50 €. The same amount we charged for our very first project. However it is not all roses in the hourly rate land, we also made mistakes and despite of having an hourly rate deal we still have [a client who owe us $32,000](https://medium.com/@javier_dev/how-an-investor-from-silicon-valley-almost-kills-our-company-1f4348407e65). The lesson learned there is that we should stop working after an invoice is unpaid for more than a week.
 
 In the future we may experiment with weekly invoicing, as counting hours is not something we like to do, but until then is the safest way we've found to avoid shooting ourselves in the foot.
 
