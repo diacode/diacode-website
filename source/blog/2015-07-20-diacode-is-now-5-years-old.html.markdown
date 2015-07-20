@@ -72,7 +72,7 @@ For the next months we'll be focusing on our improving our new Rails & React sta
 
 We may play with other technologies such as [Elixir](http://elixir-lang.org/) and [Phoenix](http://www.phoenixframework.org/) – we love Ruby, but we're not married to it.
 
-On the other hand, we are doing a big effort on [TLKR.io](https://tlkr.io/), our very first product which started as a WebRTC experiment and now we expect to grow and make successful. We really believe that WebRTC can change the way people learn and practice languages.
+On the other hand, we are doing a big effort on [TLKR.io](https://tlkr.io/), our very first product – as in not for a client – which started as a WebRTC experiment and now we expect to grow and make successful. We really believe that WebRTC can change the way people learn and practice languages.
 
 
 ---
