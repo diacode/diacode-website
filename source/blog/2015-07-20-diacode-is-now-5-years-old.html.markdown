@@ -69,9 +69,9 @@ We still have to improve on this aspect and dedicate more time to write in this 
 
 ## What's next
 
-For the next months we'll be focusing on improving our new Rails & React stack. We're looking forward for Rails 5 and seeing what we can do with [ActionCable](https://github.com/rails/actioncable).
+For the next months we'll be focusing on improving our new Rails & React stack. We're looking forward for Rails 5 and seeing what we can do with [ActionCable](https://github.com/rails/actioncable). We may play with other technologies such as [Elixir](http://elixir-lang.org/) and [Phoenix](http://www.phoenixframework.org/) – we love Ruby, but we're not married to it.
 
-We may play with other technologies such as [Elixir](http://elixir-lang.org/) and [Phoenix](http://www.phoenixframework.org/) – we love Ruby, but we're not married to it.
+We would also like to experiment with something we call *development capital*, where we basically would invest our time into a project we like in return of a combination of cash and equity. It's a model we haven't tested yet but we think it could work very well for promising startups.
 
 On the other hand, we are doing a big effort on [TLKR.io](https://tlkr.io/), our very first product – as in not for a client – which started as a WebRTC experiment and now we expect to grow and make successful. We really believe that WebRTC can change the way people learn and practice languages.
 
