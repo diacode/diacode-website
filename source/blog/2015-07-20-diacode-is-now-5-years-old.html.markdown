@@ -8,7 +8,7 @@ excerpt: Diacode is now 5 years old. Here is a summary of all the changes in tho
 ---
 ![Diacode is now 5 years old](https://diacode-blog.s3-eu-west-1.amazonaws.com/2015/07/number_5.jpg)
 
-Five years ago I came back to Spain after a year studying in Sweden. I still had one year ahead of college to get my degree but I was already feeling I wouldn't be able to make it. University was keeping me from doing things I really liked, it was like driving with the brake pedal down.
+Five years ago I came back to Spain after a year studying in Sweden. I still had one year ahead of college to get my degree but I was already feeling I wouldn't be able to make it. University was keeping me from doing – and learning – things I really liked, it was like driving with the brake pedal down.
 
 By that time I had a spare room in my old flat in Madrid, it was little and without A/C but it could fit a couple of desks. I convinced my friend [Jose](https://twitter.com/josemdev) to start "doing something", to build a company for making money doing things we really loved. He came up with the name Diacode, we bought the domain and a couple of desks and we started meeting everyday in that little room.
 
