@@ -56,9 +56,9 @@ Once we have sorted out our main questions and concerns with the client, we move
 
 Then we do an estimation using [Estimation Party](http://estimationparty.com/). Often we ask someone else from our team to join the estimation session, to have some "fresh" input.
 
-We estimate the complexity of each story with either 0, 1, 2, or 3 points. Very roughly 1 point would be half a day of work, 2 points a full day, and 3 points 2 days of work. If we see something that looks like is going to be more than 3 points, we split it into more than one story.
+We estimate the complexity of each story with either 0, 1, 2, or 3 points. Very roughly: 1 point would be half a day of work, 2 points a full day, and 3 points 2 days of work. If we see something that looks like is going to be more than 3 points, we split it into more than one story.
 
-Once we have all the user stories estimated, we add some more for project overhead, such as *Project bootstrap* (creating repositories, staging environments, etc.) or *Creating mockups* (if we don't have them yet).
+Once we have estimated all the user stories, we include some more to cover project chores, such as *Project bootstrap* (creating repositories, staging environments, etc.) or *Creating mockups* (if we don't have them yet).
 
 ## Defining a price range
 
@@ -70,7 +70,7 @@ With all the stories estimated, we sum up all the points and divide them by our 
 
 > `120 / 12 = 10 weeks`
 
-At this point we have an estimation in weeks for the whole project. However our experience tell us that by this time we still only know less than a half of the details of the project – the rest either the client hasn't been able to communicate it with us, or he just doesn't know. **Clients always discover their own projects in the process of building them**. Keeping that in mind we increase our estimation to something like
+At this point we have an estimation in weeks for the whole project. However our experience tell us that by this time we still only know less than half of the details for the project – the rest either the client hasn't been able to communicate them with us, or he just doesn't know them yet. **Clients always discover their own projects in the process of building them**. Keeping that in mind we increase our estimation to something like:
 
 > **Time Estimate: between 10 and 14 weeks**
 
@@ -86,13 +86,13 @@ Here we also decide how many developers would make sense for the project dependi
 
 ## Sending the estimate
 
-Finally we send the client either a simple PDF document (just a few pages) or an email with all the user stories and their estimations, and the final time and cost estimate. We try to avoid spending too much time on fancy documents here, we don't see any value on that.
+Finally we send the client either a simple PDF document (just a few pages) or an email with all the user stories (and their estimations), and the final time and cost estimates. We try to avoid spending too much time on fancy documents here, we don't see any value on that.
 
-In this email we make clear that what we are sending is an estimation made with the information we have at this point. We also explain the client that he will have total freedom to change the course of the project without having to discuss with us why that wasn't defined at the beginning of the project. The only rule we have for managing changes to the scope is that they should happen at the beginning of the week (during the sprint notification), not in the middle of it.
+In this email we make clear that what we are sending is an estimation made with the information we have at this point. We also explain the client that he will have total freedom to change the course of the project without having to discuss with us why that wasn't defined at the beginning of the project. The only rule we have for managing changes to the scope is that they should happen at the beginning of the week (during the sprint planning), not in the middle of it.
 
 ## Reviewing estimations before each sprint
 
-Once the project has been approved and work has started, at the beginning of every week (we normally do weekly sprints), we'll have a *sprint planning* hangout where we decide which stories we will work that week and what info do we need from the product owner (the client) to implement them. Here often we discover new details about some story so we change the estimation of those.
+Once the project has been approved and work has begun, at the beginning of every week (we normally do weekly sprints), we'll have a *sprint planning* hangout where we decide which stories we will work that week and what info do we need from the product owner (the client) to implement them. Here often we discover new details about some story so we change the estimation of those.
 
 With weekly sprints and daily scrums (our equivalent to the a daily [Stand-up meeting](https://en.wikipedia.org/wiki/Stand-up_meeting)) we ensure the client has totally visibility of the progress of the project, what has been accomplished, what's left, and how close are we from the original estimation. This way there can't by any surprises.
 
@@ -100,4 +100,4 @@ Note that we require our clients to designate a product owner from their team wh
 
 ## Conclusion
 
-Project estimation is a key part of a project, but it's something we do not charge for and sometimes we cannot close a deal for the project, therefore our main goal for the whole process is to keep it as lightweight as possible, avoid any possible overhead, while trying to be as accurate as possible with our estimation.
+Project estimation is a key part of a project, but it's something we do not charge for and not always we close a deal for the project. Therefore our main goal for the whole process is to keep it as lightweight as possible, avoid any possible overhead, while trying to be as accurate as possible with our estimation.
