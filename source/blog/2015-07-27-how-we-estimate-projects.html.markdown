@@ -1,10 +1,10 @@
 ---
 title: How we estimate projects
-date: 2015-07-27 09:28 UTC
+date: 2015-07-27 07:28 UTC
 tags:
  - diacode
 author: javier
-excerpt: Since we started consultancy we have been improving our approach to project estimation. Here is how we do it nowadays.
+excerpt: Since we started doing Ruby on Rails consultancy we have been improving our approach to project estimation. Here is how we do it nowadays.
 ---
 
 Clients do not have an infinite budget. Before they make the decision of building a project, they obviously need to be sure they will be able to cover its cost. As we charge our clients per hour of work, often people ask me how do we approach project estimation – how do we avoid clients going crazy when we tell them we're not giving them an exact price.
