@@ -34,7 +34,7 @@ If the client wants to build a **startup** from scratch:
 
 If the client is part of an **organization with an existing development team**:
 
-* How does his dev team looks like?
+* How does their dev team look like?
 * What's their tech stack?
 * What's their approach to project management? Do they use scrum?
 * Do they have a test suite?
