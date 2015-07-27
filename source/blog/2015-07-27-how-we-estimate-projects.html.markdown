@@ -1,5 +1,5 @@
 ---
-title: How we estimate projects
+title: How We Estimate Projects
 date: 2015-07-27 07:28 UTC
 tags:
  - diacode
