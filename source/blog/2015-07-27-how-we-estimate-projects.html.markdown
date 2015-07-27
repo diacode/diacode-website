@@ -9,11 +9,11 @@ excerpt: Since we started doing Ruby on Rails consultancy we have been improving
 
 Clients do not have an infinite budget. Before they make the decision of building a project, they obviously need to be sure they will be able to cover its costs. As we charge our clients per hour of work, often people ask me how do we approach project estimation – how do we avoid clients going crazy when we tell them we're not giving them an exact price.
 
-This process has changed quite a lot in the five years we have doing consultancy work, but for the last two we have been using a process like the one described below.
+This process has changed quite a lot in the five years we have been doing consultancy work, but for the last two we have been using a process like the one described below.
 
 ## First meeting
 
-After the first contact with a potential client (a *lead*), we usually arrange an in person meeting or a Skype call. Before this meeting I try to get some info about the new lead such as: how he/she found about us, who he is working for, where he is based, etc. In other words, I try to understand what is his "context".
+After the first contact with a potential client (a *lead*), we usually arrange an in person meeting or a Skype call. Before this meeting I'd try to get some info about the new lead such as: how he/she found about us, who he is working for, where he is based, etc. In other words, I try to understand what is his "context".
 
 During the meeting I'd explain what is Diacode, a little bit about our history and our approach to remote work and project management. After that we move into the details of the future project and **I'd try to answer the following questions**:
 
