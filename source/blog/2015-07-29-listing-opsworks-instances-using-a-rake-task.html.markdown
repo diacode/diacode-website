@@ -8,6 +8,7 @@ tags:
   - DevOps
   - Amazon Web Services
   - OpsWorks
+excerpt: Handy rake task to get the IPs of your OpsWorks instances in a few lines of code with no need of using AWS web interface.
 ---
 
 In Diacode we have moved most of our Rails projects to [AWS OpsWorks](http://aws.amazon.com/opsworks) which, quoting its website, is *an application management service that makes it easy to deploy and operate applications of all shapes and sizes*.
