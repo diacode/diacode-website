@@ -10,13 +10,13 @@ tags:
   - OpsWorks
 ---
 
-In Diacode we have moved most of our rails projects to [AWS OpsWorks](http://aws.amazon.com/opsworks) which, quoting its website, is *an application management service that makes it easy to deploy and operate applications of all shapes and sizes*.
+In Diacode we have moved most of our Rails projects to [AWS OpsWorks](http://aws.amazon.com/opsworks) which, quoting its website, is *an application management service that makes it easy to deploy and operate applications of all shapes and sizes*.
 
-Despite some problems in the beginning due to our initial lack of experience with Chef we finally used to it and right now we are pretty happy with the results.
+Despite some problems in the beginning due to our initial lack of experience with Chef we finally got used to it and right now we are pretty happy with the results.
 
 Using load balancers or scaling your application with OpsWorks is really easy, you only need a few clicks to do it. However dealing with this kind of setup was a bit annoying when we wanted to gain SSH access to the instances since the IPs may change from time to time and that required us to go to the OpsWorks web interface everytime we needed the IP. As developers we are using the terminal most of the time and going from it to the browser and then back to the terminal is a big waste of time so it would be nice if we can do all steps from the console.
 
-Fortunately AWS offers an API with its corresponding Ruby wrapper and it’s pretty straight forward solving this problem so let's add it to our rails project:
+Fortunately AWS offers an API with its corresponding Ruby wrapper and it’s pretty straight forward solving this problem so let's add it to our Rails project:
 
 ```ruby
 # Gemfile
@@ -58,7 +58,7 @@ In second place we need an AWS user with the proper policy attached to retrieve 
 
 Now that we have the proper policy attached we should add our aws **key** and **secret** to the project. By having `AWS_ACCESS_KEY_ID` and `AWS_SECRET_ACCESS_KEY` environment variables we can make aws-sdk work out of the box with no need of manual configuration. If you prefer a different approach you can get more information [here](http://docs.aws.amazon.com/sdkforruby/api/index.html#Configuration).
 
-Last but not least the rake task which, as we said before, is pretty straight forward.
+Last but not least the rake task which, as we said before, is pretty straight forward. In our case it was enough with listing our stacks, instances and their IPs but if you need to extend the functionality we recommend you to check out the [official documentation](http://docs.aws.amazon.com/sdkforruby/api/Aws/OpsWorks/Client.html) for `Aws::OpsWorks::Client` class. 
 
 ```ruby
 # lib/tasks/opsworks.rake
