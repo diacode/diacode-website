@@ -51,14 +51,19 @@
 
   &.sticky
     position: fixed
-    top: 0
-    z-index: 100
-    width: 100%
     background: rgba($color-3, .9)
+    position: fixed
+    z-index: 10
+    right: 0
+    left: 0
+    top: 0
 
     &+*
       padding-top: $header-height
-  
+      
+  &.unpinned
+    display: none
+
   .menu-button-wrapper
     padding-bottom: .5em
 
