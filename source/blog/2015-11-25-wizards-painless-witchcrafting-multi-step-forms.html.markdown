@@ -142,6 +142,31 @@ end
 
 Using simple ```case``` statement we can use different models and forms for different steps, pretty neat.
 
+
+###Last valid step
+
+In our user interface we want to indicate user on what page he currently is, what steps he already finished and what is ahead. But we don't want user to go further than he filled valid data, for that we will use a before_filter, checking if the previous steps are valid and redirecting to them if not:
+
+```
+class SellerSignUpController < ApplicationController
+before_filter :redirect_to_first_invalid_step
+
+####
+
+  private
+
+  def redirect_to_first_invalid_step
+  	# don't check previous steps on first step
+    return if steps[0] == step
+    steps.to(steps.index(step) - 1).each do |s|
+      jump_to s unless form_object(s).new(model).validate({})
+    end
+  end
+
+####
+end
+```
+
 ###Final word
 
 As always, there is no one right solution, you can also go different way like in this [example](https://github.com/schneems/wicked/wiki/Building-Partial-Objects-Step-by-Step). It's worth to know all the different possiblities to choose one that will suite your application the best.
