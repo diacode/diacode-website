@@ -76,6 +76,22 @@ projects:
       - Angular.js
       - Amazon OpsWorks
 
+  goprofe:
+    name: goprofe
+    site_url: https://goprofe.com
+    description: >
+      <p>
+        Goprofe is a p2p marketplace for English classes. It connects students and English teachers in an easy to use platform that greatly simplifies the process of finding a suitable teacher for every need.
+      </p>
+      <p>
+        We helped goprofe founders bring their idea to life from zero to MVP. We took care of wireframing, designing and coding both the backend and the frontend in a tight deadline.
+      </p>
+    tools:
+      - Ruby on Rails
+      - PostgreSQL
+      - React.js
+      - MangoPay
+      - Amazon OpsWorks
 
   jurintia:
     name: Jurintia
