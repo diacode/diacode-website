@@ -403,6 +403,12 @@ end
 ```
 
 That's it for now. On the next post we'll create our first migration, the ```User```
-model and all the functionality regarding creating new user accounts.
+model and all the functionality regarding creating new user accounts. In the meanwhile you can
+check out the live demo and the final result source code:
+
+<div class="btn-wrapper">
+  <a href="https://phoenix-trello.herokuapp.com/" target="_blank" class="btn"><i class="fa fa-cloud"></i> Live demo</a>
+  <a href="https://github.com/bigardone/phoenix-trello" target="_blank" class="btn"><i class="fa fa-github"></i> Source code</a>
+</div>
 
 Happy coding!
