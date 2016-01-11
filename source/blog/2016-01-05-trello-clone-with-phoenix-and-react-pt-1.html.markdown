@@ -1,5 +1,5 @@
 ---
-title: Trello tribute with Phoenix and React (pt.1)
+title: Trello clone with Phoenix and React (pt.1)
 date: 2016-01-05
 author: ricardo
 excerpt:

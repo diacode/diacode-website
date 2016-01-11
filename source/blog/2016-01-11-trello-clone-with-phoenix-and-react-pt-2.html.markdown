@@ -1,6 +1,6 @@
 ---
 title: Trello clone with Phoenix and React (pt.2)
-date: 2016-01-08
+date: 2016-01-11
 author: ricardo
 excerpt:
 tags:
@@ -11,7 +11,7 @@ tags:
   - redux
 ---
 ## Project setup
-So now that we have selected our [current stack](/blog/trello-clone-with-phoenix-and-react-pt-1)
+So now that we have selected our [current stack](/trello-clone-with-phoenix-and-react-pt-1)
 let's start by creating the new **Phoenix** project. Before doing so we need to
 have both **[Elixir](http://elixir-lang.org/)** and **[Phoenix](http://www.phoenixframework.org/)** already installed in our system so check out
 both official sites for [installation instructions](http://www.phoenixframework.org/docs/installation).
@@ -22,7 +22,7 @@ Compared to Ruby on Rails, **Phoenix** doesn't have its own asset pipeline, inst
 the assets build tool which to me feels more modern and flexible. The cool thing
 is that you don't even need to use **Brunch** if you don't want to, you can also
 use **[Webpack](https://webpack.github.io)**. As I haven't tried **Brunch** before so we're going to use
-**Webpack** instead. 
+**Webpack** instead.
 
 Phoenix has **node.js** as an [optional dependency](http://www.phoenixframework.org/docs/installation#section-node-js-5-0-0-), as it's required by Brunch, however Webpack also requires node.js, so make sure you have node.js installed as well.
 
