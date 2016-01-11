@@ -21,7 +21,7 @@ body.blog
       &.meta
         @include media($mobile)
           font-size: .8em
-    
+
     .container
       max-width: -webkit-calc(800px - (40px * 2))
       max-width: calc(800px - (40px * 2))
@@ -80,7 +80,7 @@ body.blog
         .author::after, time::after
           margin: 0 0.5em
           content: "-"
-          
+
 
         .tags
           text-transform: uppercase
@@ -97,7 +97,7 @@ body.blog
         +ghost-button($color-2, #fff, .8em)
         @include media($mobile)
           +ghost-button($color-2, #fff, .5em)
-          
+
       .prev
         float: left
       .next
@@ -106,7 +106,7 @@ body.blog
 
   #main_content article.blog-post
     header
-      margin: 6em 0 4em 0 
+      margin: 6em 0 4em 0
       @include media($mobile)
         margin-bottom: 1em
 
@@ -119,8 +119,8 @@ body.blog
     .post-content
       margin-bottom: 2em
 
-      h1, h2, h3, h4, h5, h6, 
-      blockquote, pre, ul, ol, dl, 
+      h1, h2, h3, h4, h5, h6,
+      blockquote, pre, ul, ol, dl,
       iframe, figure, .highlight
         margin-bottom: 20px
         line-height: 1.75
@@ -204,13 +204,13 @@ body.blog
         display: block
         content: ''
         clear: both
-      
+
 
       img
         width: 15%
         border-radius: 100px
         float: left
-      
+
       .info
         float: left
         width: 85%
@@ -235,13 +235,21 @@ body.blog
             padding-right: 10px
 
             margin-left: 5px
-              
+
             &:last-child
               border: none
 
     #disqus_thread
       margin-top: 2em
-            
-          
-        
-      
+
+    .btn-wrapper
+      text-align: center
+      margin-bottom: 2rem
+      .btn
+        background: $color-2
+        +transition
+        color: #fff
+        padding: .5em 2em
+
+        &:hover
+          background: darken($color-2, 10)
