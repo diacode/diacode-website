@@ -27,7 +27,7 @@ use **[Webpack](https://webpack.github.io)**. As I haven't tried **Brunch** befo
 Phoenix has **node.js** as an [optional dependency](http://www.phoenixframework.org/docs/installation#section-node-js-5-0-0-), as it's required by Brunch, however Webpack also requires node.js, so make sure you have node.js installed as well.
 
 
-So let's create the new project without it:
+Let's create the new Phoenix project without Brunch:
 
 ```bash
 $ mix phoenix.new --no-brunch phoenix_trello
