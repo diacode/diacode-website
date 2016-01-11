@@ -13,16 +13,21 @@ tags:
 ## Project setup
 So now that we have selected our [current stack](/blog/trello-clone-with-phoenix-and-react-pt-1)
 let's start by creating the new **Phoenix** project. Before doing so we need to
-have both **Elixir** and **Phoenix** already installed in our system so check out
-both official sites for installation instructions.
+have both **[Elixir](http://elixir-lang.org/)** and **[Phoenix](http://www.phoenixframework.org/)** already installed in our system so check out
+both official sites for [installation instructions](http://www.phoenixframework.org/docs/installation).
 
 ### Static assets through Webpack
 
-**Phoenix** doesn't have its own asset pipeline, instead it uses **Brunch** as
+Compared to Ruby on Rails, **Phoenix** doesn't have its own asset pipeline, instead it uses **[Brunch](http://brunch.io/)** as
 the assets build tool which to me feels more modern and flexible. The cool thing
 is that you don't even need to use **Brunch** if you don't want to, you can also
-use **Webpack**. As I haven't tried **Brunch** before we're going to use
-**Webpack** instead. So let's create the new project without it:
+use **[Webpack](https://webpack.github.io)**. As I haven't tried **Brunch** before so we're going to use
+**Webpack** instead. 
+
+Phoenix has **node.js** as an [optional dependency](http://www.phoenixframework.org/docs/installation#section-node-js-5-0-0-), as it's required by Brunch, however Webpack also requires node.js, so make sure you have node.js installed as well.
+
+
+So let's create the new project without it:
 
 ```bash
 $ mix phoenix.new --no-brunch phoenix_trello
@@ -128,7 +133,7 @@ if (process.env.NODE_ENV === 'production') {
 
 ```
 
-We specify that we're going to have two different entries, one for the JavaScript
+Here we specify we want two different [webpack entries](https://webpack.github.io/docs/multiple-entry-points.html), one for the JavaScript
 and the other one for stylesheets, both placed inside the ```web/static``` folder.
 Our output files are going to be created in the ```private/static``` folder.
 As we are going to use some **ES6/7** and **JSX** features we will use **Babel**
@@ -136,7 +141,7 @@ with some presets designed for this.
 
 The final step is to tell **Phoenix** to start **Webpack** every time we start our
 development server, so it watches our changes while we are developing and generates
-the resulting asset files the main layout is going to reference. To do so we have
+the resulting asset files that the main view layout is going to reference. To do so we have
 to add a watcher in the ```config/dev.exs``` file:
 
 ```elixir
@@ -155,7 +160,7 @@ config :phoenix_trello, PhoenixTrello.Endpoint,
 ...
 ```
 
-If we now start our development server we can see that **Webpack** is also started and
+If we now start our development server we can see that **Webpack** is also running and
 watching:
 
 ```bash
@@ -176,7 +181,7 @@ Child extract-text-webpack-plugin:
 There is just one more thing to do here. If we look into the ```private/static/js```
 folder we will find a ```phoenix.js``` file. This file contains everything we need to
 use **websockets** and their **channels**, so let's move it to our base source
-folder ```web/static/js``` so we can require it wherever we might need it.
+folder ```web/static/js``` so we can require it wherever we may need it.
 
 ### Front-end basic structure
 Now that we have everything ready to start coding, let's begin by creating our
@@ -192,7 +197,7 @@ among others:
 
 I'm not going to waste any time on talking about stylesheets as I'm still modifying
 them at this moment but what I'd like to mention is that for creating a suitable
-file structure to organize my **Sass** files I usually use <a href="http://css-burrito.com/">css-burrito</a>
+file structure to organize my **Sass** files I usually follow <a href="http://css-burrito.com/">css-burrito</a>,
 which in my personal opinion is very useful.
 
 We need to configure our **Redux** store so let's create the following file:
@@ -346,8 +351,8 @@ export default (
 
 Our application is going to be wrapped inside the ```MainLayout``` component and
 the root path will render the registrations view. The final version of this file
-is a bit more complex due to  the authentication
-mechanism we are going to implement, but we'll talk about it on the next post.
+is a bit more complex due to the authentication
+mechanism we'll be implementing, but we'll talk about it on the next post.
 
 Finally we need to add the html container where we'll render the ```Root``` component
 in the main **Phoenix** application layout:
@@ -404,8 +409,8 @@ defmodule PhoenixTrello.Router do
 end
 ```
 
-That's it for now. On the next post we'll create our first migration, the ```User```
-model and all the functionality regarding creating new user accounts. In the meanwhile you can
+That's it for now. On the next post we'll be covering how to create our first database migration, the ```User```
+model and all the functionality for creating new user accounts. In the meanwhile you can
 check out the live demo and the final result source code:
 
 <div class="btn-wrapper">
