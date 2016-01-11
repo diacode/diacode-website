@@ -7,6 +7,8 @@ tags:
   - elixir
   - phoenix
   - react
+  - webpack
+  - redux
 ---
 ## Project setup
 So now that we have selected our [current stack](/blog/trello-tribute-with-phoenix-and-react-pt-1)
