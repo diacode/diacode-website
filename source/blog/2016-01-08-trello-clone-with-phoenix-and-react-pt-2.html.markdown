@@ -9,10 +9,10 @@ tags:
   - react
 ---
 ## Project setup
-So now that we have selected our <a href="#">current stack</a> let's start by
-creating the new **Phoenix** project. Before doing so we need to have both
-**Elixir** and **Phoenix** already installed in our system so check out both
-official sites for installation instructions.
+So now that we have selected our [current stack](/blog/2016/01/04/trello-tribute-with-phoenix-and-react-pt-1)
+let's start by creating the new **Phoenix** project. Before doing so we need to
+have both **Elixir** and **Phoenix** already installed in our system so check out
+both official sites for installation instructions.
 
 ### Static assets through Webpack
 
@@ -30,8 +30,8 @@ $ mix phoenix.new --no-brunch phoenix_trello
 $ cd phoenix_trello
 ```
 
-Alright, now we have our new project foundation with no assets building tool. Let's
-create a new ```pakage.json``` file and install **Webpack** as de dev dependency:
+Alright, now we have our new project created with no assets building tool. Let's
+create a new ```pakage.json``` file and install **Webpack** as a dev dependency:
 
 ```bash
 $ npm start
@@ -41,7 +41,7 @@ $ npm start
 $ npm i webpack --save-dev
 ```
 
-Now our ```package.json``` will look something similar to this:
+Now our ```package.json``` should look something similar to this:
 
 ```json
 {
@@ -56,9 +56,9 @@ Now our ```package.json``` will look something similar to this:
 ```
 
 We are going to need a bunch of dependencies in the project so instead of listing
-all of them just take a look to the
+them all please take a look to the
 <a href="https://github.com/bigardone/phoenix-trello/blob/master/package.json">source file</a>
-in the project's repository to view them all.
+in the project's repository to check them.
 
 We also need to add a ```webpack.config.js``` configuration file to tell **Webpack**
 how to build the assets:
@@ -126,16 +126,16 @@ if (process.env.NODE_ENV === 'production') {
 
 ```
 
-We specify that we're going to have two different entries, one for the javascripts
-and the other one for the stylesheets both placed inside the ```web/static``` folder.
+We specify that we're going to have two different entries, one for the JavaScript
+and the other one for stylesheets, both placed inside the ```web/static``` folder.
 Our output files are going to be created in the ```private/static``` folder.
 As we are going to use some **ES6/7** and **JSX** features we will use **Babel**
 with some presets designed for this.
 
-The final step is to tell Phoenix to start Webpack every time we start our
-development server, so it generates the resulting asset files the main layout
-is going to reference. To do so we have to add a watcher to the ```config/dev.exs```
-file:
+The final step is to tell **Phoenix** to start **Webpack** every time we start our
+development server, so it watches our changes while we are developing and generates
+the resulting asset files the main layout is going to reference. To do so we have
+to add a watcher in the ```config/dev.exs``` file:
 
 ```elixir
 # config/dev.exs
@@ -154,7 +154,7 @@ config :phoenix_trello, PhoenixTrello.Endpoint,
 ```
 
 If we now start our development server we can see that **Webpack** is also started and
-working:
+watching:
 
 ```bash
 $ mix phoenix.server
@@ -174,7 +174,7 @@ Child extract-text-webpack-plugin:
 There is just one more thing to do here. If we look into the ```private/static/js```
 folder we will find a ```phoenix.js``` file. This file contains everything we need to
 use **websockets** and their **channels**, so let's move it to our base source
-folder ```web/static/js``` so we can require it where we might need it.
+folder ```web/static/js``` so we can require it wherever we might need it.
 
 ### Front-end basic structure
 Now that we have everything ready to start coding, let's begin by creating our
@@ -190,10 +190,10 @@ among others:
 
 I'm not going to waste any time on talking about stylesheets as I'm still modifying
 them at this moment but what I'd like to mention is that for creating a suitable
-structure of **Sass** files I usually use <a href="http://css-burrito.com/">css-burrito</a>
+file structure to organize my **Sass** files I usually use <a href="http://css-burrito.com/">css-burrito</a>
 which in my personal opinion is very useful.
 
-Now we need to configure our Redux store so let's create the following file:
+We need to configure our **Redux** store so let's create the following file:
 
 ```javascript
 //web/static/js/store/index.js
@@ -237,7 +237,7 @@ export default combineReducers({
 ```
 
 As starting point we are only going to need two reducers, the ```routeReducer```
-which will automatically set routing changes into the state and a session reducer
+which will automatically set routing changes into the state and a ```session``` reducer
 which looks like this:
 
 ```javascript
@@ -254,13 +254,13 @@ export default function reducer(state = initialState, action = {}) {
 }
 ```
 
-So it's initial state will consists of the ```currentUser``` object which we will
-set after authentication, the ```sockect``` that we will use for connecting to
+Its initial state will consists of the ```currentUser``` object which we will
+set after authenticating visitors, the ```sockect``` that we will use for connecting to
 channels and an ```error``` to keep track of any issue while authenticating
 the user.
 
 Having all this prepared now we can go to our main ```application.js``` file and
-render de root component:
+render de ```Root``` component:
 
 ```javascript
 //web/static/js/application.js
@@ -283,7 +283,7 @@ const node = <Root routerHistory={history} store={store}/>;
 ReactDOM.render(node, target);
 ```
 
-We get the store and history, sync both of them so the previous ```routeReducer```
+We create the store and history, sync both of them so the previous ```routeReducer```
 works fine and we render the ```Root``` component in the main application
 layout which will be a **Redux** ```Provider``` wrapper for the ```routes```:
 
@@ -342,7 +342,9 @@ export default (
 );
 ```
 
-The final version of this file is a bit more complex due to  the authentication
+Our application is going to be wrapped inside the ```MainLayout``` component and
+the root path will render the registrations view. The final version of this file
+is a bit more complex due to  the authentication
 mechanism we are going to implement, but we'll talk about it on the next post.
 
 Finally we need to add the html container where we'll render the ```Root``` component
