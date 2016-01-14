@@ -64,13 +64,13 @@ instead of relying on the application to do so as many other developers do. It's
 just a matter of personal preferences I guess.
 
 Now that the migration file is ready,
-lest's run it to create the ```users``` database table:
+let's run it to create the ```users``` database table:
 
 ```bash
 $ mix ecto.migrate
 ```
 
-Now let's take a closer look to the ```User``` model:
+Now it's time to take a closer look to the ```User``` model:
 
 ```elixir
 # web/models/user.ex
@@ -109,7 +109,7 @@ So when a user signs up we want to add some validations to the process because w
 null restrictions to the table fields, and a unique constraint to the email. We have
 to reflect this on the ```User``` model in order to handle possible runtime errors
 caused by invalid data. We also want to encrypt the ```encrypted_password``` field
-so even though we will use plain strings to specify de a user's password, it will be
+so even though we will use plain strings to specify a user's password, it will be
 inserted in a secure way.
 
 Let's update the model and add some validations first:
