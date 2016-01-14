@@ -361,6 +361,28 @@ retrieving the ```jwt``` token and rendering it with the user as **json**. Other
 if the changeset is invalid, we will render the errors as **json** so we can show
 them to the user in the registration form.
 
+### JSON serialization
+**Phoenix** uses [Poison][7b1d0da0] as its default **JSON** library. As it's one of
+**Phoenix**'s dependencies we don't have to do anything special to install it. What
+we have to do is to update the ```User``` model to specify which fields we need
+to serialize:
+
+```elixir
+# web/models/user.ex
+
+defmodule PhoenixTrello.User do
+  use PhoenixTrello.Web, :model
+  # ...
+
+   @derive {Poison.Encoder, only: [:id, :first_name, :last_name, :email]}
+
+   # ...
+ end
+```
+
+From now on when we render a user, or list of users, as the response of a controller
+action or channel it will just return those specified fields. Easy as pie!
+
 Having our back-end ready for registering new users in the next post we will move to
 our front-end and code some **React** and **Redux** fun stuff to finish the sign up
 process. Meanwhile, don't forget to check out the live demo and final source code:
@@ -379,3 +401,4 @@ Happy coding!
   [00be625d]: https://github.com/elixircnx/comeonin "Comeonin"
   [dd02a897]: https://en.wikipedia.org/wiki/JSON_Web_Token "JWT"
   [aa85d547]: https://github.com/ueberauth/guardian "Guardian"
+  [7b1d0da0]: https://github.com/devinus/poison "Poison"
