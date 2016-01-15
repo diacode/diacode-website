@@ -9,9 +9,9 @@ tags:
   - ecto
 ---
 ## User sign up
-Now that we have our [project setup][547446b0] we are ready to create the ```User```
-migration and model. In this post we will see how to do this and also how
-to let a visitor create an new user account.
+Now that we have our [project all set up][547446b0], we are ready to create the ```User```
+database migration and model. In this post we will see how to do this and also how
+to let a visitor create a new user account.
 
 ### The User migration and model
 **Phoenix** uses [Ecto][fc5b7c2a] for wrapping any interaction needed with the
@@ -26,7 +26,7 @@ $ mix ecto.create
 ```
 
 Now let's create the new **Ecto** migration and model. The model generation task
-receives as params the module name, its plural for the schema name and the fields
+receives as parameters the module name, its plural form for the schema name and the fields
 it's going to have using a ```name:type``` syntax, so let's run it:
 
 ```bash
@@ -58,19 +58,19 @@ end
 
 ```
 
-I've added ```null``` restrictions to the fields and even an unique index to the email.
-This is because I like to keep my database data as secure and consistent as possible
+I've added ```null``` restrictions to the fields and even a unique index to the email.
+This is because I like the database to be responsible for the data integrity
 instead of relying on the application to do so as many other developers do. It's
 just a matter of personal preferences I guess.
 
 Now that the migration file is ready,
-lest's run it to create the ```users``` database table:
+let's run it to create the ```users``` database table:
 
 ```bash
 $ mix ecto.migrate
 ```
 
-Now let's take a closer look to the ```User``` model:
+Now it's time to take a closer look to the ```User``` model:
 
 ```elixir
 # web/models/user.ex
@@ -98,7 +98,7 @@ defmodule PhoenixTrello.User do
 end
 ```
 
-We can find on it two main different sections:
+Here can find two main different sections:
 
  - The **schema block** where we have all the metadata regarding table fields.
  - The **changeset** function, where we can define all validations and transformations applied to the data before being ready to use it in our application.
@@ -106,10 +106,10 @@ We can find on it two main different sections:
 ### Changeset validations and transformations
 
 So when a user signs up we want to add some validations to the process because we have previously added
-null restrictions to the table fields, and an unique constraint to the email. We have
+null restrictions to the table fields, and a unique constraint to the email. We have
 to reflect this on the ```User``` model in order to handle possible runtime errors
 caused by invalid data. We also want to encrypt the ```encrypted_password``` field
-so even though we will use plain strings to specify de a user's password, it will be
+so even though we will use plain strings to specify a user's password, it will be
 inserted in a secure way.
 
 Let's update the model and add some validations first:
@@ -142,11 +142,11 @@ end
 
 Basically we've done the following modifications:
 
-  - We have added a new virtual ```password``` field which will not be inserted into the database but can be used as any other field for any other porpoise. In our case it will be populated from the sign up form.
-  - We have added it to the required fields list os it's required.
-  - We have added a validation to check the ```email``` format.
-  - We have added a validation to check if the ```password``` length is at least 5 chars long and also a it will check in the params if the ```password_confirmation``` has the same value.
-  - We have finally added an unique constraint to check if the ```email``` already exists.
+  - Added a new virtual ```password``` field which will not be inserted into the database but can be used as any other field for any other purpose. In our case it will be populated from the sign up form.
+  - Make the ```password``` field required.
+  - Added a validation to check the ```email``` format.
+  - Added a validation to check if the ```password``` length is at least 5 chars long and also a it will check in the params if the ```password_confirmation``` has the same value.
+  - Added a unique constraint to check if the ```email``` already exists.
 
 With all these changes we have our validations covered. But we also need to fill
 the ```encrypted_password``` field before saving the data. To do so, let's use the
@@ -256,8 +256,8 @@ action of the ```RegistrationController``` accepting **json**... quite self expl
 
 Before implementing the controller let's think about what we need. The visitor will
 visit the sign up page, fill the form and submit it. If the data received by the
-controller is valid then we want to insert a new ```User``` into the database
-and sign it into the system and return its data and the [jwt][dd02a897] authentication
+controller is valid then we want to insert a new ```User``` into the database, sign it into the system 
+and return its data along with the [jwt][dd02a897] authentication
 token resulting of the signing process as **json** to the front-end. This token is
 the one we are going to need not only to send it in every request
 to authenticate the user, but also for allowing the user to access the private screens
@@ -354,10 +354,11 @@ end
 
 ```
 
-Thanks to **Elixir**'s pattern matching the ```create``` action expects an ```"user"```
+Thanks to **Elixir**'s [pattern matching](http://elixir-lang.org/getting-started/pattern-matching.html) 
+the ```create``` action expects a ```"user"```
 key inside the params. With these params we will create a new ```User``` changeset and insert
 it. If everything goes ok we use **Guardian** to ```encode_and_sign``` the new user
-retrieving the ```jwt``` token and rendering it with the user as **json**. Otherwise,
+retrieving the ```jwt``` token and render it with the user as **json**. Otherwise,
 if the changeset is invalid, we will render the errors as **json** so we can show
 them to the user in the registration form.
 
