@@ -14,7 +14,7 @@ In the [last post][86bf21e1] we created the ```User``` model with its validation
 and the necessary changeset transformation to generate the encrypted password,
 we also updated our router file and created the ```RegistrationController``` where a
 new user request is handled and returns the user in **JSON** and its **jwt** token for
-authenticating future requests. Let's move continue with the front-end side.
+authenticating future requests. Now let's move on to the front-end side.
 
 ### Preparing the React router
 The main goal is to have two public routes, ```/sign_in``` and ```/sign_up```, which
