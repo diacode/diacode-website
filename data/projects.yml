@@ -25,3 +25,8 @@ repos:
     description: React datepicker for desktop and mobile.
     url: https://github.com/diacode/rdpicker
     repo: diacode/rdpicker
+  trello:
+    name: Phoenix Trello
+    description: Trello clone built with Phoenix and React.
+    url: https://github.com/bigardone/phoenix-trello
+    repo: bigardone/phoenix-trello
