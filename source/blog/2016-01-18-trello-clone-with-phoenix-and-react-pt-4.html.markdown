@@ -226,9 +226,7 @@ redirects the user to the root path. On the contrary, if there is any error rela
 to the registration data, it will dispatch ```REGISTRATIONS_ERROR``` action with the errors
 so we can show them in the form to the user.
 
-For this http requests we are going
-to use the [isomorphic-fetch][316fbbc4] package and I have created a utility file
-for it:
+For these http requests we are going to lean on the [isomorphic-fetch][316fbbc4] package used from our utility file which includes some helpers for this purpose:
 
 ```javascript
 // web/static/js/utils/index.js
@@ -301,7 +299,7 @@ export default function reducer(state = initialState, action = {}) {
 
 ```
 
-I case there is any kind of registration errors we also need to update the new
+In case there is any kind of registration errors we also need to update the new
 state with them so they can be displayed to the user. Let's add them in the ```registration``` reducer:
 
 
