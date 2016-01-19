@@ -21,9 +21,9 @@ The main goal is to have two public routes, ```/sign_in``` and ```/sign_up```, w
 any visitor is going to be able to visit in order to log into the application
 or register a new user account.
 
-In the other hand we are going to need a ```/```
+On the other hand we are going to need a ```/```
 as the root route to display all the boards belonging to the user and finally a ```/boards/:id```
-route to display the selected board by the user. To access this last two routes, the
+route to display the selected board by the user. To access these last two routes, the
 user must be authenticated, otherwise we'll redirect him to the registration screen.
 
 So let's update the **react-router** ```routes``` file to represent this:
@@ -54,7 +54,7 @@ export default (
 );
 ```
 
-The tricky part is the ```AuthenticatedContainer```, lets take a look at it:
+The tricky part is the ```AuthenticatedContainer```, let's take a look at it:
 
 ```javascript
 // web/static/js/containers/authenticated.js
@@ -87,8 +87,8 @@ export default connect(mapStateToProps)(AuthenticatedContainer);
 
 ```
 
-What we basically do is, when the component mounts, check if the **jwt**
-token is present in the local storage of the browser. Later on we will see how
+What we basically do here is, when the component mounts, check if the **jwt**
+token is present in the browser's local storage. Later on we will see how
 to set it, but for now let's just imagine that it doesn't exist, so thanks to the
 **redux-simple-router** library we will redirect the user to the sign up page.
 
@@ -219,10 +219,10 @@ export default Actions;
 ```
 
 When the ```RegistrationsNew``` component calls this action creator passing the form data,
-a new **POST** request is sent to the server. The request is filtered by **Phoenix**'s router and processed by the ```RegistrationController``` we previously created in the last post. If the result is successful
+a new **POST** request is sent to the server. The request is filtered by **Phoenix**'s router and processed by the ```RegistrationController``` we previously created in the [previous blog post](https://blog.diacode.com/trello-clone-with-phoenix-and-react-pt-3). If the result is successful
 then the returned ```jwt``` token is stored into the ```localStorage```, the
 created user data is dispatched in the ```CURRENT_USER``` action and it finally
-redirects the user to the root path. On the contrary, if there is any error related
+  redirects the user to the root path. On the contrary, if there is any error related
 to the registration data, it will dispatch ```REGISTRATIONS_ERROR``` action with the errors
 so we can show them in the form to the user.
 
