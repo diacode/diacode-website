@@ -9,7 +9,7 @@ tags:
   - ecto
 ---
 ## User sign in
-In the last [two][9d87aa6e] [posts][66de27d6] we prepared everything so visitors
+In the last [two][9d87aa6e] [posts][66de27d6] we prepared everything so that visitors
 could sign up and create new user accounts. In this part we are going to see how
 to seed the database with some predefined users. We are also going to create the
 necessary functionality to let visitors sign in using their email and password.
@@ -17,7 +17,7 @@ Finally we will create a mechanism to retrieve the users data from
 their authentication token.
 
 ### Seeding the database
-If you have any previous experience on **Rails** then you will find that seeding the database on **Phoenix** is very similar. To do so, we just need to have a ```seedx.exs``` file:
+If you have any previous experience with **Rails** then you will find that seeding the database in **Phoenix** is very similar. To do so, we just need to have a ```seedx.exs``` file:
 
 ```elixir
 # priv/repo/seeds.exs
@@ -82,7 +82,8 @@ end
 
 ```
 
-Our first change is to add two new plugs to the ```:api``` pipeline:
+Our first change is to add two new [plugs](http://www.phoenixframework.org/docs/understanding-plug) 
+to the ```:api``` pipeline:
 
  - **VerifyHeader**: this plug just looks for the token in the ```Authorization``` header.
  - **LoadResource**: makes the current resource available through ```Guardian.Plug.current_resource(conn)``` if the token is present.
@@ -181,7 +182,7 @@ end
 
 ### Already signed users
 The reason for also returning the user's **JSON** representation while signing into
-the application is that we might need it for multiple reasons like, for instance,
+the application is that we might need it for multiple purposes like, for instance,
 showing his name in the application's header. This is fulfilled with what we've
 done so far. But what if the user refreshes the browser once in the
 root route view? Simple, our application state managed by **Redux** would be reseted and
