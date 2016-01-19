@@ -67,7 +67,7 @@ class AuthenticatedContainer extends React.Component {
   componentDidMount() {
     const { dispatch, currentUser } = this.props;
 
-    if (localStorage.phoenixAuthToken) {
+    if (localStorage.getItem('phoenixAuthToken')) {
       dispatch(Actions.currentUser());
     } else {
       dispatch(routeActions.push('/sign_up'));
@@ -193,7 +193,7 @@ Actions.signUp = (data) => {
   return dispatch => {
     httpPost('/api/v1/registrations', {user: data})
     .then((data) => {
-      localStorage.phoenixAuthToken = data.jwt;
+      localStorage.setItem('phoenixAuthToken', data.jwt);
 
       dispatch({
         type: Constants.CURRENT_USER,
@@ -251,7 +251,7 @@ export function parseJSON(response) {
 
 export function httpPost(url, data) {
   const headers = {
-    Authorization: localStorage.phoenixAuthToken,
+    Authorization: localStorage.getItem('phoenixAuthToken'),
     Accept: 'application/json',
     'Content-Type': 'application/json',
   }
