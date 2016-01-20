@@ -9,7 +9,7 @@ tags:
   - ecto
 ---
 ## User sign in
-In the last [two][9d87aa6e] [posts][66de27d6] we prepared everything so visitors
+In the last [two][9d87aa6e] [posts][66de27d6] we prepared everything so that visitors
 could sign up and create new user accounts. In this part we are going to see how
 to seed the database with some predefined users. We are also going to create the
 necessary functionality to let visitors sign in using their email and password.
@@ -17,9 +17,7 @@ Finally we will create a mechanism to retrieve the users data from
 their authentication token.
 
 ### Seeding the database
-If you have any previous experience on **Rail** then you will find that very
-seeding the database on **Phoenix** is very similar. To do so, we just need to have
-a ```seedx.exs``` file:
+If you have any previous experience with **Rails** then you will find that seeding the database in **Phoenix** is very similar. To do so, we just need to have a ```seedx.exs``` file:
 
 ```elixir
 # priv/repo/seeds.exs
@@ -40,7 +38,7 @@ alias PhoenixTrello.{Repo, User}
 ```
 
 In this file we basically insert into the database all the necessary data we want
-our application to have as predetermined. If you want to have any other user
+our application to have as initial data. If you want to have any other user
 just add it to the list and run the seed file like this:
 
 ```
@@ -84,7 +82,8 @@ end
 
 ```
 
-Our first change is to add two new plugs to the ```:api``` pipeline:
+Our first change is to add two new [plugs](http://www.phoenixframework.org/docs/understanding-plug) 
+to the ```:api``` pipeline:
 
  - **VerifyHeader**: this plug just looks for the token in the ```Authorization``` header.
  - **LoadResource**: makes the current resource available through ```Guardian.Plug.current_resource(conn)``` if the token is present.
@@ -122,7 +121,7 @@ end
 ```
 
 We are going to use the ```PhoenixTrello.Session``` helper module to authenticate the user
-by the parameters we are receiving. If everything goes ```:ok``` then we will encode and sign
+with the parameters we are receiving. If everything goes ```:ok``` then we will encode and sign in
 the user. This will give us the ```jwt``` token so we can return it along with the ```user```
 data as **JSON**. Let's take a look to the ```Session``` helper module before
 continuing any further:
@@ -152,11 +151,10 @@ end
 
 ```
 
-It tries to find the user by its email and check if the given password matches
-the user's encrypted one. I the user exists and the password is correct it returns
+It tries to find the user by his email and check if the given password matches
+the user's encrypted one. If the user exists and the password is correct it returns
 a [tuple][afa8b01b] containing ```{:ok, user}```. On the other hand, if no user
-is found  or the password doesn't happens to match it just return the [atom][a6acb810] ```:error```.
-
+is found or the password doesn't happen to match it just return the [atom][a6acb810] ```:error```.
 
 Going back to the ```SessionController``` note it renders the ```error.json``` template
 when the result of authenticating the user is the previous ```:error``` atom.
@@ -184,7 +182,7 @@ end
 
 ### Already signed users
 The reason for also returning the user's **JSON** representation while signing into
-the application is that we might need it for multiple reasons like, for instance,
+the application is that we might need it for multiple purposes like, for instance,
 showing his name in the application's header. This is fulfilled with what we've
 done so far. But what if the user refreshes the browser once in the
 root route view? Simple, our application state managed by **Redux** would be reseted and
@@ -257,8 +255,8 @@ The ```Guardian.Plug.EnsureAuthenticated``` checks if there is a previously veri
 token and if not it will handle the request with the ```:unauthenticated``` function of
 the ```SessionController```. This is the way we are going to protect the private controllers,
 so if we want certain routes to be accessible only by authenticated users we only have
-to add this **plug** to their controllers. The rest of the functionality is pretty simple...
-after retrieving the token from the request, decoding it and verifying it, it will render
+to add this **plug** to their controllers. The rest of the functionality is pretty simple.
+After retrieving the token from the request, decoding it and verifying it, it will render
 the ```current_resource``` which in our case would be the user. Otherwise it will render
 an error.
 
@@ -282,7 +280,7 @@ end
 
 It will return a ```403``` forbidden status code along with a simple **JSON**
 error string. With this we have finished all the back-end functionality related to
-the user **sign in** and subsequent **authentications**. In the next post we well
+the user **sign in** and subsequent **authentications**. In the next post we'll
 cover how to handle it in our front-end application and how to connect to the **UserSocket**,
 the core of all the real-time sugar. Meanwhile, don't forget to check out the live
 demo and final source code:
@@ -293,7 +291,6 @@ demo and final source code:
 </div>
 
 Happy coding!
-
 
   [9d87aa6e]: /trello-clone-with-phoenix-and-react-pt-3 "Part 3"
   [66de27d6]: /trello-clone-with-phoenix-and-react-pt-4 "Part 4"
