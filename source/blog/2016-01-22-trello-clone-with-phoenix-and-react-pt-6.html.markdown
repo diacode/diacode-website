@@ -17,7 +17,7 @@ use the returned data to allow the user access to private routes.
 
 ### The routes files
 
-Before continuing let's take a look again to our
+Before continuing let's take a look again at our
 React routes file:
 
 ```javascript
@@ -51,7 +51,7 @@ export default (
 ```
 
 As we saw in [part 4][d3ecc194], the ```AuthenticatedContainer``` is going to prevent
-unauthenticated users to access to the boards views unless the **jwt** token
+unauthenticated users from accessing the boards views unless the **jwt** token
 returned from the sign in process is present and valid.
 
 ### The view component
@@ -423,7 +423,7 @@ const Actions = {
 // ...
 ```
 
-It will send a ```DELETE``` request agains the back-end and, when successful, it
+It will send a ```DELETE``` request against the back-end and, when successful, it
 will remove the ```phoenixAuthToken``` from the ```localStorage``` and dispatch the ```USER_SIGNED_OUT```
 action reseting the ```currentUser``` from the state using the previously defined
 session reducer:
@@ -453,8 +453,8 @@ export default function reducer(state = initialState, action = {}) {
 
 ### One more thing
 Although we are done with the user sign in process, there is a crucial functionality
-we haven't implemented yet which is going to be the core of all the following features
-we will code... the user socket and it's channels. It's so important that I rather
+we haven't implemented yet, which is going to be the core of all the following features
+we will code; *the user socket and it's channels*. It's so important that I'd rather
 prefer leaving it for the next post where we will see how the ```UserSocket``` looks like and
 how to connect to it so we can have bidirectional channels between our front-end and
 the back-end, displaying changes to the user in realtime. Meanwhile, don't forget to check out the live
