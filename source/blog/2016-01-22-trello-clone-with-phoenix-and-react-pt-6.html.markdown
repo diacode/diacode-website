@@ -13,7 +13,7 @@ tags:
 
 Now that the [back-end functionality][c0a8e4d0] is ready to handle sign in requests
 let's move on to the front-end and see how to build and send this requests and how to
-use the returned data to permit the user accessing the private routes.
+use the returned data to allow the user access to private routes.
 
 ### The routes files
 
