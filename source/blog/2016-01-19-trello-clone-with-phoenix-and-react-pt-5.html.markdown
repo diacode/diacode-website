@@ -3,6 +3,7 @@ title: Trello clone with Phoenix and React (pt.5)
 date: 2016-01-19 14:39 UTC
 author: ricardo
 excerpt:
+  Seeding the database and creating the sign in controller for the Phoenix Trello Clone.
 tags:
   - elixir
   - phoenix

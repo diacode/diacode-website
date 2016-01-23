@@ -3,6 +3,7 @@ title: Trello clone with Phoenix and React (pt.3)
 date: 2016-01-14
 author: ricardo
 excerpt:
+  Defining the User model and adding JWT authentication to our Phoenix Trello clone.
 tags:
   - elixir
   - phoenix

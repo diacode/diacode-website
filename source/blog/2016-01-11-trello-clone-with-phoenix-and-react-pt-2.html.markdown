@@ -3,6 +3,7 @@ title: Trello clone with Phoenix and React (pt.2)
 date: 2016-01-11
 author: ricardo
 excerpt:
+  Phoenix Framework project setup for creating a Trello clone.
 tags:
   - elixir
   - phoenix

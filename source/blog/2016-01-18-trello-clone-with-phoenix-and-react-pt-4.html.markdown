@@ -3,6 +3,7 @@ title: Trello clone with Phoenix and React (pt.4)
 date: 2016-01-18 09:57 UTC
 author: ricardo
 excerpt:
+  Phoenix Trello clone: Adding the front-end for the sign up with React and Redux.
 tags:
   - elixir
   - phoenix
