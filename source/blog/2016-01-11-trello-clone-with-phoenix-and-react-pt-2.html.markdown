@@ -48,7 +48,7 @@ $ cd phoenix_trello
 ```
 
 Alright, now we have our new project created with no assets building tool. Let's
-create a new ```pakage.json``` file and install **Webpack** as a dev dependency:
+create a new ```package.json``` file and install **Webpack** as a dev dependency:
 
 ```bash
 $ npm start
