@@ -12,7 +12,7 @@ tags:
 ## User sign in front-end
 
 Now that the [back-end functionality][c0a8e4d0] is ready to handle sign in requests
-let's move on to the front-end and see how to build and send this requests and how to
+let's move on to the front-end and see how to build and send these requests and how to
 use the returned data to allow the user access to private routes.
 
 ### The routes files
@@ -125,7 +125,7 @@ export default connect(mapStateToProps)(SessionsNew);
 ```
 
 It basically renders the form and calls the ```signIn```action creator when submitting
-it. I will also be connected to the store to get its props which will be updated
+it. It will also be connected to the store to get its props which will be updated
 through the session reducer, so we can display validation errors to the user.
 
 ### The action creator
