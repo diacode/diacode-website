@@ -273,9 +273,9 @@ export default connect(mapStateToProps)(AuthenticatedContainer);
 
 ```
 
-When it mounts and there is an authentication token but we still don't have the ```currentUser```
+When this component gets mounted, if there is an authentication token but not a ```currentUser```
 in the store, it will call the ```currentUser``` action creator to retrieve the
-users data from the back-end. Let's add it:
+user's data from the back-end. Let's add it:
 
 ```javascript
 // web/static/js/actions/sessions.js
