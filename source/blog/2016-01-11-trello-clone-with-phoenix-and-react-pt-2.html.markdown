@@ -3,6 +3,7 @@ title: Trello clone with Phoenix and React (pt.2)
 date: 2016-01-11
 author: ricardo
 excerpt:
+  Phoenix Framework project setup for creating a Trello clone.
 tags:
   - elixir
   - phoenix
@@ -10,6 +11,16 @@ tags:
   - webpack
   - redux
 ---
+
+> _This post belongs to the **Trello clone with Phoenix Framework and React** series._
+>
+> 1. [Intro and selected stack](/trello-clone-with-phoenix-and-react-pt-1)
+> 2. [Phoenix Framework project setup](/trello-clone-with-phoenix-and-react-pt-2)
+> 3. [The User model and JWT auth](/trello-clone-with-phoenix-and-react-pt-3)
+> 4. [Front-end for sign up with React and Redux](/trello-clone-with-phoenix-and-react-pt-4)
+> 5. [Database seeding and sign in controller](/trello-clone-with-phoenix-and-react-pt-5)
+> 6. Coming soon
+
 ## Project setup
 So now that we have selected our [current stack](/trello-clone-with-phoenix-and-react-pt-1)
 let's start by creating the new **Phoenix** project. Before doing so we need to
@@ -38,7 +49,7 @@ $ cd phoenix_trello
 ```
 
 Alright, now we have our new project created with no assets building tool. Let's
-create a new ```pakage.json``` file and install **Webpack** as a dev dependency:
+create a new ```package.json``` file and install **Webpack** as a dev dependency:
 
 ```bash
 $ npm start

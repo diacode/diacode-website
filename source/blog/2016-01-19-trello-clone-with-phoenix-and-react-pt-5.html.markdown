@@ -3,11 +3,22 @@ title: Trello clone with Phoenix and React (pt.5)
 date: 2016-01-19 14:39 UTC
 author: ricardo
 excerpt:
+  Seeding the database and creating the sign in controller for the Phoenix Trello Clone.
 tags:
   - elixir
   - phoenix
   - ecto
 ---
+
+> _This post belongs to the **Trello clone with Phoenix Framework and React** series._
+>
+> 1. [Intro and selected stack](/trello-clone-with-phoenix-and-react-pt-1)
+> 2. [Phoenix Framework project setup](/trello-clone-with-phoenix-and-react-pt-2)
+> 3. [The User model and JWT auth](/trello-clone-with-phoenix-and-react-pt-3)
+> 4. [Front-end for sign up with React and Redux](/trello-clone-with-phoenix-and-react-pt-4)
+> 5. [Database seeding and sign in controller](/trello-clone-with-phoenix-and-react-pt-5)
+> 6. Coming soon
+
 ## User sign in
 In the last [two][9d87aa6e] [posts][66de27d6] we prepared everything so that visitors
 could sign up and create new user accounts. In this part we are going to see how
@@ -82,7 +93,7 @@ end
 
 ```
 
-Our first change is to add two new [plugs](http://www.phoenixframework.org/docs/understanding-plug) 
+Our first change is to add two new [plugs](http://www.phoenixframework.org/docs/understanding-plug)
 to the ```:api``` pipeline:
 
  - **VerifyHeader**: this plug just looks for the token in the ```Authorization``` header.

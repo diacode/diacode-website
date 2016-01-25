@@ -3,11 +3,22 @@ title: Trello clone with Phoenix and React (pt.3)
 date: 2016-01-14
 author: ricardo
 excerpt:
+  Defining the User model and adding JWT authentication to our Phoenix Trello clone.
 tags:
   - elixir
   - phoenix
   - ecto
 ---
+
+> _This post belongs to the **Trello clone with Phoenix Framework and React** series._
+>
+> 1. [Intro and selected stack](/trello-clone-with-phoenix-and-react-pt-1)
+> 2. [Phoenix Framework project setup](/trello-clone-with-phoenix-and-react-pt-2)
+> 3. [The User model and JWT auth](/trello-clone-with-phoenix-and-react-pt-3)
+> 4. [Front-end for sign up with React and Redux](/trello-clone-with-phoenix-and-react-pt-4)
+> 5. [Database seeding and sign in controller](/trello-clone-with-phoenix-and-react-pt-5)
+> 6. Coming soon
+
 ## User sign up
 Now that we have our [project all set up][547446b0], we are ready to create the ```User```
 database migration and model. In this post we will see how to do this and also how
@@ -256,7 +267,7 @@ action of the ```RegistrationController``` accepting **json**... quite self expl
 
 Before implementing the controller let's think about what we need. The visitor will
 visit the sign up page, fill the form and submit it. If the data received by the
-controller is valid then we want to insert a new ```User``` into the database, sign it into the system 
+controller is valid then we want to insert a new ```User``` into the database, sign it into the system
 and return its data along with the [jwt][dd02a897] authentication
 token resulting of the signing process as **json** to the front-end. This token is
 the one we are going to need not only to send it in every request
@@ -354,7 +365,7 @@ end
 
 ```
 
-Thanks to **Elixir**'s [pattern matching](http://elixir-lang.org/getting-started/pattern-matching.html) 
+Thanks to **Elixir**'s [pattern matching](http://elixir-lang.org/getting-started/pattern-matching.html)
 the ```create``` action expects a ```"user"```
 key inside the params. With these params we will create a new ```User``` changeset and insert
 it. If everything goes ok we use **Guardian** to ```encode_and_sign``` the new user

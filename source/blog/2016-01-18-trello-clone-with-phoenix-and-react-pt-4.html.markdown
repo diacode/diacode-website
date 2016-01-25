@@ -3,12 +3,23 @@ title: Trello clone with Phoenix and React (pt.4)
 date: 2016-01-18 09:57 UTC
 author: ricardo
 excerpt:
+  Phoenix Trello clone: Adding the front-end for the sign up with React and Redux.
 tags:
   - elixir
   - phoenix
   - react
   - redux
 ---
+
+> _This post belongs to the **Trello clone with Phoenix Framework and React** series._
+>
+> 1. [Intro and selected stack](/trello-clone-with-phoenix-and-react-pt-1)
+> 2. [Phoenix Framework project setup](/trello-clone-with-phoenix-and-react-pt-2)
+> 3. [The User model and JWT auth](/trello-clone-with-phoenix-and-react-pt-3)
+> 4. [Front-end for sign up with React and Redux](/trello-clone-with-phoenix-and-react-pt-4)
+> 5. [Database seeding and sign in controller](/trello-clone-with-phoenix-and-react-pt-5)
+> 6. Coming soon
+
 ## User sign up
 In the [last post][86bf21e1] we created the ```User``` model with its validations
 and the necessary changeset transformation to generate the encrypted password,
