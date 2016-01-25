@@ -3,6 +3,7 @@ title: Trello clone with Phoenix and React (pt.6)
 date: 2016-01-22 08:54 UTC
 author: ricardo
 excerpt:
+  Handling user authentication from the front-end with React and Redux.
 tags:
   - elixir
   - phoenix
