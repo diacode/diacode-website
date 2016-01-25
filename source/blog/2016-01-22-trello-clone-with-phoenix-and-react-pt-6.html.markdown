@@ -453,8 +453,8 @@ export default function reducer(state = initialState, action = {}) {
 
 ### One more thing
 Although we are done with the user sign in process, there is a crucial functionality
-we haven't implemented yet, which is going to be the core of all the following features
-we will code; **the user socket and it's channels**. It's so important that I'd rather
+we haven't implemented yet, which is going to be the core of all the future features
+we will code: **the user socket and its channels**. It's so important that I'd rather
 prefer leaving it for the next post where we will see how the ```UserSocket``` looks like and
 how to connect to it so we can have bidirectional channels between our front-end and
 the back-end, displaying changes to the user in realtime. Meanwhile, don't forget to check out the live
