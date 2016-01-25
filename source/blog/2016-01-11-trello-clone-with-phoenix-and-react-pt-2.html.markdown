@@ -23,7 +23,7 @@ tags:
 > 7. Coming soon
 
 ## Project setup
-So now that we have selected our [current stack](/trello-clone-with-phoenix-and-react-pt-1)
+So now that we have selected our [current stack](/blog/2016/01/04/trello-tribute-with-phoenix-and-react-pt-1)
 let's start by creating the new **Phoenix** project. Before doing so we need to
 have both **[Elixir](http://elixir-lang.org/)** and **[Phoenix](http://www.phoenixframework.org/)** already installed in our system so check out
 both official sites for [installation instructions](http://www.phoenixframework.org/docs/installation).
@@ -53,8 +53,8 @@ Alright, now we have our new project created with no assets building tool. Let's
 create a new ```package.json``` file and install **Webpack** as a dev dependency:
 
 ```bash
-$ npm start
-  ...
+$ npm init
+  ... (You can just hit enter when prompted for setting default values.)
   ...
   ...
 $ npm i webpack --save-dev
@@ -220,6 +220,7 @@ We need to configure our **Redux** store so let's create the following file:
 import { createStore, applyMiddleware } from 'redux';
 import createLogger from 'redux-logger';
 import thunkMiddleware from 'redux-thunk';
+import { syncHistory } from 'redux-simple-router';
 import reducers from '../reducers';
 
 const loggerMiddleware = createLogger({
@@ -227,15 +228,18 @@ const loggerMiddleware = createLogger({
   collapsed: true,
 });
 
-const createStoreWithMiddleware = applyMiddleware(thunkMiddleware, loggerMiddleware)(createStore);
+export default function configureStore(browserHistory) {
+  const reduxRouterMiddleware = syncHistory(browserHistory);
+  const createStoreWithMiddleware = applyMiddleware(reduxRouterMiddleware, thunkMiddleware, loggerMiddleware)(createStore);
 
-export default function configureStore() {
   return createStoreWithMiddleware(reducers);
 }
+
 ```
 
-Basically we are configuring the **Store** with two middlewares:
+Basically we are configuring the **Store** with three middlewares:
 
+  - **reduxRouterMiddleware** to dispatch router actions to the store.
   - **redux-thunk** to dispatch async actions.
   - **redux-logger** to log any action and state changes through the browser's console.
 
@@ -291,10 +295,8 @@ import { syncReduxAndRouter }   from 'redux-simple-router';
 import configureStore           from './store';
 import Root                     from './containers/root';
 
-const store  = configureStore();
 const history = createBrowserHistory();
-
-syncReduxAndRouter(history, store);
+const store  = configureStore(history);
 
 const target = document.getElementById('main_container');
 const node = <Root routerHistory={history} store={store}/>;
@@ -302,9 +304,8 @@ const node = <Root routerHistory={history} store={store}/>;
 ReactDOM.render(node, target);
 ```
 
-We create the store and history, sync both of them so the previous ```routeReducer```
-works fine and we render the ```Root``` component in the main application
-layout which will be a **Redux** ```Provider``` wrapper for the ```routes```:
+We create the  history, configure the store we finally render the ```Root``` component
+in the main application layout which will be a **Redux** ```Provider``` wrapper for the ```routes```:
 
 ```javascript
 //web/static/js/containers/root.js
