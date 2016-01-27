@@ -13,17 +13,17 @@ tags:
 
 ## Sockets and channels
 In the [last post][a00bf551] we finished the authentication process and now we are
-ready to start the with all the fun. From now on we are going to heavily rely
+ready to start with all the fun. From now on we are going to heavily rely
 on **Phoenix**'s real-time features for connecting both the front-end and the
-back-end so any event affecting a user's board can be pushed to him so the changes
-are automatically displayed in his screen.
+back-end. Any event affecting a user's board will be pushed to him so the changes
+are automatically displayed on his screen.
 
 We can think of channels more or less as common controllers. But instead of handling
 a request and returning a response to a single connection, they handle bidirectional
 events for a given topic which can be broadcasted to multiple connections. To configure
-them **Phoenix** uses socket handlers which authenticates and identifies a
-socket connection and also defines channel routes which specify which channel is going
-to handle which request.
+them, **Phoenix** uses socket handlers which authenticates and identifies a
+socket connection and also defines channel routes that specify which channel is going
+to handle each request.
 
 ### The user socket
 When creating a new **Phoenix** application, it automatically sets a default socket
@@ -66,10 +66,10 @@ end
 
 ```
 
-Basically we are going to have to different channels:
+Basically we are going to have two different channels:
 
-- The ```UserChannel``` will handle messages with any topic starting with ```"users:"``` and we will use it to inform users about events related to them like when they are invited to join a board for instance.
-- The ```BoardChannel``` will have the most functionality handling messages for managing boards, lists and cards, informing to any user who might be viewing the board in that exact moment about any change.
+- The ```UserChannel``` will handle messages with any topic starting with ```"users:"``` and we will use it to inform users about events related to them, for example when they are invited to join a board for instance.
+- The ```BoardChannel``` will have the most functionality; handling messages for managing boards, lists and cards, informing any user who might be viewing the board in that exact moment about any change.
 
 
 We also need to implement the ```connect``` and ```id``` functions which will look
@@ -103,7 +103,7 @@ end
 When the ```connect``` function is called with a ```token``` as parameter it will verify it,
 get the user from the token using the ```GuardianSerializer``` we created on [part 3][ded689ff],  
 and assign it to the socket so it's available in the channels if we might need it. Furthermore,
-this will also prevent unauthenticated users to connect to the socket.
+this will also prevent unauthenticated users from connecting to the socket.
 
 ### The user channel
 Now that we have set up the socket, let's move on to the ```UserSocket``` which is very simple:
@@ -121,9 +121,9 @@ end
 
 ```
 
-This channel will permit us to broadcast any user related message from anywhere,
-handling it from the front-end. In our particular case we'll use it to broadcast a board a
-user is been added as a member so we can add that new board to the user's boards list.
+This channel will allow us to broadcast any user related message from anywhere,
+handling it from the front-end. In our particular case we'll use it to broadcast a board in which a
+user has been added as a member so we can add that new board to the user's boards list.
 We could also use it for displaying notifications about other boards he owns, or
 whatever you can imagine.
 
@@ -131,7 +131,7 @@ whatever you can imagine.
 Before continuing let's recall what we did at the end of the [last post][a00bf551]... after authenticating
 the user, whether it was using the sign in form or using a previously stored ```phoenixAuthToken```,
 we needed to retrieve the ```currentUser``` to dispatch it to the Redux store so we could display
-the user's avatar and name in the header. This looks like good place to connect to socket and channel
+the user's avatar and name in the header. This looks like a good place to connect to the socket and channel
 as well, so let's do some refactoring:
 
 ```javascript
@@ -209,7 +209,7 @@ export default function reducer(state = initialState, action = {}) {
 ```
 
 The main reason for storing them in the state is because we are going to need them in many
-places so having them in the state makes them accessible to components through
+places so having them in the state makes them available to components through
 their `props`.
 
 Now that the user is authenticated, connected to the socket and joined to his channel,
