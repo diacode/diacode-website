@@ -20,7 +20,8 @@ tags:
 > 4. [Front-end for sign up with React and Redux](/trello-clone-with-phoenix-and-react-pt-4)
 > 5. [Database seeding and sign in controller](/trello-clone-with-phoenix-and-react-pt-5)
 > 6. [Front-end authentication with React and Redux](/trello-clone-with-phoenix-and-react-pt-6)
-> 7. Coming soon
+> 7. [Setting up sockets and channels](/trello-clone-with-phoenix-and-react-pt-7)
+> 8. Coming soon
 
 ## Project setup
 So now that we have selected our [current stack](/blog/2016/01/04/trello-tribute-with-phoenix-and-react-pt-1)
