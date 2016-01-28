@@ -20,7 +20,7 @@ tags:
 > 5. [Database seeding and sign in controller](/trello-clone-with-phoenix-and-react-pt-5)
 > 6. [Front-end authentication with React and Redux](/trello-clone-with-phoenix-and-react-pt-6)
 > 7. [Setting up sockets and channels](/trello-clone-with-phoenix-and-react-pt-7)
-> . Coming soon
+> 8. Coming soon
 
 ## Sockets and channels
 In the [last post][a00bf551] we finished the authentication process and now we are
@@ -112,8 +112,8 @@ defmodule PhoenixTrello.UserSocket do
 end
 ```
 When the ```connect``` function is called with a ```token``` as parameter it will verify it,
-get the user from the token using the ```GuardianSerializer``` we created on [part 3][ded689ff],  
-and assign it to the socket so it's available in the channels if we might need it. Furthermore,
+get the user from the token using the ```GuardianSerializer``` we created on [part 3][ded689ff], and
+assign it to the socket so it's available in the channels if we might need it. Furthermore,
 this will also prevent unauthenticated users from connecting to the socket.
 
 ### The user channel
