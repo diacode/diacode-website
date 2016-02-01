@@ -17,7 +17,7 @@ management as well as connecting to the socket and joining channels, we are read
 to move on to the next level and let the user list and create his own boards.
 
 ### The Board migration
-First we need to create the migration and model. To so just run:
+First we need to create the migration and model. To do that, just run:
 
 ```
 $ mix phoenix.gen.model Board boards board_id:references:board name:string
@@ -48,7 +48,7 @@ end
 
 The new table called `boards` will have, apart from its `id` and `timestamps` fields,
 a `name` field and a foreign key to the `users` table. Note that
-we are relying on the database to delete as well the boards belonging to a user if the user
+we are relying on the database to delete the boards belonging to a user if the user
 is deleted. It also adds an index to the `user_id` to speed up things, and a
 `null` constraints to the `name`.
 
@@ -59,7 +59,7 @@ $ mix ecto.migrate
 ```
 
 ### The Board model
-Let's take a look to the `Board` model:
+Let's take a look at the `Board` model:
 
 
 ```elixir
@@ -119,7 +119,7 @@ end
 ```
 
 Why `owned_boards`? To differentiate between the boards a user creates and the ones
-he's added by other users, but lets don't worry about this right now as see will dive into
+he's added by other users, but lets don't worry about this right now, we will dive into
 it more deeply later on.
 
 ### The BoardController
@@ -205,8 +205,9 @@ end
 Note that we are adding the `EnsureAuthenticated` plug from **Guardian** so only authenticated
 connections are permitted in this controller. In the `index` action we get the current user from the connection
 and retrieve his owned board from the database so we can render them using the `BoardView`.
-Almost same happens in the `create` action, we build a `owned_board` changeset from the user
+Almost the same happens in the `create` action, we build a `owned_board` changeset from the user
 and insert it into the database, rendering the `board` as response if everything goes as expected.
+
 Let's create the `BoardView`:
 
 ```elixir
@@ -415,7 +416,7 @@ export default class BoardForm extends React.Component {
 }
 ```
 
-This is a very simple component. It renders the form and on its submit it dispatches
+This is a very simple component. It renders the form and when submitted it dispatches
 an action creator to create the new board with the supplied name. The `PageClick`
 component is an [external component][f26903c3] I found which detects page clicks outside the
 wrapper element. In our case we will use it to hide the form and show the *Add new board...*
@@ -485,8 +486,8 @@ export default Actions;
 ```
 
 - `fetchBoards`: it will first dispatch the `BOARDS_FETCHING` action type so we can render the spinner previously mentioned. I will also launch the http request to the back-end to retrieve the boards owned by the user which will be handled by the `BoardController:index` action. When the response is back, it will dispatch the boards to the store.
-- `showForm`: this one is pretty simple and it will just dispatch the `BOARDS_SHOW_FORM` action to set whether we want to show the for or not.
-- `create`: it will send a `POST` request to create the new board. If the response is successful  then it will dispatch the `BOARDS_NEW_BOARD_CREATED` action with the created board, so its added to the boards in the store and it will navigate to show board route. In case there is any error it will dispatch the `BOARDS_CREATE_ERROR`.
+- `showForm`: this one is pretty simple and it will just dispatch the `BOARDS_SHOW_FORM` action to set whether we want to show the form or not.
+- `create`: it will send a `POST` request to create the new board. If the response is successful  then it will dispatch the `BOARDS_NEW_BOARD_CREATED` action with the created board, so its added to the boards in the store and it will navigate to the show board route. In case there is any error it will dispatch the `BOARDS_CREATE_ERROR`.
 
 ### The reducer
 
@@ -529,7 +530,7 @@ export default function reducer(state = initialState, action = {}) {
 }
 ```
 
-Note how set the `fetching` attribute to false once we set the boards and how we contact the new board
+Note how we set the `fetching` attribute to false once we load the boards and how we `concat` the new board
 created to the existing ones.
 
 Enough work for today! In the next post we will build the view to show a board and we will also add the
