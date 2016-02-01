@@ -19,7 +19,8 @@ tags:
 > 5. [Database seeding and sign in controller](/trello-clone-with-phoenix-and-react-pt-5)
 > 6. [Front-end authentication with React and Redux](/trello-clone-with-phoenix-and-react-pt-6)
 > 7. [Setting up sockets and channels](/trello-clone-with-phoenix-and-react-pt-7)
-> 8. Coming soon
+> 8. [Listing and creating new boards](/trello-clone-with-phoenix-and-react-pt-8)
+> 9. Coming soon
 
 ## User sign in
 In the last [two][9d87aa6e] [posts][66de27d6] we prepared everything so that visitors
