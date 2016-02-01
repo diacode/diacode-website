@@ -1,7 +1,7 @@
 ---
 title: Trello clone with Phoenix and React (pt.8)
 date: 2016-02-01 11:59 UTC
-tauthor: ricardo
+author: ricardo
 excerpt:
   Listing and creating new boards
 tags:
