@@ -118,9 +118,9 @@ defmodule PhoenixTrello.User do
 end
 ```
 
-Why `owned_boards`? To differentiate between the boards a user creates and the ones
-he's added by other users, but lets don't worry about this right now, we will dive into
-it more deeply later on.
+Why `owned_boards`? To differentiate between the boards created by the user and 
+the ones he’s been added by other users, but let’s don’t worry about this right now, 
+we will dive into it more deeply later on.
 
 ### The BoardController
 So to create new boards we are going to need to update the routes file to add the
