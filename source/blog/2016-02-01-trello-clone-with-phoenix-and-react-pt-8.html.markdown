@@ -32,7 +32,7 @@ to move on to the next level and let the user list and create his own boards.
 First we need to create the migration and model. To do that, just run:
 
 ```
-$ mix phoenix.gen.model Board boards board_id:references:board name:string
+$ mix phoenix.gen.model Board boards user_id:references:users name:string
 
 ```
 
