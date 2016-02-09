@@ -13,7 +13,7 @@ tags:
 
 ## Adding board members
 On the [last part][75f1cf80] we created the boards table, the `Board` model and we also
-generated the controller which is will be in charge of listing and creating
+generated the controller which will be in charge of listing and creating
 new boards for the authenticated users. We also coded the front-end so the boards and the
 creation form could be displayed. Recalling where we left it, after receiving the successful
 response from the controller while creating a new board, we wanted to redirect the
@@ -22,7 +22,7 @@ do this!
 
 ### The React view component
 
-Before continuing let's take a look to the **React** routes:
+Before continuing let's take a look at the **React** routes:
 
 ```javascript
 // web/static/js/routes/index.js
@@ -207,15 +207,14 @@ export default Actions;
 
 ```
 
-Just as with the `UserChannel`, we use the socket to create a new channel identified as `boars:${boardId}` and
+Just as with the `UserChannel`, we use the socket to create a new channel identified as `boards:${boardId}` and
 we join it, receiving as response the **JSON** representation of the board, which will be dispatched to
 the store along with the `BOARDS_SET_CURRENT_BOARD` action. From now on it will be connected to the channel
 receiving any change done to the board by any member, refreshing automatically those updates
 in the screen thanks to **React** and **Redux**. But first we need to create the `BoardChannel`.
 
 ### The BoardChannel
-Although almost all of the left functionality is going to be placed in this module, but let's
-first create a very simple version of it:
+Although almost all of the remaining functionality is going to be placed in this module, we are now going to just create a very simple version of it:
 
 ```ruby
 # web/channels/board_channel.ex
@@ -245,8 +244,8 @@ and assigns it to the socket so its available for future messages.
 
 ### Board members
 
-Once the board is displayed to the user the following step is to permit him add
-other existing users as members so they can work together on it. To relate boards with
+Once the board is displayed to the user, the following step is to allow him to add
+other existing users as members so they can work together on it. To associate boards with
 other users we have to create a new table to store this relation. Let's jump to the
 console and run:
 
@@ -278,7 +277,7 @@ end
 ```
 
 Apart from the null constraints, we are going to add a unique index for the `user_id` and
-the `board_id` so the a `User` can't be added twice to the same `Board`. After running
+the `board_id` so a `User` can't be added twice to the same `Board`. After running
 the necessary `mix ecto.migrate` lets head to the `UserBoard` model:
 
 ```elixir
@@ -307,7 +306,7 @@ defmodule PhoenixTrello.UserBoard do
 end
 ```
 
-Nothing particular about it, but we also need to add this new relationships to the `User` model:
+Nothing unusual about it, but we also need to add this new relationships to the `User` model:
 
 ```elixir
 # web/models/user.ex
@@ -329,7 +328,7 @@ defmodule PhoenixTrello.User do
 end
 ```
 
-We have two more relationships, but which matters most to us is the `:boards` one,
+We have two more relationships, but the one that matters the most to us is the `:boards` one,
 which we are going to use for security checks. Let's also add the collection to the
 `Board` model:
 
@@ -350,8 +349,8 @@ defmodule PhoenixTrello.Board do
 end
 ```
 
-By doing this changes now we can differentiate between boards created by a user and
-boards which the user has been invited to. This is very important because when a user
+By doing these changes now we can differentiate between boards created by a user and
+boards where the user has been invited to. This is very important because when a user
 is in the board's view we only want to show the members form if he is the original
 creator. We also want to automatically add the creator as a member so he gets listed
 by default, therefore we have to make a small change in the `BoardController`:
@@ -390,7 +389,7 @@ defmodule PhoenixTrello.BoardController do
 end
 ```
 
-Note how we build the new `UserBoard` association and insert it after previously checking it
+Note how we build the new `UserBoard` association and insert it after previously checking if
 the board is valid.
 
 
@@ -558,7 +557,7 @@ The `showMembersForm` will make the form show or hide, easy as pie. The tricky p
 when we want to add the new member with the email provided by the user. Instead of making the typical
 http request we've been doing so far, we push the message `members:add` to the `channel` with
 the email as parameter. If we receiver an error we will dispatch it so it's displayed in the screen.
-Why aren't we handling the the case for a success response? Because we are going to take a different
+Why aren't we handling the case for a success response? Because we are going to take a different
 approach, broadcasting the result to all the connected members.
 
 ### The BoardChannel
@@ -616,7 +615,7 @@ of the added member so the board suddenly appears in his invited boards list. Th
 broadcast any message to any channel from anywhere, which is awesome and brings a new bunch
 of possibilities and fun.
 
-To handle the `member:added` message in the front-end we have to add new handler to the channel
+To handle the `member:added` message in the front-end we have to add a new handler to the channel
 where it will dispatch the added member to the store:
 
 ```javascript
@@ -703,7 +702,7 @@ export default function reducer(state = initialState, action = {}) {
 }
 ```
 
-Now the new member's avatar will appear in the list, and he will be have access the board
+Now the new member's avatar will appear in the list, and he will have access to the board
 and the necessary permissions to add and update new lists and cards.
 
 <img src="https://diacode-blog.s3-eu-west-1.amazonaws.com/2016/02/board_4.jpg"/>
