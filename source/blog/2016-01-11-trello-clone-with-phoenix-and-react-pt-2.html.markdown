@@ -221,10 +221,10 @@ We need to configure our **Redux** store so let's create the following file:
 //web/static/js/store/index.js
 
 import { createStore, applyMiddleware } from 'redux';
-import createLogger from 'redux-logger';
-import thunkMiddleware from 'redux-thunk';
-import { syncHistory } from 'redux-simple-router';
-import reducers from '../reducers';
+import createLogger                     from 'redux-logger';
+import thunkMiddleware                  from 'redux-thunk';
+import { syncHistory }                  from 'react-router-redux';
+import reducers                         from '../reducers';
 
 const loggerMiddleware = createLogger({
   level: 'info',
@@ -293,16 +293,14 @@ render de ```Root``` component:
 
 import React                    from 'react';
 import ReactDOM                 from 'react-dom';
-import createBrowserHistory     from 'history/lib/createBrowserHistory';
-import { syncReduxAndRouter }   from 'redux-simple-router';
+import { browserHistory }       from 'react-router';
 import configureStore           from './store';
 import Root                     from './containers/root';
 
-const history = createBrowserHistory();
-const store  = configureStore(history);
+const store  = configureStore(browserHistory);
 
 const target = document.getElementById('main_container');
-const node = <Root routerHistory={history} store={store}/>;
+const node = <Root routerHistory={browserHistory} store={store}/>;
 
 ReactDOM.render(node, target);
 ```
@@ -317,25 +315,20 @@ import React              from 'react';
 import { Provider }       from 'react-redux';
 import { Router }         from 'react-router';
 import invariant          from 'invariant';
-import { RoutingContext } from 'react-router';
 import routes             from '../routes';
 
 export default class Root extends React.Component {
   _renderRouter() {
     invariant(
-      this.props.routingContext || this.props.routerHistory,
+      this.props.routerHistory,
       '<Root /> needs either a routingContext or routerHistory to render.'
     );
 
-    if (this.props.routingContext) {
-      return <RoutingContext {...this.props.routingContext} />;
-    } else {
-      return (
-        <Router history={this.props.routerHistory}>
-          {routes}
-        </Router>
-      );
-    }
+    return (
+      <Router history={this.props.routerHistory}>
+        {routes}
+      </Router>
+    );
   }
 
   render() {
