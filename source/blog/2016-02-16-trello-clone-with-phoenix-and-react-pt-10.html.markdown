@@ -3,7 +3,7 @@ title: Trello clone with Phoenix and React (pt.10)
 date: 2016-02-16 11:59 UTC
 author: ricardo
 excerpt:
-  Adding new board members and broadcasting results through channels
+  Tracking connected board members using GenServer
 tags:
   - elixir
   - phoenix
@@ -11,8 +11,24 @@ tags:
   - redux
   - genserver
 ---
+> _This post belongs to the **Trello clone with Phoenix Framework and React** series._
+>
+> 1. [Intro and selected stack](/trello-clone-with-phoenix-and-react-pt-1)
+> 2. [Phoenix Framework project setup](/trello-clone-with-phoenix-and-react-pt-2)
+> 3. [The User model and JWT auth](/trello-clone-with-phoenix-and-react-pt-3)
+> 4. [Front-end for sign up with React and Redux](/trello-clone-with-phoenix-and-react-pt-4)
+> 5. [Database seeding and sign in controller](/trello-clone-with-phoenix-and-react-pt-5)
+> 6. [Front-end authentication with React and Redux](/trello-clone-with-phoenix-and-react-pt-6)
+> 7. [Setting up sockets and channels](/trello-clone-with-phoenix-and-react-pt-7)
+> 8. [Listing and creating new boards](/trello-clone-with-phoenix-and-react-pt-8)
+> 9. [Adding new board members](/trello-clone-with-phoenix-and-react-pt-9)
+> 10. [Tracking connected board members](/trello-clone-with-phoenix-and-react-pt-10)
+> 11. Coming soon
+
+
 <small><strong>
-Disclaimer: This post is written before the Presence functionality and intended to be a
+Disclaimer:</br>
+This post is written before the Presence functionality and intended to be a
 small introduction to the basics of the GenServer behaviour.
 </strong></small>
 
@@ -65,8 +81,7 @@ of connected user ids per board. Something like this:
 }
 ```
 
-Now imagine that this process had a public interface to add
-a new board, append a new user id and remove an existing user id. Well, that's
+Now imagine that this process ​had a public interface to init itself and update its state map, for adding or removing boards and connected users. Well, that's
 basically a **GenServer** process, and I say *basically* because it will also have underlying
 advantages like tracing, error reporting and supervision capabilities.
 
@@ -94,8 +109,8 @@ When working with **GenServer** we have to think both in the external client API
 functions and the server implementation of them. The first we need to implement is the
 `start_link` one, which will really start our **GenServer** passing the initial state,
 in our case an empty map, as an argument among the module and the name of the server.
-We want this process to start when our application starts too, so let's add it as
-a to the children list of our application supervisor tree:
+We want this process to start when our application starts too, so let's add it to
+the children list of our application supervision tree:
 
 ```elixir
 # /lib/phoenix_trello.ex
