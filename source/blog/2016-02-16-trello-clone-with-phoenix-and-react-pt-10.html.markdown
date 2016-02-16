@@ -56,7 +56,7 @@ and it's [GensServer][9100679b] behavior.
 > state, execute code asynchronously and so on.
 
 Imagine it as a small process running in our server with a map containing the list
-of connected users ids per board. Something like this:
+of connected user ids per board. Something like this:
 
 ```elixir
 %{
