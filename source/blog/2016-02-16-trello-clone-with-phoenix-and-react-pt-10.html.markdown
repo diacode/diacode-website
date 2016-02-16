@@ -319,7 +319,7 @@ defmodule PhoenixTrello.BoardChannel do
 end
 ```
 
-When the connection to the channel terminates, it will broadcast the update list of
+When the connection to the channel terminates, it will broadcast the updated list of
 members through the socket just like we did before. To terminate the channel connection
 we will create an action creator that we'll use once the current board view is unmounted,
 and we also need to add the handler for the `user:left` broadcast:
