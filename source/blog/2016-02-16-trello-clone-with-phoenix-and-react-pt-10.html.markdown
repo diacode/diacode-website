@@ -21,7 +21,7 @@ Recalling [last part][dbf17e0b], we supplied our users with the ability of addin
 new members to their boards. When an existing user email was added, the new
 relationship between users and boards was created and the new user was broadcasted
 along the channel so his avatar would be displayed to all connected members of
-the board. A first this is cool, but we can do it much better and useful if we could
+the board. At first this is cool, but we can do it much better and useful if we could
 just highlight the members that are currently online and viewing the board. Let's
 get started!
 
