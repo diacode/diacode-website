@@ -167,7 +167,7 @@ make a call to the **GenServer** process with the message `{:member_joined, boar
 Thus why we need to add a server callback handler for it. The [`handle_call/3`][8f8d7552]
 callback function from `GenServer` receives the request message, the caller, and the
 current state. So in our case we will try to get the board from the state, and add
-the user to the list of users for it. In case we don't have that board yet, will add
+the user to the list of users for it. In case we don't have that board yet, we'll add
 it with a new list containing the joined user. As response we will return the user list belonging
 to the board.
 
