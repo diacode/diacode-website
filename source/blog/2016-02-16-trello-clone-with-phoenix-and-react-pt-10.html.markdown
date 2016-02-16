@@ -119,7 +119,7 @@ end
 
 By doing this, every time our application starts it will automatically call the
 `start_link` function we've just created passing the `%{}` empty map as initial state.
-If for any reason the `Monitor` happened  to break for any reason, the application
+If the `Monitor` happened to break for any reason, the application
 will also automatically restart it again with a new empty map. Cool, isn't it? Now
 that we have setup everything let's begging with adding members to the `Monitor`'s state map.
 
