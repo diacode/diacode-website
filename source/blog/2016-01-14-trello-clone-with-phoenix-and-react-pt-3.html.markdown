@@ -21,7 +21,8 @@ tags:
 > 7. [Setting up sockets and channels](/trello-clone-with-phoenix-and-react-pt-7)
 > 8. [Listing and creating new boards](/trello-clone-with-phoenix-and-react-pt-8)
 > 9. [Adding new board members](/trello-clone-with-phoenix-and-react-pt-9)
-> 10. Coming soon
+> 10. [Tracking connected board members](/trello-clone-with-phoenix-and-react-pt-10)
+> 11. Coming soon
 
 ## User sign up
 Now that we have our [project all set up][547446b0], we are ready to create the ```User```
