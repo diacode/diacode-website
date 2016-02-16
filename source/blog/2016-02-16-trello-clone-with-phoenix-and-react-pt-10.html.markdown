@@ -65,8 +65,8 @@ of connected user ids per board. Something like this:
 }
 ```
 
-Now imagine that this process has a public interface to start and update its state map by adding
-a new board it it doesn't exists, append new member ids and remove them. Well, that's
+Now imagine that this process had a public interface to add
+a new board, append a new user id and remove an existing user id. Well, that's
 basically a **GenServer** process, and I say *basically* because it will also have underlying
 advantages like tracing, error reporting and supervision capabilities.
 
