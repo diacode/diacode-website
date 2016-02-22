@@ -160,7 +160,7 @@ COPY ./deploy/puma.rb ./config/
 COPY ./deploy/nginx.conf /etc/nginx/nginx.conf
 ```
 
-You can find these two files in our repo: [puma.rb](https://github.com/diacode/rails-docker-example/blob/master/deploy/puma.rb) and [nginx.conf](https://github.com/diacode/rails-docker-example/blob/master/deploy/nginx.conf).
+You can find these two files in our repo: [puma.rb](https://github.com/diacode/rails-docker-example/blob/part-1/deploy/puma.rb) and [nginx.conf](https://github.com/diacode/rails-docker-example/blob/part-1/deploy/nginx.conf).
 
 Then we copy the remaining folders of our Rails app:
 
@@ -180,11 +180,11 @@ Finally we tell Docker what command should be executed when our image is run int
 CMD ["foreman", "start"]
 ```
 
-Here we'll use [Foreman](https://github.com/ddollar/foreman) to lunch two process: nginx & puma. You can find the [Procfile](https://github.com/diacode/rails-docker-example/blob/master/Procfile) on Github.
+Here we'll use [Foreman](https://github.com/ddollar/foreman) to lunch two process: nginx & puma. You can find the [Procfile](https://github.com/diacode/rails-docker-example/blob/part-1/Procfile) on Github.
 
 Note that while `RUN` allow us to execute commands during the image building process, `CMD` will be executed when the image is started. Also remember that oyu can only have a single `CMD` order in your Dockerfile.
 
-You can find the resulting [Dockerfile on Github](https://github.com/diacode/rails-docker-example/blob/master/Dockerfile).
+You can find the resulting [Dockerfile on Github](https://github.com/diacode/rails-docker-example/blob/part-1/Dockerfile).
 
 To build our image first we need to make sure our Docker Machine (our VM with  Docker Engine) is running:
 
