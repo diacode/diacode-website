@@ -238,6 +238,10 @@ This is my IP, open your browser and go to `http://192.168.99.100`. You should s
 
 Also the app will be still using SQLite instead of PostgreSQL, we'll cover that too in the next part.
 
+<div class="btn-wrapper">
+  <a href="https://github.com/diacode/rails-docker-example/tree/part-1" target="_blank" class="btn"><i class="fa fa-github"></i> Project repository on GitHub</a>
+</div>
+
 ---
 
 _This is all for today. In the next part we'll cover deploying to Google Cloud, adding PostgreSQL, Redis, and a different container for ActionCable. Stay tunned!_
