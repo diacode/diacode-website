@@ -32,7 +32,7 @@ author: javier
 
 Since we started working with Rails five years ago we've been using different approaches when it comes deploying our Rails apps to production. We started using normal VMs that we would SSH to install all the required packages (ruby, imagemagick, nginx, etc.), then we moved to Heroku for easier deployments, then to [AWS Elastic Beanstalk](https://aws.amazon.com/elasticbeanstalk/) for reduced costs, and finally to [AWS OpsWorks](https://aws.amazon.com/opsworks/) for fine grained control thanks to [Chef](https://www.chef.io/) recipes.
 
-The DevOps world feels a little bit like the front-end world, where there new tools everyday and some of then overlap each other. It's hard to make a decision on which one you should use.
+The DevOps world feels a little bit like the front-end world, where there new tools everyday and some of them overlap each other. It's hard to make a decision on which one you should use.
 
 As in the JS world, in the DevOps land there is always a new cool kid on the block. Right now it seems that kiddo is Docker.
 
