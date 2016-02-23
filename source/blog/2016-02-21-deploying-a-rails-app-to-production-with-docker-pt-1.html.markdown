@@ -30,13 +30,13 @@ author: javier
 
 ## 1. Motivation
 
-Since we started working with Rails five years ago we've been using different approaches when it comes deploying our Rails apps to production. We started using normal VMs that we would SSH to install all the required packages (ruby, imagemagick, nginx, etc.), then we moved to Heroku for easier deployments, then to [AWS Elastic Beanstalk](https://aws.amazon.com/elasticbeanstalk/) for reduced costs, and finally to [AWS OpsWorks](https://aws.amazon.com/opsworks/) for fine grained control thanks to [Chef](https://www.chef.io/) recipes.
+Since we started working with Rails five years ago we've been using different approaches when it comes to deploying our Rails apps to production. We started using normal VMs that we would SSH to install all the required packages (ruby, imagemagick, nginx, etc.), then we moved to Heroku for easier deployments, then to [AWS Elastic Beanstalk](https://aws.amazon.com/elasticbeanstalk/) for reduced costs, and finally to [AWS OpsWorks](https://aws.amazon.com/opsworks/) for fine grained control thanks to [Chef](https://www.chef.io/) recipes.
 
-The DevOps world feels a little bit like the front-end world, where there new tools everyday and some of them overlap each other. It's hard to make a decision on which one you should use.
+The DevOps world feels a little bit like the front-end world, where there are new tools everyday and some of them overlap each other. It's hard to make a decision on which one you should use.
 
 As in the JS world, in the DevOps land there is always a new cool kid on the block. Right now it seems that kiddo is Docker.
 
-Docker got some initial traction as a solution for developments environments but it has become a really great tool for production environments
+Docker got some initial traction as a solution for development environments but it has become a really great tool for production environments
 
 Recently, [Gudog](https://gudog.co.uk), one of our projects, was accepted into the [Google Cloud Platform for Startups](https://cloud.google.com/developers/startups/) so it was a good reason to move it from AWS OpsWorks into Google Cloud. Google doesn't have something like AWS OpsWorks, instead it encourages you to use Docker for automated provisioning.
 
@@ -182,7 +182,7 @@ CMD ["foreman", "start"]
 
 Here we'll use [Foreman](https://github.com/ddollar/foreman) to lunch two process: nginx & puma. You can find the [Procfile](https://github.com/diacode/rails-docker-example/blob/part-1/Procfile) on Github.
 
-Note that while `RUN` allow us to execute commands during the image building process, `CMD` will be executed when the image is started. Also remember that oyu can only have a single `CMD` order in your Dockerfile.
+Note that while `RUN` allow us to execute commands during the image building process, `CMD` will be executed when the image is started. Also remember that you can only have a single `CMD` order in your Dockerfile.
 
 You can find the resulting [Dockerfile on Github](https://github.com/diacode/rails-docker-example/blob/part-1/Dockerfile).
 
@@ -206,7 +206,7 @@ Where `rails-docker-example` is the name for our image and `latest` is just a ta
 
 ## <a name="running-the-image-locally"></a>5. Running the image locally
 
-To test our image before we push it to the clod we're gonna run it locally:
+To test our image before we push it to the cloud we're gonna run it locally:
 
 ```bash
 $ docker run --name rails-docker-example -e "RAILS_ENV=production" -e "SECRET_KEY_BASE=demo" -p 80:80 -P rails-docker-example:latest
@@ -244,4 +244,4 @@ Also the app will be still using SQLite instead of PostgreSQL, we'll cover that 
 
 ---
 
-_This is all for today. In the next part we'll cover deploying to Google Cloud, adding PostgreSQL, Redis, and a different container for ActionCable. Stay tunned!_
+_That's all for today. In the next part we'll cover deploying to Google Cloud, adding PostgreSQL, Redis, and a different container for ActionCable. Stay tuned!_
