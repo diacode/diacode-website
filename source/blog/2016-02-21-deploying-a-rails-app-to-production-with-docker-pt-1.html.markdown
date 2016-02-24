@@ -30,7 +30,7 @@ author: javier
 
 ## 1. Motivation
 
-Since we started working with Rails five years ago we've been using different approaches when it comes to deploying our Rails apps to production. We started using normal VMs that we would SSH to install all the required packages (ruby, imagemagick, nginx, etc.), then we moved to Heroku for easier deployments, then to [AWS Elastic Beanstalk](https://aws.amazon.com/elasticbeanstalk/) for reduced costs, and finally to [AWS OpsWorks](https://aws.amazon.com/opsworks/) for fine grained control thanks to [Chef](https://www.chef.io/) recipes.
+Since we started working with Rails five years ago we've been using different approaches when it comes to deploying our Rails apps to production. We started using normal VMs that we would SSH to install all the required packages (ruby, imagemagick, nginx, etc.), then we moved to Heroku for easier deployments, then we started using [rubber](https://github.com/rubber/rubber) to automate provisioning in AWS EC2, then to [AWS Elastic Beanstalk](https://aws.amazon.com/elasticbeanstalk/) for reduced costs, and finally to [AWS OpsWorks](https://aws.amazon.com/opsworks/) for fine grained control thanks to [Chef](https://www.chef.io/) recipes.
 
 The DevOps world feels a little bit like the front-end world, where there are new tools everyday and some of them overlap each other. It's hard to make a decision on which one you should use.
 
