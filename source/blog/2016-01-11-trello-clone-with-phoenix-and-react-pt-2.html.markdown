@@ -24,7 +24,8 @@ tags:
 > 8. [Listing and creating new boards](/trello-clone-with-phoenix-and-react-pt-8)
 > 9. [Adding new board members](/trello-clone-with-phoenix-and-react-pt-9)
 > 10. [Tracking connected board members](/trello-clone-with-phoenix-and-react-pt-10)
-> 11. Coming soon
+> 11. [Adding lists and cards](/trello-clone-with-phoenix-and-react-pt-11)
+> 12. Coming soon
 
 ## Project setup
 So now that we have selected our [current stack](/blog/2016/01/04/trello-tribute-with-phoenix-and-react-pt-1)

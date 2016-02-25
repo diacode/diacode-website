@@ -11,6 +11,20 @@ tags:
   - redux
   - genserver
 ---
+> _This post belongs to the **Trello clone with Phoenix Framework and React** series._
+>
+> 1. [Intro and selected stack](/trello-clone-with-phoenix-and-react-pt-1)
+> 2. [Phoenix Framework project setup](/trello-clone-with-phoenix-and-react-pt-2)
+> 3. [The User model and JWT auth](/trello-clone-with-phoenix-and-react-pt-3)
+> 4. [Front-end for sign up with React and Redux](/trello-clone-with-phoenix-and-react-pt-4)
+> 5. [Database seeding and sign in controller](/trello-clone-with-phoenix-and-react-pt-5)
+> 6. [Front-end authentication with React and Redux](/trello-clone-with-phoenix-and-react-pt-6)
+> 7. [Setting up sockets and channels](/trello-clone-with-phoenix-and-react-pt-7)
+> 8. [Listing and creating new boards](/trello-clone-with-phoenix-and-react-pt-8)
+> 9. [Adding new board members](/trello-clone-with-phoenix-and-react-pt-9)
+> 10. [Tracking connected board members](/trello-clone-with-phoenix-and-react-pt-10)
+> 11. [Adding lists and cards](/trello-clone-with-phoenix-and-react-pt-11)
+> 12. Coming soon
 
 ## Adding lists and cards
 
