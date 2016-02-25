@@ -127,7 +127,7 @@ end
 Now we can move forward to the front-end and create the necessary components.
 
 ### The list form component
-Before continuing first lets recall the `render` function of the `BoardsShowView` component:
+Before continuing, lets recall the `render` function of the `BoardsShowView` component:
 
 ```javascript
 // web/static/js/views/boards/show.js
@@ -180,7 +180,7 @@ render() {
 
 ```
 
-Apart from the `BoardMembers` component we created the las time, we need to
+Apart from the `BoardMembers` component we created the last time, we need to
 render all the lists belonging to the board as well. For the time being we don't
 have any lists, therefore lets move on to the `_renderAddNewList` function:
 
@@ -281,10 +281,10 @@ export default class ListForm extends React.Component {
 
 <img src="https://diacode-blog.s3-eu-west-1.amazonaws.com/2016/02/list_form.jpg"/>
 
-This is a very simple component with a form containing the a text input for the name
+This is a very simple component with a form containing a text input for the name
 of the list, a submit button and a cancel link, which will dispatch the same action
-we have previously described but setting the `showForm` property to false for removing
-form. When the form is submitted it will dispatch the `save` action creator with the
+we have previously described but setting the `showForm` property to false to remove
+the form. When the form is submitted it will dispatch the `save` action creator with the
 name the user has provided, which will push it to the `lists:create` topic of the
 `BoardChannel`:
 
@@ -339,8 +339,8 @@ end
 
 Using the board assigned to the channel, it will build a `List` changeset with
 the received params and insert it. If everything goes `:ok` it will broadcast the
-crated list through the channel to **all connected members**, including the creator,
-thus we don't really need replying anything and we just return a `:noreply`. If
+created list through the channel to **all connected members**, including the creator,
+thus we don't really need to reply anything and we just return a `:noreply`. If
 by any chance there's been an error while inserting the new list, it will return an
 error message **just to the creator**, so he knows that something went wrong.
 
@@ -400,7 +400,7 @@ export default function reducer(state = initialState, action = {}) {
 }
 ```
 We also set the `showForm` attribute to `false` so the form automatically hides,
-displaying again the *Add new list...* button and the recently crated list:
+displaying again the *Add new list...* button and the recently created list:
 
 <img src="https://diacode-blog.s3-eu-west-1.amazonaws.com/2016/02/new_list.jpg"/>
 
@@ -488,7 +488,7 @@ export default class ListCard extends React.Component {
 
 Just as we did with the lists, lets first focus on rendering the cards form. Basically
 we take the same approach of rendering or not the form using a `prop` passed by the
-main board component, and dispatching an action to change that sate property.
+main board component, and dispatching an action to change that state property.
 
 <img src="https://diacode-blog.s3-eu-west-1.amazonaws.com/2016/02/card_form.jpg"/>
 
@@ -544,7 +544,7 @@ export default class CardForm extends React.Component {
 
 ```
 Just as we previously did, on submitting the form we'll dispatch an action to create the
-card with the provided name by the user. The action creator for this, will push
+card with name provided by the user. The action creator for this, will push
 a new message to the board channel:
 
 ```javascript
@@ -590,9 +590,9 @@ Let's add the handler to the `BoardChannel`:
 
 ```
 
-As when creating the list, the new `Card` will be created associating it to the
+In the same way we did when creating the list, the new `Card` will be created associating it to the
 board assigned on the channel and the list passed as parameter. If the creation
-is success it will be again dispatched to all connected members on the channel.
+succeed it will be again dispatched to all connected members on the channel.
 Finally we have to add the callback to the **js** channel:
 
 ```javascript
@@ -635,7 +635,7 @@ And that's it! The card will appear on every connected member screen.
 ### Now what?
 With this part we have covered the basic functionality we need for letting users
 register, sign in, create boards, invite people to them and collaborate in realtime
-adding lists and cards. The final version in the repository has a lot more of features like
+adding lists and cards. The final version in the repository has a lot more features like
 editing lists, sorting lists and cards by dragging them around, showing the card
 details where you can also assign members to them and even adding comments and
 color tags, but we are not going to talk about any of them here otherwise this
