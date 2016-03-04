@@ -23,7 +23,7 @@ tags:
 > 9. [Adding new board members](/trello-clone-with-phoenix-and-react-pt-9)
 > 10. [Tracking connected board members](/trello-clone-with-phoenix-and-react-pt-10)
 > 11. [Adding lists and cards](/trello-clone-with-phoenix-and-react-pt-11)
-> 12. Coming soon
+> 12. [Deploying on Heroku](/trello-clone-with-phoenix-and-react-pt-12)
 
 ## User sign in
 In the last [two][9d87aa6e] [posts][66de27d6] we prepared everything so that visitors
