@@ -14,7 +14,7 @@ tags:
 We finally made it. After 11 parts we've learned how to setup a new **Phoenix** project
 with **Webpack**, **React** and **Redux**. We have created a secure authentication
 system based on **JWT** tokens, created **migrations** for the necessary schemas for our database,
-coded socket and channels for realtime features and built a **GensServer** process
+coded socket and channels for realtime features and built a **GenServer** process
 to keep track of connected board members. Now is time to share it with the world
 by deploying it on [Heroku][0769fa21]. Let's do this!
 
@@ -84,7 +84,7 @@ mix phoenix.digest
 ```
 
 Not that we run the `phoenix.digest` [mix task][474a1dd3] after the `webpack` build
-for generating the digested and compressed versions of the assetes.
+to generate the digested and compressed versions of the assets.
 
 ### Setting up our production environment
 Before deploying for the first time, we need to update the `prod.exs` file with
@@ -118,7 +118,7 @@ config :guardian, Guardian,
 Basically what we are doing is enforcing it to use our **Heroku** application's url and
 enforce the SSL connection provided. We are also using some environment variables
 to configure the `secret_key_base`, database `url` and guardian's `secret_key`.
-The database `url` we'll be automatically created by **Heroku** once we deploy it
+The database `url` will be automatically created by **Heroku** once we deploy it
 for the first time, but for the other two we need to generate them and add them using
 the command line:
 
@@ -151,7 +151,7 @@ $ git push heroku master
 ```
 
 If we take a look to the console output we can see how both *buildpacks* do their
-job by installing installing **Erlang** and **Elixir** whit their necessary dependencies
+job by installing **Erlang** and **Elixir** with their necessary dependencies
 as well as **node** and **npm** among other tasks. Finally we need to run the
 migration in order to create the database tables:
 
@@ -166,7 +166,7 @@ And that's it, our application is deployed and ready to go!
 Deploying a **Phoenix** application on **Heroku** is pretty easy and straightforward.
 It might not be the best solution around, but for a demo application like this
 it works really well. I hope you have enjoyed building and deploying this application
-as much as I've done. While writing the whole series I've made a lot of changes to
+as much as I have. While writing the whole series I've made a lot of changes to
 the final codebase, correcting some stuff and adding a lot more features. If you want
 to check them don't forget to visit de demo or fork the repository:
 
