@@ -83,7 +83,7 @@ webpack
 mix phoenix.digest
 ```
 
-Not that we run the `phoenix.digest` [mix task][474a1dd3] after the `webpack` build
+Note that we run the `phoenix.digest` [mix task][474a1dd3] after the `webpack` build
 to generate the digested and compressed versions of the assets.
 
 ### Setting up our production environment
