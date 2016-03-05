@@ -109,7 +109,7 @@ activate :blog do |blog|
   # blog.calendar_template = "calendar.html"
 
   blog.paginate = true
-  blog.per_page = 5
+  blog.per_page = 10
   # blog.page_link = "page/:num"
 
   # Custom summary generator. First it checks the excerpt and if it isn't present
@@ -124,6 +124,15 @@ activate :blog do |blog|
       paragraphs = doc.xpath('//p')
       first_paragrah = paragraphs.first
       TruncateHTML.truncate_html(first_paragrah.content, 140, " ...")
+    end
+  end
+end
+
+ready do
+  blog.tags.each do |tag, articles|
+    page "/blog/tags/#{tag.downcase.tr(' ', '_')}/feed.xml", proxy: "/blog/feed.xml", layout: false do
+      @tagname = tag
+      @articles = articles[0..15]
     end
   end
 end
