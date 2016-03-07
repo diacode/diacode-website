@@ -82,7 +82,12 @@ Now our ```package.json``` should look something similar to this:
 We are going to need a bunch of dependencies in the project so instead of listing
 them all please take a look to the
 <a href="https://github.com/bigardone/phoenix-trello/blob/master/package.json">source file</a>
-in the project's repository to check them.
+in the project's repository to copy and paste them into the `package.json` file.
+Now we have to run the following command to install all the packages:
+
+```bash
+$ npm install
+```
 
 We also need to add a ```webpack.config.js``` configuration file to tell **Webpack**
 how to build the assets:
