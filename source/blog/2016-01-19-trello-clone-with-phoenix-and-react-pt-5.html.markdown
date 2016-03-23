@@ -244,25 +244,11 @@ defmodule PhoenixTrello.CurrentUserController do
   plug Guardian.Plug.EnsureAuthenticated, handler: PhoenixTrello.SessionController
 
   def show(conn, _) do
-    case decode_and_verify_token(conn) do
-      { :ok, _claims } ->
-        user = Guardian.Plug.current_resource(conn)
+    user = Guardian.Plug.current_resource(conn)
 
-        conn
-        |> put_status(:ok)
-        |> render("show.json", user: user)
-
-      { :error, _reason } ->
-        conn
-        |> put_status(:not_found)
-        |> render(PhoenixTrello.SessionView, "error.json", error: "Not Found")
-    end
-  end
-
-  defp decode_and_verify_token(conn)  do
     conn
-    |> Guardian.Plug.current_token
-    |> Guardian.decode_and_verify
+    |> put_status(:ok)
+    |> render("show.json", user: user)
   end
 end
 
@@ -273,9 +259,8 @@ token and if not it will handle the request with the ```:unauthenticated``` func
 the ```SessionController```. This is the way we are going to protect the private controllers,
 so if we want certain routes to be accessible only by authenticated users we only have
 to add this **plug** to their controllers. The rest of the functionality is pretty simple.
-After retrieving the token from the request, decoding it and verifying it, it will render
-the ```current_resource``` which in our case would be the user. Otherwise it will render
-an error.
+After ensuring there is an authenticated token, it will render the ```current_resource``` which
+in our case would be the user.
 
 Finally we have to add the ```unauthenticated``` handler to the ```SessionController```:
 
