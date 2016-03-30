@@ -23,28 +23,22 @@ a, por ello necesitamos pasarle a Apache Bench la cookie con el identificador de
 
 Nuestra llamada Apache Bench quedaría así:
 
+```
 ab -g results.tsv -n 1000 -c 20 -C nuestra_app_session=243bae5d57cd962a89831bbaac82db http://nuestra-app.com/
+```
+
 Donde:
 
-*ab es Apache Bench :)
-
-	
-*-g results.tsv guarda los resultados en el archivo results.tsv
-
-	
-*-n 100 indica que se harán 1000 peticiones
-
-	
-*-c 20 indica que se harán 20 peticiones concurrentes
-
-	
-*-C nuestra_app_session=243bae5d57cd962a89831bbaac82db pasa el identificador de sesión en forma de cookie
-
-	
-*http://nuestra-app.com/ es la URL que vamos a testear
+* `ab` es Apache Bench :)
+* `-g results.tsv` guarda los resultados en el archivo results.tsv
+* `-n 100` indica que se harán 1000 peticiones
+* `-c 20` indica que se harán 20 peticiones concurrentes
+* `-C nuestra_app_session=243bae5d57cd962a89831bbaac82db` pasa el identificador de sesión en forma de cookie
+* `http://nuestra-app.com/` es la URL que vamos a testear
 
 El resultado que obtendremos por consola será algo similar a esto:
 
+```
 Server Software:        Apache
 Server Hostname:        nuestra-app.com
 Server Port:            80
@@ -70,30 +64,27 @@ Connect:       24   70  62.3     52     403
 Processing:    61  257 315.8    153    2953
 Waiting:       34  106  94.5     81    1253
 Total:         90  328 321.8    221    3039
+```
+
 Lo más relevante de estos resultados es lo siguiente:
 
-***Requests per second**
-: peticiones atendidas por segundo durante la prueba.
+* **Requests per second**: peticiones atendidas por segundo durante la prueba.
+* **Time per request (mean)**: tiempo miedo que el servidor ha tardado en atender a un grupo de peticiones concurrentes (5 o 20).
+* **Time per request (mean, across all concurrent requests)**: tiempo medio que el servidor ha tardado en atender una petición individual.
 
-	
-***Time per request (mean)**
-: tiempo miedo que el servidor ha tardado en atender a un grupo de peticiones concurrentes (5 o 20).
-
-	
-***Time per request (mean, across all concurrent requests)**
-: tiempo medio que el servidor ha tardado en atender una petición individual.
 Finalmente 
 **para crear una gráfica de nuestro test, como la que aparece al inicio de este post**
 , podemos utilizar 
 [Gnuplot](http://www.gnuplot.info/). Para instalar Gnuplot en Mac OS X usando 
 [Homebrew](http://brew.sh/) basta con hacer
 
-brew install gnuplot
+`brew install gnuplot`
 
 Creamos un archivo 
 plot.p en el mismo directorio donde hemos generado el archivo 
 results.tsv:
 
+```
 # output as png image
 set terminal png size 600
 
@@ -115,13 +106,14 @@ set xlabel "peticiones"
 # y-axis label
 set ylabel "tiempo de respuesta (ms)"
 
-# plot data from "out.dat" using column 9 with smooth sbezier lines
-# and title of "nodejs" for the given data
 plot "results.tsv" using 9 smooth sbezier with lines title "nuestra-app.com"
+```
 
 Y finalmente ejecutamos 
 
+```
 gnuplot plot.p
+```
 
 Es importante destacar que las gráficas generadas por este tipo de pruebas no se han de interpretar de manera secuencial, es decir las peticiones (eje X) no aparecen ordenadas de manera cronológica (orden en el que fueron realizadas) sino por su 
 ttime (tiempo que tardaron en ser atendidas). Más info sobre esto en 
