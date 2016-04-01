@@ -155,7 +155,7 @@ Following the user's interaction flow, let's create the sessions action creator:
 
 import { routeActions }                   from 'redux-simple-router';
 import Constants                          from '../constants';
-import { Socket }                         from '../phoenix';
+import { Socket }                         from 'phoenix';
 import { httpGet, httpPost, httpDelete }  from '../utils';
 
 function setCurrentUser(dispatch, user) {
