@@ -1,0 +1,46 @@
+body.elixir
+  #main_header
+    background-image: url(/images/elixir/background.jpg)
+
+    h2
+      font-weight: normal
+      margin: .5em 0 1em 0
+
+    .container
+      position: relative
+
+    .meta-data
+      margin: 1em 0
+      color: darken(#fff, 5)
+
+    .technologies
+      +transform(translateX(-50%))
+      +fill-parent
+      position: absolute
+      bottom: 2em
+      left: 50%
+
+
+  .main-section
+    padding: 3em 0
+    > .container > header
+      margin-bottom: 2em
+
+    &.alt-bg
+      background: $color-1
+    
+  p
+    text-align: left
+  .logos
+    margin: 1em 0
+    +flex-wrap(wrap)
+    +flex-direction(row)
+    +display(flex)
+    width: 80%
+    margin: 2em auto
+    .logo
+      +flex(0 0 50%)
+      // Adjust first logo to align text between them
+      &:first-child
+        position: relative
+        top: 16px
