@@ -3,7 +3,7 @@ title: Page specific JavaScript in Phoenix framework
 date: 2016-04-22 09:27 UTC
 author: ricardo
 excerpt:
-  Two different approaches for page specific JavaScript
+  Two different approaches for page specific JavaScript in Phoenix projects
 tags:
   - elixir
   - phoenix
@@ -104,7 +104,7 @@ export default class MainView {
 
 The `MainView` module will basically have to main functions:
 
-  - **mount** which will be called every time the page loads and will contain all the initializing of common functionality need.
+  - **mount** which will be called every time the page loads and will contain all the initializing of common functionality needed.
   - **umount** which can be used to add any functionality needed to be executed when the document unloads.
 
 Now lets update the main `app.js` file so it uses the new `MainView` module:
