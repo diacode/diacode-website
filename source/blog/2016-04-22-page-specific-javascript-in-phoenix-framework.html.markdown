@@ -130,7 +130,10 @@ window.addEventListener('DOMContentLoaded', handleDOMContentLoaded, false);
 window.addEventListener('unload', handleDocumentUnload, false);
 ```
 
-We
+We add an event listener so when the `DOM` is completely loaded it initialzes the
+`MainView`, *mounts* it and assigns it globally. We are also doing the same for the
+`unload` event of the document. If we now open the web inspector, we can see the log
+message and verify everything that is working fine:
 
 ![Template 2](https://diacode-blog.s3-eu-west-1.amazonaws.com/2016/04/template-2.jpg)
 
