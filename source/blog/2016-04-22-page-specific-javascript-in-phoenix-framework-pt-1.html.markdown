@@ -1,5 +1,5 @@
 ---
-title: Page specific JavaScript in Phoenix framework
+title: Page specific JavaScript in Phoenix framework (pt.1)
 date: 2016-04-22 09:27 UTC
 author: ricardo
 excerpt:
