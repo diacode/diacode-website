@@ -15,8 +15,8 @@ tags:
 Thanks to our personal experience working on legacy **Rails** applications, we've been
 able to see several different approaches on how other developers usually organize
 **JavaScript** assets.
-Choosing a wrong approach, or not even having one, is probably going give you trouble
-in the future, so just requiring everything in your manifest file, relying in multiple document load handlers across serveral files and trusting that everything will just work fine is not a good idea.
+Choosing the wrong approach, or not even having one, will give you some headaches
+in the future – in other words, just requiring everything in your manifest file (`application.js`) and relying on multiple document load handlers across serveral files with the hope that everything will just work fine is not a good idea.
 For our last projects (both client and internal ones) we've been replacing the **Asset Pipeline**
 with **Webpack** to handle asset files requirement and build process, loving the result so far.
 That's why the first time I took a look at **Phoenix**'s documentation and discovered
@@ -26,13 +26,13 @@ that there was not such a thing as the [Asset Pipeline][55ded47a] I got instantl
 
 In order to build assets, **Phoenix** initially comes with [Brunch][6ee6be5c] out of the box, and
 not only that, it also comes configured to support **ES6** by default, including
-its modules syntax. Taking advantage of this, lets generate a very basic project and
+its modules syntax. Taking advantage of this, let's generate a very basic project and
 see how we can create a better way of organizing the JavaScript instead of putting
 everything we might need in `app.js` as if it was a **Rails** project.
 
 ### Generating the project
 
-Lets begin by installing the lates version on **Phoenix**:
+Let's begin by installing the lates version on **Phoenix**:
 
 ```
 $ mix archive.install https://github.com/phoenixframework/archives/raw/master/phoenix_new.ez && mix local.phoenix
@@ -45,7 +45,7 @@ Are you sure you want to replace them? [Yn]
 * creating /Users/myuser/.mix/archives/phoenix_new.ez
 ```
 
-Now that we are up to date, lets generate a new **Phoenix** project:
+Now that we are up to date, let's generate a new **Phoenix** project:
 
 ```
 $ mix phoenix.new phoenix_template
@@ -79,8 +79,8 @@ application is ready.
 
 ### Shared common JavaScript between views
 
-Before continuing lets first think about what our good old web application is going
-to need. There's probably going to be some shared js functionality shared across
+Before continuing let's first think about what our good old web application is going
+to need. There's probably going to be some common js functionality shared across
 the whole application, like handling pulldown menus in the header, initialazing
 third party plugins, etc. Having this in mind we can create our first js module
 that will be in charge of all this common functionality that needs to be executed
@@ -107,7 +107,7 @@ The `MainView` module will basically have to main functions:
   - **mount** which will be called every time the page loads and will contain all the initializing of common functionality needed.
   - **umount** which can be used to add any functionality needed to be executed when the document unloads. This might be useful in some situations like showing a confirm alert to the user when he tries to leave an edit view with unsaved changes, for example.
 
-Now lets update the main `app.js` file so it uses the new `MainView` module:
+Now let's update the main `app.js` file so it uses the new `MainView` module:
 
 ```javascript
 // web/static/js/app.js
@@ -137,7 +137,7 @@ message and verify everything that is working fine:
 
 ![Template 2](https://diacode-blog.s3-eu-west-1.amazonaws.com/2016/04/template-2.jpg)
 
-We can see the log message, yay! Lets add one more route so we can navigate
+We can see the log message, yay! Let's add one more route so we can navigate
 through both the root and the new one and check what happens:
 
 ```elixir
@@ -221,7 +221,7 @@ specific view/template?
 The main idea is to specify somehow in the `app.js` the **JavaScript** view we want to mount
 instead of the `MainView`, but executing all the common stuff as well. To do so we are
 going to create a helper function to generate the current view/template name which we'll
-use later to mount it. Lets add it to the `LayoutView` module:
+use later to mount it. Let's add it to the `LayoutView` module:
 
 ```ruby
 # web/views/layout_view.ex
@@ -264,7 +264,7 @@ end
 The result for the *Elixir.PhoenixTemplate.PageView* view and *index.html* template
 will be `PageIndexView`, and on the other hand, for the **new.html** template will
 be `PageNewView`. Now we need a place to set the returning name si it's accessible
-to the **JavaScript**, so lets add it as a `data` attribute to the body tag:
+to the **JavaScript**, so let's add it as a `data` attribute to the body tag:
 
 ```elixir
 <!-- web/templates/layout/app.html.eex -->
@@ -283,7 +283,7 @@ After refreshing the browser and inspecting the source code it should look somet
 <body data-js-view-name="PageIndexView">
 ```
 
-All right! So lets create a specific **JavaScript** view for the **new.html** template:
+All right! So let's create a specific **JavaScript** view for the **new.html** template:
 
 ```javascript
 // web/static/js/views/page/new.js
