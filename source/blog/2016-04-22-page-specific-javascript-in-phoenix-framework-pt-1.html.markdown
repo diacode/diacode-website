@@ -263,7 +263,7 @@ end
 
 The result for the *Elixir.PhoenixTemplate.PageView* view and *index.html* template
 will be `PageIndexView`, and on the other hand, for the **new.html** template will
-be `PageNewView`. Now we need a place to set the returning name si it's accessible
+be `PageNewView`. Now we need a place to set the returning name so that it's accessible
 to the **JavaScript**, so let's add it as a `data` attribute to the body tag:
 
 ```elixir
@@ -311,7 +311,7 @@ Note how `View` extends `MainView` and how we are calling its super functions in
 `mount()` and `mount()`. This way it will run all the common functionality like in any
 other view/template before running any specifc logic. Now we need a mechanism to
 load the current view name module so we can call its `mount` and `unmount` methods, so
-lest write a simple loader module:
+let's write a simple loader module:
 
 ```javascript
 // web/static/js/views/loader.js
