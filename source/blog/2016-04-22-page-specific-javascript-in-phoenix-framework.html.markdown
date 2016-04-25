@@ -105,7 +105,7 @@ export default class MainView {
 The `MainView` module will basically have to main functions:
 
   - **mount** which will be called every time the page loads and will contain all the initializing of common functionality needed.
-  - **umount** which can be used to add any functionality needed to be executed when the document unloads.
+  - **umount** which can be used to add any functionality needed to be executed when the document unloads. This might be useful in some situations like showing a confirm alert to the user when he tries to leave an edit view with unsaved changes, for example.
 
 Now lets update the main `app.js` file so it uses the new `MainView` module:
 
@@ -136,6 +136,259 @@ We add an event listener so when the `DOM` is completely loaded it initialzes th
 message and verify everything that is working fine:
 
 ![Template 2](https://diacode-blog.s3-eu-west-1.amazonaws.com/2016/04/template-2.jpg)
+
+We can see the log message, yay! Lets add one more route so we can navigate
+through both the root and the new one and check what happens:
+
+```elixir
+# web/router.ex
+
+defmodule PhoenixTemplate.Router do
+  use PhoenixTemplate.Web, :router
+
+  # ...
+  # ...
+
+  scope "/", PhoenixTemplate do
+    pipe_through :browser # Use the default browser stack
+
+    get "/", PageController, :index
+    get "/new", PageController, :new
+  end
+end
+```
+
+We need to add the new action to the existing controller:
+
+```elixir
+# web/controllers/page_controller.ex
+
+defmodule PhoenixTemplate.PageController do
+  use PhoenixTemplate.Web, :controller
+
+  # ...
+
+  def new(conn, _params) do
+    render conn, "new.html"
+  end
+end
+```
+
+Next step is to create the new template and update the existing `index` one, so
+they display the current view module  and template:
+
+```elixir
+<!-- web/templates/page/index.html.eex -->
+<!-- web/templates/page/new.html.eex -->
+
+<div class="jumbotron">
+  <h2><%= @view_module  %></h2>
+  <p class="lead"><%= @view_template %></p></p>
+</div>
+```
+
+Finally we have to update the main layout template with the navigation links:
+
+```elixir
+<!-- web/templates/layout/app.html.eex -->
+
+...
+...
+
+<body>
+    <div class="container">
+      <header class="header">
+        <nav role="navigation">
+          <ul class="nav nav-pills pull-right">
+            <li><%= link("Index", to: page_path(@conn, :index)) %></li>
+            <li><%= link("New", to: page_path(@conn, :new)) %></li>
+          </ul>
+...
+...
+```
+
+Now we can click in the new link and check that it works just the same as before:
+
+![Template 3](https://diacode-blog.s3-eu-west-1.amazonaws.com/2016/04/template-3.jpg)
+
+From now on, every time we create a new route and it's view/template is shown to the
+user, all the common **JavaScript** functionality will be executed exactly the same
+as in any other route. But what happens I if we want to add some unique behaviour to a
+specific view/template?
+
+### View/tempate specific JavaScript
+
+The main idea is to specify somehow in the `app.js` the **JavaScript** view we want to mount
+instead of the `MainView`, but executing all the common stuff as well. To do so we are
+going to create a helper function to generate the current view/template name which we'll
+use later to mount it. Lets add it to the `LayoutView` module:
+
+```ruby
+# web/views/layout_view.ex
+
+defmodule PhoenixTemplate.LayoutView do
+  use PhoenixTemplate.Web, :view
+
+  @doc """
+  Generates name for the JavaScript view we want to use
+  in this combination of view/template.
+  """
+  def js_view_name(conn, view_template) do
+    [view_name(conn), template_name(view_template)]
+    |> Enum.reverse
+    |> List.insert_at(0, "view")
+    |> Enum.map(&String.capitalize/1)
+    |> Enum.reverse
+    |> Enum.join("")
+  end
+
+  # Takes the resource name of the view module and removes the
+  # the ending *_view* string.
+  defp view_name(conn) do
+    conn
+    |> view_module
+    |> Phoenix.Naming.resource_name
+    |> String.replace("_view", "")
+  end
+
+  # Removes the extion from the template and reutrns
+  # just the name.
+  defp template_name(template) when is_binary(template) do
+    template
+    |> String.split(".")
+    |> Enum.at(0)
+  end
+end
+```
+
+The result for the *Elixir.PhoenixTemplate.PageView* view and *index.html* template
+will be `PageIndexView`, and on the other hand, for the **new.html** template will
+be `PageNewView`. Now we need a place to set the returning name si it's accessible
+to the **JavaScript**, so lets add it as a `data` attribute to the body tag:
+
+```elixir
+<!-- web/templates/layout/app.html.eex -->
+
+...
+...
+
+<body data-js-view-name="<%= js_view_name(@conn, @view_template) %>">
+
+...
+```
+
+After refreshing the browser and inspecting the source code it should look something like this:
+
+```html
+<body data-js-view-name="PageIndexView">
+```
+
+All right! So lets create a specific **JavaScript** view for the **new.html** template:
+
+```javascript
+// web/static/js/views/page/new.js
+
+import MainView from '../main';
+
+export default class View extends MainView {
+  mount() {
+    super.mount();
+
+    // Specific logic here
+    console.log('PageNewView mounted');
+  }
+
+  unmount() {
+    super.unmount();
+
+    // Specific logic here
+    console.log('PageNewView unmounted');
+  }
+}
+```
+
+Note how `View` extends `MainView` and how we are calling its super functions in both
+`mount()` and `mount()`. This way it will run all the common functionality like in any
+other view/template before running any specifc logic. Now we need a mechanism to
+load the current view name module so we can call its `mount` and `unmount` methods, so
+lest write a simple loader module:
+
+```javascript
+// web/static/js/views/loader.js
+
+import MainView    from './main';
+import PageNewView from './page/new';
+
+// Collection of specific view modules
+const views = {
+  PageNewView,
+};
+
+export default function loadView(viewName) {
+  return views[viewName] || MainView;
+}
+```
+
+We need to import any specific page view we need to have and add it to the `views` object.
+The `loadView` function will try to return it by its `viewName` argument, returning the
+`MainView` if not found. Finally we need to change the code in the `app.js` file in order
+to use the `loadView` function:
+
+```javascript
+// web/static/js/app.js
+
+import 'phoenix_html';
+import loadView from './views/loader';
+
+function handleDOMContentLoaded() {
+  // Get the current view name
+  const viewName = document.getElementsByTagName('body')[0].dataset.jsViewName;
+
+  // Load view class and mount it
+  const ViewClass = loadView(viewName);
+  const view = new ViewClass();
+  view.mount();
+
+  window.currentView = view;
+}
+
+function handleDocumentUnload() {
+  window.currentView.unmount();
+}
+
+window.addEventListener('DOMContentLoaded', handleDOMContentLoaded, false);
+window.addEventListener('unload', handleDocumentUnload, false);
+```
+
+Note the subtle change in the `handleDOMContentLoaded`. It gets the `viewName` from
+the body's data attribute previously set by the `js_view_name/2` function. Then it
+uses the `loadView` function to get the view class by `viewName` and creates a new
+view object with it and calling its `mount` method. And with this, we are done!
+If we inspect the browser's console it should look somehting like this:
+
+![Template 4](https://diacode-blog.s3-eu-west-1.amazonaws.com/2016/04/template-4.jpg)
+
+We can now see the 2 log messages resulting from calling the `mount` function of
+the `view` object which is a `PageNewView`. One message for the `super.mount()` call and
+the second one of its own.
+
+### Conclusion
+
+Thanks to this small changes we can organize the **JavaScript** of a fresh new
+generated **Phoenix** project in a more tiddy and efficient way, without the need
+of any other third party libraries, appart from those which are initially added.
+Of course there can be several different ways of achieving something similar, like
+removing **Brunch** and using **Webpack** and it's dynamic module loading, which we
+will comment on the next post. Meanwhile, don't forget to check out the source code:
+
+
+<div class="btn-wrapper">
+  <a href="https://github.com/diacode/phoenix-template" target="_blank" class="btn"><i class="fa fa-github"></i> Source code</a>
+</div>
+
+Happy coding!
+
+
 
   [55ded47a]: http://guides.rubyonrails.org/v3.2/asset_pipeline.html "Ruby on Rails Asset Pipeline"
   [6ee6be5c]: http://brunch.io/ "Brunch.io"
