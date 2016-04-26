@@ -23,7 +23,7 @@ In the [previous part][86c1d53b] we designed a mechanism for organizing and
 requiring page specific **JavaScript** in a new **Phoenix** project using
 its defaul asset manager and build tool, [Brunch][6ee6be5c]. Another great thing
 about **Phoenix** is that it gives you plenty of freedom to use any other alternative
-like for instance [webpack][d29827dc]. One of the cool things about **webpack**
+like, for instance, [webpack][d29827dc]. One of the cool things about **webpack**
 is its [dynamic requires][b80e02a9] and we can take it as an advantage for building
 a more flexible and straightforward mechanism, removing the manual import of
 every js view module we did last time:
@@ -53,7 +53,7 @@ So let's get started!
 Before continuing we have to make some minor changes to the project in order to
 switch from **brunch** to **webpack**. This changes can be found in this [commit][cd849838], but
 we are going to go through them right now. To begin with we need to remove the `brunch-config.js`
-file the `./node_modules` folder. We also need to update the `package.json` file so we replace all the necessary packages needed:
+file in the `./node_modules` folder. We also need to update the `package.json` file so we replace all the necessary packages needed:
 
 ```json
 {
@@ -75,7 +75,7 @@ file the `./node_modules` folder. We also need to update the `package.json` file
 }
 ```
 
-Don't forget running `npm install` after. Now we need to add a basic **webpack** configuration file:
+Don't forget to run `npm install` after. Now we need to add a basic **webpack** configuration file:
 
 ```javascript
 // webpack.config.js
@@ -241,7 +241,7 @@ module.exports = class View extends MainView {
 };
 ```
 
-And last but nnot least, the main `app.js` file needs to be also updated:
+And last but not least, the main `app.js` file also needs to be updated:
 
 ```javascript
 // web/static/js/app.js
