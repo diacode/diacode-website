@@ -276,7 +276,7 @@ we can check again in the console how everything is working just like before:
 Thanks to **Phoenix**'s modern and flexible way of managing and building static
 assets we can have a well organized front-end code. Whether we choose **Brunch**, **Webpack** or
 any other available option we migh like, there's no excuse for returning back to
-the dark days ruled by the asset pipeline and the spaghetti code. **Long live Phoenix**!
+the dark days ruled by the **Asset Pipeline** and the spaghetti code. **Long live Phoenix**!
 
 Check out the source code:
 <div class="btn-wrapper">
