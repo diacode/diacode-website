@@ -3,14 +3,18 @@ title: Page specific JavaScript in Phoenix framework (pt.1)
 date: 2016-04-22 09:27 UTC
 author: ricardo
 excerpt:
-  Two different approaches for page specific JavaScript in Phoenix projects
+  Page specific JavaScript in Phoenix projects with Brunch
 tags:
   - elixir
   - phoenix
   - javascript
   - brunch
-  - webpack
 ---
+
+> _This post belongs to the **Page specific JavaScript in Phoenix framework** series._
+>
+> 1. [Brunch and ES6 approach](/page-specific-javascript-in-phoenix-framework-pt-1 )
+> 2. [Webpack approach](/page-specific-javascript-in-phoenix-framework-pt-2)
 
 Thanks to our personal experience working on legacy **Rails** applications, we've been
 able to see several different approaches on how other developers usually organize
