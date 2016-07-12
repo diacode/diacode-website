@@ -10,9 +10,16 @@ tags:
   - react
 ---
 
-One of the most important and exciting new features included in the recent release of Phoenix Framework 1.2 is the Presence module. This new addition makes it super easy to track users connected to a room along with some metadata like the status and more stuff that you may want to track.
+One of the most important and exciting new features included in the recent
+release of Phoenix Framework 1.2 is the Presence module. This new addition makes
+it super easy to track users connected to a room along with some metadata like
+the status and more stuff that you may want to track.
 
-Despite 1.2 version was released about three weeks ago (as of the publishing of this post) the guides haven’t changed too much. Although the documentation is really helpful and updated to cover this feature we missed a specific guide about this particular topic so here is our attempt to explain how to use Presence module in one of the most typical scenarios, a chat application.
+Despite 1.2 version was released about three weeks ago (as of the publishing of
+this post) the guides haven’t changed too much. Although the documentation is
+really helpful and updated to cover this feature we missed a specific guide
+about this particular topic so here is our attempt to explain how to use
+Presence module in one of the most typical scenarios, a chat application.
 
 This post will start a series of posts where we'll build **Talkex**, a complete
 messaging application with WebRTC videocalls included. But for now let's start
@@ -223,14 +230,14 @@ about the handler for `new_status` event.
 
 ### Tracking status change
 
-In our chat we want to change our connection status. In our case we have two:
-**connected** and **away**. For that purpose we have a new custom event which we
-have called `new_status`. The handler for this event will call `Presence.update`
-which will broadcast a new `presence_diff` message to all the clients. The object
-that all the clients will receive contains a join entry for the new status and a
-leave entry for the old one.
+In our chat we want to change our connection status. In our case we have two
+different statuses: **online** and **away**. For that purpose we have added
+a new custom event which we have called `new_status`. The handler for this event
+in `RoomChannel` will call `Presence.update` which will broadcast a new
+`presence_diff` message to all the clients. The object that all the clients will
+receive contains a join entry for the new status and a leave entry for the old one.
 
-Supposing *JohnDoe* was connected and changed his status to **away** this will
+Supposing *JohnDoe* was **online** and changed his status to **away** this will
 be the object that all clients will receive via `presence_diff` event:
 
 ```javascript
@@ -255,7 +262,31 @@ be the object that all clients will receive via `presence_diff` event:
 }
 ```
 
-In the next paragraph we are going to explain how to deal with this presence
+In the next paragraph we are going to explain how to deal with these presence
 objects.
 
 ## Frontend implementation
+
+When we enter a room Phoenix application renders `room/show.html.eex` template
+which is just a wrapper for our `<Conversation/>` React component. Inside it we
+have two inner components `<VideoCall/>` and `<Chat/>`. Obviously the latter is
+the one we are going to talk from now on.
+
+```javascript
+// web/static/js/room/conversation.js
+
+import React, { PropTypes } from 'react';
+import Chat from './chat';
+import VideoCall from './video_call';
+
+export default class Conversation extends React.Component {
+  render() {
+    return (
+      <div id="conversation">
+        <VideoCall/>
+        <Chat nickname={this.props.nickname} roomname={this.props.roomname} />
+      </div>
+    );
+  }
+}
+```
