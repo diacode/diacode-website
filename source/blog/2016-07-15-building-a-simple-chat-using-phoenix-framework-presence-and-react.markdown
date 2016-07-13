@@ -267,11 +267,6 @@ objects.
 
 ## Frontend implementation
 
-When we enter a room Phoenix application renders `room/show.html.eex` template
-which is just a wrapper for our `<Conversation/>` React component. Inside it we
-have two inner components `<VideoCall/>` and `<Chat/>`. Obviously the latter is
-the one we are going to talk from now on.
-
 ```javascript
 // web/static/js/room/conversation.js
 
@@ -290,3 +285,148 @@ export default class Conversation extends React.Component {
   }
 }
 ```
+
+When we enter a room Phoenix application renders `room/show.html.eex` template
+which is just a wrapper for our `<Conversation/>` React component. Inside it we
+have two inner components `<VideoCall/>` and `<Chat/>`. Obviously the latter is
+the one we are going to talk from now on.
+
+### The chat component
+
+The chat component is the most important part of the frontend. It's responsible
+of connecting to the socket, displaying users connected and sending/receiving
+messages.
+
+```javascript
+// web/static/js/room/chat.js
+
+import React, { PropTypes } from 'react';
+import { Socket, Presence } from 'phoenix';
+
+export default class Chat extends React.Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      history: [],
+      presence: {},
+      connected: false,
+    };
+
+    this.connectToSocket(props.nickname);
+    this.joinChannel(props.roomname);
+  }
+
+  // ...
+}
+```
+
+As you can see in the constructor we define the initial state of the component
+with:
+
+- `history`: An array to store all messages.
+- `presence`: An object to store all users connected.
+- `connected`: A boolean flag to store the connection status.
+
+After setting the initial state we connect to the socket by sending our nickname
+as a parameter and we finally join the channel.
+
+```javascript
+// web/static/js/room/chat.js
+
+import React, { PropTypes } from 'react';
+import { Socket, Presence } from 'phoenix';
+
+export default class Chat extends React.Component {
+  // ...
+
+  connectToSocket(identity) {
+    this.socket = new Socket('/socket', { params: { nickname: identity } });
+    this.socket.connect();
+  }
+
+  joinChannel(roomname) {
+    this.channel = this.socket.channel(`room:${roomname}`, {});
+    this.setupChannelEvents()
+    this.channel.join()
+      .receive('ok', resp => {
+        console.log('Joined successfully', resp);
+        this.setState({ connected: true });
+      })
+      .receive('error', resp => {
+        console.log('Unable to join', resp);
+      });
+  }
+
+  // ...
+}
+```
+
+As you can see before joining the channel we setup all the events the websocket
+will listen to for this topic by calling to `this.setupChannelEvents()`. Let's
+see what we have in there:
+
+```javascript
+// web/static/js/room/chat.js
+
+import React, { PropTypes } from 'react';
+import { Socket, Presence } from 'phoenix';
+
+export default class Chat extends React.Component {
+  // ...
+
+  setupChannelEvents(){
+    /* This event will be triggered when we connect to the channel and it will
+     * return a payload with the all the people connected to the same channel
+     * except me. */
+    this.channel.on('presence_state', initialPresence => {
+      console.log('presence_state', initialPresence);
+      const syncedPresence = Presence.syncState(this.state.presence, initialPresence);
+      this.setState({ presence: syncedPresence });
+    });
+
+    /* This event will be triggered everytime someone joins or leaves the
+     * channel. Changing the status from online to away or viceversa will
+     * trigger a presence_diff event on the channel with a join and a leave.
+     * When the current user join the channel this event will be triggered
+     * right after `presence_state` to notify myself and the rest of users in
+     * the room that I've just joined.
+     */
+    this.channel.on('presence_diff', diff => {
+      console.log('presence_diff', diff);
+      const oldPresence = this.state.presence;
+      const syncedPresence = Presence.syncDiff(oldPresence, diff);
+      this.setState({ presence: syncedPresence });
+    });
+
+    this.channel.on('new_msg', ::this._handleReceivedMessage);
+  }
+
+  _handleReceivedMessage(payload) {
+    let history = this.state.history;
+    history.push(payload);
+    this.setState({ history: history });
+    this.historyDiv.scrollTop = this.historyDiv.scrollHeight;
+  }  
+
+  // ...
+}
+```
+
+When `presence_state` is triggered the payload we receive is an object with all
+users currently connected:
+
+```javascript
+SHOW EXAMPLE
+```
+
+On the other hand when `presence_diff` occurs the payload is an object with two
+keys: `joins` and `leaves`.
+
+```javascript
+SHOW EXAMPLE
+```
+
+By calling `Presence.syncDiff` which is method provided by phoenix.js we rebuild
+the list of current users connected to the room. More info about this can be
+found in the [source file](https://github.com/phoenixframework/phoenix/blob/dffe05346e1b8b159dfdde418774dba5fed82a3f/web/static/js/phoenix.js#L98-L167) of phoenix.js.
