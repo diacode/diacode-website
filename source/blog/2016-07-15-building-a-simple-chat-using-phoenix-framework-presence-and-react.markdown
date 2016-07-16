@@ -2,7 +2,7 @@
 title: Building a simple chat using Phoenix Framework’s Presence and React
 date: 2016-07-15 18:00 UTC
 author: victor
-excerpt:
+excerpt: Presence module in Phoenix Framework is awesome. We show you how you can use it with React to build a chat.
 tags:
   - elixir
   - phoenix
@@ -13,17 +13,19 @@ tags:
 One of the most important and exciting new features included in the recent
 release of Phoenix Framework 1.2 is the Presence module. This new addition makes
 it super easy to track users connected to a room along with some metadata like
-the status and more stuff that you may want to track.
+the status and more stuff that you may want to track. You can even have a cluster
+of nodes running with users connected to the same room from different nodes and
+Presence module will take care of keeping them synchronized behind scenes.
 
 Despite 1.2 version was released about three weeks ago (as of the publishing of
-this post) the guides haven’t changed too much. Although the documentation is
-really helpful and updated to cover this feature we missed a specific guide
-about this particular topic so here is our attempt to explain how to use
-Presence module in one of the most typical scenarios, a chat application.
+this post) the guides haven’t changed too much. Digging in the documentation is
+really helpful and you will see it's updated to cover this feature although
+we missed a specific guide about this particular topic so here is our attempt to
+explain how to use Presence module in one of the most typical scenarios, a chat application.
 
-This post will start a series of posts where we'll build **Talkex**, a complete
-messaging application with WebRTC videocalls included. But for now let's start
-with the chat part.
+This post will start a series of posts where we'll build
+[Talkex](https://talkex.diacode.com), a complete messaging application with
+WebRTC videocalls included. But for now let's start with the chat part.
 
 ## Setting up Presence configuration
 
@@ -262,8 +264,9 @@ be the object that all clients will receive via `presence_diff` event:
 }
 ```
 
-In the next paragraph we are going to explain how to deal with these presence
-objects.
+As you can see changing our online status means the online *JohnDoe* left the
+room and the away *JohnDoe* just joined. In the next paragraph we are going to
+explain how to deal with these presence objects.
 
 ## Frontend implementation
 
@@ -321,8 +324,8 @@ export default class Chat extends React.Component {
 }
 ```
 
-As you can see in the constructor we define the initial state of the component
-with:
+As the above snippet shows in the constructor we define the initial state of the
+component with:
 
 - `history`: An array to store all messages.
 - `presence`: An object to store all users connected.
@@ -362,9 +365,9 @@ export default class Chat extends React.Component {
 }
 ```
 
-As you can see before joining the channel we setup all the events the websocket
-will listen to for this topic by calling to `this.setupChannelEvents()`. Let's
-see what we have in there:
+Before joining the channel we setup all the events the websocket will listen to
+for this topic by calling to `this.setupChannelEvents()`. Let's see what we have
+in there:
 
 ```javascript
 // web/static/js/room/chat.js
@@ -414,19 +417,125 @@ export default class Chat extends React.Component {
 ```
 
 When `presence_state` is triggered the payload we receive is an object with all
-users currently connected:
+users currently connected. Supposing I'm *Charmander* and I'm joining a room where
+*Pikachu*, *Squirtle* and *Bulbasur* are already inside, this is what we would
+receive in the payload:
 
 ```javascript
-SHOW EXAMPLE
+{
+  "squirtle": {
+    "metas": [{
+      "status": "online",
+      "phx_ref": "0jbMQ4pQu+s="
+    }]
+  },
+  "pikachu": {
+    "metas": [{
+      "status": "online",
+      "phx_ref": "payvENDaYkU="
+    }]
+  },
+  "bulbasur": {
+    "metas": [{
+      "status": "online",
+      "phx_ref": "1ukZ5jJk2xA="
+    }]
+  }
+}
 ```
 
-On the other hand when `presence_diff` occurs the payload is an object with two
-keys: `joins` and `leaves`.
+The `presence_diff` event will occur immediately after and will be broadcasted
+to all the clients included me. The payload is an object with two keys: `joins`
+and `leaves`.
 
 ```javascript
-SHOW EXAMPLE
+{
+  "leaves": {},
+  "joins": {
+    "charmander": {
+      "metas": [{
+        "status": "online",
+        "phx_ref": "RqWmifTYt7A="
+      }]
+    }
+  }
+}
 ```
 
-By calling `Presence.syncDiff` which is method provided by phoenix.js we rebuild
-the list of current users connected to the room. More info about this can be
-found in the [source file](https://github.com/phoenixframework/phoenix/blob/dffe05346e1b8b159dfdde418774dba5fed82a3f/web/static/js/phoenix.js#L98-L167) of phoenix.js.
+By calling `Presence.syncDiff`, which is function provided by phoenix.js, we
+rebuild the map of current users connected to the room. More info about this can
+be found in the [source file](https://github.com/phoenixframework/phoenix/blob/dffe05346e1b8b159dfdde418774dba5fed82a3f/web/static/js/phoenix.js#L98-L167)
+of phoenix.js.
+
+There also is the `Presence.list` function which will build a list using the
+presence object as input however in our application we'll use the Presence
+object anyway.
+
+### Changing the online status
+
+In our chat we have implemented a combobox that changes your online status. By
+default you join the chat as `online` but you can change it to `away`.
+
+```javascript
+// web/static/js/room/chat.js
+
+import React, { PropTypes } from 'react';
+import { Socket, Presence } from 'phoenix';
+
+export default class Chat extends React.Component {
+  // ...
+  _handleOnlineStatusChange(e) {
+    e.preventDefault();
+    this.channel.push('new_status', { status: e.target.value });
+  }
+
+  _renderOnlineStatusControl() {
+    return (
+      <div id="online_status_control">
+        Current status:
+        <select onChange={::this._handleOnlineStatusChange}>
+          <option value="online">online</option>
+          <option value="away">away</option>
+        </select>
+      </div>
+    );
+  }
+
+  render() {
+    return (
+      <div id="chat">
+        <div id="presence">
+          <h3>People connected</h3>
+          {this._renderPresence()}
+          {this._renderOnlineStatusControl()}
+        </div>
+
+        {this._renderHistory()}
+
+        <form>
+          <textarea ref={(ref) => this.myMessageInput = ref} type="text"
+            disabled={!this.state.connected} placeholder="Type your message here"
+            onKeyPress={::this._handleKeyPress}>
+          </textarea>
+        </form>
+      </div>
+    );
+  }
+  // ...
+}
+```
+
+Changing the selected choice in the combobox will trigger `_handleOnlineStatusChange`
+handler which just will push a `new_status` event to the socket which eventually
+will trigger a new `presence_diff`. The payload is described above
+in *Tracking status change* paragraph.
+
+This is pretty much how you can leverage Phoenix Framework's Presence in a basic
+chat. We have omitted some parts of the source code to keep it as short as
+possible but you can checkout the full project in GitHub to see all the
+details.
+
+Given we will add new features to this project such as WebRTC videocalls and the
+code might change drastically in the coming weeks or months, for consitency sake,  
+we are keeping the [july-blog-post branch](https://github.com/hopsor/talkex/tree/july-blog-post)
+with the state of the project at the moment of writing this post.
