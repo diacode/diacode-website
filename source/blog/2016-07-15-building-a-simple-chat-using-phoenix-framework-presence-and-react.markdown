@@ -1,6 +1,6 @@
 ---
 title: Building a simple chat using Phoenix Framework’s Presence and React
-date: 2016-07-15 18:00 UTC
+date: 2016-07-19 10:00 UTC
 author: victor
 excerpt: Presence module in Phoenix Framework is awesome. We show you how you can use it with React to build a chat.
 tags:
@@ -227,8 +227,11 @@ payload containing all connected users to this topic except himself.
 the channel.
 
 The handler for new messages is quite easy to understand and it's covered in
-dozens of tutorials about building a chat with Phoenix Framework so let's talk
-about the handler for `new_status` event.
+[dozens](http://nithinbekal.com/posts/phoenix-chat/)
+[of](https://www.youtube.com/watch?v=e5jlIejl9Fs)
+[tutorials](https://sheharyar.me/blog/simple-chat-phoenix-elixir/) about building
+a chat with Phoenix Framework so let's talk about the handler for `new_status`
+event.
 
 ### Tracking status change
 
