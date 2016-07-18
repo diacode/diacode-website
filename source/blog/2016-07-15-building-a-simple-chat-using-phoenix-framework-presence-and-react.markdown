@@ -17,7 +17,7 @@ the status and more stuff that you may want to track. You can even have a cluste
 of nodes running with users connected to the same room from different nodes and
 Presence module will take care of keeping them synchronized behind the scenes.
 
-Despite 1.2 version was released about three weeks ago (as of the publishing of
+Despite 1.2 version being released about three weeks ago (as of the publishing of
 this post) the guides haven’t changed too much. Digging in the documentation is
 really helpful and you will see it's updated to cover this feature although
 we missed a specific guide about this particular topic so here is our attempt to
@@ -88,8 +88,8 @@ end
 ## Defining routes, controllers and websocket connection
 
 The structure of the site is pretty simple, just a home page where the user will
-introduce his nickname and the room he want to join. Once he submits the form
-he'll get redirected to the conversation page. For sake of simplicity we haven't
+introduce his nickname and the room he wants to join. Once he submits the form
+he'll get redirected to the conversation page. For the sake of simplicity we haven't
 added any authentication mechanism.
 
 ```elixir
@@ -158,11 +158,11 @@ end
 ```
 
 This is really self explanatory. The users are allowed to connect to any room
-desired room topic. When the user connects to the socket he's supposed to
+topic they desire. When the user connects to the socket he's supposed to
 provide his nickname which will be attached to the socket assignments.
 
 The key part here is the `RoomChannel` module. Beyond broadcasting messages this
-file is responsible of tracking presence in channel. Let's take a look to the
+file is responsible of tracking presence in channel. Let's take a look at it
 and we'll talk in detail about each of the functions.
 
 ```elixir
@@ -289,10 +289,10 @@ export default class Conversation extends React.Component {
 }
 ```
 
-When we enter a room Phoenix application renders `room/show.html.eex` template
+When we enter a room, Phoenix application renders `room/show.html.eex` template
 which is just a wrapper for our `<Conversation/>` React component. Inside it we
 have two inner components `<VideoCall/>` and `<Chat/>`. Obviously the latter is
-the one we are going to talk from now on.
+the one we are going to discuss from now on.
 
 ### The chat component
 
@@ -462,12 +462,12 @@ and `leaves`.
 }
 ```
 
-By calling `Presence.syncDiff`, which is function provided by phoenix.js, we
+By calling `Presence.syncDiff`, which is a function provided by phoenix.js, we
 rebuild the map of current users connected to the room. More info about this can
 be found in the [source file](https://github.com/phoenixframework/phoenix/blob/dffe05346e1b8b159dfdde418774dba5fed82a3f/web/static/js/phoenix.js#L98-L167)
 of phoenix.js.
 
-There also is the `Presence.list` function which will build a list using the
+There is also the `Presence.list` function which will build a list using the
 presence object as input however in our application we'll use the Presence
 object anyway.
 
