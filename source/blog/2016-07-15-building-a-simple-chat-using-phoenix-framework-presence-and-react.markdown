@@ -206,10 +206,10 @@ end
 ### Tracking when a user joins a room
 
 When we connect to the channel the code inside the `join` function is called. In
-a chat that doesn't implement presence it would be enough by returning
-`{:ok, socket}` but in this case we also do a `send(self, :after_join)` which
-will trigger `handle_info(:after_join, socket)`. In this part first we push to
-our own socket the list of users connected to this room topic and second we track
+a chat that doesn't implement presence it would be enough to return
+`{:ok, socket}`, but in this case we also do a `send(self, :after_join)` which
+will trigger `handle_info(:after_join, socket)`. In this part, first we push to
+our own socket the list of users connected to this room topic, and second we track
 our own user with the status **online** as metadata. By calling `Presence.track`
 the application is broadcasting the event `presence_diff` to all clients
 connected to this topic. So that the clients will receive a payload with
