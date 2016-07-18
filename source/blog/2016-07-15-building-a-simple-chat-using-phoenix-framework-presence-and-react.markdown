@@ -15,7 +15,7 @@ release of Phoenix Framework 1.2 is the Presence module. This new addition makes
 it super easy to track users connected to a room along with some metadata like
 the status and more stuff that you may want to track. You can even have a cluster
 of nodes running with users connected to the same room from different nodes and
-Presence module will take care of keeping them synchronized behind scenes.
+Presence module will take care of keeping them synchronized behind the scenes.
 
 Despite 1.2 version was released about three weeks ago (as of the publishing of
 this post) the guides haven’t changed too much. Digging in the documentation is
