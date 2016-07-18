@@ -31,7 +31,7 @@ WebRTC videocalls included. But for now let's start with the chat part.
 
 Using Presence module is pretty straight forward.
 
-In first place we have to add the file `lib/talkex/presence.ex`.
+In the first place we have to add the file `lib/talkex/presence.ex`.
 
 ```elixir
 defmodule Talkex.Presence do
