@@ -46,7 +46,7 @@ own implementation. In the case you want to know more about it you can check
 For our application we'll use the elixir based backend solution which is
 configured by default in `config/config.exs`.
 
-Once we have our `Talkex.Presence` module in place the next thing to do is
+Once we have our `Talkex.Presence` module in place, the next thing to do is
 adding the supervisor to the application tree in `lib/talkex.ex`.
 
 ```elixir
