@@ -41,7 +41,7 @@ end
 
 By default Phoenix applications are configured to use `Phoenix.PubSub.PG2` as
 backend for PubSub but you can use something different like Redis or even your
-own implementation. In case you want to know more about it you can check
+own implementation. In the case you want to know more about it you can check
 [Phoenix PubSub documentation](https://hexdocs.pm/phoenix/Phoenix.PubSub.html).
 For our application we'll use the elixir based backend solution which is
 configured by default in `config/config.exs`.
