@@ -539,6 +539,6 @@ possible but you can checkout the full project in GitHub to see all the
 details.
 
 Given we will add new features to this project such as WebRTC videocalls and the
-code might change drastically in the coming weeks or months, for consitency sake,  
+code might change drastically in the coming weeks or months, for consitency sake,
 we are keeping the [july-blog-post branch](https://github.com/hopsor/talkex/tree/july-blog-post)
 with the state of the project at the moment of writing this post.
