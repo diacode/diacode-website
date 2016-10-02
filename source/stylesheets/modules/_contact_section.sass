@@ -6,8 +6,19 @@ body.contact
         font-size: 1.5em
 
   .main-section
+    padding-top: 3em
     @include media($mobile)
       padding-top: 2em
+
+  .contact_note
+    +span-columns(10)
+    +shift(1)
+    margin-bottom: 2em
+    padding: 0 1em
+    background-color: $color-1
+    border: 1px solid $color-4
+    border-radius: 4px
+
 
   .form-wrapper
     width: 100%

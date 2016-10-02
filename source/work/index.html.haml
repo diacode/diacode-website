@@ -7,7 +7,10 @@ body_class: work
 %header#main_header
   .container
     .welcome
-      %h1 Customers and products we are more proud of
+      %h1 
+        Customers and products 
+        %br
+        we are most proud of
 
 - data.work.projects.each do |project|
   = partial '/work/project', locals: {project: project}

@@ -20,6 +20,7 @@
 
 
   .container
+    %h3 Former team
     %ul.team-list
       - data.team.team_members.select{|k,v| !v['retired'] }.each do |team_member|
         %li
