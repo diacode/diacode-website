@@ -9,12 +9,12 @@ excerpt:
 
 Diacode was founded by [José M. Gilgado](http://josemdev.com/) and myself in the summer of 2010. 
 During these 6 years Diacode has gone through different stages, evolving
-from two friends working on my flat in 2010 to a remote team of 5 developers
+from two friends working on my flat in 2010 to a remote team of five developers
 working for clients all over the world.
 
 The latest stage of Diacode begun 3 years ago when [Victor Viruete](https://twitter.com/hopsor) came back to
 the company as partner and CTO. The goal we had back then was to offer premium Ruby on Rails
-consultancy for clients internationally while working remotely and keeping the best
+consultancy services for international clients while working remotely and keeping the best
 work-life balance possible.
 
 We took [a flight to San Francisco](https://blog.diacode.com/diacode-en-silicon-valley-parte-1)
@@ -58,7 +58,7 @@ we realized it's time to take a break and **pursue new challenges**.
 
 Consultancy work it's an amazing way to learn from many different people and business domains. Getting
 paid to help other people solve their problems while learning it's a very fulfilling experience. However, despite
-of what technology you're using to do the job, and how different are the clients, the experience itself
+of what technology you're using to do the job, or how different are the projects, the experience itself
 it's always similar. 
 
 As a CEO/Project Manager, to me, this experience meant a lot of multi tasking
@@ -68,6 +68,11 @@ achieving better results.
 
 We also understood we already know the basics of the consultancy business, so it's something
 we could do again any time. That's why we see this as a break, and not as the end of Diacode.
+
+Three years ago, the landscape of remote jobs with decent work-life balance was radically different.
+Back then we were basically creating for us something that didn't exist or that was very hard to find.
+Fortunately, nowadays, the scenario is much better and there are way more remote opportunities for
+developers like us.
 
 For the last month we have been focusing on helping our clients find the right people to solve their
 needs from now on, and helping our team find the right next challenges for them. I'm happy to say that
