@@ -12,6 +12,24 @@
 #     copy:           Section copy-text
 
 projects:
+  packlane:
+    name: Packlane
+    site_url: https://packlane.com/
+    description: >
+      <p>
+        Packlane is a California based startup which helps brands to create beautiful custom boxes and
+        packaging online.
+      <p>
+        We helped them to complete and maintain their migration from a Meteor.js app to Elixir and Phoenix
+        with a MongoDB database, collaborating for 6 months until they scaled up their own in-house 
+        development team.
+      </p>
+    tools:
+      - Elixir
+      - Phoenix Framework
+      - Javascript
+      - MongoDB
+      - Amazon Web Services
   kelisto:
     name: Kelisto
     site_url: http://www.kelisto.es/
