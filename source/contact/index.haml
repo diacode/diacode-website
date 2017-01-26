@@ -12,13 +12,14 @@ body_class: contact
   .container
     .contact_note
       %p
-        Starting October 2016, 
+        Starting October 2016,
         = link_to "we are taking a break", blog_url_for("/blog/we-are-taking-a-break")
-        and we are 
+        and we are
         %strong not accepting any new projects.
         However you can still contact us for any other matter and we'll be happy to chat with you.
     .form-wrapper
       %form{action: "//formspree.io/hello@diacode.com", method: 'post'}
+        = input_tag :text, name: "_gotcha", style: "display:none"
         = input_tag :hidden, name: '_next', value: '//diacode.com/contact/thanks'
         .field
           = input_tag :text, placeholder: 'What is your name?', name: 'name'
@@ -36,4 +37,3 @@ body_class: contact
     %p
       If you don't like contact forms, you can always reach us by email too: <br/>
       %strong hello [at] diacode.com
-
